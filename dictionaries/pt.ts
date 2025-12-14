@@ -487,7 +487,11 @@ export const pt: Dictionary = {
       "title": "Calculadora de Hash",
       "seo_title": "Gerador de Hash Online",
       "seo_content": [
-        "Gere SHA-256, SHA-512 e outros hashes a partir de texto."
+        "Proteja seus dados com nosso poderoso Gerador de Hash. Uma função hash criptográfica converte qualquer entrada (texto especificamente nesta ferramenta) em uma string de bytes de tamanho fixo, criando tipicamente um 'resumo' que é único para cada entrada única. Esta ferramenta suporta os algoritmos de hash mais amplamente utilizados, incluindo SHA-256 (Algoritmo de Hash Seguro), SHA-512, MD5 e SHA-1.",
+        "As funções hash são a espinha dorsal da segurança de dados moderna. Elas são usadas para armazenar senhas com segurança (nunca armazene senhas em texto simples!), verificar a integridade de arquivos e gerar assinaturas digitais. Por exemplo, ao baixar um arquivo grande, você pode comparar seu hash com o original para garantir que ele não foi corrompido ou adulterado durante a transferência.",
+        "Embora o MD5 não seja mais considerado seguro para proteção criptográfica contra colisões, ele permanece útil para fins não criptográficos, como somas de verificação para integridade de dados. O SHA-256 é o padrão da indústria para segurança, usado em certificados SSL e tecnologias de blockchain como Bitcoin. Nossa ferramenta gera esses hashes instantaneamente no seu navegador usando bibliotecas JavaScript.",
+        "Este processamento do lado do cliente significa que seus dados de entrada confidenciais nunca viajam pela rede para um servidor, garantindo máxima privacidade. Seja você um desenvolvedor testando fluxos de autenticação, um pesquisador de segurança analisando resumos ou um estudante aprendendo sobre criptografia, esta ferramenta fornece resultados rápidos e confiáveis.",
+        "Basta digitar seu texto, selecionar o algoritmo e copiar o hash resultante. É uma utilidade simples, mas essencial, para qualquer pessoa que trabalhe com segurança de dados."
       ],
       "input_label": "Texto de Entrada",
       "btn_hash": "Calcular Hash",
@@ -500,7 +504,10 @@ export const pt: Dictionary = {
       "title": "Conversor HEX para RGB",
       "seo_title": "Conversor de Código de Cores",
       "seo_content": [
-        "Converta códigos de cor HEX para valores RGB."
+        "Faça a ponte entre design e codificação com nosso Conversor HEX para RGB. No design digital, as cores são frequentemente representadas em formatos diferentes dependendo do contexto. Designers web normalmente usam códigos hexadecimais (HEX) (como #FF5733) em CSS, enquanto telas e softwares de manipulação de imagem frequentemente trabalham com valores RGB (Vermelho, Verde, Azul) (como rgb(255, 87, 51)).",
+        "Esta ferramenta permite converter qualquer código de cor HEX válido em seu equivalente RGB instantaneamente. Ela também calcula os valores individuais dos componentes Vermelho, Verde e Azul (0-255), ajudando você a entender a composição da cor. Também mostramos uma prévia ao vivo da cor gerada para que você possa verificar se corresponde à sua expectativa.",
+        "Entender formatos de cor é crucial para o desenvolvimento frontend. Às vezes você precisa de um valor RGB para aplicar um filtro de opacidade (rgba) que não é possível com um código hexadecimal padrão de 6 dígitos. Este conversor torna essa transição perfeita. Ele lida tanto com códigos hexadecimais completos de 6 dígitos quanto com códigos abreviados de 3 dígitos (por exemplo, #F00 torna-se #FF0000).",
+        "Seja você ajustando o tema de um site, combinando cores de um guia de estilo de marca ou configurando cores de terminal, esta ferramenta economiza cálculos mentais ou adivinhações. É simples, rápido e totalmente gratuito."
       ],
       "label_hex": "Cor HEX",
       "label_rgb": "Cor RGB"
@@ -511,7 +518,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Formato de Imagem",
       "seo_title": "Conversor de Imagem Grátis",
       "seo_content": [
-        "Converta imagens entre PNG, JPEG e WebP localmente."
+        "Transforme suas imagens instantaneamente com nosso versátil Conversor de Imagem. Plataformas e casos de uso diferentes exigem formatos de arquivo de imagem diferentes. Por exemplo, JPEGs são ótimos para fotografias devido à alta compressão, PNGs são essenciais para gráficos que exigem transparência e WebP oferece compressão superior para desempenho web moderno.",
+        "Nossa ferramenta permite converter imagens entre esses formatos populares (PNG, JPEG, WebP) diretamente no seu navegador. Ao contrário de outros serviços que exigem que você envie suas fotos pessoais para um servidor remoto, nosso conversor processa arquivos localmente usando o poder de processamento do seu dispositivo. Isso garante que suas imagens permaneçam privadas e seguras.",
+        "Para usar, basta clicar para enviar ou arrastar e soltar seu arquivo de imagem. Selecione seu formato de saída desejado e a ferramenta cuidará da conversão. Você pode baixar o novo arquivo imediatamente. Isso é perfeito para desenvolvedores web que precisam otimizar ativos, designers preparando portfólios ou usuários casuais que precisam converter um arquivo para compatibilidade.",
+        "Suportamos conversões de alta qualidade que preservam a fidelidade visual da sua imagem original. A ferramenta é leve e funciona tanto em desktops quanto em dispositivos móveis. Simplifique seu fluxo de trabalho com esta solução de conversão de imagem rápida, segura e gratuita."
       ],
       "upload_label": "Clique para enviar imagem",
       "format_label": "Formato Alvo",
@@ -523,7 +533,10 @@ export const pt: Dictionary = {
       "title": "Redimensionador de Imagem Online",
       "seo_title": "Redimensionar Imagem Grátis",
       "seo_content": [
-        "Redimensione imagens rapidamente sem perder qualidade."
+        "Redimensione suas imagens rapidamente e corretamente com nosso Redimensionador de Imagem Online. Gerenciar as dimensões da imagem é crítico para a estética e o desempenho da web. Imagens grandes diminuem o tempo de carregamento da página e consomem dados do usuário, enquanto imagens pequenas podem parecer pixeladas em telas de alta resolução. Esta ferramenta lhe dá controle sobre a largura e a altura da sua imagem.",
+        "Você pode especificar dimensões exatas em pixels para atender a um requisito de layout específico, como um banner de mídia social, uma foto de perfil ou uma seção de herói de site. A ferramenta mantém a proporção por padrão para evitar distorção (esticar ou esmagar), mas você pode desbloquear isso se precisar de proporções personalizadas.",
+        "Além disso, oferecemos uma configuração de qualidade para formatos de saída como JPEG e WebP, permitindo equilibrar o tamanho do arquivo com a clareza visual. Todo o redimensionamento acontece localmente no seu navegador via API Canvas do HTML5, o que significa que suas fotos nunca são enviadas para a nuvem. Isso garante 100% de privacidade e velocidades ultrarrápidas.",
+        "Seja você otimizando fotos para uma loja de comércio eletrônico, redimensionando capturas de tela para um tutorial ou preparando cabeçalhos para um blog, esta ferramenta coloca recursos de redimensionamento profissional ao seu alcance sem a necessidade de softwares pesados como Photoshop."
       ],
       "upload_label": "Clique para enviar imagem",
       "width_label": "Largura (px)",
@@ -537,7 +550,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Favicon",
       "seo_title": "Criador de Favicon para Sites",
       "seo_content": [
-        "Crie favicons padrão 32x32 para seu site."
+        "Crie favicons profissionais para o seu site instantaneamente com nosso Gerador de Favicon. Um favicon (abreviação de 'ícone favorito') é a pequena imagem que aparece na aba do navegador ao lado do título da sua página, nos favoritos e nos registros do histórico. Apesar de seu tamanho pequeno, ele desempenha um papel enorme no reconhecimento da marca e na experiência do usuário, ajudando os usuários a identificar seu site entre várias abas abertas.",
+        "Nossa ferramenta pega qualquer arquivo de imagem padrão (PNG, JPG ou GIF) e o converte no formato .ico padrão da indústria. Ele redimensiona automaticamente sua imagem para 32x32 pixels, que é o tamanho ideal para todos os principais navegadores, incluindo Chrome, Firefox, Safari e Edge. Lidamos com a transparência corretamente, garantindo que seu ícone fique ótimo em temas de navegador claros e escuros.",
+        "Você não precisa de nenhum software de design gráfico para criar um favicon. Basta enviar seu logotipo ou uma imagem representativa, e nosso gerador cuida da formatação técnica. Também garantimos cabeçalhos de arquivo válidos para que o arquivo resultante seja compatível com navegadores mais antigos.",
+        "Ter um favicon personalizado adiciona um nível de polimento e profissionalismo ao seu projeto web. É uma das primeiras coisas que um usuário nota. O processo é inteiramente do lado do cliente, então seus ativos de logotipo nunca são enviados para um servidor, garantindo que sua propriedade intelectual permaneça segura. Baixe seu arquivo .ico e solte-o no diretório raiz do seu site hoje."
       ],
       "upload_label": "Clique para enviar imagem",
       "btn_download": "Baixar Favicon"
@@ -548,7 +564,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Meta Tags SEO",
       "seo_title": "Criador de Meta Tags",
       "seo_content": [
-        "Gere tags de título, descrição e palavras-chave para seu site."
+        "Aumente a visibilidade do seu site nos mecanismos de busca com nosso Gerador de Meta Tags completo. Meta tags são trechos de texto que descrevem o conteúdo de uma página para mecanismos de busca como Google e Bing. Eles não aparecem na página em si, mas apenas no código-fonte da página. Meta tags configuradas corretamente são essenciais para SEO (Otimização para Mecanismos de Busca) e para controlar como seu conteúdo aparece quando compartilhado nas redes sociais.",
+        "Esta ferramenta ajuda você a gerar as tags mais críticas: a Tag de Título (que aparece nos resultados da pesquisa e nas abas do navegador), a Meta Descrição (o trecho de resumo abaixo do título) e Palavras-chave (úteis para alguns diretórios). Também suportamos a tag Autor.",
+        "Escrever essas tags manualmente pode ser propenso a erros de sintaxe. Nosso gerador garante uma saída HTML válida sempre. Ele também fornece uma contagem de caracteres para ajudar você a ficar dentro dos limites ideais (por exemplo, mantendo as descrições abaixo de 160 caracteres para evitar cortes nos resultados da pesquisa).",
+        "Basta preencher os campos do formulário com os detalhes da sua página e copiar o bloco de código gerado. Cole-o diretamente na seção <head> do seu documento HTML. Seja lançando um novo blog, um portfólio ou um site de negócios, as meta tags adequadas são o primeiro passo para ser encontrado online. Melhore suas taxas de cliques (CTR) com metadados otimizados hoje."
       ],
       "label_title": "Título da Página",
       "label_description": "Meta Descrição",
@@ -564,7 +583,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Slug URL",
       "seo_title": "Criador de Slug URL",
       "seo_content": [
-        "Crie slugs de URL amigáveis para SEO a partir de qualquer texto."
+        "Crie URLs limpas e amigáveis para SEO com nosso Gerador de Slug URL. Um 'slug' é a parte de uma URL que identifica uma página específica em um formato legível por humanos, geralmente contendo palavras-chave separadas por hífens. Por exemplo, na URL 'exemplo.com/blog/meu-primeiro-post', 'meu-primeiro-post' é o slug.",
+        "Mecanismos de busca e usuários preferem URLs limpas a parâmetros confusos como '?id=123'. Nossa ferramenta pega qualquer string de texto — como um título de postagem de blog ou nome de produto — e a converte em um slug de URL válido. Ela remove automaticamente caracteres especiais, converte letras maiúsculas em minúsculas, substitui espaços por hífens e elimina acentos/diacríticos (por exemplo, 'café' torna-se 'cafe').",
+        "Esta ferramenta é inestimável para desenvolvedores web, administradores de sistemas de gerenciamento de conteúdo (CMS) e blogueiros que precisam criar links permanentes manualmente. Garante consistência e previne links quebrados causados por caracteres inválidos.",
+        "Basta digitar ou colar seu título na caixa de entrada, e o slug limpo aparece instantaneamente. Copie com um clique. Como todas as nossas ferramentas, isso roda inteiramente no seu navegador para velocidade e privacidade. Otimize sua estrutura de URL para melhor classificação e experiência do usuário."
       ],
       "input_label": "String para converter",
       "output_label": "Slug Limpo",
@@ -576,7 +598,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Link WhatsApp",
       "seo_title": "Criar Links WhatsApp",
       "seo_content": [
-        "Gere links click-to-chat para WhatsApp com mensagem personalizada."
+        "Agilize a comunicação com seus clientes usando nosso Gerador de Link WhatsApp. O WhatsApp Click-to-Chat permite que usuários iniciem uma conversa com você sem ter seu número de telefone salvo na agenda de contatos. Isso é amplamente utilizado por empresas para suporte, vendas e geração de leads.",
+        "Nossa ferramenta gera um link direto 'wa.me'. Você pode simplesmente inserir seu número de telefone (com código do país) e uma mensagem pré-preenchida opcional. Quando um usuário clica no link, o aplicativo WhatsApp abre automaticamente com seu contato selecionado e a mensagem digitada no campo de entrada, pronta para enviar.",
+        "Isso remove o atrito para o usuário, aumentando significativamente as taxas de conversão. Você pode usar esses links em bios do Instagram, assinaturas de e-mail, botões de sites ou QR codes. A ferramenta formata o número de telefone corretamente removendo caracteres não numéricos como traços ou parênteses, que podem quebrar o link oficial da API.",
+        "Crie links para suporte ao cliente ('Preciso de ajuda com...'), consultas de vendas ('Estou interessado em...') ou feedback. Funciona tanto para contas pessoais quanto comerciais do WhatsApp. Os links gerados são instantâneos, focados na privacidade e compatíveis com os padrões. Conecte-se com seu público mais rápido."
       ],
       "label_phone": "Número de Telefone",
       "label_message": "Mensagem (Opcional)",
@@ -591,7 +616,10 @@ export const pt: Dictionary = {
       "title": "Construtor de Link UTM",
       "seo_title": "Construtor UTM Google Analytics",
       "seo_content": [
-        "Construa facilmente URLs de campanha para rastrear campanhas personalizadas no Google Analytics."
+        "Rastreie a eficácia de suas campanhas de marketing com nosso Construtor de Link UTM. Parâmetros UTM (Módulo de Rastreamento Urchin) são tags adicionadas ao final de uma URL que permitem que plataformas de análise como o Google Analytics rastreiem de onde seu tráfego está vindo. Se você está executando anúncios, newsletters ou campanhas de mídia social, UTMs são essenciais para medir o ROI.",
+        "Nosso construtor simplifica o processo de criação dessas URLs complexas. Basta inserir a URL do seu site e preencher os parâmetros da campanha: Origem (por exemplo, 'google', 'newsletter'), Meio (por exemplo, 'cpc', 'email') e Nome (por exemplo, 'promocao_primavera'). Também suportamos parâmetros opcionais como Termo (para palavras-chave) e Conteúdo (para testes A/B de anúncios).",
+        "A ferramenta constrói automaticamente a string de consulta com a codificação adequada, garantindo que nenhum erro de sintaxe quebre seu rastreamento. Por exemplo, ela lida com espaços e caracteres especiais corretamente. Você pode ver o resultado atualizar em tempo real.",
+        "Ao usar tags UTM consistentes, você pode segmentar seus dados de tráfego com precisão. Entenda qual tweet trouxe mais visitantes ou qual botão de e-mail teve a maior taxa de cliques. Copie a URL final com um único clique e comece a rastrear seu sucesso imediatamente. Essencial para profissionais de marketing digital e growth hackers."
       ],
       "label_url": "URL do Site",
       "label_source": "Origem da Campanha",
