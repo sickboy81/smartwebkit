@@ -3,27 +3,27 @@ import { Dictionary } from '../types';
 export const es: Dictionary = {
   "common": {
     "title": "SmartWebKit",
-    "footer_text": "© 2024 SmartWebKit. Todos os direitos reservados.",
+    "footer_text": "© 2024 SmartWebKit. Todos los derechos reservados.",
     "nav": {
-      "home": "Início"
+      "home": "Inicio"
     },
     "categories": {
-      "dev": "Ferramentas de Desenvolvedor",
-      "text": "Ferramentas de Texto",
-      "design": "Ferramentas de Design",
-      "math": "Matemática e Finanças",
-      "date": "Data e Hora",
-      "security": "Segurança",
-      "seo": "Ferramentas de SEO",
-      "marketing": "Marketing e Social",
-      "health": "Saúde e Fitness",
-      "network": "Ferramentas de Rede"
+      "dev": "Herramientas de Desarrollo",
+      "text": "Herramientas de Texto",
+      "design": "Herramientas de Diseño",
+      "math": "Matemáticas y Finanzas",
+      "date": "Fecha y Hora",
+      "security": "Seguridad",
+      "seo": "Herramientas SEO",
+      "marketing": "Marketing y Social",
+      "health": "Salud y Fitness",
+      "network": "Herramientas de Red"
     }
   },
   "home": {
-    "hero_title": "Ferramentas Web Online Grátis",
-    "hero_subtitle": "Uma coleção de ferramentas úteis para desenvolvedores, designers e produtividade. Grátis, rápido e seguro.",
-    "tools_section_title": "Todas as Ferramentas"
+    "hero_title": "Herramientas Web Online Gratis",
+    "hero_subtitle": "Una colección de herramientas útiles para desarrolladores, diseñadores y productividad. Gratis, rápido y seguro.",
+    "tools_section_title": "Todas las Herramientas"
   },
   "tools": {
     "json_formatter": {
@@ -43,12 +43,15 @@ export const es: Dictionary = {
       "error_invalid": "JSON Inválido"
     },
     "base64_converter": {
-      "name": "Conversor Base64",
-      "description": "Codificar e decodificar strings Base64.",
+      "name": "Convertidor Base64",
+      "description": "Codificar y decodificar cadenas Base64.",
       "title": "Codificador / Decodificador Base64",
-      "seo_title": "Conversor Base64 Online",
+      "seo_title": "Convertidor Base64 Online",
       "seo_content": [
-        "Codifique e decodifique facilmente para o formato Base64."
+        "Codifica y decodifica fácilmente datos con nuestro Convertidor Base64. Base64 es un esquema de codificación de binario a texto que representa datos binarios en un formato de cadena ASCII. Se utiliza comúnmente cuando es necesario codificar datos binarios para almacenarlos y transferirlos a través de medios diseñados para manejar datos textuales.",
+        "Esta herramienta te permite codificar cualquier cadena de texto o fragmento de código en una cadena Base64, haciéndola segura para el transporte por correo electrónico, XML o JSON. Por el contrario, puedes pegar una cadena Base64 para decodificarla de nuevo a su formato original legible. Nuestra herramienta maneja correctamente el texto UTF-8 estándar para asegurar que los emojis y caracteres especiales se preserven.",
+        "Los desarrolladores suelen usar Base64 para incrustar imágenes directamente en archivos HTML/CSS (Data URIs) o para transmitir estructuras de datos complejas como cadenas simples. También es útil para la ofuscación simple de datos, lo que oculta los datos de los ojos humanos, aunque no debe confundirse con el cifrado, ya que no ofrece seguridad contra quien sepa decodificarlo.",
+        "Simplemente escribe o pega tu contenido en el cuadro de entrada y haz clic en Codificar o Decodificar. El resultado aparece al instante y se puede copiar al portapapeles con un solo clic. No se envían datos a nuestros servidores; todo se procesa localmente en tu navegador para velocidad y privacidad."
       ],
       "input_label": "Texto de Entrada",
       "output_label": "Resultado",
@@ -91,24 +94,27 @@ export const es: Dictionary = {
       "btn_copied": "Copiado!"
     },
     "qr_code_generator": {
-      "name": "Gerador de QR Code",
-      "description": "Crie QR codes para URLs, texto e WiFi.",
-      "title": "Gerador de QR Code Grátis",
-      "seo_title": "Criador de QR Code",
+      "name": "Generador de QR Code",
+      "description": "Crea códigos QR para URLs, texto y WiFi.",
+      "title": "Generador de QR Code Gratis",
+      "seo_title": "Creador de Códigos QR",
       "seo_content": [
-        "Gere QR codes personalizados instantaneamente."
+        "Genera códigos QR personalizados al instante con nuestro Creador de QR Code online gratuito. Ya sea que necesites un código para la URL de tu sitio web, un punto de acceso a la red WiFi, texto simple o correo electrónico, nuestra herramienta lo maneja todo. Los códigos QR (Quick Response) son códigos de barras bidimensionales que pueden almacenar grandes cantidades de datos y son fácilmente legibles por teléfonos inteligentes y dispositivos digitales.",
+        "Los códigos QR son esenciales para el marketing moderno y la conectividad. Puedes imprimirlos en tarjetas de presentación para vincular a tu portafolio, mostrarlos en restaurantes para menús digitales o usarlos en folletos para dirigir tráfico a tus páginas de redes sociales. Nuestro generador produce imágenes de alta resolución que se escanean correctamente, incluso cuando se imprimen en tamaños pequeños.",
+        "Admitimos varios tipos de datos: URL (para enlaces web), Texto (para mensajes o códigos), WiFi (para permitir que los invitados se unan a tu red sin escribir contraseñas) y Email (para prellenar un mensaje). Simplemente selecciona el tipo, ingresa tus datos y descarga tu imagen PNG al instante.",
+        "No se requiere registro ni inscripción. Tus datos se procesan localmente en tu navegador para una máxima privacidad. Mejora tu experiencia de usuario y une los mundos físico y digital con un código QR personalizado hoy."
       ],
       "type_url": "URL",
       "type_wifi": "WiFi",
       "type_text": "Texto",
       "type_email": "Email",
       "label_email": "Email",
-      "label_subject": "Assunto",
-      "label_body": "Mensagem",
-      "label_ssid": "Nome da Rede",
-      "label_password": "Senha",
-      "label_encryption": "Criptografia",
-      "btn_download": "Baixar PNG"
+      "label_subject": "Asuto",
+      "label_body": "Mensaje",
+      "label_ssid": "Nombre de Red",
+      "label_password": "Contraseña",
+      "label_encryption": "Cifrado",
+      "btn_download": "Descargar PNG"
     },
     "markdown_html": {
       "name": "Markdown para HTML",
@@ -123,16 +129,19 @@ export const es: Dictionary = {
       "btn_copy_html": "Copiar HTML"
     },
     "binary_converter": {
-      "name": "Conversor Binário",
-      "description": "Traduza texto para binário e vice-versa.",
-      "title": "Conversor de Texto para Binário",
-      "seo_title": "Tradutor Binário",
+      "name": "Convertidor Binario",
+      "description": "Traduce texto a binario y viceversa.",
+      "title": "Convertidor de Texto a Binario",
+      "seo_title": "Traductor Binario",
       "seo_content": [
-        "Converta texto para código binário e código binário para texto."
+        "Traduce texto a binario y binario a texto al instante con nuestro Convertidor Binario. El binario es el lenguaje fundamental de las computadoras, representando cada dato como una serie de 0s y 1s. Esta herramienta cierra la brecha entre el texto legible por humanos y el código de máquina.",
+        "Nuestro convertidor admite la traducción completa de texto a binario y de binario a texto. Simplemente escribe tu mensaje para ver cómo lo almacena una computadora, o pega una cadena binaria para decodificar un mensaje oculto. Ayuda a comprender los conceptos de codificación de caracteres y lógica digital.",
+        "Ya seas un estudiante de informática aprendiendo sobre representación de datos, un usuario curioso que quiere enviar mensajes codificados a amigos, o un desarrollador depurando datos de bajo nivel, esta herramienta proporciona una conversión clara y precisa. Utilizamos la codificación estándar ASCII/UTF-8 para garantizar la compatibilidad.",
+        "La herramienta es rápida, gratuita y se ejecuta completamente en tu navegador. No es necesario instalar software ni preocuparse por la privacidad de los datos, ya que no se carga nada en un servidor remoto. Comienza a experimentar con el lenguaje de 1s y 0s hoy."
       ],
       "input_label": "Entrada",
-      "btn_to_binary": "Texto para Binário",
-      "btn_to_text": "Binário para Texto",
+      "btn_to_binary": "Texto a Binario",
+      "btn_to_text": "Binario a Texto",
       "output_label": "Resultado",
       "btn_copied": "Copiado"
     },
@@ -268,23 +277,26 @@ export const es: Dictionary = {
       "error_invalid": "Por favor insira números válidos."
     },
     "unit_converter": {
-      "name": "Conversor de Unidades",
-      "description": "Converta comprimento, peso, etc.",
-      "title": "Conversor Universal de Unidades",
-      "seo_title": "Conversor de Medidas",
+      "name": "Convertidor de Unidades",
+      "description": "Convierte longitud, peso, etc.",
+      "title": "Convertidor Universal de Unidades",
+      "seo_title": "Convertidor de Medidas",
       "seo_content": [
-        "Converta entre unidades Métricas e Imperiais."
+        "Convierte fácilmente entre unidades métricas e imperiales con nuestro completo Convertidor de Unidades. Ya estés trabajando en un proyecto de ciencias, cocinando una receta de otro país o viajando al extranjero, esta herramienta proporciona conversiones rápidas y precisas para una amplia gama de categorías de medición.",
+        "Nuestro convertidor admite Longitud (metros, pies, pulgadas, millas), Peso (kilogramos, libras, onzas), Volumen (litros, galones, tazas), Área (metros cuadrados, acres, hectáreas), Temperatura (Celsius, Fahrenheit, Kelvin), Tiempo, Velocidad y Almacenamiento Digital. La interfaz intuitiva te permite seleccionar tu categoría, ingresar el valor y ver instantáneamente el equivalente en varias otras unidades.",
+        "Entendemos la confusión que a menudo surge de los diferentes sistemas de medición utilizados globalmente. Por ejemplo, convertir entre Celsius y Fahrenheit o entender kilómetros frente a millas puede ser complicado sin una herramienta confiable. Nuestra calculadora elimina la necesidad de fórmulas manuales y garantiza precisión en tus cálculos.",
+        "Diseñada para estudiantes, profesionales y usuarios cotidianos, esta herramienta es completamente gratuita y funciona directamente en tu navegador. No se requiere instalación. Simplifica tus conversiones de unidades y garantiza la precisión en todas tus mediciones con nuestro Convertidor de Unidades Universal."
       ],
-      "cat_length": "Comprimento",
+      "cat_length": "Longitud",
       "cat_weight": "Peso",
-      "cat_volume": "Volume",
+      "cat_volume": "Volumen",
       "cat_area": "Área",
       "cat_temp": "Temperatura",
-      "cat_time": "Tempo",
-      "cat_speed": "Velocidade",
+      "cat_time": "Tiempo",
+      "cat_speed": "Velocidad",
       "cat_digital": "Digital",
       "label_from": "De",
-      "label_to": "Para"
+      "label_to": "A"
     },
     "discount_calculator": {
       "name": "Calculadora de Desconto",
@@ -301,24 +313,27 @@ export const es: Dictionary = {
       "res_saved": "Você Economiza"
     },
     "salary_converter": {
-      "name": "Conversor de Salário",
-      "description": "Converta salário anual/mensal para hora.",
-      "title": "Conversor de Salário para Hora",
-      "seo_title": "Calculadora de Salário",
+      "name": "Convertidor de Salario",
+      "description": "Convierte salario anual/mensual a hora.",
+      "title": "Convertidor de Salario a Hora",
+      "seo_title": "Calculadora de Salario",
       "seo_content": [
-        "Converta seu salário entre taxas horárias, diárias, semanais, mensais e anuais."
+        "Convierte fácilmente tu salario entre tarifas por hora, diarias, semanales, mensuales y anuales con nuestro Convertidor de Salario. Ya sea que estés negociando una nueva oferta de trabajo, planificando tu presupuesto o tengas curiosidad sobre cuánto vale tu tiempo por hora, esta herramienta proporciona cálculos instantáneos y precisos basados en tu entrada.",
+        "Entender tu compensación en diferentes plazos es crucial para la planificación financiera. Por ejemplo, un salario anual puede parecer impresionante, pero conocer el desglose por hora puede ayudarte a compararlo con el trabajo por contrato o las tarifas de freelance. Del mismo modo, ver tus ganancias diarias puede poner tus hábitos de gasto en perspectiva. Nuestra herramienta maneja semanas laborales estándar de 40 horas por defecto.",
+        "Esta calculadora es particularmente útil para freelancers y contratistas que necesitan establecer sus tarifas por hora para igualar un ingreso anual deseado. También es útil para los empleados que comparan un puesto asalariado con un trabajo con salario por hora. La conversión asume un año laboral estándar pero te da una base sólida para la comparación.",
+        "Admitimos todos los períodos principales: Por Hora, Diario, Semanal, Mensual y Anual. Simplemente ingresa tu cantidad, selecciona el período actual y convierte para ver el desglose en todos los otros plazos. Usa esta herramienta gratuita para tomar el control de tu comprensión financiera hoy."
       ],
-      "label_amount": "Valor do Salário",
+      "label_amount": "Cantidad de Salario",
       "label_period": "Período",
       "label_hours": "Horas por Semana",
       "opt_annual": "Anual",
-      "opt_monthly": "Mensal",
+      "opt_monthly": "Mensual",
       "opt_hourly": "Por Hora",
-      "btn_calculate": "Converter",
+      "btn_calculate": "Convertir",
       "res_hourly": "Por Hora",
-      "res_daily": "Diário",
+      "res_daily": "Diario",
       "res_weekly": "Semanal",
-      "res_monthly": "Mensal",
+      "res_monthly": "Mensual",
       "res_annual": "Anual"
     },
     "random_number_generator": {
@@ -395,18 +410,21 @@ export const es: Dictionary = {
       "th_total": "Tempo Total"
     },
     "password_generator": {
-      "name": "Gerador de Senhas",
-      "description": "Crie senhas seguras.",
-      "title": "Gerador de Senhas Fortes",
-      "seo_title": "Gerador de Senha Aleatória",
+      "name": "Generador de Contraseñas",
+      "description": "Crea contraseñas seguras.",
+      "title": "Generador de Contraseñas Fuertes",
+      "seo_title": "Generador de Contraseña Aleatoria",
       "seo_content": [
-        "Gere senhas fortes e aleatórias para manter suas contas seguras."
+        "Crea contraseñas fuertes, seguras y aleatorias al instante con nuestro Generador de Contraseñas online gratuito. En la era digital actual, la ciberseguridad es más importante que nunca. Las contraseñas débiles como '123456' o 'password' son la causa principal de las filtraciones de datos. Para proteger tu correo electrónico, banca y redes sociales, necesitas contraseñas complejas que sean imposibles de adivinar.",
+        "Nuestra herramienta te permite personalizar la complejidad de tu contraseña. Puedes elegir la longitud (de 6 a 32 caracteres) y decidir si incluir letras mayúsculas, minúsculas, números y símbolos especiales. Cuanta más variedad incluyas, mayor será la entropía y más difícil será para los algoritmos de fuerza bruta descifrar tu código.",
+        "¿Por qué usar un generador de contraseñas aleatorias? El cerebro humano es predecible. Cuando intentamos mezclar teclas, a menudo seguimos patrones (como filas del teclado o fechas comunes) que los hackers conocen. Un generador aleatorio criptográfico elimina este sesgo humano, garantizando verdadera imprevisibilidad.",
+        "Esta herramienta se ejecuta completamente en tu navegador. No se envía ningún dato a ningún servidor, lo que significa que tus contraseñas generadas son 100% privadas y seguras. Usa esta herramienta cada vez que te registres en un nuevo servicio para garantizar la máxima seguridad para tu identidad digital."
       ],
-      "length_label": "Comprimento",
+      "length_label": "Longitud",
       "opt_uppercase": "A-Z",
       "opt_numbers": "0-9",
       "opt_symbols": "!@#",
-      "btn_generate": "Gerar",
+      "btn_generate": "Generar",
       "btn_copy": "Copiar",
       "btn_copied": "Copiado!"
     },
@@ -833,17 +851,20 @@ export const es: Dictionary = {
     },
     "bmi_calculator": {
       "name": "Calculadora de IMC",
-      "description": "Calcule o Índice de Massa Corporal.",
+      "description": "Calcula el Índice de Masa Corporal.",
       "title": "Calculadora de IMC",
-      "seo_title": "Calculadora de Índice de Massa Corporal",
+      "seo_title": "Calculadora de Índice de Masa Corporal",
       "seo_content": [
-        "Calcule seu IMC para saber se você está com um peso saudável."
+        "Calcula tu Índice de Masa Corporal (IMC) al instante con nuestra calculadora online gratuita. El IMC es una herramienta de detección utilizada por profesionales de la salud en todo el mundo para identificar categorías de peso que pueden conducir a problemas de salud. Es un cálculo simple usando la altura y el peso de una persona. La fórmula es IMC = kg/m², donde kg es el peso de la persona en kilogramos y m² es su altura en metros cuadrados.",
+        "Conocer tu IMC es importante para entender tu salud general. Aunque no mide la grasa corporal directamente, se correlaciona con medidas directas de grasa corporal. Las categorías incluyen Bajo peso (IMC < 18.5), Peso normal (18.5–24.9), Sobrepeso (25–29.9) y Obesidad (IMC de 30 o mayor). Mantener un peso saludable reduce el riesgo de condiciones crónicas, como enfermedades cardíacas, diabetes tipo 2 e hipertensión.",
+        "Usar nuestra calculadora es fácil. Simplemente ingresa tu género, peso y altura, y calcularemos tu puntuación al instante. Admitimos unidades métricas (kilogramos/centímetros) para tu conveniencia.",
+        "Por favor, ten en cuenta que el IMC es un indicador general y puede no ser preciso para atletas con alta masa muscular, ancianos o mujeres embarazadas. El músculo pesa más que la grasa, por lo que una persona musculosa puede tener un IMC alto pero poca grasa corporal. Siempre consulta a un profesional de la salud para una evaluación de salud integral."
       ],
       "label_weight": "Peso",
       "label_height": "Altura",
       "btn_calculate": "Calcular IMC",
-      "res_bmi": "Seu IMC",
-      "res_cat": "Categoria"
+      "res_bmi": "Tu IMC",
+      "res_cat": "Categoría"
     },
     "loan_calculator": {
       "name": "Calculadora de Empréstimo",
@@ -891,16 +912,19 @@ export const es: Dictionary = {
       "label_opacity": "Opacidade"
     },
     "text_to_speech": {
-      "name": "Texto para Fala",
-      "description": "Converta texto em áudio falado.",
-      "title": "Leitor de Texto para Fala",
-      "seo_title": "Leitor TTS Online",
+      "name": "Texto a Voz",
+      "description": "Convierte texto en audio hablado.",
+      "title": "Lector de Texto a Voz",
+      "seo_title": "Lector TTS Online",
       "seo_content": [
-        "Converta texto em fala usando vozes de som natural."
+        "Convierte texto a voz online al instante con nuestro lector TTS gratuito. Simplemente escribe o pega tu texto en el cuadro, selecciona una voz y haz clic en Reproducir para escuchar. Nuestra herramienta aprovecha las capacidades avanzadas de síntesis de voz integradas en tu navegador moderno para proporcionar voces de alta calidad y sonido natural sin necesidad de software costoso o descargas pesadas.",
+        "Esta herramienta es perfecta para una variedad de casos de uso. Escritores y estudiantes pueden usarla para revisar sus trabajos escuchándolos, lo que a menudo ayuda a detectar errores que los ojos cansados pueden pasar por alto. Los estudiantes de idiomas pueden usarla para practicar la pronunciación escuchando voces que suenan nativas en diferentes idiomas (dependiendo de las voces instaladas en tu dispositivo). También es una herramienta de accesibilidad vital para personas con discapacidades visuales o dificultades de lectura.",
+        "Admitimos todas las voces instaladas en tu sistema operativo y navegador, ofreciendo una amplia gama de opciones, incluyendo diferentes acentos y géneros. Puedes cambiar fácilmente entre las voces para encontrar la que mejor se adapte a tus necesidades. La interfaz es limpia, libre de distracciones y diseñada para facilitar su uso.",
+        "Tu privacidad es respetada; el procesamiento de texto ocurre localmente en tu navegador en la mayoría de las implementaciones modernas, asegurando que tus datos no se envíen a un servidor para su procesamiento. Experimenta la conveniencia de convertir texto escrito en audio hablado hoy."
       ],
-      "label_text": "Digite o Texto",
-      "label_voice": "Selecionar Voz",
-      "btn_play": "Reproduzir",
+      "label_text": "Ingresa el Texto",
+      "label_voice": "Selecciona la Voz",
+      "btn_play": "Reproducir",
       "btn_stop": "Parar"
     },
     "password_strength": {

@@ -48,7 +48,10 @@ export const pt: Dictionary = {
       "title": "Codificador / Decodificador Base64",
       "seo_title": "Conversor Base64 Online",
       "seo_content": [
-        "Codifique e decodifique facilmente para o formato Base64."
+        "Codifique e decodifique facilmente dados com nosso Conversor Base64. Base64 é um esquema de codificação binário-para-texto que representa dados binários em um formato de string ASCII. É comumente usado quando há necessidade de codificar dados binários que precisam ser armazenados e transferidos por mídias projetadas para lidar com dados textuais.",
+        "Esta ferramenta permite que você codifique qualquer string de texto ou trecho de código em uma string Base64, tornando-a segura para transporte via e-mail, XML ou JSON. Inversamente, você pode colar uma string Base64 para decodificá-la de volta ao formato legível original. Nossa ferramenta lida com texto UTF-8 padrão corretamente para garantir que emojis e caracteres especiais sejam preservados.",
+        "Desenvolvedores costumam usar Base64 para incorporar imagens diretamente em arquivos HTML/CSS (Data URIs) ou para transmitir estruturas de dados complexas como strings simples. Também é útil para ofuscação de dados simples, o que esconde os dados dos olhos humanos, embora não deva ser confundido com criptografia, pois não oferece segurança contra quem sabe decodificá-lo.",
+        "Basta digitar ou colar seu conteúdo na caixa de entrada e clicar em Codificar ou Decodificar. O resultado aparece instantaneamente e pode ser copiado para a área de transferência com um único clique. Nenhum dado é enviado aos nossos servidores; tudo é processado localmente no seu navegador para velocidade e privacidade."
       ],
       "input_label": "Texto de Entrada",
       "output_label": "Resultado",
@@ -96,7 +99,10 @@ export const pt: Dictionary = {
       "title": "Gerador de QR Code Grátis",
       "seo_title": "Criador de QR Code",
       "seo_content": [
-        "Gere QR codes personalizados instantaneamente."
+        "Gere QR codes personalizados instantaneamente com nosso Criador de QR Code online gratuito. Se você precisa de um código para a URL do seu site, um ponto de acesso à rede WiFi, texto simples ou e-mail, nossa ferramenta resolve tudo. Os códigos QR (Quick Response) são códigos de barras bidimensionais que podem armazenar grandes quantidades de dados e são facilmente legíveis por smartphones e dispositivos digitais.",
+        "Os códigos QR são essenciais para o marketing moderno e a conectividade. Você pode imprimi-los em cartões de visita para vincular ao seu portfólio, exibi-los em restaurantes para menus digitais ou usá-los em folhetos para direcionar tráfego para suas páginas de mídia social. Nosso gerador produz imagens de alta resolução que são digitalizadas corretamente, mesmo quando impressas em tamanhos pequenos.",
+        "Suportamos vários tipos de dados: URL (para links da web), Texto (para mensagens ou códigos), WiFi (para permitir que convidados entrem na sua rede sem digitar senhas) e E-mail (para preencher uma mensagem). Basta selecionar o tipo, inserir seus dados e baixar sua imagem PNG instantaneamente.",
+        "Nenhum cadastro ou registro é necessário. Seus dados são processados localmente no seu navegador para máxima privacidade. Melhore a experiência do usuário e conecte os mundos físico e digital com um QR code personalizado hoje."
       ],
       "type_url": "URL",
       "type_wifi": "WiFi",
@@ -128,7 +134,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Texto para Binário",
       "seo_title": "Tradutor Binário",
       "seo_content": [
-        "Converta texto para código binário e código binário para texto."
+        "Traduza texto para binário e binário para texto instantaneamente com nosso Conversor Binário. Binário é a linguagem fundamental dos computadores, representando cada dado como uma série de 0s e 1s. Esta ferramenta preenche a lacuna entre texto legível por humanos e código de máquina.",
+        "Nosso conversor suporta tradução completa de texto para binário e binário para texto. Basta digitar sua mensagem para ver como um computador a armazena, ou colar uma string binária para decodificar uma mensagem oculta. Isso ajuda na compreensão de conceitos de codificação de caracteres e lógica digital.",
+        "Se você é um estudante de ciência da computação aprendendo sobre representação de dados, um usuário curioso querendo enviar mensagens codificadas para amigos, ou um desenvolvedor depurando dados de baixo nível, esta ferramenta fornece uma conversão clara e precisa. Usamos codificação ASCII/UTF-8 padrão para garantir compatibilidade.",
+        "A ferramenta é rápida, gratuita e roda inteiramente no seu navegador. Não há necessidade de instalar software ou se preocupar com a privacidade dos dados, pois nada é enviado para um servidor remoto. Comece a experimentar a linguagem de 1s e 0s hoje."
       ],
       "input_label": "Entrada",
       "btn_to_binary": "Texto para Binário",
@@ -273,7 +282,10 @@ export const pt: Dictionary = {
       "title": "Conversor Universal de Unidades",
       "seo_title": "Conversor de Medidas",
       "seo_content": [
-        "Converta entre unidades Métricas e Imperiais."
+        "Converta facilmente entre unidades métricas e imperiais com nosso abrangente Conversor de Unidades. Se você está trabalhando em um projeto de ciências, cozinhando uma receita de outro país ou viajando para o exterior, esta ferramenta fornece conversões rápidas e precisas para uma ampla gama de categorias de medição.",
+        "Nosso conversor suporta Comprimento (metros, pés, polegadas, milhas), Peso (quilogramas, libras, onças), Volume (litros, galões, xícaras), Área (metros quadrados, acres, hectares), Temperatura (Celsius, Fahrenheit, Kelvin), Tempo, Velocidade e Armazenamento Digital. A interface intuitiva permite que você selecione sua categoria, insira o valor e veja instantaneamente o equivalente em várias outras unidades.",
+        "Entendemos a confusão que muitas vezes surge de diferentes sistemas de medição usados globalmente. Por exemplo, converter entre Celsius e Fahrenheit ou entender quilômetros versus milhas pode ser complicado sem uma ferramenta confiável. Nossa calculadora elimina a necessidade de fórmulas manuais e garante precisão em seus cálculos.",
+        "Projetada para estudantes, profissionais e usuários comuns, esta ferramenta é totalmente gratuita e funciona diretamente no seu navegador. Nenhuma instalação é necessária. Simplifique suas conversões de unidades e garanta precisão em todas as suas medições com nosso Conversor de Unidades Universal."
       ],
       "cat_length": "Comprimento",
       "cat_weight": "Peso",
@@ -306,7 +318,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Salário para Hora",
       "seo_title": "Calculadora de Salário",
       "seo_content": [
-        "Converta seu salário entre taxas horárias, diárias, semanais, mensais e anuais."
+        "Converta facilmente seu salário entre taxas horárias, diárias, semanais, mensais e anuais com nosso Conversor de Salário. Se você está negociando uma nova oferta de emprego, planejando seu orçamento ou curioso sobre quanto seu tempo vale por hora, esta ferramenta fornece cálculos instantâneos e precisos com base em sua entrada.",
+        "Entender sua remuneração em diferentes prazos é crucial para o planejamento financeiro. Por exemplo, um salário anual pode parecer impressionante, mas saber o valor por hora pode ajudá-lo a compará-lo com trabalho contratado ou taxas de freelancer. Da mesma forma, ver seus ganhos diários pode colocar seus hábitos de consumo em perspectiva. Nossa ferramenta considera semanas de trabalho padrão de 40 horas como padrão.",
+        "Esta calculadora é particularmente útil para freelancers e contratados que precisam definir suas taxas horárias para corresponder a uma renda anual desejada. Também é útil para funcionários que comparam um cargo assalariado com um emprego com salário por hora. A conversão pressupõe um ano de trabalho padrão, mas oferece uma base sólida para comparação.",
+        "Suportamos todos os principais períodos: Por Hora, Diário, Semanal, Mensal e Anual. Basta inserir seu valor, selecionar o período atual e converter para ver o detalhamento em todos os outros prazos. Use esta ferramenta gratuita para assumir o controle de seu entendimento financeiro hoje."
       ],
       "label_amount": "Valor do Salário",
       "label_period": "Período",
@@ -400,7 +415,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Senhas Fortes",
       "seo_title": "Gerador de Senha Aleatória",
       "seo_content": [
-        "Gere senhas fortes e aleatórias para manter suas contas seguras."
+        "Crie senhas fortes, seguras e aleatórias instantaneamente com nosso Gerador de Senhas online gratuito. Na era digital de hoje, a segurança cibernética é mais importante do que nunca. Senhas fracas como '123456' ou 'senha' são a principal causa de violações de dados. Para proteger seus e-mails, bancos e redes sociais, você precisa de senhas complexas que sejam impossíveis de adivinhar.",
+        "Nossa ferramenta permite personalizar a complexidade da sua senha. Você pode escolher o comprimento (de 6 a 32 caracteres) e decidir se quer incluir letras maiúsculas, minúsculas, números e símbolos especiais. Quanto mais variedade você incluir, maior a entropia e mais difícil será para algoritmos de força bruta quebrarem seu código.",
+        "Por que usar um gerador de senhas aleatórias? O cérebro humano é previsível. Quando tentamos misturar teclas, frequentemente seguimos padrões (como linhas do teclado ou datas comuns) que os hackers conhecem. Um gerador aleatório criptográfico remove esse viés humano, garantindo verdadeira imprevisibilidade.",
+        "Esta ferramenta roda inteiramente no seu navegador. Nenhum dado é enviado para qualquer servidor, o que significa que suas senhas geradas são 100% privadas e seguras. Use esta ferramenta sempre que se inscrever em um novo serviço para garantir a máxima segurança para sua identidade digital."
       ],
       "length_label": "Comprimento",
       "opt_uppercase": "A-Z",
@@ -837,7 +855,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de IMC",
       "seo_title": "Calculadora de Índice de Massa Corporal",
       "seo_content": [
-        "Calcule seu IMC para saber se você está com um peso saudável."
+        "Calcule seu Índice de Massa Corporal (IMC) instantaneamente com nossa calculadora online gratuita. O IMC é uma ferramenta de triagem usada por profissionais de saúde em todo o mundo para identificar categorias de peso que podem levar a problemas de saúde. É um cálculo simples usando a altura e o peso de uma pessoa. A fórmula é IMC = kg/m², onde kg é o peso da pessoa em quilogramas e m² é sua altura em metros ao quadrado.",
+        "Saber seu IMC é importante para entender sua saúde geral. Embora não meça a gordura corporal diretamente, ele se correlaciona com medidas diretas de gordura corporal. As categorias incluem Abaixo do peso (IMC < 18,5), Peso normal (18,5–24,9), Sobrepeso (25–29,9) e Obesidade (IMC de 30 ou maior). Manter um peso saudável reduz o risco de condições crônicas, como doenças cardíacas, diabetes tipo 2 e hipertensão.",
+        "Usar nossa calculadora é fácil. Basta inserir seu gênero, peso e altura, e calcularemos sua pontuação instantaneamente. Suportamos unidades métricas (quilogramas/centímetros) para sua conveniência.",
+        "Por favor, note que o IMC é um indicador geral e pode não ser preciso para atletas com alta massa muscular, idosos ou mulheres grávidas. Músculo pesa mais que gordura, então uma pessoa musculosa pode ter um IMC alto, mas baixa gordura corporal. Sempre consulte um profissional de saúde para uma avaliação de saúde abrangente."
       ],
       "label_weight": "Peso",
       "label_height": "Altura",
@@ -896,10 +917,13 @@ export const pt: Dictionary = {
       "title": "Leitor de Texto para Fala",
       "seo_title": "Leitor TTS Online",
       "seo_content": [
-        "Converta texto em fala usando vozes de som natural."
+        "Converta texto em fala online instantaneamente com nosso leitor TTS gratuito. Basta digitar ou colar seu texto na caixa, selecionar uma voz e clicar em Reproduzir para ouvir. Nossa ferramenta aproveita os recursos avançados de síntese de fala integrados ao seu navegador moderno para fornecer vozes de alta qualidade e som natural, sem a necessidade de softwares caros ou downloads pesados.",
+        "Esta ferramenta é perfeita para uma variedade de casos de uso. Escritores e estudantes podem usá-la para revisar seus trabalhos ouvindo-os, o que muitas vezes ajuda a detectar erros que olhos ansiosos podem perder. Estudantes de idiomas podem usá-la para praticar a pronúncia ouvindo vozes que soam nativas em diferentes idiomas (dependendo das vozes instaladas no seu dispositivo). É também uma ferramenta de acessibilidade vital para pessoas com deficiência visual ou dificuldades de leitura.",
+        "Suportamos todas as vozes instaladas em seu sistema operacional e navegador, oferecendo uma ampla gama de opções, incluindo diferentes sotaques e gêneros. Você pode alternar facilmente entre as vozes para encontrar a que melhor se adapta às suas necessidades. A interface é limpa, livre de distrações e projetada para facilidade de uso.",
+        "Sua privacidade é respeitada; o processamento de texto acontece localmente em seu navegador na maioria das implementações modernas, garantindo que seus dados não sejam enviados a um servidor para processamento. Experimente a conveniência de converter texto escrito em áudio falado hoje."
       ],
       "label_text": "Digite o Texto",
-      "label_voice": "Selecionar Voz",
+      "label_voice": "Selecione a Voz",
       "btn_play": "Reproduzir",
       "btn_stop": "Parar"
     },

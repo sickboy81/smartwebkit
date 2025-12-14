@@ -48,7 +48,10 @@ export const en: Dictionary = {
       "title": "Base64 Encoder / Decoder",
       "seo_title": "Base64 Converter Online",
       "seo_content": [
-        "Easily encode to and decode from Base64 format."
+        "Easily encode and decode data with our Base64 Converter. Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format. It is commonly used when there is a need to encode binary data that needs to be stored and transferred over media that are designed to deal with textual data.",
+        "This tool allows you to encode any text string or code snippet into a Base64 string, making it safe for transport via email, XML, or JSON. Conversely, you can paste a Base64 string to decode it back to its original readable format. Our tool handles standard UTF-8 text correctly to ensure emojis and special characters are preserved.",
+        "Developers often use Base64 to embed images directly into HTML/CSS files (Data URIs) or to transmit complex data structures as simple strings. It is also useful for simple data obfuscation which hides the data from human eyes, though it should not be confused with encryption as it offers no security against anyone who knows how to decode it.",
+        "Simply type or paste your content into the input box and click Encode or Decode. The result appears instantly and can be copied to your clipboard with a single click. No data is sent to our servers; everything is processed locally in your browser for speed and privacy."
       ],
       "input_label": "Input Text",
       "output_label": "Result",
@@ -96,7 +99,10 @@ export const en: Dictionary = {
       "title": "Free QR Code Generator",
       "seo_title": "QR Code Maker",
       "seo_content": [
-        "Generate custom QR codes instantly."
+        "Generate custom QR codes instantly with our free online QR Code Maker. Whether you need a code for your website URL, a WiFi network access point, plain text, or email, our tool handles it all. QR (Quick Response) codes are two-dimensional barcodes that can store significant amounts of data and are easily readable by smartphones and digital devices.",
+        "QR codes are essential for modern marketing and connectivity. You can print them on business cards to link to your portfolio, display them in restaurants for digital menus, or use them on flyers to direct traffic to your social media pages. Our generator produces high-resolution images that scan properly even when printed at small sizes.",
+        "We support multiple data types: URL (for weblinks), Text (for messages or codes), WiFi (to let guests join your network without typing passwords), and Email (to pre-fill a message). Just select the type, enter your data, and download your PNG image instantly.",
+        "No signup or registration is required. Your data is processed locally in your browser for maximum privacy. Enhance your user experience and bridge the physical and digital worlds with a custom QR code today."
       ],
       "type_url": "URL",
       "type_wifi": "WiFi",
@@ -128,7 +134,10 @@ export const en: Dictionary = {
       "title": "Text to Binary Converter",
       "seo_title": "Binary Translator",
       "seo_content": [
-        "Convert text to binary code and binary code to text."
+        "Translate text to binary and binary to text instantly with our Binary Converter. Binary is the fundamental language of computers, representing every piece of data as a series of 0s and 1s. This tool bridges the gap between human-readable text and machine code.",
+        "Our converter supports full text-to-binary and binary-to-text translation. Simply type your message to see how a computer stores it, or paste a binary string to decode a hidden message. It helps in understanding character encoding and digital logic concepts.",
+        "Whether you are a computer science student learning about data representation, a curious user wanting to send encoded messages to friends, or a developer debugging low-level data, this tool provides a clear and accurate conversion. We use standard ASCII/UTF-8 encoding to ensure compatibility.",
+        "The tool is fast, free, and runs entirely in your browser. There is no need to install software or worry about data privacy, as nothing is uploaded to a remote server. Start experimenting with the language of 1s and 0s today."
       ],
       "input_label": "Input",
       "btn_to_binary": "Text to Binary",
@@ -273,7 +282,10 @@ export const en: Dictionary = {
       "title": "Universal Unit Converter",
       "seo_title": "Measurement Converter",
       "seo_content": [
-        "Convert between Metric and Imperial units."
+        "Easily convert between Metric and Imperial units with our comprehensive Unit Converter. Whether you're working on a science project, cooking a recipe from another country, or traveling abroad, this tool provides quick and accurate conversions for a wide range of measurement categories.",
+        "Our converter supports Length (meters, feet, inches, miles), Weight (kilograms, pounds, ounces), Volume (liters, gallons, cups), Area (square meters, acres, hectares), Temperature (Celsius, Fahrenheit, Kelvin), Time, Speed, and Digital Storage. The intuitive interface allows you to select your category, input the value, and instantly see the equivalent in various other units.",
+        "We understand the confusion that often arises from different measurement systems used globally. For instance, converting between Celsius and Fahrenheit or understanding kilometers versus miles can be tricky without a reliable tool. Our calculator eliminates the need for manual formulas and ensures precision in your calculations.",
+        "Designed for students, professionals, and everyday users, this tool is completely free and works directly in your browser. No installation is required. Simplify your unit conversions and ensure accuracy in all your measurements with our Universal Unit Converter."
       ],
       "cat_length": "Length",
       "cat_weight": "Weight",
@@ -306,7 +318,10 @@ export const en: Dictionary = {
       "title": "Salary to Hourly Converter",
       "seo_title": "Salary Paycheck Converter",
       "seo_content": [
-        "Convert your salary between hourly, daily, weekly, monthly, and annual rates."
+        "Easily convert your salary between hourly, daily, weekly, monthly, and annual rates with our Salary Converter. Whether you're negotiating a new job offer, planning your budget, or curious about how much your time is worth per hour, this tool provides instant and accurate calculations based on your input.",
+        "Understanding your compensation in different timeframes is crucial for financial planning. For example, an annual salary might sound impressive, but knowing the hourly breakdown can help you compare it with contract work or freelance rates. Similarly, seeing your daily earnings can put your spending habits into perspective. Our tool handles standard 40-hour workweeks as the default but allows for customization if needed in manual calculations.",
+        "This calculator is particularly useful for freelancers and contractors who need to set their hourly rates to match a desired annual income. It's also helpful for employees comparing a salaried position with an hourly wage job. The conversion assumes a standard working year but gives you a solid baseline for comparison.",
+        "We support all major periods: Hourly, Daily, Weekly, Bi-Weekly (implied), Monthly, and Annually. Simply enter your amount, select the current period, and convert to see the breakdown across all other timeframes. Use this free tool to take control of your financial understanding today."
       ],
       "label_amount": "Salary Amount",
       "label_period": "Period",
@@ -837,7 +852,10 @@ export const en: Dictionary = {
       "title": "BMI Calculator",
       "seo_title": "Body Mass Index Calculator",
       "seo_content": [
-        "Calculate your BMI to know if you are at a healthy weight."
+        "Calculate your Body Mass Index (BMI) instantly with our free online calculator. BMI is a screening tool used by health professionals worldwide to identify weight categories that may lead to health problems. It is a simple calculation using a person's height and weight. The formula is BMI = kg/m² where kg is a person's weight in kilograms and m² is their height in meters squared.",
+        "Knowing your BMI is important for understanding your general health. While it does not measure body fat directly, it correlates with direct measures of body fat. Categories include Underweight (BMI < 18.5), Normal weight (18.5–24.9), Overweight (25–29.9), and Obesity (BMI of 30 or greater). Maintaining a healthy weight reduces the risk of chronic conditions such as heart disease, type 2 diabetes, and hypertension.",
+        "Using our calculator is easy. Just enter your gender, weight, and height, and we will calculate your score instantly. We support both metric (kilograms/centimeters) and imperial (pounds/feet/inches) units for your convenience.",
+        "Please note that BMI is a general indicator and may not be accurate for athletes with high muscle mass, elderly people, or pregnant women. Muscle weighs more than fat, so a muscular person may have a high BMI but low body fat. Always consult with a healthcare provider for a comprehensive health assessment."
       ],
       "label_weight": "Weight",
       "label_height": "Height",
@@ -896,7 +914,10 @@ export const en: Dictionary = {
       "title": "Text to Speech Reader",
       "seo_title": "Online TTS Reader",
       "seo_content": [
-        "Convert text to speech using natural sounding voices."
+        "Convert text to speech online instantly with our free TTS reader. Simply type or paste your text into the box, select a voice, and click Play to listen. Our tool leverages the advanced speech synthesis capabilities built into your modern web browser to provide high-quality, natural-sounding voices without the need for expensive software or heavy downloads.",
+        "This tool is perfect for a variety of use cases. Writers and students can use it to proofread their work by listening to it, which often helps catch errors that eager eyes might miss. Language learners can use it to practice pronunciation by listening to native-sounding voices in different languages (depending on your device's installed voices). It is also a vital accessibility tool for those with visual impairments or reading difficulties.",
+        "We support all voices installed on your operating system and browser, giving you a wide range of options including different accents and genders. You can easily switch between voices to find the one that best suits your needs. The interface is clean, distraction-free, and designed for ease of use.",
+        "Your privacy is respected; the text process happens locally within your browser in most modern implementations, ensuring your data isn't sent to a server for processing. Experience the convenience of converting written text to spoken audio today."
       ],
       "label_text": "Enter Text",
       "label_voice": "Select Voice",
