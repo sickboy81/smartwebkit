@@ -809,7 +809,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Tamanho de Sapato",
       "seo_title": "Tabela Internacional de Sapatos",
       "seo_content": [
-        "Converta tamanhos de sapatos entre padrões BR, EUA, Reino Unido e Europa."
+        "Converta facilmente tamanhos de sapatos entre os padrões dos Estados Unidos, Reino Unido, Europa e Brasil. Comprar sapatos online pode ser frustrante quando as marcas usam convenções de tamanho diferentes. Um tamanho 10 dos EUA não é o mesmo que um tamanho 10 do Reino Unido, e os tamanhos europeus são um sistema numérico completamente diferente. Nosso conversor tenta preencher essa lacuna.",
+        "Selecione sua categoria de gênero (Masculino ou Feminino) para obter a conversão mais precisa, pois as escalas masculinas e femininas geralmente diferem, principalmente nos tamanhos dos EUA. Basta selecionar sua região e tamanho conhecidos, e exibiremos automaticamente o tamanho equivalente para outras regiões. É uma ferramenta de referência rápida para quem compra calçados globalmente.",
+        "Observe que o tamanho pode variar um pouco entre os fabricantes (por exemplo, Nike vs. Adidas). Esta ferramenta usa os gráficos de conversão internacional mais comuns. Se você estiver entre tamanhos, geralmente é recomendável aumentar o tamanho para maior conforto.",
+        "Esteja você viajando, comprando um presente ou comprando de um varejista internacional, garanta o ajuste certo com nosso Conversor Universal de Tamanho de Sapato."
       ],
       "label_gender": "Categoria",
       "opt_men": "Masculino",
@@ -824,7 +827,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Medidas Culinárias",
       "seo_title": "Conversor de Unidades de Cozinha",
       "seo_content": [
-        "Converta xícaras para gramas, onças para mililitros e mais para receitas."
+        "Converta medidas de cozinha com facilidade usando nosso Conversor Culinário. Receitas de diferentes partes do mundo costumam usar unidades diferentes — xícaras versus gramas, onças versus mililitros. A panificação, em particular, requer medições precisas. Converter '1 xícara de farinha' em gramas não é simples porque ingredientes diferentes têm densidades diferentes.",
+        "Nossa ferramenta lida com conversões de ingredientes específicos. Uma xícara de açúcar pesa diferente de uma xícara de farinha ou uma xícara de manteiga. Selecione o tipo de ingrediente para obter conversões precisas de peso para volume. Oferecemos suporte a unidades comuns como xícaras, colheres de sopa, colheres de chá, gramas, quilogramas, onças e mililitros.",
+        "Esta ferramenta é indispensável para cozinheiros domésticos que experimentam receitas internacionais. Pare de adivinhar se o seu bolo vai crescer corretamente. Converta suas medidas instantaneamente e cozinhe com confiança.",
+        "Funciona offline e é compatível com dispositivos móveis, para que você possa mantê-lo aberto no telefone ao lado da tábua de cortar. Simplifique seu processo de cozimento hoje."
       ],
       "label_ingredient": "Ingrediente",
       "label_amount": "Quantidade",
@@ -986,7 +992,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Empréstimo e Financiamento",
       "seo_title": "Calculadora de Pagamento de Empréstimo",
       "seo_content": [
-        "Calcule pagamentos mensais e juros totais para empréstimos e hipotecas."
+        "Planeje seu futuro financeiro com nossa Calculadora de Empréstimos e Hipotecas. Pedir dinheiro emprestado é um compromisso significativo, e entender exatamente como serão seus pagamentos mensais é crucial para o orçamento. Esteja você procurando uma hipoteca, um empréstimo de carro ou um empréstimo pessoal, esta ferramenta detalha os custos.",
+        "Insira o 'Valor do Empréstimo' (principal), a 'Taxa de Juros Anual' e o 'Prazo do Empréstimo' em anos. Assumimos um cronograma de amortização de taxa fixa padrão. A ferramenta calcula seu pagamento mensal, o valor total que você pagará ao longo da vida do empréstimo e o custo total dos juros.",
+        "Ver o valor total dos juros pode ser revelador. Ajuda você a decidir se deve buscar uma taxa mais baixa ou escolher um prazo mais curto para economizar dinheiro. Use-o para comparar diferentes ofertas de empréstimo lado a lado.",
+        "Sem jargões bancários complexos, apenas números simples para ajudá-lo a fazer escolhas financeiras inteligentes. Funciona instantaneamente no seu navegador com privacidade garantida."
       ],
       "label_amount": "Valor do Empréstimo",
       "label_rate": "Taxa de Juros (%)",
@@ -997,12 +1006,15 @@ export const pt: Dictionary = {
       "res_interest": "Total de Juros"
     },
     "aspect_ratio": {
-      "name": "Calculadora de Aspect Ratio",
+      "name": "Calculadora de Proporção",
       "description": "Calcule dimensões e proporções.",
-      "title": "Calculadora de Aspect Ratio",
-      "seo_title": "Calculadora de Proporção de Tela",
+      "title": "Calculadora de Proporção de Tela",
+      "seo_title": "Calculadora de Aspect Ratio",
       "seo_content": [
-        "Calcule proporções e dimensões de imagem facilmente."
+        "Calcule proporções e dimensões de imagem instantaneamente com nossa Calculadora de Aspect Ratio. A proporção descreve a relação proporcional entre a largura e a altura de uma imagem ou tela. Proporções comuns incluem 16:9 para TVs widescreen modernas, 4:3 para monitores mais antigos e 1:1 para postagens de mídia social (quadrado).",
+        "Nossa ferramenta tem dois modos: 'Encontrar Proporção' e 'Encontrar Dimensão'. No modo Proporção, insira uma largura e altura (ex: 1920 x 1080) para descobrir a proporção simplificada (16:9). No modo Dimensão, você pode calcular um valor ausente. Por exemplo, se quiser redimensionar uma imagem para 800 pixels de largura mantendo uma proporção 16:9, esta ferramenta dirá a altura exata necessária (450 pixels).",
+        "Este é um recurso essencial para designers gráficos, cinegrafistas e desenvolvedores web. Redimensionar imagens sem preservar a proporção leva a esticamentos ou distorções, o que parece pouco profissional. Use esta calculadora para garantir que sua mídia se encaixe perfeitamente em qualquer contêiner.",
+        "Suporta entradas inteiras e decimais. A interface é limpa e imediatamente reativa."
       ],
       "label_width": "Largura",
       "label_height": "Altura",
@@ -1011,12 +1023,15 @@ export const pt: Dictionary = {
       "mode_calc_dim": "Encontrar Dimensão"
     },
     "box_shadow": {
-      "name": "Gerador Box Shadow",
+      "name": "Gerador de Box Shadow",
       "description": "Gere código CSS box-shadow.",
       "title": "Gerador de Box Shadow CSS",
       "seo_title": "Gerador de Sombra CSS",
       "seo_content": [
-        "Crie visualmente sombras CSS e copie o código."
+        "Crie visualmente sombras CSS com nosso Gerador de Box Shadow. A propriedade CSS 'box-shadow' adiciona efeitos de sombra ao redor da moldura de um elemento. Embora poderosa, a sintaxe (ex: '10px 10px 5px 0px rgba(0,0,0,0.75)') pode ser difícil de visualizar e escrever manualmente.",
+        "Use controles deslizantes para ajustar o Comprimento Horizontal, Comprimento Vertical, Raio de Desfoque e Raio de Propagação. Você também pode escolher uma Cor de Sombra personalizada e controlar sua Opacidade diretamente. À medida que você ajusta os controles, uma caixa de pré-visualização ao vivo é atualizada instantaneamente, mostrando exatamente como a sombra fica.",
+        "Adicione profundidade aos seus cartões, botões ou contêineres. Esta ferramenta ajuda a criar uma elevação sutil de material design ou efeitos de neomorfismo dramáticos. Depois de ficar satisfeito com a aparência, basta copiar o trecho de CSS gerado e colá-lo em sua folha de estilo.",
+        "Nenhum conhecimento da sintaxe CSS é necessário. Experimente diferentes fontes de luz e níveis de suavidade em um playground visual."
       ],
       "label_x": "Comprimento Horizontal",
       "label_y": "Comprimento Vertical",
@@ -1059,7 +1074,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Média e Notas",
       "seo_title": "Calculadora de Média Ponderada",
       "seo_content": [
-        "Calcule sua média ponderada facilmente inserindo notas e pesos."
+        "Calcule sua nota média ponderada ou GPA com facilidade. Em muitos cursos, nem todas as tarefas valem a mesma coisa. Um exame final pode valer 40% da sua nota, enquanto a lição de casa vale apenas 10%. Uma média simples não lhe dará a imagem correta.",
+        "Nossa Calculadora de Notas Ponderadas permite adicionar várias linhas de tarefas. Insira a nota que você recebeu e seu peso correspondente (como porcentagem ou pontos). A ferramenta calcula automaticamente sua média geral com base nos pesos fornecidos.",
+        "Isso é perfeito para estudantes que gerenciam seus objetivos acadêmicos. Use-o para realizar cenários 'e se' — por exemplo, calcule qual nota você precisa no exame final para manter seu A. Se seus pesos não somarem 100, a ferramenta ainda calculará a média ponderada correta dos itens inseridos.",
+        "Fique por dentro dos seus estudos e elimine o estresse da matemática manual de notas. É rápido, gratuito e fácil de usar."
       ],
       "col_grade": "Nota",
       "col_weight": "Peso",
@@ -1185,7 +1203,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de ROI",
       "seo_title": "Calculadora de Retorno sobre Investimento",
       "seo_content": [
-        "Calcule a porcentagem de ROI de um investimento."
+        "Calcule o Retorno sobre o Investimento (ROI) de qualquer empreendimento ou compra. O ROI é um indicador-chave de desempenho (KPI) usado para avaliar a eficiência ou lucratividade de um investimento. Ele responde à pergunta fundamental: 'Isso vale a pena?'",
+        "A fórmula é simples: ROI = (Lucro Líquido / Custo do Investimento) x 100. Insira a 'Quantia Investida' (seu custo) e a 'Quantia Retornada' (receita total ou valor atual). A calculadora produzirá a porcentagem de ROI. Um ROI positivo significa que você está ganhando dinheiro; um ROI negativo significa que você está perdendo dinheiro.",
+        "Esta ferramenta funciona para campanhas de marketing, investimentos no mercado de ações, imóveis ou até mesmo pequenas decisões pessoais. Comparar o ROI de diferentes opções ajuda a alocar seus recursos de forma mais eficaz.",
+        "Obtenha resultados instantâneos sem precisar de uma planilha. Use essa métrica clara para tomar decisões financeiras baseadas em dados."
       ],
       "label_invested": "Valor Investido",
       "label_returned": "Valor Retornado",
@@ -1235,9 +1256,12 @@ export const pt: Dictionary = {
       "name": "Calculadora Bitrate",
       "description": "Estime bitrate e tamanho de vídeo.",
       "title": "Calculadora de Bitrate de Vídeo",
-      "seo_title": "Calculadora de Tamanho de Vídeo",
+      "seo_title": "Calculadora de Tamanho de Vídeo e Bitrate",
       "seo_content": [
-        "Calcule o bitrate necessário para um tamanho de arquivo alvo ou duração."
+        "Estime tamanhos de arquivo de vídeo e taxas de bits (bitrates) necessárias com nossa Calculadora de Bitrate. Seja você um editor de vídeo para garantir que sua exportação caiba em um pen drive, ou um streamer configurando o OBS para Twitch ou YouTube, entender a taxa de bits é fundamental para equilibrar qualidade e tamanho.",
+        "A taxa de bits (medida em Mbps ou kbps) determina quantos dados são processados por segundo. Uma taxa de bits mais alta significa melhor qualidade, mas arquivos maiores. Esta ferramenta permite calcular a taxa de bits resultante, dado um tamanho de arquivo e duração alvo, ou calcular o tamanho estimado do arquivo, dada uma taxa de bits e duração específicas.",
+        "Insira a duração do seu vídeo (horas, minutos, segundos). Em seguida, insira o tamanho do arquivo de destino (por exemplo, 4 GB para um limite FAT32) para ver qual taxa de bits você deve definir no seu codificador ou insira a configuração da taxa de bits para ver quanto espaço em disco a gravação ocupará.",
+        "Este utilitário ajuda a evitar falhas de upload devido a limites de tamanho e garante o uso eficiente do armazenamento. É compatível com todos os codecs de vídeo como H.264, HEVC (H.265) e ProRes, pois a matemática da taxa de bits é universal."
       ],
       "label_hours": "Horas",
       "label_minutes": "Minutos",
@@ -1407,12 +1431,15 @@ export const pt: Dictionary = {
       "sec_triadic": "Triádicas"
     },
     "time_converter": {
-      "name": "Conversor de Hora",
+      "name": "Conversor de Fuso Horário",
       "description": "Compare fusos horários.",
       "title": "Conversor de Fuso Horário Mundial",
       "seo_title": "Conversor de Hora Mundial",
       "seo_content": [
-        "Converta horários entre os principais fusos horários do mundo."
+        "Converta a hora nos principais fusos horários do mundo com nosso Conversor de Hora Mundial. Em nosso mundo interconectado, agendar reuniões com colegas ou ligar para amigos no exterior requer navegar por diferenças de horário complexas. GMT, PST, EST, CET, JST — manter o controle das compensações pode ser uma dor de cabeça.",
+        "Basta selecionar sua hora local (ou qualquer hora base) e adicionar várias cidades ou fusos horários à lista. A ferramenta exibe a hora e data correspondentes para cada local selecionado lado a lado. Ela leva em conta as regras de Horário de Verão (DST) automaticamente, para que você não precise se preocupar em 'adiantar' ou 'atrasar' o relógio.",
+        "Esta ferramenta é inestimável para equipes remotas, nômades digitais e viajantes. Você pode comparar visualmente o horário comercial em Nova York, Londres, Tóquio e Sydney para encontrar aquele horário de reunião perfeito onde todos estão acordados.",
+        "A interface é intuitiva. Arraste o controle deslizante ou use o seletor de hora para ver como a mudança da hora afeta todas as outras zonas instantaneamente."
       ],
       "label_local": "Sua Hora Local",
       "col_zone": "Zona",
@@ -1442,7 +1469,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Algarismos Romanos",
       "seo_title": "Conversor de Números Romanos",
       "seo_content": [
-        "Converta algarismos romanos para números decimais e vice-versa."
+        "Converta algarismos romanos em números decimais e vice-versa com nosso Conversor de Algarismos Romanos. Os algarismos romanos, um sistema numérico que se originou na Roma antiga, ainda são usados ​​hoje em mostradores de relógios, capítulos de livros, anos de lançamento de filmes e eventos esportivos (como o Super Bowl).",
+        "Digite qualquer inteiro padrão (por exemplo, 2024) para vê-lo como um algarismo romano (MMXXIV). Por outro lado, digite uma string romana válida (por exemplo, MCMXC) para traduzi-la em um número (1990). A ferramenta valida sua entrada e lida corretamente com a notação subtrativa padrão (IV em vez de IIII).",
+        "Esta é uma ótima ferramenta educacional para estudantes aprendendo história ou matemática. Também é útil para decifrar datas em edifícios antigos ou entender a numeração de monarcas (por exemplo, Henrique VIII).",
+        "Nosso conversor suporta números até 3.999 (uso romano padrão). Ele roda instantaneamente e fornece mensagens de erro para formatos inválidos."
       ],
       "label_input": "Digite Número ou Romano",
       "res_result": "Resultado"
@@ -1464,7 +1494,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Glassmorphism",
       "seo_title": "Gerador de Efeito Glass CSS",
       "seo_content": [
-        "Crie efeitos de glassmorphism modernos para sua UI."
+        "Crie efeitos modernos de vidro fosco para sua interface do usuário com nosso Gerador de Glassmorphism CSS. O Glassmorphism é uma tendência de design popular caracterizada pela translucidez (um efeito de desfoque de fundo), cores vivas flutuando no fundo e uma borda clara para representar a borda do vidro.",
+        "Ajuste a intensidade do 'Desfoque' para controlar o quão fosco o vidro parece. Ajuste a 'Transparência' para decidir quanto do fundo aparece através dele. Você também pode escolher uma cor de tonalidade para o próprio vidro. A ferramenta gera as propriedades CSS necessárias, principalmente 'backdrop-filter: blur()' e 'background: rgba()'.",
+        "Ele também fornece uma borda branca sutil e sombra de caixa para melhorar a sensação 3D, essencial para fazer o elemento de vidro se separar do fundo. Fornecemos um fundo colorido na visualização para que você possa ver o efeito em ação.",
+        "Copie o código CSS com um clique e cole-o em seu projeto. Eleve seu web design com estética premium no estilo Apple."
       ],
       "label_blur": "Desfoque",
       "label_transparency": "Transparência",
@@ -1476,7 +1509,10 @@ export const pt: Dictionary = {
       "title": "Verificador de Densidade de Palavras",
       "seo_title": "Ferramenta de Densidade de Palavras-chave SEO",
       "seo_content": [
-        "Verifique a frequência e densidade de palavras-chave em seu texto."
+        "Analise a frequência e a densidade das palavras em seu texto com nosso Verificador de Densidade de Palavras-chave. Em SEO (Search Engine Optimization), a densidade de palavras-chave refere-se à porcentagem de vezes que uma palavra-chave ou frase aparece em uma página da web em comparação com o número total de palavras. Embora o excesso de palavras-chave seja ruim, manter um equilíbrio saudável é importante para a relevância.",
+        "Cole seu artigo, postagem de blog ou redação na caixa de texto. A ferramenta divide instantaneamente o conteúdo em palavras individuais, remove 'stop words' comuns (como 'o', 'é', 'e') se desejado e calcula a contagem e a densidade percentual para cada palavra única. Ela apresenta as principais palavras-chave em uma tabela clara.",
+        "Escritores usam isso para evitar repetições e garantir que seu tópico principal seja claro. Especialistas em SEO usam isso para auditar o conteúdo antes de publicar. Também pode ajudar os alunos a analisar seu próprio estilo de escrita.",
+        "Essa análise acontece no lado do cliente em seu navegador. Não armazenamos nem lemos seu conteúdo. Obtenha insights sobre a estrutura do seu texto em segundos."
       ],
       "input_label": "Colar Texto",
       "col_word": "Palavra",
@@ -1489,10 +1525,13 @@ export const pt: Dictionary = {
       "title": "Filtros de Imagem Online",
       "seo_title": "Gerador de Filtro de Imagem CSS",
       "seo_content": [
-        "Aplique filtros CSS como escala de cinza, sépia, desfoque e brilho em imagens."
+        "Transforme suas fotos instantaneamente com nossa ferramenta online de Filtros de Imagem CSS. Você não precisa de softwares pesados ​​como o Photoshop para aplicar efeitos básicos às suas imagens. Os navegadores modernos suportam funções de filtro CSS poderosas que podem mudar a aparência de uma imagem em tempo real.",
+        "Carregue uma imagem do seu dispositivo. Use os controles deslizantes para ajustar Tons de Cinza (preto e branco), Sépia (visual vintage), Desfoque (suavizar detalhes), Brilho, Contraste e Rotação de Matiz (Hue Rotate). Você pode combinar vários filtros para criar estilos únicos.",
+        "Esta ferramenta é perfeita para web designers que desejam visualizar como uma imagem ficará com efeitos CSS antes de codificar corretamente. Ela ajuda a visualizar estados de hover ou estilos temáticos. Quando estiver satisfeito, você pode copiar a string de código CSS (por exemplo, 'filter: grayscale(100%) contrast(120%);').",
+        "Suas imagens são processadas localmente em seu navegador e nunca são enviadas para um servidor, garantindo 100% de privacidade."
       ],
       "upload_label": "Enviar Imagem",
-      "label_grayscale": "Escala de Cinza",
+      "label_grayscale": "Tons de Cinza",
       "label_sepia": "Sépia",
       "label_blur": "Desfoque",
       "label_brightness": "Brilho",
