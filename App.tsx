@@ -1,118 +1,124 @@
-import React, { useEffect } from 'react';
+import React, { Suspense } from 'react';
 import { HashRouter, Routes, Route, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
 import { en, pt, es } from './dictionaries';
 import { Lang } from './types';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { HomePage } from './app/page_home';
-import { PasswordPage } from './app/page_password';
-import { JsonPage } from './app/page_json_formatter';
-import { WordCounterPage } from './app/page_word_counter';
-import { PercentagePage } from './app/page_percentage';
-import { AgePage } from './app/page_age';
-import { Base64Page } from './app/page_base64';
-import { UUIDPage } from './app/page_uuid';
-import { LoremPage } from './app/page_lorem_ipsum';
-import { RuleOfThreePage } from './app/page_rule_of_three';
-import { QrPage } from './app/page_qrcode';
-import { MinifyPage } from './app/page_minify';
-import { ColorPage } from './app/page_color';
-import { MetaPage } from './app/page_meta';
-import { CaseConverterPage } from './app/page_case_converter';
-import { DuplicateRemoverPage } from './app/page_duplicate_remover';
-import { TextReverserPage } from './app/page_text_reverser';
-import { ImageConverterPage } from './app/page_image_converter';
-import { ImageResizerPage } from './app/page_image_resizer';
-import { FaviconPage } from './app/page_favicon';
-import { UnixPage } from './app/page_unix_timestamp';
-import { MarkdownPage } from './app/page_markdown';
-import { SlugPage } from './app/page_slug';
-import { BinaryPage } from './app/page_binary';
-import { PomodoroPage } from './app/page_pomodoro';
-import { StopwatchPage } from './app/page_stopwatch';
-import { UnitConverterPage } from './app/page_unit_converter';
-import { HashPage } from './app/page_hash_generator';
-import { DiffPage } from './app/page_diff_checker';
-import { DevicePage } from './app/page_device_info';
-import { DiscountPage } from './app/page_discount_calculator';
-import { SalaryPage } from './app/page_salary_converter';
-import { RandomPage } from './app/page_random_number';
-import { WhatsAppPage } from './app/page_whatsapp';
-import { UtmPage } from './app/page_utm';
-import { CronPage } from './app/page_cron';
-import { PregnancyPage } from './app/page_pregnancy';
-import { InstagramPage } from './app/page_instagram';
-import { TDEEPage } from './app/page_tdee';
-import { WaterPage } from './app/page_water';
-import { SQLPage } from './app/page_sql_formatter';
-import { KeycodePage } from './app/page_keycode';
-import { MyIpPage } from './app/page_my_ip';
-import { JsonCsvPage } from './app/page_json_csv';
-import { SubnetPage } from './app/page_subnet';
-import { ShoeSizePage } from './app/page_shoe_size';
-import { CulinaryPage } from './app/page_culinary';
-import { NamePickerPage } from './app/page_name_picker';
-import { ListRandomizerPage } from './app/page_list_randomizer';
-import { ListSorterPage } from './app/page_list_sorter';
-import { PrefixSuffixPage } from './app/page_prefix_suffix';
-import { RandomCsvPage } from './app/page_random_csv';
-import { WeekNumberPage } from './app/page_week_number';
-import { WebEncodersPage } from './app/page_web_encoders';
-import { ReactionTimePage } from './app/page_reaction_time';
-import { MorsePage } from './app/page_morse';
-import { BMIPage } from './app/page_bmi';
-import { LoanPage } from './app/page_loan';
-import { AspectRatioPage } from './app/page_aspect_ratio';
-import { BoxShadowPage } from './app/page_box_shadow';
-import { TextToSpeechPage } from './app/page_text_to_speech';
-import { PasswordStrengthPage } from './app/page_password_strength';
-import { GradePage } from './app/page_grade_calculator';
-import { YouTubeThumbnailPage } from './app/page_youtube_thumbnail';
-import { PPIPage } from './app/page_ppi';
-import { CompoundInterestPage } from './app/page_compound_interest';
-import { CoinFlipPage } from './app/page_coin_flip';
-import { ChmodPage } from './app/page_chmod';
-import { CpfPage } from './app/page_cpf';
-import { ABNTPage } from './app/page_abnt';
-import { ROIPage } from './app/page_roi';
-import { ScoreboardPage } from './app/page_scoreboard';
-import { DeadPixelPage } from './app/page_dead_pixel';
-import { ReadingPage } from './app/page_reading';
-import { BitratePage } from './app/page_bitrate';
-import { SummarizerPage } from './app/page_summarizer';
-import { YouTubeTagsPage } from './app/page_youtube_tags';
-import { TipPage } from './app/page_tip';
-import { FantasyNamePage } from './app/page_fantasy_name';
-import { RaidPage } from './app/page_raid';
-import { YamlPage } from './app/page_yaml_json';
-import { JwtPage } from './app/page_jwt';
-import { LuhnPage } from './app/page_luhn';
-import { MetronomePage } from './app/page_metronome';
-import { PalettePage } from './app/page_palette';
-import { TimePage } from './app/page_time_converter';
-import { RegexPage } from './app/page_regex';
-import { RomanPage } from './app/page_roman';
-import { MemoPage } from './app/page_memo';
-import { GlassPage } from './app/page_glass';
-import { DensityPage } from './app/page_density';
-import { FiltersPage } from './app/page_filters';
-import { WheelPage } from './app/page_decision_wheel';
-import { SpinBottlePage } from './app/page_spin_bottle';
-import { PetNamePage } from './app/page_pet_name';
-import { BabyNamePage } from './app/page_baby_name';
-// New Import
-import { BusinessNamePage } from './app/page_business_name';
+
+// Lazy loading components using named export adapter pattern
+const HomePage = React.lazy(() => import('./app/page_home').then(module => ({ default: module.HomePage })));
+const PasswordPage = React.lazy(() => import('./app/page_password').then(module => ({ default: module.PasswordPage })));
+const JsonPage = React.lazy(() => import('./app/page_json_formatter').then(module => ({ default: module.JsonPage })));
+const WordCounterPage = React.lazy(() => import('./app/page_word_counter').then(module => ({ default: module.WordCounterPage })));
+const PercentagePage = React.lazy(() => import('./app/page_percentage').then(module => ({ default: module.PercentagePage })));
+const AgePage = React.lazy(() => import('./app/page_age').then(module => ({ default: module.AgePage })));
+const Base64Page = React.lazy(() => import('./app/page_base64').then(module => ({ default: module.Base64Page })));
+const UUIDPage = React.lazy(() => import('./app/page_uuid').then(module => ({ default: module.UUIDPage })));
+const LoremPage = React.lazy(() => import('./app/page_lorem_ipsum').then(module => ({ default: module.LoremPage })));
+const RuleOfThreePage = React.lazy(() => import('./app/page_rule_of_three').then(module => ({ default: module.RuleOfThreePage })));
+const QrPage = React.lazy(() => import('./app/page_qrcode').then(module => ({ default: module.QrPage })));
+const MinifyPage = React.lazy(() => import('./app/page_minify').then(module => ({ default: module.MinifyPage })));
+const ColorPage = React.lazy(() => import('./app/page_color').then(module => ({ default: module.ColorPage })));
+const MetaPage = React.lazy(() => import('./app/page_meta').then(module => ({ default: module.MetaPage })));
+const CaseConverterPage = React.lazy(() => import('./app/page_case_converter').then(module => ({ default: module.CaseConverterPage })));
+const DuplicateRemoverPage = React.lazy(() => import('./app/page_duplicate_remover').then(module => ({ default: module.DuplicateRemoverPage })));
+const TextReverserPage = React.lazy(() => import('./app/page_text_reverser').then(module => ({ default: module.TextReverserPage })));
+const ImageConverterPage = React.lazy(() => import('./app/page_image_converter').then(module => ({ default: module.ImageConverterPage })));
+const ImageResizerPage = React.lazy(() => import('./app/page_image_resizer').then(module => ({ default: module.ImageResizerPage })));
+const FaviconPage = React.lazy(() => import('./app/page_favicon').then(module => ({ default: module.FaviconPage })));
+const UnixPage = React.lazy(() => import('./app/page_unix_timestamp').then(module => ({ default: module.UnixPage })));
+const MarkdownPage = React.lazy(() => import('./app/page_markdown').then(module => ({ default: module.MarkdownPage })));
+const SlugPage = React.lazy(() => import('./app/page_slug').then(module => ({ default: module.SlugPage })));
+const BinaryPage = React.lazy(() => import('./app/page_binary').then(module => ({ default: module.BinaryPage })));
+const PomodoroPage = React.lazy(() => import('./app/page_pomodoro').then(module => ({ default: module.PomodoroPage })));
+const StopwatchPage = React.lazy(() => import('./app/page_stopwatch').then(module => ({ default: module.StopwatchPage })));
+const UnitConverterPage = React.lazy(() => import('./app/page_unit_converter').then(module => ({ default: module.UnitConverterPage })));
+const HashPage = React.lazy(() => import('./app/page_hash_generator').then(module => ({ default: module.HashPage })));
+const DiffPage = React.lazy(() => import('./app/page_diff_checker').then(module => ({ default: module.DiffPage })));
+const DevicePage = React.lazy(() => import('./app/page_device_info').then(module => ({ default: module.DevicePage })));
+const DiscountPage = React.lazy(() => import('./app/page_discount_calculator').then(module => ({ default: module.DiscountPage })));
+const SalaryPage = React.lazy(() => import('./app/page_salary_converter').then(module => ({ default: module.SalaryPage })));
+const RandomPage = React.lazy(() => import('./app/page_random_number').then(module => ({ default: module.RandomPage })));
+const WhatsAppPage = React.lazy(() => import('./app/page_whatsapp').then(module => ({ default: module.WhatsAppPage })));
+const UtmPage = React.lazy(() => import('./app/page_utm').then(module => ({ default: module.UtmPage })));
+const CronPage = React.lazy(() => import('./app/page_cron').then(module => ({ default: module.CronPage })));
+const PregnancyPage = React.lazy(() => import('./app/page_pregnancy').then(module => ({ default: module.PregnancyPage })));
+const InstagramPage = React.lazy(() => import('./app/page_instagram').then(module => ({ default: module.InstagramPage })));
+const TDEEPage = React.lazy(() => import('./app/page_tdee').then(module => ({ default: module.TDEEPage })));
+const WaterPage = React.lazy(() => import('./app/page_water').then(module => ({ default: module.WaterPage })));
+const SQLPage = React.lazy(() => import('./app/page_sql_formatter').then(module => ({ default: module.SQLPage })));
+const KeycodePage = React.lazy(() => import('./app/page_keycode').then(module => ({ default: module.KeycodePage })));
+const MyIpPage = React.lazy(() => import('./app/page_my_ip').then(module => ({ default: module.MyIpPage })));
+const JsonCsvPage = React.lazy(() => import('./app/page_json_csv').then(module => ({ default: module.JsonCsvPage })));
+const SubnetPage = React.lazy(() => import('./app/page_subnet').then(module => ({ default: module.SubnetPage })));
+const ShoeSizePage = React.lazy(() => import('./app/page_shoe_size').then(module => ({ default: module.ShoeSizePage })));
+const CulinaryPage = React.lazy(() => import('./app/page_culinary').then(module => ({ default: module.CulinaryPage })));
+const NamePickerPage = React.lazy(() => import('./app/page_name_picker').then(module => ({ default: module.NamePickerPage })));
+const ListRandomizerPage = React.lazy(() => import('./app/page_list_randomizer').then(module => ({ default: module.ListRandomizerPage })));
+const ListSorterPage = React.lazy(() => import('./app/page_list_sorter').then(module => ({ default: module.ListSorterPage })));
+const PrefixSuffixPage = React.lazy(() => import('./app/page_prefix_suffix').then(module => ({ default: module.PrefixSuffixPage })));
+const RandomCsvPage = React.lazy(() => import('./app/page_random_csv').then(module => ({ default: module.RandomCsvPage })));
+const WeekNumberPage = React.lazy(() => import('./app/page_week_number').then(module => ({ default: module.WeekNumberPage })));
+const WebEncodersPage = React.lazy(() => import('./app/page_web_encoders').then(module => ({ default: module.WebEncodersPage })));
+const ReactionTimePage = React.lazy(() => import('./app/page_reaction_time').then(module => ({ default: module.ReactionTimePage })));
+const MorsePage = React.lazy(() => import('./app/page_morse').then(module => ({ default: module.MorsePage })));
+const BMIPage = React.lazy(() => import('./app/page_bmi').then(module => ({ default: module.BMIPage })));
+const LoanPage = React.lazy(() => import('./app/page_loan').then(module => ({ default: module.LoanPage })));
+const AspectRatioPage = React.lazy(() => import('./app/page_aspect_ratio').then(module => ({ default: module.AspectRatioPage })));
+const BoxShadowPage = React.lazy(() => import('./app/page_box_shadow').then(module => ({ default: module.BoxShadowPage })));
+const TextToSpeechPage = React.lazy(() => import('./app/page_text_to_speech').then(module => ({ default: module.TextToSpeechPage })));
+const PasswordStrengthPage = React.lazy(() => import('./app/page_password_strength').then(module => ({ default: module.PasswordStrengthPage })));
+const GradePage = React.lazy(() => import('./app/page_grade_calculator').then(module => ({ default: module.GradePage })));
+const YouTubeThumbnailPage = React.lazy(() => import('./app/page_youtube_thumbnail').then(module => ({ default: module.YouTubeThumbnailPage })));
+const PPIPage = React.lazy(() => import('./app/page_ppi').then(module => ({ default: module.PPIPage })));
+const CompoundInterestPage = React.lazy(() => import('./app/page_compound_interest').then(module => ({ default: module.CompoundInterestPage })));
+const CoinFlipPage = React.lazy(() => import('./app/page_coin_flip').then(module => ({ default: module.CoinFlipPage })));
+const ChmodPage = React.lazy(() => import('./app/page_chmod').then(module => ({ default: module.ChmodPage })));
+const CpfPage = React.lazy(() => import('./app/page_cpf').then(module => ({ default: module.CpfPage })));
+const ABNTPage = React.lazy(() => import('./app/page_abnt').then(module => ({ default: module.ABNTPage })));
+const ROIPage = React.lazy(() => import('./app/page_roi').then(module => ({ default: module.ROIPage })));
+const ScoreboardPage = React.lazy(() => import('./app/page_scoreboard').then(module => ({ default: module.ScoreboardPage })));
+const DeadPixelPage = React.lazy(() => import('./app/page_dead_pixel').then(module => ({ default: module.DeadPixelPage })));
+const ReadingPage = React.lazy(() => import('./app/page_reading').then(module => ({ default: module.ReadingPage })));
+const BitratePage = React.lazy(() => import('./app/page_bitrate').then(module => ({ default: module.BitratePage })));
+const SummarizerPage = React.lazy(() => import('./app/page_summarizer').then(module => ({ default: module.SummarizerPage })));
+const YouTubeTagsPage = React.lazy(() => import('./app/page_youtube_tags').then(module => ({ default: module.YouTubeTagsPage })));
+const TipPage = React.lazy(() => import('./app/page_tip').then(module => ({ default: module.TipPage })));
+const FantasyNamePage = React.lazy(() => import('./app/page_fantasy_name').then(module => ({ default: module.FantasyNamePage })));
+const RaidPage = React.lazy(() => import('./app/page_raid').then(module => ({ default: module.RaidPage })));
+const YamlPage = React.lazy(() => import('./app/page_yaml_json').then(module => ({ default: module.YamlPage })));
+const JwtPage = React.lazy(() => import('./app/page_jwt').then(module => ({ default: module.JwtPage })));
+const LuhnPage = React.lazy(() => import('./app/page_luhn').then(module => ({ default: module.LuhnPage })));
+const MetronomePage = React.lazy(() => import('./app/page_metronome').then(module => ({ default: module.MetronomePage })));
+const PalettePage = React.lazy(() => import('./app/page_palette').then(module => ({ default: module.PalettePage })));
+const TimePage = React.lazy(() => import('./app/page_time_converter').then(module => ({ default: module.TimePage })));
+const RegexPage = React.lazy(() => import('./app/page_regex').then(module => ({ default: module.RegexPage })));
+const RomanPage = React.lazy(() => import('./app/page_roman').then(module => ({ default: module.RomanPage })));
+const MemoPage = React.lazy(() => import('./app/page_memo').then(module => ({ default: module.MemoPage })));
+const GlassPage = React.lazy(() => import('./app/page_glass').then(module => ({ default: module.GlassPage })));
+const DensityPage = React.lazy(() => import('./app/page_density').then(module => ({ default: module.DensityPage })));
+const FiltersPage = React.lazy(() => import('./app/page_filters').then(module => ({ default: module.FiltersPage })));
+const WheelPage = React.lazy(() => import('./app/page_decision_wheel').then(module => ({ default: module.WheelPage })));
+const SpinBottlePage = React.lazy(() => import('./app/page_spin_bottle').then(module => ({ default: module.SpinBottlePage })));
+const PetNamePage = React.lazy(() => import('./app/page_pet_name').then(module => ({ default: module.PetNamePage })));
+const BabyNamePage = React.lazy(() => import('./app/page_baby_name').then(module => ({ default: module.BabyNamePage })));
+const BusinessNamePage = React.lazy(() => import('./app/page_business_name').then(module => ({ default: module.BusinessNamePage })));
+
+// Loading Component
+const LoadingSpinner = () => (
+  <div className="flex items-center justify-center min-h-[50vh]">
+    <div className="w-10 h-10 border-4 border-slate-200 border-t-slate-800 rounded-full animate-spin"></div>
+  </div>
+);
 
 // Middleware-like component to handle Language logic
 const LangLayout = () => {
   const { lang } = useParams<{ lang: string }>();
-  const location = useLocation();
 
   // Validate Language
   const isValidLang = lang === 'en' || lang === 'pt' || lang === 'es';
 
-  // If invalid language, redirect to English but keep the path tail if possible, 
-  // or just go to root (which triggers the detector)
+  // If invalid language, redirect to English
   if (!isValidLang) {
     return <Navigate to="/en" replace />;
   }
@@ -124,7 +130,9 @@ const LangLayout = () => {
     <div className="flex min-h-screen flex-col bg-white">
       <Navbar lang={currentLang} dict={dict} />
       <div className="flex-1">
-        <Outlet context={{ lang: currentLang, dict }} />
+        <Suspense fallback={<LoadingSpinner />}>
+          <Outlet context={{ lang: currentLang, dict }} />
+        </Suspense>
       </div>
       <Footer dict={dict} />
     </div>
@@ -715,7 +723,6 @@ const BabyNameWrapper = () => {
   return <BabyNamePage dict={d} />;
 };
 
-// Batch 13
 const BusinessNameWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
   const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
@@ -843,8 +850,6 @@ const App: React.FC = () => {
           <Route path="spin-the-bottle" element={<BottleWrapper />} />
           <Route path="pet-name-generator" element={<PetNameWrapper />} />
           <Route path="baby-name-generator" element={<BabyNameWrapper />} />
-
-          {/* New Route Batch 13 */}
           <Route path="business-name-generator" element={<BusinessNameWrapper />} />
         </Route>
 
