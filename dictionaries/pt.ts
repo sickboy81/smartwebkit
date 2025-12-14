@@ -269,7 +269,10 @@ export const pt: Dictionary = {
       "title": "Verificador de Diferenças",
       "seo_title": "Ferramenta Diff Online",
       "seo_content": [
-        "Compare dois blocos de texto e encontre as diferenças."
+        "Compare dois blocos de texto lado a lado e identifique instantaneamente todas as diferenças com nossa ferramenta online de Comparação de Texto (Diff Checker). Seja você um desenvolvedor revisando alterações de código, um escritor editando rascunhos ou um estudante comparando anotações, encontrar pequenas discrepâncias manualmente pode ser frustrante e propenso a erros. Nossa ferramenta automatiza esse processo, destacando adições, exclusões e modificações com clareza visual.",
+        "Cole seu texto original à esquerda e a versão modificada à direita. Clique em 'Comparar' e nossa ferramenta gerará uma visualização detalhada das diferenças. O texto removido é destacado em vermelho, enquanto o texto adicionado aparece em verde. Isso permite que você veja exatamente o que mudou, caractere por caractere ou linha por linha. É uma utilidade essencial para controle de versão, depuração e revisão de conteúdo.",
+        "Nossa ferramenta Diff Checker é construída para velocidade e privacidade. Ao contrário de muitos serviços online que enviam seus dados para um servidor para processamento, nossa comparação acontece inteiramente no seu navegador usando algoritmos JavaScript eficientes. Isso significa que seus documentos confidenciais, códigos proprietários ou dados pessoais nunca saem do seu dispositivo. Você pode comparar textos de qualquer tamanho sem se preocupar com a segurança dos dados.",
+        "Além da comparação simples de texto, essa ferramenta é inestimável para mesclar alterações, verificar integridade de dados e detectar plágio. Desenvolvedores podem usá-la para comparar arquivos de configuração ou saídas de log. Escritores podem rastrear revisões entre diferentes versões de um artigo. Simplifique seu fluxo de trabalho de revisão e elimine a adivinhação com nossa ferramenta de comparação de texto precisa e privada."
       ],
       "label_original": "Texto Original",
       "label_modified": "Texto Modificado",
@@ -383,7 +386,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Números Aleatórios",
       "seo_title": "Ferramenta RNG",
       "seo_content": [
-        "Gere números aleatórios dentro de um intervalo específico."
+        "Gere números aleatórios verdadeiros com nosso Gerador de Números Aleatórios (RNG) online. Se você precisa escolher um vencedor para um sorteio, selecionar participantes para uma pesquisa, simular dados para testes ou simplesmente tomar uma decisão imparcial, nossa ferramenta oferece aleatoriedade criptograficamente segura. Ao contrário da pseudo-aleatoriedade simples, nosso gerador utiliza APIs avançadas do navegador para garantir que cada número seja imprevisível e estatisticamente independente.",
+        "Nossa interface flexível permite que você defina um intervalo personalizado (Mínimo e Máximo) e escolha quantos números gerar de uma só vez. Você também tem a opção de 'Sem Repetição', garantindo que cada número sorteado seja único dentro do seu conjunto. Isso é perfeito para loterias, jogos de bingo ou qualquer cenário onde duplicatas não são permitidas. Os resultados são apresentados instantaneamente em uma lista clara, prontos para serem copiados.",
+        "A aleatoriedade é crucial em muitos campos, desde a ciência da computação e estatística até jogos e criptografia. Humanos são notoriamente ruins em gerar sequências aleatórias — tendemos a favorecer certos padrões. Uma ferramenta digital elimina esse viés humano, garantindo justiça e precisão. Use-a para criar senhas, chaves de API, dados de amostra ou para resolver disputas de forma justa.",
+        "Esta ferramenta é gratuita, rápida e funciona totalmente offline após o carregamento. Não há necessidade de instalar software ou registrar uma conta. Obtenha seus números aleatórios instantaneamente, com a confiança de que eles são verdadeiramente aleatórios e seus dados permanecem privados."
       ],
       "label_min": "Mín",
       "label_max": "Máx",
@@ -636,7 +642,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Cron Job",
       "seo_title": "Gerador Crontab Online",
       "seo_content": [
-        "Gere visualmente expressões de agendamento Cron para Unix/Linux."
+        "Crie e decifre expressões cron com facilidade usando nosso Gerador de Cron Job visual. O Cron é um agendador de tarefas baseado em tempo em sistemas operacionais Unix (como Linux e macOS), usado para configurar comandos para serem executados periodicamente em horários, datas ou intervalos fixos. No entanto, a sintaxe do cron (por exemplo, '5 4 * * 0') pode ser críptica e difícil de memorizar, levando a erros de agendamento que podem causar falhas no sistema ou tarefas perdidas.",
+        "Nossa ferramenta simplifica esse processo com uma interface gráfica intuitiva. Em vez de lidar com asteriscos e números, você pode selecionar opções legíveis por humanos: 'A cada minuto', 'A cada hora', 'Diariamente às 00:00', 'Semanalmente', 'Mensalmente', ou definir horários específicos (minutos, horas, dias do mês, meses, dias da semana). A ferramenta gera instantaneamente a string cron correspondente atualizada em tempo real.",
+        "Também fornecemos uma descrição em linguagem natural da sua programação (por exemplo, 'Às 04:05 no domingo'), para que você possa verificar exatamente o que o cron fará. Isso é inestimável para administradores de sistemas, engenheiros de DevOps e desenvolvedores backend que precisam agendar backups, limpezas de banco de dados, envios de e-mail ou scripts de manutenção.",
+        "Além de gerar, você pode usar a ferramenta para depurar expressões cron existentes colando-as para ver sua tradução humana. Suportamos a sintaxe padrão de 5 campos. Evite dores de cabeça com agendamento e garanta que suas tarefas automatizadas sejam executadas exatamente quando você espera com nosso confiável Gerador de Cron Job."
       ],
       "label_minute": "Minuto",
       "label_hour": "Hora",
@@ -1130,10 +1139,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de PPI (Pixels Por Polegada)",
       "seo_title": "Calculadora de Densidade de Tela",
       "seo_content": [
-        "Calcule o PPI (Pixels Por Polegada) de qualquer tela com nossa calculadora precisa de densidade de pixels. O PPI (ou DPI - Pontos Por Polegada) é uma métrica crucial para entender a nitidez de uma tela. Quanto maior o PPI, mais nítida a imagem, pois os pixels individuais se tornam menores e menos visíveis a olho nu. Os monitores 'Retina' da Apple popularizaram o conceito de telas de alta densidade.",
-        "Para usar a ferramenta, insira a resolução da tela em pixels (Largura x Altura) e o tamanho da tela diagonal em polegadas. Por exemplo, uma tela Full HD padrão é 1920x1080. Se for um monitor de 24 polegadas, o PPI é de cerca de 91. Se for um laptop de 15 polegadas, o PPI salta para 146.",
-        "Designers e desenvolvedores usam esses dados para determinar para qual escala devem projetar ativos (1x, 2x, 3x). Os jogadores a usam para escolher a tela certa para sua configuração, equilibrando a nitidez com o desempenho. Saber o PPI exato ajuda você a comparar dispositivos lado a lado além das especificações de marketing.",
-        "Também calculamos a contagem total de pixels e a proporção. Descubra a verdadeira clareza do seu monitor, smartphone ou tablet instantaneamente."
+        "Calcule a densidade de pixels (PPI) de qualquer monitor ou tela com precisão usando nossa Calculadora de PPI. PPI, ou Pixels Por Polegada, é uma medida fundamental da qualidade de exibição e nitidez da imagem. Quanto maior o PPI, mais imperceptíveis são os pixels individuais, resultando em textos mais nítidos e imagens mais detalhadas. Isso é essencial para designers gráficos, fotógrafos e entusiastas de tecnologia que valorizam a fidelidade visual.",
+        "Para usar a ferramenta, basta inserir a resolução da tela (Largura e Altura em pixels) e o tamanho da diagonal da tela (em polegadas). Nossa calculadora aplica o Teorema de Pitágoras para determinar a diagonal em pixels e, em seguida, divide pelo tamanho físico para fornecer o valor exato de PPI. Também calculamos o número total de pixels na tela e a proporção (aspect ratio), oferecendo uma visão completa das especificações do seu display.",
+        "Entender o PPI é crucial ao comparar dispositivos. Por exemplo, um monitor 4K de 27 polegadas tem um PPI muito maior do que um monitor 1080p do mesmo tamanho, o que significa que você tem muito mais espaço de tela real e clareza. Desenvolvedores de aplicativos usam dados de PPI para garantir que suas interfaces sejam dimensionadas corretamente em diferentes dispositivos, desde relógios inteligentes até televisores enormes.",
+        "Se você está planejando comprar um novo laptop, monitor ou smartphone, use esta ferramenta para verificar além das especificações de marketing. Saiba exatamente quão nítida será a sua experiência de visualização. A ferramenta é rápida, gratuita e funciona em qualquer dispositivo."
       ],
       "label_width": "Largura (px)",
       "label_height": "Altura (px)",
@@ -1148,10 +1157,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Juros Compostos",
       "seo_title": "Simulador de Juros Compostos Online",
       "seo_content": [
-        "Visualize o poder do crescimento exponencial com nossa Calculadora de Juros Compostos. Albert Einstein supostamente chamou os juros compostos de 'oitava maravilha do mundo'. Ao contrário dos juros simples, que crescem linearmente, os juros compostos rendem juros sobre seus juros, fazendo com que sua riqueza acelere ao longo do tempo.",
-        "Esta ferramenta permite simular cenários de investimento. Insira seu 'Investimento Inicial' (Principal), qual 'Aporte Mensal' você planeja adicionar, a 'Taxa de Juros Anual' esperada (retorno) e o 'Tempo' em anos. Nossa calculadora projeta imediatamente o Valor Total Futuro e, crucialmente, separa o 'Total em Juros' ganho.",
-        "Muitas vezes, pequenos depósitos regulares superam uma grande soma única devido à mágica do tempo. Use isso para planejar a aposentadoria, poupar para a faculdade ou definir metas financeiras. Veja a diferença entre começar agora versus esperar 5 anos.",
-        "Sem planilhas complexas, apenas insights financeiros claros. Planeje seu caminho para a liberdade financeira hoje."
+        "Projete seu futuro financeiro e visualize o crescimento de seus investimentos com nossa Calculadora de Juros Compostos. Frequentemente chamados de 'a oitava maravilha do mundo', os juros compostos são o princípio pelo qual seu dinheiro ganha juros sobre os juros já acumulados, levando a um crescimento exponencial ao longo do tempo. É a ferramenta mais poderosa para construir riqueza a longo prazo.",
+        "Nossa calculadora permite que você insira seu Investimento Inicial, seus Aportes Mensais regulares, a Taxa de Juros Anual estimada e o período de Tempo em anos. A ferramenta gera instantaneamente uma projeção clara, mostrando não apenas o Valor Total Final, mas também quanto desse valor veio de seus depósitos versus quanto foi ganho puramente através de juros. Ver essa divisão pode ser incrivelmente motivador para poupadores.",
+        "Use esta ferramenta para planejar sua aposentadoria, economizar para a entrada de uma casa ou criar um fundo para a faculdade dos filhos. Experimente diferentes cenários: veja o que acontece se você aumentar sua contribuição mensal em R$ 100 ou se conseguir uma taxa de retorno ligeiramente melhor. Pequenas mudanças hoje podem resultar em diferenças enormes em 10 ou 20 anos.",
+        "Quer você seja um investidor iniciante ou experiente, entender a matemática por trás do crescimento do capital é essencial. Nossa ferramenta oferece clareza financeira gratuita e instantânea, ajudando você a tomar decisões inteligentes com seu dinheiro hoje para um amanhã mais próspero."
       ],
       "label_principal": "Investimento Inicial",
       "label_monthly": "Aporte Mensal",
@@ -1284,10 +1293,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Tempo de Leitura",
       "seo_title": "Calculadora de Leitura de Livros (Metas Diárias)",
       "seo_content": [
-        "Atinga suas metas de leitura com nosso Planejador de Leitura de Livros. Quer ler mais livros este ano, mas acha difícil manter o ritmo? Dividir um livro grande em partes diárias gerenciáveis é o segredo para construir um hábito de leitura consistente.",
-        "Insira o 'Total de Páginas' do livro que você está lendo (ou planeja ler). Em seguida, decida em quantos 'Dias' você quer terminá-lo (por exemplo, 7 dias, 30 dias). A ferramenta calcula instantaneamente quantas páginas você precisa ler a cada dia para atingir esse prazo.",
-        "Alternativamente, você pode usá-lo ao contrário: ajuste os dias até encontrar uma contagem de páginas diárias que pareça viável para sua agenda (por exemplo, 20 páginas/dia). É perfeito para estudantes com listas de leitura atribuídas, membros de clubes do livro ou qualquer pessoa que participe de um desafio de leitura.",
-        "Pare de se sentir sobrecarregado por livros grossos. Crie um roteiro claro para a conclusão e aproveite sua jornada de leitura, um dia de cada vez."
+        "Planeje, acompanhe e atinja suas metas literárias com nosso Planejador de Leitura de Livros. Ler mais é um objetivo comum, mas livros grandes podem parecer intimidantes, e a vida muitas vezes atrapalha. Nossa calculadora transforma a tarefa assustadora de terminar um livro em metas diárias pequenas e alcançáveis, ajudando você a construir um hábito de leitura consistente e prazeroso.",
+        "O funcionamento é simples: insira o número total de páginas do livro que você deseja ler e defina seu prazo desejado (em dias). A ferramenta calcula exatamente quantas páginas você precisa ler por dia para terminar a tempo. Alternativamente, você pode usar a abordagem inversa: veja quanto tempo levará para ler um livro se você ler um certo número de páginas por dia. Isso permite ajustar seu plano à sua realidade e velocidade de leitura.",
+        "Esta ferramenta é ideal para estudantes com cronogramas de leitura apertados para exames, membros de clubes do livro que precisam terminar a leitura do mês antes da reunião, ou qualquer pessoa participando de desafios de leitura anuais. Saber que você só precisa ler 15 páginas hoje é muito mais gerenciável do que pensar nas 400 páginas restantes.",
+        "Cultivar o hábito da leitura enriquece a mente e reduz o estresse. Use nosso planejador para remover a ansiedade do progresso e focar na alegria da leitura. Estabeleça sua meta, siga o plano e veja sua pilha de livros lidos crescer."
       ],
       "label_pages": "Total de Páginas",
       "label_days": "Dias para Terminar",
@@ -1477,7 +1486,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Paleta de Cores",
       "seo_title": "Gerador de Esquema de Cores",
       "seo_content": [
-        "Crie esquemas de cores complementares, análogos e triádicos."
+        "Crie paletas de cores impressionantes e harmoniosas instantaneamente com nosso Gerador de Paleta de Cores online. Escolher as cores certas é fundamental para qualquer projeto de design, seja um site, uma marca, uma ilustração ou decoração de interiores. Cores que não combinam podem arruinar a estética, enquanto uma paleta bem equilibrada evoca a emoção certa e guia o olhar do usuário. Nossa ferramenta usa a teoria das cores para garantir harmonia matemática.",
+        "Comece escolhendo uma Cor Base usando nosso seletor de cores intuitivo. A ferramenta gera automaticamente três tipos essenciais de esquemas de cores baseados na sua escolha: Complementar (alto contraste para destaque), Análogo (cores vizinhas para calma e uniformidade) e Triádico (três cores equidistantes para vibração e equilíbrio). Cada cor vem com seu código HEX preciso, pronto para ser copiado e colado no seu CSS ou software de design.",
+        "Esta ferramenta é indispensável para designers web, artistas digitais e criativos em geral. Ela elimina a adivinhação do processo de correspondência de cores. Experimente diferentes tons e saturações para ver como eles afetam as harmonias geradas em tempo real. Visualize como as cores interagem antes de se comprometer com um esquema final.",
+        "Não deixe que a escolha de cores atrase seu projeto. Use a ciência da teoria das cores para criar designs visualmente atraentes e profissionais em segundos. Inspire-se e traga vida às suas criações com a paleta perfeita."
       ],
       "label_base": "Cor Base",
       "sec_complementary": "Complementar",

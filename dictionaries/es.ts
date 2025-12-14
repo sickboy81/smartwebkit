@@ -264,18 +264,21 @@ export const es: Dictionary = {
       "btn_copied": "Copiado!"
     },
     "diff_checker": {
-      "name": "Comparador de Texto",
-      "description": "Compare dois arquivos de texto.",
-      "title": "Verificador de Diferenças",
-      "seo_title": "Ferramenta Diff Online",
+      "name": "Verificador de Diferencias",
+      "description": "Comparar archivos de texto.",
+      "title": "Verificador de Diferencias de Texto",
+      "seo_title": "Herramienta Diff Online",
       "seo_content": [
-        "Compare dois blocos de texto e encontre as diferenças."
+        "Comparar archivos de texto y encontrar diferencias al instante con nuestro Verificador de Diferencias online. Ya sea que seas un desarrollador revisando cambios de código, un escritor editando borradores o un estudiante comparando notas, esta herramienta resalta adiciones, eliminaciones y modificaciones lado a lado. Visualiza los cambios con una codificación de colores clara—rojo para eliminaciones y verde para adiciones—haciendo fácil detectar incluso las alteraciones más pequeñas.",
+        "Pega tu texto original en el panel izquierdo y el texto modificado en el panel derecho. La herramienta calcula automáticamente las diferencias y las muestra en una vista unificada o dividida. Es particularmente útil para depurar código, verificar plagio o rastrear el historial de versiones en documentos.",
+        "Esta herramienta se ejecuta completamente en tu navegador utilizando algoritmos eficientes para procesar grandes bloques de texto rápidamente. No se envían datos a ningún servidor, asegurando la privacidad de tus documentos confidenciales o código propietario. Detecta la diferencia en segundos y ahorra horas de revisión manual.",
+        "Perfecto para comparaciones rápidas sin necesidad de instalar complejos complementos de IDE o herramientas de línea de comandos. Optimiza tu proceso de revisión hoy."
       ],
       "label_original": "Texto Original",
       "label_modified": "Texto Modificado",
       "btn_compare": "Comparar",
-      "legend_removed": "Removido",
-      "legend_added": "Adicionado"
+      "legend_removed": "Eliminado",
+      "legend_added": "Agregado"
     },
     "percentage_calculator": {
       "name": "Calculadora de Porcentagem",
@@ -378,20 +381,23 @@ export const es: Dictionary = {
       "res_annual": "Anual"
     },
     "random_number_generator": {
-      "name": "Gerador de Números Aleatórios",
-      "description": "Escolha números para sorteios.",
-      "title": "Gerador de Números Aleatórios",
-      "seo_title": "Ferramenta RNG",
+      "name": "Generador de Números Aleatorios",
+      "description": "Elija números para sorteos.",
+      "title": "Generador de Números Aleatorios",
+      "seo_title": "Herramienta RNG",
       "seo_content": [
-        "Gere números aleatórios dentro de um intervalo específico."
+        "Genera números aleatorios verdaderos al instante con nuestro flexible Generador de Números Aleatorios. Ya sea que necesites elegir un ganador de lotería, determinar el orden de oradores en una reunión o generar datos de prueba para el desarrollo de software, esta herramienta proporciona resultados imparciales e impredecibles.",
+        "Puedes especificar un rango personalizado configurando los valores Mínimo y Máximo (por ejemplo, entre 1 y 100). También tienes control sobre la cantidad de números a generar a la vez. ¿Necesitas 5 números únicos para un sorteo? Simplemente activa la opción 'Sin duplicados' para asegurar que cada número en el conjunto sea distinto.",
+        "Nuestra herramienta utiliza aleatoriedad criptográficamente fuerte asegurando equidad para concursos y muestreo científico. Los resultados se muestran claramente y se pueden copiar al portapapeles con un solo clic.",
+        "Esta utilidad funciona sin conexión y es completamente gratuita. Desde simples juegos de azar hasta muestreos estadísticos complejos, la aleatoriedad confiable está a solo un clic de distancia."
       ],
       "label_min": "Mín",
       "label_max": "Máx",
-      "label_quantity": "Quantidade",
-      "label_unique": "Sem repetição",
-      "btn_generate": "Gerar",
+      "label_quantity": "Cantidad",
+      "label_unique": "Sin repetición",
+      "btn_generate": "Generar",
       "btn_copy": "Copiar",
-      "btn_copied": "Copiado!"
+      "btn_copied": "¡Copiado!"
     },
     "age_calculator": {
       "name": "Calculadora de Idade",
@@ -631,21 +637,24 @@ export const es: Dictionary = {
       "btn_copy": "Copiar URL"
     },
     "cron_generator": {
-      "name": "Gerador de Cron Job",
-      "description": "Crie expressões de agendamento cron.",
-      "title": "Gerador de Cron Job",
-      "seo_title": "Gerador Crontab Online",
+      "name": "Generador de Cron Job",
+      "description": "Cree expresiones de programación cron.",
+      "title": "Generador de Cron Job",
+      "seo_title": "Generador Crontab Online",
       "seo_content": [
-        "Gere visualmente expressões de agendamento Cron para Unix/Linux."
+        "Crea expresiones de programación Cron complejas fácilmente con nuestro Generador de Cron Job visual. Cron es un programador de trabajos basado en tiempo en sistemas operativos tipo Unix, utilizado para programar comandos o scripts para que se ejecuten periódicamente en momentos, fechas o intervalos fijos. Escribir la sintaxis correcta (por ejemplo, '0 5 * * 1') puede ser confuso y propenso a errores.",
+        "Nuestra interfaz intuitiva te permite seleccionar minutos, horas, días, meses y días de la semana a través de simples menús desplegables y listas de verificación. Puedes configurar trabajos para que se ejecuten cada minuto, cada hora, diariamente a una hora específica o en días específicos de la semana. La herramienta genera instantáneamente la cadena de expresión Cron correspondiente.",
+        "También explicamos qué significa tu expresión en lenguaje sencillo (por ejemplo, 'A las 04:05 el lunes'). Esto ayuda a verificar que tu programación coincida con tu intención antes de implementarla en el crontab de tu servidor.",
+        "Perfecto para administradores de sistemas, desarrolladores e ingenieros DevOps. Elimina errores de sintaxis y asegura que tus copias de seguridad, actualizaciones y scripts de mantenimiento se ejecuten exactamente cuando se supone que deben hacerlo."
       ],
       "label_minute": "Minuto",
       "label_hour": "Hora",
-      "label_day": "Dia do Mês",
-      "label_month": "Mês",
-      "label_week": "Dia da Semana",
-      "res_expression": "Expressão Cron",
-      "desc_every": "Todo(a)",
-      "desc_at": "Às"
+      "label_day": "Día del Mes",
+      "label_month": "Mes",
+      "label_week": "Día de la Semana",
+      "res_expression": "Expresión Cron",
+      "desc_every": "Cada",
+      "desc_at": "A las"
     },
     "pregnancy_calculator": {
       "name": "Calculadora de Embarazo",
@@ -1125,34 +1134,40 @@ export const es: Dictionary = {
     },
     "ppi_calculator": {
       "name": "Calculadora PPI",
-      "description": "Calcule densidade de pixels.",
-      "title": "Calculadora de PPI (Pixels Por Polegada)",
-      "seo_title": "Calculadora de Densidade de Tela",
+      "description": "Calcule densidad de píxeles.",
+      "title": "Calculadora de PPI (Píxeles Por Pulgada)",
+      "seo_title": "Calculadora de Densidad de Pantalla",
       "seo_content": [
-        "Calcule o PPI (Pixels Por Polegada) de telas com base na resolução e tamanho."
+        "Calcula la densidad de píxeles de cualquier pantalla con nuestra Calculadora de PPI (Píxeles Por Pulgada). PPI es una medida de la densidad de píxeles de la pantalla (calidad de resolución). Entender el PPI es crucial para diseñadores y desarrolladores para asegurar que su contenido se vea nítido en varios dispositivos, desde teléfonos inteligentes y tabletas hasta monitores 4K.",
+        "Para usar la calculadora, simplemente ingresa la resolución horizontal y vertical de la pantalla (por ejemplo, 1920 x 1080) y el tamaño diagonal de la pantalla en pulgadas (por ejemplo, 24). La herramienta utiliza el teorema de Pitágoras para calcular la resolución diagonal y luego la divide por el tamaño de la pantalla para determinar el PPI exacto.",
+        "Un PPI más alto significa una imagen más nítida donde los píxeles individuales son más difíciles de distinguir. Por ejemplo, las pantallas 'Retina' típicamente tienen un PPI superior a 300. Esta herramienta también calcula el número total de píxeles en la pantalla, dándote una idea de la capacidad de información total de la pantalla.",
+        "Ya sea que estés comprando un nuevo monitor y quieras verificar su nitidez o diseñando una interfaz receptiva, esta herramienta proporciona las especificaciones técnicas que necesitas al instante."
       ],
-      "label_width": "Largura (px)",
-      "label_height": "Altura (px)",
-      "label_diagonal": "Diagonal (pol)",
+      "label_width": "Ancho (px)",
+      "label_height": "Alto (px)",
+      "label_diagonal": "Diagonal (pulg)",
       "btn_calculate": "Calcular",
       "res_ppi": "PPI",
-      "res_total": "Total de Pixels"
+      "res_total": "Total de Píxeles"
     },
     "compound_interest": {
-      "name": "Juros Compostos",
-      "description": "Calcule o crescimento do investimento.",
-      "title": "Calculadora de Juros Compostos",
-      "seo_title": "Simulador de Juros Compostos",
+      "name": "Interés Compuesto",
+      "description": "Calcule el crecimiento de la inversión.",
+      "title": "Calculadora de Interés Compuesto",
+      "seo_title": "Simulador de Interés Compuesto",
       "seo_content": [
-        "Calcule como seus investimentos crescem ao longo do tempo com juros compostos."
+        "Visualiza el poder de la inversión a largo plazo con nuestra Calculadora de Interés Compuesto. Albert Einstein supuestamente llamó al interés compuesto la 'octava maravilla del mundo' porque permite que tu dinero gane dinero sobre sí mismo. Esta herramienta te ayuda a proyectar cuánto crecerán tus ahorros o inversiones con el tiempo.",
+        "Ingresa tu 'Inversión Inicial' (Principal), la 'Contribución Mensual' que planeas agregar, la 'Tasa de Interés Anual' estimada (retorno) y el 'Período de Tiempo' en años. La calculadora calcula el valor futuro de tu inversión, desglosándolo en el monto total contribuido y el interés total ganado.",
+        "Te sorprenderá ver cómo pequeñas contribuciones regulares pueden crecer hasta convertirse en una riqueza significativa durante 20 o 30 años debido a la capitalización. Esta herramienta es esencial para la planificación de la jubilación, ahorrar para una casa construir un fondo educativo.",
+        "Compara diferentes escenarios al instante. ¿Qué pasa si ahorras $50 más por mes? ¿Qué pasa si obtienes un rendimiento del 7% en lugar del 5%? Toma decisiones financieras informadas y comienza tu viaje hacia la libertad financiera hoy."
       ],
-      "label_principal": "Investimento Inicial",
-      "label_monthly": "Aporte Mensal",
-      "label_rate": "Taxa de Juros Anual (%)",
-      "label_years": "Tempo (Anos)",
+      "label_principal": "Inversión Inicial",
+      "label_monthly": "Aporte Mensual",
+      "label_rate": "Tasa de Interés Anual (%)",
+      "label_years": "Tiempo (Años)",
       "btn_calculate": "Calcular",
       "res_total": "Valor Total",
-      "res_interest": "Total em Juros"
+      "res_interest": "Total en Intereses"
     },
     "coin_flip": {
       "name": "Cara o Cruz",
@@ -1262,23 +1277,26 @@ export const es: Dictionary = {
       "title": "Verificador de Dead Pixel",
       "seo_title": "Teste de Tela Dead Pixel",
       "seo_content": [
-        "Pisca cores sólidas na tela para encontrar pixels mortos ou presos."
+        "Pisca cores sólidas na tela para encontrar pixels mortos o presos."
       ],
       "msg_start": "Clique para Iniciar Teste",
       "msg_instruct": "Clique para mudar cor. ESC para sair."
     },
     "reading_planner": {
-      "name": "Planejador de Leitura",
-      "description": "Planeje seu cronograma de leitura.",
-      "title": "Calculadora de Tempo de Leitura",
-      "seo_title": "Calculadora de Leitura de Livros",
+      "name": "Planificador de Lectura",
+      "description": "Planea tu horario de lectura.",
+      "title": "Calculadora de Tiempo de Lectura",
+      "seo_title": "Calculadora de Lectura de Libros",
       "seo_content": [
-        "Calcule quantas páginas você precisa ler por dia para terminar um livro."
+        "Logra tus objetivos de lectura con nuestro Planificador de Lectura inteligente. Todos tenemos una pila de libros que queremos leer, pero encontrar el tiempo puede ser un desafío. Esta herramienta divide un libro grande en trozos diarios manejables, haciendo más fácil mantener el rumbo y terminar tu lista de lectura.",
+        "Simplemente ingresa el 'Número Total de Páginas' en el libro y tus 'Días para Terminar' deseados. La calculadora determina exactamente cuántas páginas necesitas leer cada día para cumplir con tu fecha límite. Alternativamente, puedes calcular cuánto tiempo tomará terminar un libro basado en tu velocidad de lectura diaria.",
+        "Esto es perfecto para estudiantes con lecturas asignadas, miembros de clubes de lectura o cualquiera que intente construir un hábito de lectura consistente. Ver un objetivo como '15 páginas/día' se siente mucho más alcanzable que mirar una novela de 500 páginas.",
+        "Planifica tu horario de lectura de manera efectiva. Ya sea que estés leyendo por educación o placer, dividir la tarea es la clave del éxito. Comienza tu viaje literario con un plan claro."
       ],
       "label_pages": "Total de Páginas",
-      "label_days": "Dias para Terminar",
+      "label_days": "Días para Terminar",
       "btn_calculate": "Calcular",
-      "res_daily": "Páginas por Dia"
+      "res_daily": "Páginas por Día"
     },
     "bitrate_calculator": {
       "name": "Calculadora de Bitrate",
@@ -1458,17 +1476,20 @@ export const es: Dictionary = {
       "btn_stop": "Detener"
     },
     "color_palette": {
-      "name": "Paleta de Cores",
-      "description": "Gere harmonias de cores.",
-      "title": "Gerador de Paleta de Cores",
-      "seo_title": "Gerador de Esquema de Cores",
+      "name": "Paleta de Colores",
+      "description": "Genera armonías de colores.",
+      "title": "Generador de Paleta de Colores",
+      "seo_title": "Generador de Esquema de Colores",
       "seo_content": [
-        "Crie esquemas de cores complementares, análogos e triádicos."
+        "Genera esquemas de color hermosos y armoniosos al instante con nuestro Generador de Paleta de Colores. Elegir los colores correctos es una de las partes más difíciles del diseño. Una gran paleta de colores puede elevar un sitio web, marca o obra de arte, mientras que una pobre puede hacer que parezca caótica. Nuestra herramienta utiliza ecuaciones de teoría del color para generar esquemas que están matemáticamente probados para verse bien juntos.",
+        "Comienza seleccionando un 'Color Base' usando el selector de color. La herramienta genera automáticamente tres paletas distintas: Complementaria (colores opuestos en la rueda para alto contraste), Análoga (colores uno al lado del otro para armonía) y Triádica (tres colores espaciados uniformemente para equilibrio y vitalidad).",
+        "Cada color se muestra con su código HEX, listo para ser copiado en tu CSS, Photoshop o herramienta de diseño. Esta es una utilidad esencial para diseñadores web, artistas gráficos y decoradores que buscan inspiración.",
+        "Deja de adivinar qué colores combinan. Usa la ciencia y el arte juntos para crear temas de color de grado profesional en segundos. Explora diferentes estados de ánimo y estilos sin esfuerzo."
       ],
-      "label_base": "Cor Base",
-      "sec_complementary": "Complementar",
-      "sec_analogous": "Análogas",
-      "sec_triadic": "Triádicas"
+      "label_base": "Color Base",
+      "sec_complementary": "Complementario",
+      "sec_analogous": "Análogos",
+      "sec_triadic": "Triádicos"
     },
     "time_converter": {
       "name": "Conversor de Hora",
