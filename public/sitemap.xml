@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://smartwebkit.net/en</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en//:lang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt//:lang" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es//:lang" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt//:lang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en//:lang" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es//:lang" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es//:lang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en//:lang" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt//:lang" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/password-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/password-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/password-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/json-formatter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-formatter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-formatter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/json-formatter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-formatter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-formatter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/json-formatter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-formatter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-formatter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/word-counter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/word-counter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/word-counter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/word-counter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/word-counter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/word-counter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/word-counter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/word-counter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/word-counter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/percentage-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/percentage-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/percentage-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/percentage-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/percentage-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/percentage-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/age-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/age-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/age-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/age-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/age-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/age-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/base64-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/base64-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/base64-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/base64-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/base64-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/base64-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/base64-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/base64-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/base64-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/uuid-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/uuid-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/uuid-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/uuid-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/uuid-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/uuid-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/uuid-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/uuid-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/uuid-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/lorem-ipsum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/lorem-ipsum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/lorem-ipsum" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/lorem-ipsum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/lorem-ipsum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/lorem-ipsum" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/lorem-ipsum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/lorem-ipsum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/lorem-ipsum" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/rule-of-three</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/rule-of-three" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/rule-of-three" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/rule-of-three</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/rule-of-three" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/rule-of-three" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/rule-of-three</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/rule-of-three" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/rule-of-three" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/qr-code-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/qr-code-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/qr-code-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/qr-code-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/qr-code-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/qr-code-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/qr-code-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/qr-code-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/qr-code-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/css-js-minifier</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/css-js-minifier" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/css-js-minifier" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/css-js-minifier</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/css-js-minifier" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/css-js-minifier" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/css-js-minifier</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/css-js-minifier" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/css-js-minifier" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/color-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/color-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/color-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/meta-tag-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/meta-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/meta-tag-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/meta-tag-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/meta-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/meta-tag-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/meta-tag-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/meta-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/meta-tag-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/case-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/case-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/case-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/case-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/case-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/case-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/case-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/case-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/case-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/duplicate-remover</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/duplicate-remover" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/duplicate-remover" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/duplicate-remover</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/duplicate-remover" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/duplicate-remover" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/duplicate-remover</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/duplicate-remover" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/duplicate-remover" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/text-reverser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-reverser" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-reverser" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/text-reverser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-reverser" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-reverser" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/text-reverser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-reverser" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-reverser" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/image-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/image-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/image-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/image-resizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-resizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-resizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/image-resizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-resizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-resizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/image-resizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-resizer" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-resizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/favicon-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/favicon-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/favicon-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/favicon-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/favicon-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/favicon-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/favicon-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/favicon-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/favicon-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/unix-timestamp</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unix-timestamp" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unix-timestamp" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/unix-timestamp</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unix-timestamp" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unix-timestamp" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/unix-timestamp</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unix-timestamp" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unix-timestamp" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/markdown-to-html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/markdown-to-html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/markdown-to-html" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/markdown-to-html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/markdown-to-html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/markdown-to-html" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/markdown-to-html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/markdown-to-html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/markdown-to-html" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/url-slug</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/url-slug" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/url-slug" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/url-slug</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/url-slug" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/url-slug" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/url-slug</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/url-slug" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/url-slug" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/binary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/binary-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/binary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/binary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/binary-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/binary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/binary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/binary-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/binary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/pomodoro-timer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pomodoro-timer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pomodoro-timer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/pomodoro-timer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pomodoro-timer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pomodoro-timer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/pomodoro-timer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pomodoro-timer" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pomodoro-timer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/stopwatch</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/stopwatch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/stopwatch" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/stopwatch</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/stopwatch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/stopwatch" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/stopwatch</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/stopwatch" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/stopwatch" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/unit-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unit-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unit-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/unit-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unit-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unit-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/unit-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unit-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unit-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/hash-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/hash-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/hash-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/hash-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/hash-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/hash-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/hash-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/hash-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/hash-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/diff-checker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/diff-checker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/diff-checker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/diff-checker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/diff-checker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/diff-checker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/diff-checker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/diff-checker" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/diff-checker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/device-info</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/device-info" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/device-info" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/device-info</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/device-info" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/device-info" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/device-info</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/device-info" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/device-info" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/discount-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/discount-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/discount-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/discount-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/discount-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/discount-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/discount-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/discount-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/discount-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/salary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/salary-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/salary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/salary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/salary-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/salary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/salary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/salary-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/salary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/random-number-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-number-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-number-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/random-number-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-number-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-number-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/random-number-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-number-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-number-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/whatsapp-link-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/whatsapp-link-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/whatsapp-link-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/whatsapp-link-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/whatsapp-link-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/whatsapp-link-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/whatsapp-link-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/whatsapp-link-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/whatsapp-link-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/utm-builder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/utm-builder" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/utm-builder" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/utm-builder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/utm-builder" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/utm-builder" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/utm-builder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/utm-builder" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/utm-builder" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/cron-job-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cron-job-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cron-job-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/cron-job-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cron-job-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cron-job-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/cron-job-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cron-job-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cron-job-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/pregnancy-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pregnancy-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/pregnancy-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pregnancy-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/pregnancy-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pregnancy-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/instagram-caption-maker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/instagram-caption-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/instagram-caption-maker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/instagram-caption-maker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/instagram-caption-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/instagram-caption-maker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/instagram-caption-maker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/instagram-caption-maker" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/instagram-caption-maker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/tdee-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tdee-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tdee-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/tdee-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tdee-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tdee-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/tdee-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tdee-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tdee-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/water-intake-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/water-intake-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/water-intake-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/water-intake-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/water-intake-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/water-intake-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/water-intake-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/water-intake-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/water-intake-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/sql-formatter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/sql-formatter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/sql-formatter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/sql-formatter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/sql-formatter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/sql-formatter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/sql-formatter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/sql-formatter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/sql-formatter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/keycode-visualizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keycode-visualizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keycode-visualizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/keycode-visualizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keycode-visualizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keycode-visualizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/keycode-visualizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keycode-visualizer" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keycode-visualizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/my-ip-address</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/my-ip-address" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/my-ip-address" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/my-ip-address</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/my-ip-address" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/my-ip-address" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/my-ip-address</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/my-ip-address" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/my-ip-address" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/json-to-csv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-to-csv" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-to-csv" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/json-to-csv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-to-csv" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-to-csv" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/json-to-csv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-to-csv" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-to-csv" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/subnet-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/subnet-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/subnet-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/subnet-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/subnet-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/subnet-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/shoe-size-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/shoe-size-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/shoe-size-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/shoe-size-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/shoe-size-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/shoe-size-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/shoe-size-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/shoe-size-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/shoe-size-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/culinary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/culinary-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/culinary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/culinary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/culinary-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/culinary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/culinary-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/culinary-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/culinary-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/name-picker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/name-picker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/name-picker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/name-picker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/name-picker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/name-picker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/name-picker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/name-picker" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/name-picker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/list-randomizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-randomizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-randomizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/list-randomizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-randomizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-randomizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/list-randomizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-randomizer" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-randomizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/list-sorter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-sorter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-sorter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/list-sorter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-sorter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-sorter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/list-sorter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-sorter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-sorter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/prefix-suffix</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/prefix-suffix" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/prefix-suffix" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/prefix-suffix</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/prefix-suffix" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/prefix-suffix" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/prefix-suffix</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/prefix-suffix" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/prefix-suffix" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/random-csv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-csv" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-csv" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/random-csv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-csv" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-csv" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/random-csv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-csv" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-csv" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/week-number</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/week-number" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/week-number" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/week-number</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/week-number" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/week-number" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/week-number</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/week-number" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/week-number" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/web-encoders</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/web-encoders" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/web-encoders" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/web-encoders</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/web-encoders" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/web-encoders" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/web-encoders</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/web-encoders" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/web-encoders" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/reaction-time</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reaction-time" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reaction-time" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/reaction-time</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reaction-time" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reaction-time" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/reaction-time</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reaction-time" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reaction-time" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/morse-code</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/morse-code" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/morse-code" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/morse-code</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/morse-code" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/morse-code" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/morse-code</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/morse-code" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/morse-code" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/bmi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bmi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/bmi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bmi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/bmi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bmi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/loan-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/loan-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/loan-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/loan-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/loan-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/loan-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/aspect-ratio-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/aspect-ratio-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/aspect-ratio-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/aspect-ratio-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/aspect-ratio-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/aspect-ratio-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/aspect-ratio-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/box-shadow-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/box-shadow-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/box-shadow-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/box-shadow-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/box-shadow-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/box-shadow-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/box-shadow-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/box-shadow-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/box-shadow-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/text-to-speech</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-to-speech" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-to-speech" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/text-to-speech</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-to-speech" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-to-speech" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/text-to-speech</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-to-speech" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-to-speech" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/password-strength</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-strength" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-strength" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/password-strength</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-strength" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-strength" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/password-strength</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-strength" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-strength" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/grade-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/grade-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/grade-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/grade-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/grade-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/grade-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/youtube-thumbnail-downloader</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-thumbnail-downloader" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-thumbnail-downloader" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/youtube-thumbnail-downloader</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-thumbnail-downloader" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/youtube-thumbnail-downloader</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-thumbnail-downloader" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/ppi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/ppi-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/ppi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/ppi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/ppi-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/ppi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/ppi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/ppi-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/ppi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/compound-interest-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/compound-interest-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/compound-interest-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/compound-interest-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/compound-interest-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/compound-interest-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/compound-interest-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/compound-interest-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/compound-interest-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/coin-flip</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/coin-flip" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/coin-flip" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/coin-flip</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/coin-flip" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/coin-flip" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/coin-flip</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/coin-flip" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/coin-flip" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/chmod-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/chmod-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/chmod-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/chmod-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/chmod-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/chmod-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/chmod-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/chmod-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/chmod-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/cpf-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cpf-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cpf-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/cpf-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cpf-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cpf-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/cpf-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cpf-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cpf-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/abnt-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/abnt-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/abnt-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/abnt-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/abnt-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/abnt-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/abnt-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/abnt-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/abnt-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/roi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/roi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/roi-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roi-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/online-scoreboard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-scoreboard" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-scoreboard" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/online-scoreboard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-scoreboard" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-scoreboard" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/online-scoreboard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-scoreboard" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-scoreboard" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/dead-pixel-test</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/dead-pixel-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/dead-pixel-test" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/dead-pixel-test</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/dead-pixel-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/dead-pixel-test" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/dead-pixel-test</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/dead-pixel-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/dead-pixel-test" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/reading-planner</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reading-planner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reading-planner" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/reading-planner</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reading-planner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reading-planner" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/reading-planner</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reading-planner" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reading-planner" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/bitrate-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bitrate-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bitrate-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/bitrate-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bitrate-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bitrate-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/bitrate-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bitrate-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bitrate-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/text-summarizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-summarizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-summarizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/text-summarizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-summarizer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-summarizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/text-summarizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-summarizer" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-summarizer" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/youtube-tag-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-tag-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/youtube-tag-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-tag-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/youtube-tag-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-tag-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/tip-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tip-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tip-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/tip-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tip-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tip-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/tip-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tip-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tip-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/fantasy-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/fantasy-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/fantasy-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/fantasy-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/fantasy-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/fantasy-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/fantasy-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/fantasy-name-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/fantasy-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/raid-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/raid-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/raid-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/raid-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/raid-calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/raid-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/raid-calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/raid-calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/raid-calculator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/yaml-json-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/yaml-json-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/yaml-json-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/yaml-json-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/yaml-json-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/yaml-json-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/yaml-json-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/yaml-json-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/yaml-json-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/jwt-decoder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/jwt-decoder" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/jwt-decoder" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/jwt-decoder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/jwt-decoder" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/jwt-decoder" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/jwt-decoder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/jwt-decoder" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/jwt-decoder" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/luhn-validator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/luhn-validator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/luhn-validator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/luhn-validator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/luhn-validator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/luhn-validator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/luhn-validator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/luhn-validator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/luhn-validator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/online-metronome</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-metronome" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-metronome" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/online-metronome</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-metronome" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-metronome" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/online-metronome</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-metronome" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-metronome" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/color-palette-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-palette-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-palette-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/color-palette-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-palette-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-palette-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/color-palette-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-palette-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-palette-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/time-zone-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/time-zone-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/time-zone-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/time-zone-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/time-zone-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/time-zone-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/time-zone-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/time-zone-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/time-zone-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/regex-tester</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/regex-tester" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/regex-tester" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/regex-tester</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/regex-tester" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/regex-tester" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/regex-tester</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/regex-tester" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/regex-tester" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/roman-numeral-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roman-numeral-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roman-numeral-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/roman-numeral-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roman-numeral-converter" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roman-numeral-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/roman-numeral-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roman-numeral-converter" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roman-numeral-converter" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/memo-pad</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/memo-pad" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/memo-pad" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/memo-pad</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/memo-pad" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/memo-pad" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/memo-pad</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/memo-pad" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/memo-pad" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/glassmorphism-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/glassmorphism-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/glassmorphism-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/glassmorphism-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/glassmorphism-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/glassmorphism-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/glassmorphism-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/glassmorphism-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/glassmorphism-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/keyword-density-checker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keyword-density-checker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keyword-density-checker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/keyword-density-checker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keyword-density-checker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keyword-density-checker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/keyword-density-checker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keyword-density-checker" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keyword-density-checker" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/image-filters</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-filters" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-filters" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/image-filters</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-filters" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-filters" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/image-filters</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-filters" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-filters" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/decision-wheel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/decision-wheel" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/decision-wheel" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/decision-wheel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/decision-wheel" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/decision-wheel" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/decision-wheel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/decision-wheel" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/decision-wheel" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/spin-the-bottle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/spin-the-bottle" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/spin-the-bottle" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/spin-the-bottle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/spin-the-bottle" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/spin-the-bottle" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/spin-the-bottle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/spin-the-bottle" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/spin-the-bottle" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/pet-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pet-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pet-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/pet-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pet-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pet-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/pet-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pet-name-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pet-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/baby-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/baby-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/baby-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/baby-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/baby-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/baby-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/baby-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/baby-name-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/baby-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/business-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/business-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/business-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/business-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/business-name-generator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/business-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/business-name-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/business-name-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/business-name-generator" />
+  </url>
+</urlset>

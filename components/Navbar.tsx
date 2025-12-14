@@ -13,20 +13,21 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, dict }) => {
   const location = useLocation();
 
   // Helper to switch language path
-  const getOppositeLangPath = () => {
+  const getNextLangPath = () => {
     const currentPath = location.pathname;
-    // Replace the first segment /en or /pt
     const segments = currentPath.split('/');
-    if (segments[1] === 'en') {
-      segments[1] = 'pt';
-    } else if (segments[1] === 'pt') {
-      segments[1] = 'en';
-    } else {
-      // Default fallback
-      return '/en';
-    }
-    return segments.join('/');
+
+    // Cycle: en -> pt -> es -> en
+    let nextLang = 'en';
+    if (segments[1] === 'en') nextLang = 'pt';
+    else if (segments[1] === 'pt') nextLang = 'es';
+    else if (segments[1] === 'es') nextLang = 'en';
+
+    segments[1] = nextLang;
+    return { path: segments.join('/'), label: nextLang.toUpperCase() };
   };
+
+  const { path: nextPath, label: nextLabel } = getNextLangPath();
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/75 backdrop-blur supports-[backdrop-filter]:bg-white/60">
@@ -39,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, dict }) => {
             </span>
           </Link>
           <div className="flex items-center space-x-6 text-sm font-medium">
-            <Link 
+            <Link
               to={`/${lang}`}
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
@@ -48,11 +49,11 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, dict }) => {
           </div>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Link to={getOppositeLangPath()}>
+          <Link to={nextPath}>
             <Button variant="ghost" size="sm" className="gap-2">
               <Languages className="h-4 w-4" />
               <span className="hidden sm:inline">
-                {lang === 'en' ? 'Português' : 'English'}
+                {nextLabel}
               </span>
             </Button>
           </Link>

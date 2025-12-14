@@ -1,4 +1,4 @@
-export type Lang = 'en' | 'pt';
+export type Lang = 'en' | 'pt' | 'es';
 
 export interface ToolSEO {
   seo_title: string;

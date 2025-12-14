@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
-import { en, pt } from './dictionaries';
+import { en, pt, es } from './dictionaries';
 import { Lang } from './types';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -109,7 +109,7 @@ const LangLayout = () => {
   const location = useLocation();
 
   // Validate Language
-  const isValidLang = lang === 'en' || lang === 'pt';
+  const isValidLang = lang === 'en' || lang === 'pt' || lang === 'es';
 
   // If invalid language, redirect to English but keep the path tail if possible, 
   // or just go to root (which triggers the detector)
@@ -118,7 +118,7 @@ const LangLayout = () => {
   }
 
   const currentLang = lang as Lang;
-  const dict = currentLang === 'en' ? en : pt;
+  const dict = currentLang === 'en' ? en : (currentLang === 'pt' ? pt : es);
 
   return (
     <div className="flex min-h-screen flex-col bg-white">
@@ -134,591 +134,591 @@ const LangLayout = () => {
 // Component to detect browser language and redirect
 const RootRedirect = () => {
   const userLang = navigator.language || navigator.languages[0];
-  const targetLang = (userLang.startsWith('pt')) ? 'pt' : 'en';
+  const targetLang = (userLang.startsWith('pt')) ? 'pt' : (userLang.startsWith('es') ? 'es' : 'en');
   return <Navigate to={`/${targetLang}`} replace />;
 };
 
 // Wrapper components to pass context props down to pages
 const HomeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <HomePage lang={lang as Lang} dict={d} />;
 };
 
 const PasswordWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PasswordPage lang={lang as Lang} dict={d} />;
 };
 
 const JsonWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <JsonPage dict={d} />;
 };
 
 const WordWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <WordCounterPage dict={d} />;
 };
 
 const PercentWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PercentagePage dict={d} />;
 };
 
 const AgeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <AgePage dict={d} />;
 };
 
 const Base64Wrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <Base64Page dict={d} />;
 };
 
 const UUIDWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <UUIDPage dict={d} />;
 };
 
 const LoremWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <LoremPage dict={d} />;
 };
 
 const Rule3Wrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <RuleOfThreePage dict={d} />;
 };
 
 const QrWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <QrPage dict={d} />;
 };
 
 const MinifyWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MinifyPage dict={d} />;
 };
 
 const ColorWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ColorPage dict={d} />;
 };
 
 const MetaWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MetaPage dict={d} />;
 };
 
 const CaseWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <CaseConverterPage dict={d} />;
 };
 
 const DupeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <DuplicateRemoverPage dict={d} />;
 };
 
 const ReverserWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <TextReverserPage dict={d} />;
 };
 
 const ImgConvWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ImageConverterPage dict={d} />;
 };
 
 const ImgResizeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ImageResizerPage dict={d} />;
 };
 
 const FaviconWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <FaviconPage dict={d} />;
 };
 
 const UnixWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <UnixPage dict={d} />;
 };
 
 const MarkdownWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MarkdownPage dict={d} />;
 };
 
 const SlugWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <SlugPage dict={d} />;
 };
 
 const BinaryWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <BinaryPage dict={d} />;
 };
 
 const PomodoroWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PomodoroPage dict={d} />;
 };
 
 const StopwatchWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <StopwatchPage dict={d} />;
 };
 
 const UnitWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <UnitConverterPage dict={d} />;
 };
 
 const HashWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <HashPage dict={d} />;
 };
 
 const DiffWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <DiffPage dict={d} />;
 };
 
 const DeviceWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <DevicePage dict={d} />;
 };
 
 const DiscountWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <DiscountPage dict={d} />;
 };
 
 const SalaryWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <SalaryPage dict={d} />;
 };
 
 const RandomWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <RandomPage dict={d} />;
 };
 
 const WhatsAppWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <WhatsAppPage dict={d} />;
 };
 
 const UtmWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <UtmPage dict={d} />;
 };
 
 const CronWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <CronPage dict={d} />;
 };
 
 const PregnancyWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PregnancyPage dict={d} />;
 };
 
 const InstagramWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <InstagramPage dict={d} />;
 };
 
 const TDEEWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <TDEEPage dict={d} />;
 };
 
 const WaterWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <WaterPage dict={d} />;
 };
 
 const SQLWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <SQLPage dict={d} />;
 };
 
 const KeycodeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <KeycodePage dict={d} />;
 };
 
 const MyIpWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MyIpPage dict={d} />;
 };
 
 const JsonCsvWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <JsonCsvPage dict={d} />;
 };
 
 const SubnetWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <SubnetPage dict={d} />;
 };
 
 const ShoeSizeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ShoeSizePage dict={d} />;
 };
 
 const CulinaryWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <CulinaryPage dict={d} />;
 };
 
 const NamePickerWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <NamePickerPage dict={d} />;
 };
 
 const ListRandomizerWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ListRandomizerPage dict={d} />;
 };
 
 const ListSorterWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ListSorterPage dict={d} />;
 };
 
 const PrefixSuffixWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PrefixSuffixPage dict={d} />;
 };
 
 const RandomCsvWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <RandomCsvPage dict={d} />;
 };
 
 const WeekNumberWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <WeekNumberPage dict={d} />;
 };
 
 const WebEncodersWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <WebEncodersPage dict={d} />;
 };
 
 const ReactionTimeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ReactionTimePage dict={d} />;
 };
 
 const MorseWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MorsePage dict={d} />;
 };
 
 const BMIWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <BMIPage dict={d} />;
 };
 
 const LoanWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <LoanPage dict={d} />;
 };
 
 const RatioWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <AspectRatioPage dict={d} />;
 };
 
 const ShadowWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <BoxShadowPage dict={d} />;
 };
 
 const TTSWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <TextToSpeechPage dict={d} />;
 };
 
 const StrengthWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PasswordStrengthPage dict={d} />;
 };
 
 const GradeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <GradePage dict={d} />;
 };
 
 const YTWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <YouTubeThumbnailPage dict={d} />;
 };
 
 const PPIWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PPIPage dict={d} />;
 };
 
 const CompoundWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <CompoundInterestPage dict={d} />;
 };
 
 const CoinWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <CoinFlipPage dict={d} />;
 };
 
 const ChmodWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ChmodPage dict={d} />;
 };
 
 const CpfWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <CpfPage dict={d} />;
 };
 
 const ABNTWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ABNTPage dict={d} />;
 };
 
 const ROIWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ROIPage dict={d} />;
 };
 
 const ScoreboardWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ScoreboardPage dict={d} />;
 };
 
 const DeadPixelWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <DeadPixelPage dict={d} />;
 };
 
 const ReadingWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <ReadingPage dict={d} />;
 };
 
 const BitrateWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <BitratePage dict={d} />;
 };
 
 const SummarizerWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <SummarizerPage dict={d} />;
 };
 
 const TagsWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <YouTubeTagsPage dict={d} />;
 };
 
 const TipWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <TipPage dict={d} />;
 };
 
 const FantasyWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <FantasyNamePage dict={d} />;
 };
 
 const RaidWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <RaidPage dict={d} />;
 };
 
 const YamlWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <YamlPage dict={d} />;
 };
 
 const JwtWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <JwtPage dict={d} />;
 };
 
 const LuhnWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <LuhnPage dict={d} />;
 };
 
 const MetronomeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MetronomePage dict={d} />;
 };
 
 const PaletteWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PalettePage dict={d} />;
 };
 
 const TimeWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <TimePage dict={d} />;
 };
 
 const RegexWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <RegexPage dict={d} />;
 };
 
 const RomanWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <RomanPage dict={d} />;
 };
 
 const MemoWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <MemoPage dict={d} />;
 };
 
 const GlassWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <GlassPage dict={d} />;
 };
 
 const DensityWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <DensityPage dict={d} />;
 };
 
 const FiltersWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <FiltersPage dict={d} />;
 };
 
 const WheelWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <WheelPage dict={d} />;
 };
 
 const BottleWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <SpinBottlePage dict={d} />;
 };
 
 const PetNameWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <PetNamePage dict={d} />;
 };
 
 const BabyNameWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <BabyNamePage dict={d} />;
 };
 
 // Batch 13
 const BusinessNameWrapper = () => {
   const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : en;
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
   return <BusinessNamePage dict={d} />;
 };
 
@@ -741,7 +741,7 @@ const App: React.FC = () => {
           <Route path="uuid-generator" element={<UUIDWrapper />} />
           <Route path="lorem-ipsum" element={<LoremWrapper />} />
           <Route path="rule-of-three" element={<Rule3Wrapper />} />
-          
+
           <Route path="qr-code-generator" element={<QrWrapper />} />
           <Route path="css-js-minifier" element={<MinifyWrapper />} />
           <Route path="color-converter" element={<ColorWrapper />} />
@@ -843,7 +843,7 @@ const App: React.FC = () => {
           <Route path="spin-the-bottle" element={<BottleWrapper />} />
           <Route path="pet-name-generator" element={<PetNameWrapper />} />
           <Route path="baby-name-generator" element={<BabyNameWrapper />} />
-          
+
           {/* New Route Batch 13 */}
           <Route path="business-name-generator" element={<BusinessNameWrapper />} />
         </Route>
