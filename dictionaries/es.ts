@@ -844,84 +844,102 @@ export const es: Dictionary = {
       "opt_rice": "Arroz (Crudo)"
     },
     "name_picker": {
-      "name": "Sorteador de Nomes",
-      "description": "Sorteie um vencedor de uma lista.",
-      "title": "Sorteador de Nomes Aleatório",
-      "seo_title": "Sorteador de Prêmios e Nomes",
+      "name": "Selector de Nombres",
+      "description": "Elija un ganador de una lista.",
+      "title": "Selector de Nombres Aleatorio",
+      "seo_title": "Sorteo y Selector de Nombres",
       "seo_content": [
-        "Sorteie vencedores aleatórios para rifas, brindes e concursos a partir de uma lista de nomes."
+        "Elija ganadores aleatorios para sorteos, regalos o concursos al instante con nuestro Selector de Nombres Aleatorio. Ya sea que sea un maestro que selecciona a un estudiante para responder una pregunta, un gerente que asigna tareas o un influencer que organiza un sorteo en las redes sociales, esta herramienta garantiza un resultado justo e imparcial.",
+        "Simplemente pegue su lista de nombres (o elementos) en el área de texto, uno por línea. Puede ingresar cientos o incluso miles de nombres. Elija cuántos ganadores desea elegir, ya sea un solo ganador del gran premio o los 3 mejores para un concurso. Cuando hace clic en 'Elegir Ganadores', la herramienta ejecuta un algoritmo de selección aleatoria criptográficamente fuerte para extraer los nombres.",
+        "Los nombres ganadores se muestran claramente, separándolos del resto de los participantes. También puede usar el botón 'Borrar Lista' para comenzar de nuevo para un nuevo sorteo. No es necesario usar papeles o sacar de un sombrero.",
+        "Esta herramienta se ejecuta completamente en su navegador. No se envían datos a nuestros servidores, por lo que su lista de nombres permanece privada. Garantice la equidad y la transparencia en su proceso de selección con un solo clic."
       ],
-      "input_label": "Insira os nomes (um por linha)",
-      "label_count": "Número de vencedores",
-      "btn_pick": "Sortear Vencedores",
-      "btn_clear": "Limpar Lista",
-      "res_winners": "Vencedores",
-      "err_empty": "Por favor, insira alguns nomes."
+      "input_label": "Ingrese nombres (uno por línea)",
+      "label_count": "Número de ganadores",
+      "btn_pick": "Elegir Ganadores",
+      "btn_clear": "Borrar Lista",
+      "res_winners": "Ganadores",
+      "err_empty": "Por favor ingrese algunos nombres."
     },
     "list_randomizer": {
-      "name": "Embaralhador de Lista",
-      "description": "Misture itens de lista aleatoriamente.",
-      "title": "Embaralhador de Lista Aleatório",
-      "seo_title": "Randomizador de Ordem de Lista",
+      "name": "Aleatorizador de Listas",
+      "description": "Mezcle elementos de lista al azar.",
+      "title": "Mezclador de Listas Aleatorio",
+      "seo_title": "Aleatorizador de Orden de Lista",
       "seo_content": [
-        "Embaralhe aleatoriamente a ordem dos itens em uma lista."
+        "Mezcle aleatoriamente el orden de los elementos en cualquier lista con nuestro Aleatorizador de Listas. Esta herramienta utiliza el algoritmo de mezcla Fisher-Yates para garantizar que cada permutación de la lista sea igualmente probable. Es perfecto para determinar el orden de los oradores, asignar equipos aleatorios o simplemente mezclar una lista de reproducción.",
+        "Pegue su lista de elementos (nombres, tareas, números) en el campo de entrada, con cada elemento en una nueva línea. Haga clic en 'Mezclar Lista' para aleatorizar instantáneamente su orden. El resultado aparece en el cuadro de salida, listo para ser copiado a su portapapeles.",
+        "Esto es útil para maestros que organizan presentaciones de estudiantes, organizadores de eventos que establecen alineaciones o desarrolladores que prueban la clasificación de datos. Elimina el sesgo humano del proceso de ordenamiento.",
+        "Dado que es una herramienta del lado del cliente, sus datos nunca salen de su dispositivo. Mezcle listas de cualquier tamaño al instante y obtenga una secuencia verdaderamente aleatoria cada vez."
       ],
-      "input_label": "Lista de Entrada (um por linha)",
-      "btn_shuffle": "Embaralhar Lista",
+      "input_label": "Lista de Entrada (una por línea)",
+      "btn_shuffle": "Mezclar Lista",
       "btn_copy": "Copiar Lista"
     },
     "list_sorter": {
-      "name": "Organizador Alfabético",
-      "description": "Ordene listas A-Z, Z-A ou tamanho.",
-      "title": "Organizador de Lista",
-      "seo_title": "Classificar Lista Online",
+      "name": "Ordenador de Listas",
+      "description": "Ordene A-Z, Z-A o longitud.",
+      "title": "Ordenador de Listas",
+      "seo_title": "Ordenador de Listas Alfabético",
       "seo_content": [
-        "Ordene suas listas alfabeticamente, por comprimento ou numericamente."
+        "Organice sus datos al instante con nuestra herramienta Ordenador de Listas. Ordenar manualmente una larga lista de nombres, productos o palabras clave es tedioso y propenso a errores. Nuestra herramienta automatiza este proceso, admitiendo múltiples criterios de clasificación para satisfacer sus necesidades.",
+        "Pegue su lista desordenada en el cuadro de entrada. Luego puede optar por ordenarla Alfabéticamente (A-Z) para una organización estándar, o Inversamente Alfabética (Z-A). También ofrecemos clasificación numérica (0-9 y 9-0), que es esencial porque la clasificación de texto estándar a menudo ordena '10' antes que '2'. Además, puede ordenar por Longitud (de más corto a más largo), lo cual es excelente para palabras clave de SEO o nombres de dominio.",
+        "El botón 'Invertir' cambia el orden actual de la lista. Esta es una utilidad poderosa para desarrolladores, escritores y analistas de datos que necesitan limpiar y estructurar datos de texto sin procesar rápidamente.",
+        "Funciona sin conexión y respeta su privacidad. Obtenga sus listas en perfecto orden en segundos."
       ],
       "input_label": "Lista de Entrada",
       "btn_az": "A - Z",
       "btn_za": "Z - A",
       "btn_09": "0 - 9",
       "btn_90": "9 - 0",
-      "btn_len": "Tamanho",
-      "btn_rev": "Inverter"
+      "btn_len": "Longitud",
+      "btn_rev": "Invertir"
     },
     "prefix_suffix": {
-      "name": "Adicionar Prefixo/Sufixo",
-      "description": "Adicione texto no início/fim das linhas.",
-      "title": "Adicionar Prefixo e Sufixo",
-      "seo_title": "Adicionar Prefixo Sufixo em Massa",
+      "name": "Prefijo/Sufijo",
+      "description": "Añadir texto al inicio/fin.",
+      "title": "Añadir Prefijo y Sufijo",
+      "seo_title": "Herramienta de Texto Masivo",
       "seo_content": [
-        "Adicione texto específico ao início ou fim de cada linha em uma lista."
+        "Edite por lotes sus listas de texto agregando prefijos y sufijos a cada línea. Agregar manualmente comillas, comas o etiquetas a cientos de líneas es una pérdida de tiempo. Nuestra herramienta automatiza la manipulación de cadenas para desarrolladores, especialistas en marketing y manejadores de datos.",
+        "Pegue su lista en el área de texto principal. Ingrese el texto que desea que aparezca al comienzo de cada línea en el campo 'Prefijo' (por ejemplo, '<li>'). Ingrese el texto para el final en el campo 'Sufijo' (por ejemplo, '</li>'). Haga clic en 'Aplicar' para transformar toda la lista al instante.",
+        "Esto es increíblemente útil para convertir una lista de palabras en elementos de lista HTML, valores de consulta SQL (agregando comillas y comas) o formatear datos CSV. También es excelente para los SEO que crean listas de URL masivas agregando dominios a slugs.",
+        "Ahorre horas de escritura repetitiva. Copie el resultado formateado a su portapapeles con un clic y pase a tareas más importantes."
       ],
       "input_label": "Lista de Entrada",
-      "label_prefix": "Prefixo (Início)",
-      "label_suffix": "Sufixo (Fim)",
+      "label_prefix": "Prefijo (Inicio)",
+      "label_suffix": "Sufijo (Fin)",
       "btn_apply": "Aplicar",
       "btn_copy": "Copiar"
     },
     "random_csv": {
-      "name": "Gerador de CSV Aleatório",
-      "description": "Gere dados falsos de usuário.",
-      "title": "Gerador de CSV de Dados Falsos",
-      "seo_title": "Gerador de Dados CSV Aleatórios",
+      "name": "Generador CSV Aleatorio",
+      "description": "Generar datos de usuario falsos.",
+      "title": "Generador de CSV de Datos Falsos",
+      "seo_title": "Generador de Datos CSV Aleatorios",
       "seo_content": [
-        "Gere dados CSV aleatórios com nomes, e-mails e idades para testes."
+        "Genere datos falsos realistas para pruebas y desarrollo con nuestro Generador de CSV Aleatorio. Al crear aplicaciones, paneles o bases de datos, a menudo necesita datos de marcador de posición para verificar diseños y rendimiento. Crear 'Juan Pérez 1', 'Juan Pérez 2' manualmente es lento y poco realista.",
+        "Nuestra herramienta crea archivos CSV estructurados que contienen Nombres, Apellidos, Correos Electrónicos y Edades aleatorios. Simplemente especifique el 'Número de Filas' que necesita (por ejemplo, 100 o 1000) y haga clic en Generar. Puede ver los datos CSV sin procesar en la pantalla o descargarlos como un archivo .csv listo para importar a Excel, SQL o su aplicación.",
+        "Los correos electrónicos generados son sintácticamente válidos (aunque falsos) y los nombres se extraen de una lista diversa. Esto ayuda a simular la variación de datos del mundo real.",
+        "Esencial para probadores de QA, científicos de datos y desarrolladores que necesitan conjuntos de datos rápidos sin problemas de privacidad. Genere filas ilimitadas de datos de prueba al instante."
       ],
-      "label_rows": "Número de Linhas",
-      "btn_generate": "Gerar CSV",
-      "btn_download": "Baixar CSV"
+      "label_rows": "Número de Filas",
+      "btn_generate": "Generar CSV",
+      "btn_download": "Descargar CSV"
     },
     "week_number": {
-      "name": "Número da Semana",
-      "description": "Número da semana atual do ano.",
-      "title": "Em Qual Semana Estamos?",
-      "seo_title": "Número da Semana Atual",
+      "name": "Número de Semana",
+      "description": "Número de semana actual.",
+      "title": "¿En Qué Semana Estamos?",
+      "seo_title": "Número de Semana Actual",
       "seo_content": [
-        "Descubra o número da semana atual do ano."
+        "Descubra el número de semana actual del año al instante con nuestra herramienta Número de Semana. El sistema de semanas estándar ISO-8601 se utiliza ampliamente en negocios y gobiernos en toda Europa y partes de Asia, mientras que EE. UU. a menudo utiliza un sistema de calendario ligeramente diferente. Nuestra herramienta detecta automáticamente su fecha y muestra el número de semana ISO correcto.",
+        "Conocer el número de semana es crucial para los sprints de gestión de proyectos, los cronogramas de fabricación y la planificación corporativa. En lugar de contar semanas manualmente en un calendario, obtenga la respuesta precisa en segundos. Puede verificar la semana actual o seleccionar cualquier fecha pasada o futura para determinar su número de semana correspondiente.",
+        "La interfaz es simple: el número de semana de hoy está al frente y al centro. Use el selector de fecha para 'Verificar otra fecha'. Por ejemplo, si necesita saber en qué semana cae Navidad este año o cuándo aterriza una fecha límite específica en la 'Semana 42'.",
+        "Manténgase organizado y sincronizado con socios comerciales internacionales. Marque esta página para sus sesiones de planificación semanal."
       ],
-      "label_current": "Semana Atual",
-      "label_check": "Verificar outra data",
+      "label_current": "Semana Actual",
+      "label_check": "Verificar otra fecha",
       "res_week": "Semana"
     },
     "web_encoders": {
@@ -958,16 +976,19 @@ export const es: Dictionary = {
       "msg_too_early": "¡Demasiado pronto! Haga clic para intentarlo de nuevo."
     },
     "morse_code": {
-      "name": "Tradutor Código Morse",
-      "description": "Texto para Morse e vice-versa.",
-      "title": "Tradutor de Código Morse",
+      "name": "Traductor Código Morse",
+      "description": "Texto a Morse y viceversa.",
+      "title": "Traductor de Código Morse",
       "seo_title": "Conversor de Código Morse",
       "seo_content": [
-        "Traduza texto para código Morse e código Morse para texto."
+        "Traduce texto a código Morse y código Morse a texto con nuestro Traductor de Código Morse en línea. Inventado por Samuel Morse a través del telégrafo en la década de 1830, este sistema de puntos y rayas revolucionó la comunicación a larga distancia. Hoy en día, sigue siendo una habilidad popular para los entusiastas de la radioafición, exploradores y resolución de acertijos/CTF.",
+        "Escriba su mensaje en el cuadro 'Texto' para ver cómo se convierte instantáneamente en la sintaxis clásica de .-.. Alternativamente, pegue el código Morse en el cuadro inferior para decodificarlo en texto legible. Admitimos el estándar del Código Morse Internacional (ITU), incluidas letras, números y signos de puntuación comunes.",
+        "¿Quiere escuchar cómo suena? Haga clic en el botón 'Reproducir Sonido' para escuchar su mensaje como una serie de pitidos de audio. El tiempo sigue la regla estándar donde una raya es tres veces la duración de un punto. Esto es excelente para aprender a recibir código Morse de oído.",
+        "Ya sea que esté enviando un mensaje secreto, aprendiendo una habilidad histórica o simplemente tenga curiosidad, nuestro traductor lo hace fácil. Funciona completamente en su navegador."
       ],
       "label_text": "Texto",
       "label_morse": "Código Morse",
-      "btn_play": "Tocar Som"
+      "btn_play": "Reproducir Sonido"
     },
     "bmi_calculator": {
       "name": "Calculadora de IMC",
@@ -1057,16 +1078,19 @@ export const es: Dictionary = {
       "btn_stop": "Parar"
     },
     "password_strength": {
-      "name": "Força da Senha",
-      "description": "Verifique a complexidade da senha.",
-      "title": "Verificador de Força de Senha",
-      "seo_title": "Testar Força da Senha",
+      "name": "Fuerza de Contraseña",
+      "description": "Verifique complejidad de contraseña.",
+      "title": "Verificador de Fuerza de Contraseña",
+      "seo_title": "Probar Fuerza de Contraseña",
       "seo_content": [
-        "Avalie a força e a entropia da sua senha."
+        "Evalúe la fuerza y la seguridad de su contraseña con nuestro Verificador de Fuerza de Contraseña. En una era de violaciones de datos, el uso de contraseñas débiles como '123456' o 'contraseña' pone en riesgo su información personal. Esta herramienta analiza la entropía de su contraseña y estima cuánto tiempo le tomaría a un pirata informático descifrarla mediante ataques de fuerza bruta.",
+        "A medida que escribe, la herramienta proporciona comentarios en tiempo real. Verifica la longitud, el uso de letras mayúsculas y minúsculas, números y símbolos especiales. Asigna una puntuación y ofrece consejos específicos sobre cómo mejorarla, como 'Agregar más caracteres' o 'Evitar patrones comunes'.",
+        "Crucialmente, esta verificación ocurre completamente del lado del cliente. Su contraseña NUNCA se envía a nuestros servidores ni se almacena en ningún lugar. Puede probar sus contraseñas reales de forma segura o usarla para practicar la creación de frases de contraseña seguras y memorables.",
+        "No espere hasta ser pirateado. Verifique su higiene de contraseñas ahora y asegúrese de que sus cuentas digitales estén protegidas por una defensa sólida."
       ],
-      "label_pass": "Digite a Senha",
-      "res_score": "Pontuação",
-      "res_feedback": "Feedback"
+      "label_pass": "Ingrese Contraseña",
+      "res_score": "Puntuación",
+      "res_feedback": "Comentarios"
     },
     "grade_calculator": {
       "name": "Calculadora de Notas",
@@ -1168,33 +1192,39 @@ export const es: Dictionary = {
       "res_symbolic": "Simbólico"
     },
     "cpf_generator": {
-      "name": "Gerador de CPF",
-      "description": "Gerar e Validar CPF (Brasil).",
-      "title": "Gerador e Validador de CPF",
-      "seo_title": "Gerador de CPF Válido Online",
+      "name": "Generador de CPF",
+      "description": "Generar y Validar CPF (Brasil).",
+      "title": "Generador y Validador de CPF",
+      "seo_title": "Generador de CPF Válido Online",
       "seo_content": [
-        "Gere CPFs válidos para fins de teste de software (Dev Tools)."
+        "Genere números de CPF válidos para fines de prueba y desarrollo de software (Herramientas de Desarrollador). El CPF (Cadastro de Pessoas Físicas) es la identificación de registro de contribuyentes individuales en Brasil. Los desarrolladores que crean sitios de comercio electrónico o formularios de registro para el mercado brasileño a menudo necesitan números de CPF válidos para probar su lógica de validación.",
+        "Nuestra herramienta puede Generar un número de CPF aleatorio y matemáticamente válido al instante. Calcula los dígitos de verificación correctos (los dos últimos números) en función del algoritmo estándar. Puede optar por formatearlo con puntuación (XXX.XXX.XXX-XX) o mantenerlo como dígitos sin procesar.",
+        "También puede utilizar la función Validar para comprobar si un CPF existente es estructuralmente válido. Nota: Esta herramienta solo comprueba la validez matemática (suma de comprobación); no comprueba si el CPF pertenece a una persona real o su estado ante la Receita Federal.",
+        "Esta es una herramienta estrictamente utilitaria para programadores y probadores de QA. No se registran datos."
       ],
-      "btn_generate": "Gerar CPF",
-      "btn_format": "Formatar",
+      "btn_generate": "Generar CPF",
+      "btn_format": "Formatear",
       "label_cpf": "CPF"
     },
     "abnt_generator": {
-      "name": "Gerador ABNT",
-      "description": "Formatar referências bibliográficas.",
-      "title": "Gerador de Referência ABNT",
-      "seo_title": "Formatador ABNT Online",
+      "name": "Generador ABNT",
+      "description": "Formatear bibliografía (ABNT).",
+      "title": "Generador de Referencias ABNT",
+      "seo_title": "Generador ABNT Online",
       "seo_content": [
-        "Crie referências bibliográficas para livros no formato ABNT."
+        "Cree referencias bibliográficas perfectas para sus trabajos académicos en formato ABNT (Associação Brasileira de Normas Técnicas). Formatear las referencias manualmente es tedioso y fácil de estropear. El formato incorrecto puede costarle puntos en su tesis, disertación o artículo.",
+        "Simplemente complete los campos: Nombre, Apellido, Título, Ciudad, Editorial y Año. Haga clic en 'Generar Referencia' para obtener una cadena formateada de acuerdo con la norma NBR 6023 (por ejemplo, APELLIDO, Nombre. Título. Ciudad: Editorial, Año.).",
+        "Esta herramienta se centra en el formato 'Libro', que es el requisito más común. Aplica las reglas de negrita (generalmente al título) y puntuación automáticamente.",
+        "Copie el resultado directamente en su bibliografía en Word o Google Docs. Concéntrese en el contenido de su investigación y déjenos manejar las reglas de formato."
       ],
-      "label_author_first": "Nome do Autor",
-      "label_author_last": "Sobrenome do Autor",
+      "label_author_first": "Nombre del Autor",
+      "label_author_last": "Apellido del Autor",
       "label_title": "Título",
-      "label_city": "Cidade",
-      "label_publisher": "Editora",
-      "label_year": "Ano",
-      "btn_generate": "Gerar Referência",
-      "res_reference": "Referência"
+      "label_city": "Ciudad",
+      "label_publisher": "Editorial",
+      "label_year": "Año",
+      "btn_generate": "Generar Referencia",
+      "res_reference": "Referencia"
     },
     "roi_calculator": {
       "name": "Calculadora ROI",
@@ -1270,16 +1300,19 @@ export const es: Dictionary = {
     },
     "text_summarizer": {
       "name": "Resumidor de Texto",
-      "description": "Resuma textos automaticamente.",
+      "description": "Resumir texto automáticamente.",
       "title": "Resumidor de Texto Automático",
-      "seo_title": "Resumidor de Texto Online Grátis",
+      "seo_title": "Resumidor de Texto Gratis",
       "seo_content": [
-        "Resuma automaticamente artigos longos ou blocos de texto em frases-chave."
+        "Resuma automáticamente artículos largos, ensayos o documentos en oraciones clave con nuestro Resumidor de Texto impulsado por IA. En el mundo actual cargado de información, leer todo palabra por palabra es imposible. Esta herramienta extrae las oraciones más importantes de su texto para brindarle una descripción general concisa.",
+        "Pegue su texto en el cuadro de entrada. Utilice el control deslizante 'Longitud del Resumen' para decidir qué tan corto o detallado desea que sea el resultado (por ejemplo, 20% de la longitud original frente al 50%). Haga clic en 'Resumir' para procesar. Nuestro algoritmo analiza la frecuencia de las oraciones y la importancia de las palabras clave para identificar el mensaje central.",
+        "Perfecto para estudiantes que necesitan hojear tareas de lectura, investigadores que revisan trabajos o profesionales que se ponen al día con las noticias de la industria. Le ayuda a comprender los puntos principales sin leer el relleno.",
+        "Este resumen basado en extracción se ejecuta localmente en su navegador para mayor privacidad. No se envía contenido a la nube. Ahorre tiempo y aumente su productividad."
       ],
-      "input_label": "Cole o Texto",
-      "range_label": "Tamanho do Resumo",
+      "input_label": "Pegar Texto",
+      "range_label": "Longitud del Resumen",
       "btn_summarize": "Resumir",
-      "res_summary": "Resumo"
+      "res_summary": "Resumen"
     },
     "youtube_tags": {
       "name": "Tags para YouTube",
@@ -1297,61 +1330,70 @@ export const es: Dictionary = {
       "res_tags": "Tags"
     },
     "tip_calculator": {
-      "name": "Calculadora de Gorjeta",
-      "description": "Calcule a gorjeta por pessoa.",
-      "title": "Calculadora de Gorjeta",
-      "seo_title": "Calculadora de Gorjeta e Divisão",
+      "name": "Calculadora de Propinas",
+      "description": "Calcule propina por persona.",
+      "title": "Calculadora de Propinas",
+      "seo_title": "Calculadora de Propinas y División",
       "seo_content": [
-        "Calcule gorjetas e divida a conta entre amigos facilmente."
+        "Calcule la propina perfecta y divida la cuenta sin problemas con nuestra Calculadora de Propinas. Cenar con amigos o tomar una copa con colegas debería ser divertido, pero las matemáticas al final de la comida pueden ser un fastidio. Averiguar cuánto es el 18%, o dividir un cheque de $150 entre 7 personas, es más fácil con una herramienta.",
+        "Ingrese el 'Monto de la Factura' y seleccione su 'Propina %' deseado usando el control deslizante o el campo de entrada. Las tasas de propina estándar varían según el país y la calidad del servicio (por ejemplo, 15-20%). Nuestra calculadora muestra inmediatamente el 'Monto de la Propina' y la 'Factura Total'.",
+        "La verdadera magia ocurre con el campo 'Número de Personas'. A medida que ajusta el recuento, la herramienta desglosa el costo 'Por Persona'. Esto asegura que todos paguen su parte justa, incluida la propina.",
+        "Evite momentos incómodos de matemáticas mentales. Utilice esta herramienta compatible con dispositivos móviles en la mesa del restaurante para liquidar el cheque de forma rápida y precisa."
       ],
-      "label_bill": "Valor da Conta",
-      "label_tip": "Gorjeta %",
-      "label_people": "Número de Pessoas",
+      "label_bill": "Monto de la Factura",
+      "label_tip": "Propina %",
+      "label_people": "Número de Personas",
       "btn_calculate": "Calcular",
-      "res_tip": "Valor da Gorjeta",
-      "res_total": "Total da Conta",
-      "res_per_person": "Por Pessoa"
+      "res_tip": "Monto de Propina",
+      "res_total": "Total Factura",
+      "res_per_person": "Por Persona"
     },
     "fantasy_name": {
-      "name": "Gerador de Nomes de Fantasia (RPG)",
-      "description": "Gere nomes de RPG.",
-      "title": "Gerador de Nomes de Fantasia e RPG",
-      "seo_title": "Gerador de Nomes de Personagem RPG",
+      "name": "Generador de Nombres de Fantasía",
+      "description": "Generar nombres RPG.",
+      "title": "Generador de Nombres de Fantasía",
+      "seo_title": "Generador de Nombres RPG Aleatorio",
       "seo_content": [
-        "Gere nomes de fantasia épicos para seus jogos, RPGs de mesa e histórias."
+        "Crea nombres épicos para tus personajes de D&D, novelas o videojuegos con nuestro Generador de Nombres de Fantasía. ¿Te cuesta nombrar a tu nuevo Guardabosques Elfo o Bárbaro Orco? El bloqueo del escritor puede detener tu creatividad. Nuestro generador proporciona inspiración instantánea con nombres que se ajustan a arquetipos de fantasía y estilos lingüísticos específicos.",
+        "Seleccione una 'Raza / Tipo' de opciones como Humano, Elfo, Enano, Orco o incluso Lugares/Reinos. También puede elegir 'Ciencia Ficción' para nombres futuristas o 'Villano' para títulos que suenen más oscuros. Filtre por género (masculino, femenino) para refinar los resultados.",
+        "Haga clic en 'Generar Nombres' para obtener una lista de sugerencias únicas. Utilizamos combinaciones silábicas avanzadas para garantizar que los nombres suenen pronunciables y amigables con la historia. Puede seleccionar sus favoritos para guardarlos en una lista corta a continuación, o hacer clic en 'Copiar Todos' para guardar todo el lote.",
+        "Ya sea que seas un Dungeon Master poblando una ciudad con NPC o un escritor construyendo un nuevo mundo, esta herramienta crea nombres con la 'sensación' correcta para tu entorno."
       ],
-      "label_race": "Categoria / Raça",
-      "label_qty": "Quantidade",
-      "label_gender": "Gênero",
+      "label_race": "Raza / Tipo",
+      "label_qty": "Cantidad",
+      "label_gender": "Género",
       "opt_human": "Humano",
       "opt_elf": "Elfo",
-      "opt_dwarf": "Anão",
-      "opt_orc": "Orc",
+      "opt_dwarf": "Enano",
+      "opt_orc": "Orco",
       "opt_place": "Lugar / Reino",
-      "opt_classic": "Clássico (Adj + Subst)",
+      "opt_classic": "Clásico (Adj + Sust)",
       "opt_scifi": "Sci-Fi / Cyberpunk",
-      "opt_villain": "Vilão / Mal",
-      "opt_tavern": "Taverna / Estalagem",
-      "opt_any": "Qualquer",
+      "opt_villain": "Villano / Malvado",
+      "opt_tavern": "Taberna / Posada",
+      "opt_any": "Cualquiera",
       "opt_male": "Masculino",
-      "opt_female": "Feminino",
-      "btn_generate": "Gerar Nomes",
+      "opt_female": "Femenino",
+      "btn_generate": "Generar Nombres",
       "btn_copy_all": "Copiar Todos",
-      "res_name": "Nomes Gerados"
+      "res_name": "Nombres Generados"
     },
     "raid_calculator": {
       "name": "Calculadora RAID",
-      "description": "Calcule a capacidade RAID.",
+      "description": "Calcular capacidad RAID.",
       "title": "Calculadora RAID",
-      "seo_title": "Calculadora de Capacidade RAID",
+      "seo_title": "Calculadora de Capacidad RAID",
       "seo_content": [
-        "Calcule a capacidade utilizável e tolerância a falhas para RAID 0, 1, 5, 6, 10."
+        "Planifique el almacenamiento de su servidor con nuestra Calculadora RAID. RAID (Matriz Redundante de Discos Independientes) es una tecnología de virtualización de almacenamiento de datos que combina múltiples componentes de unidades de disco físicas en una o más unidades lógicas. Elegir el nivel RAID correcto es fundamental para equilibrar el rendimiento, la capacidad de almacenamiento y la redundancia de datos (seguridad).",
+        "Seleccione el tamaño de su disco y el número de discos. Luego elija el Tipo de RAID (RAID 0, 1, 5, 6, 10). La herramienta calcula instantáneamente la 'Capacidad Utilizable' (cuánto espacio obtiene realmente) y la 'Tolerancia a Fallos' (cuántos discos pueden fallar antes de perder datos).",
+        "Por ejemplo, RAID 0 ofrece la máxima velocidad y capacidad pero seguridad cero. RAID 1 refleja los datos por seguridad pero reduce la capacidad a la mitad. RAID 5 es un equilibrio popular, que ofrece capacidad N-1 con redundancia de 1 disco. Comprender estas compensaciones es esencial para los profesionales de TI y los entusiastas de los laboratorios domésticos que configuran sistemas NAS.",
+        "Visualice su configuración antes de comprar hardware. Asegúrese de que su estrategia de datos satisfaga sus necesidades de respaldo."
       ],
-      "label_disk_size": "Tamanho do Disco (TB)",
+      "label_disk_size": "Tamaño del Disco (TB)",
       "label_disk_count": "Número de Discos",
       "label_raid_type": "Tipo de RAID",
-      "res_capacity": "Capacidade Útil",
-      "res_fault": "Tolerância a Falhas"
+      "res_capacity": "Capacidad Utilizable",
+      "res_fault": "Tolerancia a Fallos"
     },
     "yaml_json": {
       "name": "YAML <-> JSON",
@@ -1580,37 +1622,40 @@ export const es: Dictionary = {
       "msg_copied": "¡Enlace Copiado!"
     },
     "pet_name": {
-      "name": "Gerador de Nomes de Pets",
-      "description": "Encontre o nome perfeito para seu pet.",
-      "title": "Gerador de Nomes de Animais",
-      "seo_title": "Gerador de Nomes para Cachorros e Gatos",
+      "name": "Generador de Nombres de Mascotas",
+      "description": "Encuentra el nombre perfecto para tu mascota.",
+      "title": "Generador de Nombres de Mascotas",
+      "seo_title": "Generador de Nombres para Perros y Gatos",
       "seo_content": [
-        "Gere centenas de ideias de nomes para cachorros, gatos, pássaros e mais. Filtre por gênero, tema e espécie."
+        "Encuentre el nombre perfecto para su nuevo amigo peludo con nuestro Generador de Nombres de Mascotas. Dar la bienvenida a un nuevo perro, gato o pájaro a la familia es una ocasión feliz, pero ponerse de acuerdo sobre un nombre puede ser difícil. ¿Vas con algo clásico como 'Max' o algo único como 'Luna'?",
+        "Seleccione la especie de su mascota (Perro, Gato, Pájaro, Reptil, etc.) y Género. También puede filtrar por Tema, como 'Comida y bebida' (por ejemplo, Oreo), 'Geek/Nerd' (por ejemplo, Yoda, Pixel) o 'Mitológico' (por ejemplo, Zeus, Thor). Si tiene una letra específica en mente, use el filtro 'Comienza con'.",
+        "Haga clic en 'Generar Nombres' para ver un nuevo lote de ideas. Puede marcar como favoritos los que le gusten para crear una lista corta y copiarlos para discutirlos con su familia. Generamos nombres que son fáciles de pronunciar en el parque y se adaptan a diversas personalidades.",
+        "Desde lindo y tierno hasta duro y majestuoso, descubra un nombre al que a su mascota le encantará responder."
       ],
-      "label_species": "Espécie",
-      "label_gender": "Gênero",
+      "label_species": "Especie",
+      "label_gender": "Género",
       "label_theme": "Tema",
-      "label_letter": "Começa com (Opcional)",
-      "btn_generate": "Gerar Nomes",
+      "label_letter": "Comienza con (Opcional)",
+      "btn_generate": "Generar Nombres",
       "btn_favorites": "Copiar Favoritos",
-      "species_dog": "Cachorro",
+      "species_dog": "Perro",
       "species_cat": "Gato",
-      "species_bird": "Pássaro",
-      "species_reptile": "Réptil",
-      "species_small": "Roedor / Pequeno",
-      "species_any": "Qualquer",
+      "species_bird": "Pájaro",
+      "species_reptile": "Reptil",
+      "species_small": "Roedor / Pequeño",
+      "species_any": "Cualquiera",
       "gender_male": "Macho",
-      "gender_female": "Fêmea",
-      "gender_any": "Qualquer / Unissex",
-      "theme_classic": "Clássico",
-      "theme_food": "Comida e Bebida",
+      "gender_female": "Hembra",
+      "gender_any": "Cualquiera / Unisex",
+      "theme_classic": "Clásico",
+      "theme_food": "Comida y Bebida",
       "theme_geek": "Geek / Nerd",
-      "theme_nature": "Natureza",
+      "theme_nature": "Naturaleza",
       "theme_myth": "Mitológico",
-      "theme_funny": "Engraçado",
-      "theme_tough": "Durão",
-      "theme_cute": "Fofo",
-      "msg_select": "Selecione nomes para salvá-los abaixo",
+      "theme_funny": "Divertido",
+      "theme_tough": "Rudo",
+      "theme_cute": "Lindo",
+      "msg_select": "Seleccione nombres para guardarlos a continuación",
       "sec_results": "Resultados",
       "sec_favorites": "Favoritos"
     },
@@ -1653,33 +1698,36 @@ export const es: Dictionary = {
       "msg_select": "Haz clic en el corazón para guardar nombres en tu lista."
     },
     "business_name": {
-      "name": "Gerador de Nomes de Empresas",
-      "description": "Crie nomes de negócios cativantes.",
-      "title": "Gerador de Nomes de Empresas",
-      "seo_title": "Gerador de Nomes de Startup e Marca",
+      "name": "Generador de Nombres de Empresa",
+      "description": "Cree nombres comerciales pegadizos.",
+      "title": "Generador de Nombres de Empresa",
+      "seo_title": "Generador de Nombres de Marca y Startup",
       "seo_content": [
-        "Gere nomes criativos, modernos e cativantes para sua startup ou empresa. Verifique a disponibilidade do domínio instantaneamente."
+        "Inicie su nueva empresa con la identidad perfecta utilizando nuestro Generador de Nombres de Empresa. Encontrar un nombre que sea único, memorable y disponible es uno de los primeros y más difíciles pasos para iniciar un negocio. ¿Debería optar por algo descriptivo, abstracto o divertido?",
+        "Ingrese palabras clave relacionadas con su negocio (por ejemplo, 'Tecnología', 'Café', 'Soluciones') y seleccione su industria. Elija un 'Estilo de nombre' para guiar al algoritmo: 'Moderno' (como Spotify, Uber), 'Clásico' (como General Electric) o 'Compuesto' (como Facebook, PayPal).",
+        "Nuestra herramienta genera una lista de ideas de marcas creativas diseñadas para resonar con su público objetivo. Combina la fonética, el análisis de tendencias de la industria y la creatividad lingüística para sugerir nombres que suenan profesionales y listos para el mercado.",
+        "Desde nuevas empresas tecnológicas elegantes hasta panaderías artesanales acogedoras, encuentre un nombre que se destaque en un mercado abarrotado. Marque sus favoritos y comience a construir su marca hoy."
       ],
-      "label_keywords": "Insira Palavras-chave (ex: Tech, Food)",
-      "label_industry": "Indústria",
-      "label_style": "Estilo do Nome",
-      "btn_generate": "Gerar Nomes",
+      "label_keywords": "Ingrese Palabras Clave (ej: Tech, Comida)",
+      "label_industry": "Industria",
+      "label_style": "Estilo de Nombre",
+      "btn_generate": "Generar Nombres",
       "btn_favorites": "Copiar Favoritos",
-      "ind_tech": "Tecnologia / Startup",
-      "ind_creative": "Criativo / Design",
-      "ind_services": "Serviços / Consultoria",
-      "ind_food": "Alimentação / Restaurante",
-      "ind_fashion": "Moda / Beleza",
-      "ind_finance": "Finanças / Legal",
-      "ind_health": "Saúde / Bem-estar",
-      "ind_any": "Geral / Qualquer",
-      "style_modern": "Moderno / Trendy",
-      "style_classic": "Clássico / Corporativo",
-      "style_short": "Curto e Forte",
-      "style_compound": "Palavras Compostas",
-      "sec_results": "Ideias",
-      "sec_favorites": "Sua Lista",
-      "msg_hint": "Dica: Clique nos nomes para favoritar.",
+      "ind_tech": "Tecnología / Startup",
+      "ind_creative": "Creativo / Diseño",
+      "ind_services": "Servicios / Consultoría",
+      "ind_food": "Comida / Restaurante",
+      "ind_fashion": "Moda / Belleza",
+      "ind_finance": "Finanzas / Legal",
+      "ind_health": "Salud / Bienestar",
+      "ind_any": "General / Cualquiera",
+      "style_modern": "Moderno / Tendencia",
+      "style_classic": "Clásico / Corporativo",
+      "style_short": "Corto y Fuerte",
+      "style_compound": "Palabras Compuestas",
+      "sec_results": "Ideas",
+      "sec_favorites": "Su Lista",
+      "msg_hint": "Consejo: Haga clic en los nombres para marcar como favorito.",
       "domain_avail": "Disponível?",
       "check_domain": "Checar Domínio"
     }

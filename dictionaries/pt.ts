@@ -849,7 +849,10 @@ export const pt: Dictionary = {
       "title": "Sorteador de Nomes Aleatório",
       "seo_title": "Sorteador de Prêmios e Nomes",
       "seo_content": [
-        "Sorteie vencedores aleatórios para rifas, brindes e concursos a partir de uma lista de nomes."
+        "Escolha vencedores aleatórios para sorteios, brindes ou concursos instantaneamente com nosso Sorteador de Nomes Aleatório. Seja você um professor selecionando um aluno para responder a uma pergunta, um gerente atribuindo tarefas ou um influenciador realizando um sorteio nas redes sociais, esta ferramenta garante um resultado justo e imparcial.",
+        "Basta colar sua lista de nomes (ou itens) na área de texto, um por linha. Você pode inserir centenas ou até milhares de nomes. Escolha quantos vencedores deseja escolher, seja um único vencedor do grande prêmio ou os 3 melhores para um concurso. Ao clicar em 'Sortear Vencedores', a ferramenta executa um algoritmo de seleção aleatória criptograficamente forte para extrair os nomes.",
+        "Os nomes vencedores são exibidos claramente, separando-os do restante dos participantes. Você também pode usar o botão 'Limpar Lista' para começar de novo para um novo sorteio. Não há necessidade de usar papéis ou tirar de um chapéu.",
+        "Esta ferramenta é executada inteiramente no seu navegador. Nenhum dado é enviado para nossos servidores, portanto, sua lista de nomes permanece privada. Garanta justiça e transparência em seu processo de seleção com um único clique."
       ],
       "input_label": "Insira os nomes (um por linha)",
       "label_count": "Número de vencedores",
@@ -864,19 +867,25 @@ export const pt: Dictionary = {
       "title": "Embaralhador de Lista Aleatório",
       "seo_title": "Randomizador de Ordem de Lista",
       "seo_content": [
-        "Embaralhe aleatoriamente a ordem dos itens em uma lista."
+        "Embaralhe aleatoriamente a ordem dos itens em qualquer lista com o nosso Embaralhador de Lista. Esta ferramenta usa o algoritmo de embaralhamento Fisher-Yates para garantir que cada permutação da lista seja igualmente provável. É perfeito para determinar a ordem de palestrantes, atribuir equipes aleatórias ou simplesmente misturar uma lista de reprodução.",
+        "Cole sua lista de itens (nomes, tarefas, números) no campo de entrada, com cada item em uma nova linha. Clique em 'Embaralhar Lista' para randomizar instantaneamente a ordem. O resultado aparece na caixa de saída, pronto para ser copiado para a área de transferência.",
+        "Isso é útil para professores organizando apresentações de alunos, organizadores de eventos definindo escalações ou desenvolvedores testando a classificação de dados. Remove o viés humano do processo de ordenação.",
+        "Como é uma ferramenta do lado do cliente, seus dados nunca saem do seu dispositivo. Misture listas de qualquer tamanho instantaneamente e obtenha uma sequência verdadeiramente aleatória todas as vezes."
       ],
       "input_label": "Lista de Entrada (um por linha)",
       "btn_shuffle": "Embaralhar Lista",
       "btn_copy": "Copiar Lista"
     },
     "list_sorter": {
-      "name": "Organizador Alfabético",
+      "name": "Organizador de Lista",
       "description": "Ordene listas A-Z, Z-A ou tamanho.",
       "title": "Organizador de Lista",
       "seo_title": "Classificar Lista Online",
       "seo_content": [
-        "Ordene suas listas alfabeticamente, por comprimento ou numericamente."
+        "Organize seus dados instantaneamente com nossa ferramenta Organizador de Lista. Ordenar manualmente uma longa lista de nomes, produtos ou palavras-chave é tedioso e propenso a erros. Nossa ferramenta automatiza esse processo, suportando vários critérios de classificação para atender às suas necessidades.",
+        "Cole sua lista desordenada na caixa de entrada. Você pode optar por classificar Alfabeticamente (A-Z) para organização padrão, ou Inversamente Alfabético (Z-A). Também oferecemos classificação numérica (0-9 e 9-0), o que é essencial porque a classificação de texto padrão geralmente ordena '10' antes de '2'. Além disso, você pode classificar por Tamanho (do mais curto para o mais longo), o que é ótimo para palavras-chave de SEO ou nomes de domínio.",
+        "O botão 'Inverter' inverte a ordem atual da lista. Esta é uma utilidade poderosa para desenvolvedores, escritores e analistas de dados que precisam limpar e estruturar dados de texto brutos rapidamente.",
+        "Funciona offline e respeita sua privacidade. Obtenha suas listas em perfeita ordem em segundos."
       ],
       "input_label": "Lista de Entrada",
       "btn_az": "A - Z",
@@ -888,11 +897,14 @@ export const pt: Dictionary = {
     },
     "prefix_suffix": {
       "name": "Adicionar Prefixo/Sufixo",
-      "description": "Adicione texto no início/fim das linhas.",
+      "description": "Adicione texto no início/fim.",
       "title": "Adicionar Prefixo e Sufixo",
-      "seo_title": "Adicionar Prefixo Sufixo em Massa",
+      "seo_title": "Ferramenta de Texto em Massa",
       "seo_content": [
-        "Adicione texto específico ao início ou fim de cada linha em uma lista."
+        "Edite em lote suas listas de texto adicionando prefixos e sufixos a cada linha. Adicionar manualmente aspas, vírgulas ou tags a centenas de linhas é uma perda de tempo. Nossa ferramenta automatiza a manipulação de strings para desenvolvedores, profissionais de marketing e manipuladores de dados.",
+        "Cole sua lista na área de texto principal. Digite o texto que você deseja que apareça no início de cada linha no campo 'Prefixo' (por exemplo, '<li>'). Digite o texto para o final no campo 'Sufixo' (por exemplo, '</li>'). Clique em 'Aplicar' para transformar toda a lista instantaneamente.",
+        "Isso é incrivelmente útil para transformar uma lista de palavras em itens de lista HTML, valores de consulta SQL (adicionando aspas e vírgulas) ou formatar dados CSV. Também é ótimo para profissionais de SEO criando listas de URL em massa adicionando domínios a slugs.",
+        "Economize horas de digitação repetitiva. Copie o resultado formatado para a área de transferência com um clique e passe para tarefas mais importantes."
       ],
       "input_label": "Lista de Entrada",
       "label_prefix": "Prefixo (Início)",
@@ -906,7 +918,10 @@ export const pt: Dictionary = {
       "title": "Gerador de CSV de Dados Falsos",
       "seo_title": "Gerador de Dados CSV Aleatórios",
       "seo_content": [
-        "Gere dados CSV aleatórios com nomes, e-mails e idades para testes."
+        "Gere dados falsos realistas para testes e desenvolvimento com nosso Gerador de CSV Aleatório. Ao criar aplicativos, painéis ou bancos de dados, você geralmente precisa de dados de espaço reservado para verificar layouts e desempenho. Criar 'João Silva 1', 'João Silva 2' manualmente é lento e irrealista.",
+        "Nossa ferramenta cria arquivos CSV estruturados contendo Nomes, Sobrenomes, E-mails e Idades aleatórios. Basta especificar o 'Número de Linhas' que você precisa (por exemplo, 100 ou 1000) e clicar em Gerar. Você pode visualizar os dados CSV brutos na tela ou baixá-los como um arquivo .csv pronto para importação para Excel, SQL ou seu aplicativo.",
+        "Os e-mails gerados são sintaticamente válidos (embora falsos) e os nomes são extraídos de uma lista diversificada. Isso ajuda a simular a variação de dados do mundo real.",
+        "Essencial para testadores de QA, cientistas de dados e desenvolvedores que precisam de conjuntos de dados rápidos sem problemas de privacidade. Gere linhas ilimitadas de dados de teste instantaneamente."
       ],
       "label_rows": "Número de Linhas",
       "btn_generate": "Gerar CSV",
@@ -914,11 +929,14 @@ export const pt: Dictionary = {
     },
     "week_number": {
       "name": "Número da Semana",
-      "description": "Número da semana atual do ano.",
+      "description": "Número da semana atual.",
       "title": "Em Qual Semana Estamos?",
       "seo_title": "Número da Semana Atual",
       "seo_content": [
-        "Descubra o número da semana atual do ano."
+        "Descubra o número da semana atual do ano instantaneamente com nossa ferramenta Número da Semana. O sistema de semanas padrão ISO-8601 é amplamente utilizado em negócios e governo em toda a Europa e partes da Ásia, enquanto os EUA costumam usar um sistema de calendário ligeiramente diferente. Nossa ferramenta detecta automaticamente a data de hoje e exibe o número da semana ISO correto.",
+        "Saber o número da semana é crucial para sprints de gerenciamento de projetos, cronogramas de fabricação e planejamento corporativo. Em vez de contar semanas manualmente em um calendário, obtenha a resposta precisa em segundos. Você pode verificar a semana atual ou selecionar qualquer data passada ou futura para determinar seu número de semana correspondente.",
+        "A interface é simples: o número da semana de hoje está na frente e no centro. Use o seletor de data para 'Verificar outra data'. Por exemplo, se você precisar saber em que semana o Natal cai este ano ou quando um prazo específico chega na 'Semana 42'.",
+        "Mantenha-se organizado e sincronizado com parceiros de negócios internacionais. Marque esta página para suas sessões de planejamento semanal."
       ],
       "label_current": "Semana Atual",
       "label_check": "Verificar outra data",
@@ -961,9 +979,12 @@ export const pt: Dictionary = {
       "name": "Tradutor Código Morse",
       "description": "Texto para Morse e vice-versa.",
       "title": "Tradutor de Código Morse",
-      "seo_title": "Conversor de Código Morse",
+      "seo_title": "Conversor de Código Morse Online",
       "seo_content": [
-        "Traduza texto para código Morse e código Morse para texto."
+        "Traduza texto para código Morse e código Morse para texto com nosso Tradutor de Código Morse online. Inventado por Samuel Morse via telégrafo na década de 1830, este sistema de pontos e traços revolucionou a comunicação de longa distância. Hoje, continua sendo uma habilidade popular para entusiastas de radioamador, escoteiros e resolução de quebra-cabeças/CTF.",
+        "Digite sua mensagem na caixa 'Texto' para vê-la convertida instantaneamente para a sintaxe clássica de .-.. Alternativamente, cole o código Morse na caixa inferior para decodificá-lo em texto legível. Apoiamos o padrão do Código Morse Internacional (ITU), incluindo letras, números e pontuação comum.",
+        "Quer ouvir como soa? Clique no botão 'Tocar Som' para ouvir sua mensagem como uma série de bipes de áudio. O tempo segue a regra padrão onde um traço é três vezes a duração de um ponto. Isso é excelente para aprender a receber código Morse de ouvido.",
+        "Seja você enviando uma mensagem secreta, aprendendo uma habilidade histórica ou apenas curioso, nosso tradutor torna isso fácil. Funciona inteiramente no seu navegador."
       ],
       "label_text": "Texto",
       "label_morse": "Código Morse",
@@ -1062,7 +1083,10 @@ export const pt: Dictionary = {
       "title": "Verificador de Força de Senha",
       "seo_title": "Testar Força da Senha",
       "seo_content": [
-        "Avalie a força e a entropia da sua senha."
+        "Avalie a força e a segurança da sua senha com nosso Verificador de Força de Senha. Em uma era de violações de dados, usar senhas fracas como '123456' ou 'senha' coloca suas informações pessoais em risco. Esta ferramenta analisa a entropia da sua senha e estima quanto tempo levaria para um hacker decifrá-la usando ataques de força bruta.",
+        "À medida que você digita, a ferramenta fornece feedback em tempo real. Ela verifica o comprimento, o uso de letras maiúsculas e minúsculas, números e símbolos especiais. Ela atribui uma pontuação e oferece conselhos específicos sobre como melhorá-la, como 'Adicionar mais caracteres' ou 'Evitar padrões comuns'.",
+        "Crucialmente, essa verificação acontece inteiramente no lado do cliente. Sua senha NUNCA é enviada para nossos servidores ou armazenada em qualquer lugar. Você pode testar suas senhas reais com segurança ou usá-la para praticar a criação de frases-senha fortes e memoráveis.",
+        "Não espere até ser hackeado. Verifique sua higiene de senha agora e garanta que suas contas digitais estejam protegidas por uma defesa robusta."
       ],
       "label_pass": "Digite a Senha",
       "res_score": "Pontuação",
@@ -1106,7 +1130,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de PPI (Pixels Por Polegada)",
       "seo_title": "Calculadora de Densidade de Tela",
       "seo_content": [
-        "Calcule o PPI (Pixels Por Polegada) de telas com base na resolução e tamanho."
+        "Calcule o PPI (Pixels Por Polegada) de qualquer tela com nossa calculadora precisa de densidade de pixels. O PPI (ou DPI - Pontos Por Polegada) é uma métrica crucial para entender a nitidez de uma tela. Quanto maior o PPI, mais nítida a imagem, pois os pixels individuais se tornam menores e menos visíveis a olho nu. Os monitores 'Retina' da Apple popularizaram o conceito de telas de alta densidade.",
+        "Para usar a ferramenta, insira a resolução da tela em pixels (Largura x Altura) e o tamanho da tela diagonal em polegadas. Por exemplo, uma tela Full HD padrão é 1920x1080. Se for um monitor de 24 polegadas, o PPI é de cerca de 91. Se for um laptop de 15 polegadas, o PPI salta para 146.",
+        "Designers e desenvolvedores usam esses dados para determinar para qual escala devem projetar ativos (1x, 2x, 3x). Os jogadores a usam para escolher a tela certa para sua configuração, equilibrando a nitidez com o desempenho. Saber o PPI exato ajuda você a comparar dispositivos lado a lado além das especificações de marketing.",
+        "Também calculamos a contagem total de pixels e a proporção. Descubra a verdadeira clareza do seu monitor, smartphone ou tablet instantaneamente."
       ],
       "label_width": "Largura (px)",
       "label_height": "Altura (px)",
@@ -1117,11 +1144,14 @@ export const pt: Dictionary = {
     },
     "compound_interest": {
       "name": "Juros Compostos",
-      "description": "Calcule o crescimento do investimento.",
+      "description": "Calcule taxas de juros compostos.",
       "title": "Calculadora de Juros Compostos",
-      "seo_title": "Simulador de Juros Compostos",
+      "seo_title": "Simulador de Juros Compostos Online",
       "seo_content": [
-        "Calcule como seus investimentos crescem ao longo do tempo com juros compostos."
+        "Visualize o poder do crescimento exponencial com nossa Calculadora de Juros Compostos. Albert Einstein supostamente chamou os juros compostos de 'oitava maravilha do mundo'. Ao contrário dos juros simples, que crescem linearmente, os juros compostos rendem juros sobre seus juros, fazendo com que sua riqueza acelere ao longo do tempo.",
+        "Esta ferramenta permite simular cenários de investimento. Insira seu 'Investimento Inicial' (Principal), qual 'Aporte Mensal' você planeja adicionar, a 'Taxa de Juros Anual' esperada (retorno) e o 'Tempo' em anos. Nossa calculadora projeta imediatamente o Valor Total Futuro e, crucialmente, separa o 'Total em Juros' ganho.",
+        "Muitas vezes, pequenos depósitos regulares superam uma grande soma única devido à mágica do tempo. Use isso para planejar a aposentadoria, poupar para a faculdade ou definir metas financeiras. Veja a diferença entre começar agora versus esperar 5 anos.",
+        "Sem planilhas complexas, apenas insights financeiros claros. Planeje seu caminho para a liberdade financeira hoje."
       ],
       "label_principal": "Investimento Inicial",
       "label_monthly": "Aporte Mensal",
@@ -1174,7 +1204,10 @@ export const pt: Dictionary = {
       "title": "Gerador e Validador de CPF",
       "seo_title": "Gerador de CPF Válido Online",
       "seo_content": [
-        "Gere CPFs válidos para fins de teste de software (Dev Tools)."
+        "Gere números de CPF válidos para fins de teste de software e desenvolvimento (Dev Tools). O CPF (Cadastro de Pessoas Físicas) é a identificação de registro de contribuintes individuais no Brasil. Desenvolvedores que criam sites de comércio eletrônico ou formulários de registro para o mercado brasileiro frequentemente precisam de números de CPF válidos para testar sua lógica de validação.",
+        "Nossa ferramenta pode Gerar um número de CPF aleatório e matematicamente válido instantaneamente. Ela calcula os dígitos de verificação corretos (os dois últimos números) com base no algoritmo padrão (Módulo 11). Você pode optar por formatá-lo com pontuação (XXX.XXX.XXX-XX) ou mantê-lo apenas como dígitos.",
+        "Você também pode usar a função Validar para verificar se um CPF existente é estruturalmente válido. Nota: Esta ferramenta verifica apenas a validade matemática (soma de verificação); ela não verifica se o CPF pertence a uma pessoa real ou seu status na Receita Federal.",
+        "Esta é uma ferramenta estritamente utilitária para programadores e testadores de QA para agilizar o fluxo de trabalho de desenvolvimento. Nenhum dado é registrado."
       ],
       "btn_generate": "Gerar CPF",
       "btn_format": "Formatar",
@@ -1186,7 +1219,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Referência ABNT",
       "seo_title": "Formatador ABNT Online",
       "seo_content": [
-        "Crie referências bibliográficas para livros no formato ABNT."
+        "Crie referências bibliográficas perfeitas para seus trabalhos acadêmicos no formato ABNT (Associação Brasileira de Normas Técnicas). Formatar referências manualmente é entediante e fácil de errar. A formatação incorreta pode custar pontos em sua tese, dissertação ou artigo.",
+        "Basta preencher os campos: Nome do Autor, Sobrenome, Título, Cidade, Editora e Ano. Clique em 'Gerar Referência' para obter uma string formatada de acordo com a norma NBR 6023 (ex: SOBRENOME, Nome. Título. Cidade: Editora, Ano.).",
+        "Esta ferramenta foca no formato 'Livro' (Monografia), que é o requisito mais comum. Ela aplica as regras de negrito (geralmente ao título) e pontuação automaticamente.",
+        "Copie o resultado diretamente para sua bibliografia no Word ou Google Docs. Concentre-se no conteúdo da sua pesquisa e deixe-nos lidar com as regras de formatação."
       ],
       "label_author_first": "Nome do Autor",
       "label_author_last": "Sobrenome do Autor",
@@ -1234,7 +1270,10 @@ export const pt: Dictionary = {
       "title": "Verificador de Dead Pixel",
       "seo_title": "Teste de Tela Dead Pixel",
       "seo_content": [
-        "Pisca cores sólidas na tela para encontrar pixels mortos ou presos."
+        "Verifique se o seu monitor ou tela de smartphone tem pixels mortos ou presos com nossa ferramenta Teste Dead Pixel. Um 'dead pixel' é um ponto na tela que não acende, permanecendo preto, enquanto um 'stuck pixel' (pixel preso) é travado em uma única cor (geralmente vermelho, verde ou azul). Esses defeitos podem ser irritantes e são frequentemente cobertos pela garantia se detectados precocemente.",
+        "Nossa ferramenta preenche toda a sua tela com cores sólidas e puras: Branco, Preto, Vermelho, Verde e Azul. Percorrer essas cores em tela cheia facilita a identificação de quaisquer irregularidades. Um ponto escuro em um fundo branco indica um pixel morto. Um ponto brilhante em um fundo preto ou colorido indica um pixel preso ou quente.",
+        "Para usar, clique em 'Iniciar Teste'. Isso colocará seu navegador em modo de tela cheia para remover distrações. Basta clicar ou tocar em qualquer lugar da tela para avançar para a próxima cor. Inspecione cuidadosamente cada área do seu monitor enquanto alterna o fundo.",
+        "Esta é uma verificação essencial ao comprar um novo monitor, laptop ou telefone usado. Certifique-se de que sua tela esteja impecável antes que o período de devolução expire."
       ],
       "msg_start": "Clique para Iniciar Teste",
       "msg_instruct": "Clique para mudar cor. ESC para sair."
@@ -1243,9 +1282,12 @@ export const pt: Dictionary = {
       "name": "Planejador de Leitura",
       "description": "Planeje seu cronograma de leitura.",
       "title": "Calculadora de Tempo de Leitura",
-      "seo_title": "Calculadora de Leitura de Livros",
+      "seo_title": "Calculadora de Leitura de Livros (Metas Diárias)",
       "seo_content": [
-        "Calcule quantas páginas você precisa ler por dia para terminar um livro."
+        "Atinga suas metas de leitura com nosso Planejador de Leitura de Livros. Quer ler mais livros este ano, mas acha difícil manter o ritmo? Dividir um livro grande em partes diárias gerenciáveis é o segredo para construir um hábito de leitura consistente.",
+        "Insira o 'Total de Páginas' do livro que você está lendo (ou planeja ler). Em seguida, decida em quantos 'Dias' você quer terminá-lo (por exemplo, 7 dias, 30 dias). A ferramenta calcula instantaneamente quantas páginas você precisa ler a cada dia para atingir esse prazo.",
+        "Alternativamente, você pode usá-lo ao contrário: ajuste os dias até encontrar uma contagem de páginas diárias que pareça viável para sua agenda (por exemplo, 20 páginas/dia). É perfeito para estudantes com listas de leitura atribuídas, membros de clubes do livro ou qualquer pessoa que participe de um desafio de leitura.",
+        "Pare de se sentir sobrecarregado por livros grossos. Crie um roteiro claro para a conclusão e aproveite sua jornada de leitura, um dia de cada vez."
       ],
       "label_pages": "Total de Páginas",
       "label_days": "Dias para Terminar",
@@ -1276,7 +1318,10 @@ export const pt: Dictionary = {
       "title": "Resumidor de Texto Automático",
       "seo_title": "Resumidor de Texto Online Grátis",
       "seo_content": [
-        "Resuma automaticamente artigos longos ou blocos de texto em frases-chave."
+        "Resuma automaticamente artigos longos, redações ou documentos em frases-chave com nosso Resumidor de Texto com IA. No mundo atual, rico em informações, ler tudo palavra por palavra é impossível. Esta ferramenta extrai as frases mais importantes do seu texto para lhe dar uma visão geral concisa.",
+        "Cole seu texto na caixa de entrada. Use o controle deslizante 'Tamanho do Resumo' para decidir quão curto ou detalhado você deseja que a saída seja (por exemplo, 20% do comprimento original vs. 50%). Clique em 'Resumir' para processar. Nosso algoritmo analisa a frequência das frases e a importância das palavras-chave para identificar a mensagem central.",
+        "Perfeito para estudantes que precisam folhear tarefas de leitura, pesquisadores analisando artigos ou profissionais acompanhando notícias do setor. Ajuda você a entender os pontos principais sem ler o preenchimento.",
+        "Este resumo baseado em extração é executado localmente no seu navegador para privacidade. Nenhum conteúdo é enviado para a nuvem. Economize tempo e aumente sua produtividade."
       ],
       "input_label": "Cole o Texto",
       "range_label": "Tamanho do Resumo",
@@ -1304,7 +1349,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Gorjeta",
       "seo_title": "Calculadora de Gorjeta e Divisão",
       "seo_content": [
-        "Calcule gorjetas e divida a conta entre amigos facilmente."
+        "Calcule a gorjeta perfeita e divida a conta facilmente com nossa Calculadora de Gorjeta. Jantar com amigos ou beber com colegas deve ser divertido, mas a matemática no final da refeição pode ser um incômodo. Descobrir quanto é 10%, ou dividir uma conta de R$ 150 entre 7 pessoas, é mais fácil com uma ferramenta.",
+        "Insira o 'Valor da Conta' e selecione sua 'Gorjeta %' desejada usando o controle deslizante ou o campo de entrada. As taxas de gorjeta variam, mas 10% é padrão no Brasil. Nossa calculadora exibe imediatamente o 'Valor da Gorjeta' e o 'Total da Conta'.",
+        "A verdadeira mágica acontece com o campo 'Número de Pessoas'. Conforme você ajusta a contagem, a ferramenta divide o custo 'Por Pessoa'. Isso garante que todos paguem sua parte justa, incluindo a gorjeta.",
+        "Evite momentos constrangedores de matemática mental. Use esta ferramenta amigável para dispositivos móveis na mesa do restaurante para fechar a conta com rapidez e precisão."
       ],
       "label_bill": "Valor da Conta",
       "label_tip": "Gorjeta %",
@@ -1320,7 +1368,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Nomes de Fantasia e RPG",
       "seo_title": "Gerador de Nomes de Personagem RPG",
       "seo_content": [
-        "Gere nomes de fantasia épicos para seus jogos, RPGs de mesa e histórias."
+        "Crie nomes épicos para seus personagens de D&D, romances ou videogames com nosso Gerador de Nomes de Fantasia. Lutando para nomear seu novo Arqueiro Elfo ou Bárbaro Orc? O bloqueio criativo pode impedir sua criatividade. Nosso gerador fornece inspiração instantânea com nomes que se encaixam em arquétipos de fantasia e estilos linguísticos específicos.",
+        "Selecione uma 'Categoria / Raça' de opções como Humano, Elfo, Anão, Orc ou até Lugares/Reinos. Você também pode escolher 'Sci-Fi' para nomes futuristas ou 'Vilão' para títulos de sonoridade mais sombria. Filtre por gênero (Masculino, Feminino) para refinar os resultados.",
+        "Clique em 'Gerar Nomes' para obter uma lista de sugestões únicas. Usamos combinações silábicas avançadas para garantir que os nomes soem pronunciáveis e amigáveis à história. Você pode selecionar seus favoritos para salvá-los em uma lista curta abaixo ou clicar em 'Copiar Todos' para pegar o lote inteiro.",
+        "Seja você um Mestre de Jogo povoando uma cidade com NPCs ou um escritor construindo um novo mundo, esta ferramenta cria nomes com a 'sensação' certa para o seu cenário."
       ],
       "label_race": "Categoria / Raça",
       "label_qty": "Quantidade",
@@ -1347,7 +1398,10 @@ export const pt: Dictionary = {
       "title": "Calculadora RAID",
       "seo_title": "Calculadora de Capacidade RAID",
       "seo_content": [
-        "Calcule a capacidade utilizável e tolerância a falhas para RAID 0, 1, 5, 6, 10."
+        "Planeje o armazenamento do seu servidor com nossa Calculadora RAID. RAID (Redundant Array of Independent Disks) é uma tecnologia de virtualização de armazenamento de dados que combina vários componentes de unidade de disco físico em uma ou mais unidades lógicas. Escolher o nível RAID certo é fundamental para equilibrar desempenho, capacidade de armazenamento e redundância de dados (segurança).",
+        "Selecione o 'Tamanho do Disco' e o 'Número de Discos'. Em seguida, escolha o 'Tipo de RAID' (RAID 0, 1, 5, 6, 10). A ferramenta calcula instantaneamente a 'Capacidade Útil' (quanto espaço você realmente obtém) e a 'Tolerância a Falhas' (quantos discos podem falhar antes que você perca dados).",
+        "Por exemplo, o RAID 0 oferece velocidade e capacidade máximas, mas segurança zero. O RAID 1 espelha os dados para segurança, mas reduz a capacidade pela metade. O RAID 5 é um equilíbrio popular, oferecendo capacidade N-1 com redundância de 1 unidade. Entender essas compensações é essencial para profissionais de TI e entusiastas de home lab configurando sistemas NAS.",
+        "Visualize sua configuração antes de comprar hardware. Certifique-se de que sua estratégia de dados atenda às suas necessidades de backup."
       ],
       "label_disk_size": "Tamanho do Disco (TB)",
       "label_disk_count": "Número de Discos",
@@ -1587,7 +1641,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Nomes de Animais",
       "seo_title": "Gerador de Nomes para Cachorros e Gatos",
       "seo_content": [
-        "Gere centenas de ideias de nomes para cachorros, gatos, pássaros e mais. Filtre por gênero, tema e espécie."
+        "Encontre o nome perfeito para o seu novo amigo peludo com nosso Gerador de Nomes de Pets. Dar as boas-vindas a um novo cachorro, gato ou pássaro na família é uma ocasião alegre, mas concordar com um nome pode ser difícil. Você vai com algo clássico como 'Rex' ou algo único como 'Luna'?",
+        "Selecione a espécie do seu animal de estimação (Cachorro, Gato, Pássaro, Réptil, etc.) e o Gênero. Você também pode filtrar por Tema, como 'Comida e bebida' (por exemplo, Paçoca), 'Geek/Nerd' (por exemplo, Yoda, Pixel) ou 'Mitológico' (por exemplo, Zeus, Thor). Se você tem uma letra específica em mente, use o filtro 'Começa com'.",
+        "Clique em 'Gerar Nomes' para ver um novo lote de ideias. Você pode favoritar os que gosta para criar uma lista curta e copiá-los para discutir com sua família. Geramos nomes que são fáceis de chamar no parque e se adequam a várias personalidades.",
+        "De fofo e adorável a durão e majestoso, descubra um nome que seu animal de estimação vai adorar responder."
       ],
       "label_species": "Espécie",
       "label_gender": "Gênero",
@@ -1658,9 +1715,12 @@ export const pt: Dictionary = {
       "name": "Gerador de Nomes de Empresas",
       "description": "Crie nomes de negócios cativantes.",
       "title": "Gerador de Nomes de Empresas",
-      "seo_title": "Gerador de Nomes de Startup e Marca",
+      "seo_title": "Gerador de Nomes de Marca e Startup",
       "seo_content": [
-        "Gere nomes criativos, modernos e cativantes para sua startup ou empresa. Verifique a disponibilidade do domínio instantaneamente."
+        "Comece seu novo empreendimento com a identidade perfeita usando nosso Gerador de Nomes de Empresas. Encontrar um nome único, memorável e disponível é um dos primeiros e mais difíceis passos para iniciar um negócio. Você deve optar por algo descritivo, abstrato ou divertido?",
+        "Insira palavras-chave relacionadas ao seu negócio (por exemplo, 'Tech', 'Café', 'Soluções') e selecione sua indústria. Escolha um 'Estilo de nome' para guiar o algoritmo: 'Moderno' (como Spotify, Uber), 'Clássico' (como General Electric) ou 'Composto' (como Facebook, PayPal).",
+        "Nossa ferramenta gera uma lista de ideias de marcas criativas adaptadas para ressoar com seu público-alvo. Ela combina fonética, análise de tendências da indústria e criatividade linguística para sugerir nomes que parecem profissionais e prontos para o mercado.",
+        "De startups de tecnologia elegantes a padarias artesanais aconchegantes, encontre um nome que se destaque em um mercado lotado. Favoritos os que você gosta e comece a construir sua marca hoje."
       ],
       "label_keywords": "Insira Palavras-chave (ex: Tech, Food)",
       "label_industry": "Indústria",
@@ -1681,9 +1741,7 @@ export const pt: Dictionary = {
       "style_compound": "Palavras Compostas",
       "sec_results": "Ideias",
       "sec_favorites": "Sua Lista",
-      "msg_hint": "Dica: Clique nos nomes para favoritar.",
-      "domain_avail": "Disponível?",
-      "check_domain": "Checar Domínio"
+      "msg_hint": "Dica: Clique nos nomes para favoritar."
     }
   }
 };

@@ -844,9 +844,12 @@ export const en: Dictionary = {
       "name": "Name Picker",
       "description": "Pick a winner from a list.",
       "title": "Random Name Picker",
-      "seo_title": "Raffle and Name Picker",
+      "seo_title": "Raffle and Random Name Picker",
       "seo_content": [
-        "Pick random winners for raffles, giveaways, and contests from a list of names."
+        "Pick random winners for raffles, giveaways, or contests instantly with our Random Name Picker. Whether you are a teacher selecting a student to answer a question, a manager assigning tasks, or an influencer hosting a social media giveaway, this tool ensures a fair and unbiased result.",
+        "Simply paste your list of names (or items) into the text area, one per line. You can enter hundreds or even thousands of names. Choose how many winners you want to pick—whether it's a single grand prize winner or top 3 for a contest. When you click 'Pick Winners', the tool runs a cryptographically strong random selection algorithm to draw the names.",
+        "The winning names are displayed clearly, separating them from the rest of the entrants. You can also use the 'Clear List' button to start over for a new draw. There is no need for paper slips or drawing from a hat.",
+        "This tool runs entirely in your browser. No data is sent to our servers, so your list of names remains private. Ensure fairness and transparency in your selection process with a single click."
       ],
       "input_label": "Enter names (one per line)",
       "label_count": "Number of winners",
@@ -861,7 +864,10 @@ export const en: Dictionary = {
       "title": "Random List Shuffler",
       "seo_title": "List Order Randomizer",
       "seo_content": [
-        "Randomly shuffle the order of items in a list."
+        "Randomly shuffle the order of items in any list with our List Randomizer. This tool uses the Fisher-Yates shuffle algorithm to ensure every permutation of the list is equally likely. It is perfect for determining speaking order, assigning random teams, or just mixing up a playlist.",
+        "Paste your list of items (names, tasks, numbers) into the input field, with each item on a new line. Click 'Shuffle List' to instantly randomize their order. The result appears in the output box, ready to be copied to your clipboard.",
+        "This is useful for teachers organizing student presentations, event organizers setting lineups, or developers testing data sorting. It eliminates human bias from the ordering process.",
+        "Since it is a client-side tool, your data never leaves your device. Shuffle lists of any size instantly and get a truly random sequence every time."
       ],
       "input_label": "Input List (one per line)",
       "btn_shuffle": "Shuffle List",
@@ -871,9 +877,12 @@ export const en: Dictionary = {
       "name": "List Sorter",
       "description": "Sort lists A-Z, Z-A or length.",
       "title": "List Sorter",
-      "seo_title": "Sort List Online",
+      "seo_title": "Alphabetical List Sorter",
       "seo_content": [
-        "Sort your lists alphabetically, by length, or numerically."
+        "Organize your data instantly with our List Sorter tool. Sorting a long list of names, products, or keywords manually is tedious and prone to error. Our tool automates this process, supporting multiple sorting criteria to suit your needs.",
+        "Paste your messy list into the input box. You can then choose to sort it Alphabetically (A-Z) for standard organization, or Reverse Alphabetically (Z-A). We also offer numerical sorting (0-9 and 9-0), which is essential because standard text sorting often orders '10' before '2'. Additionally, you can sort by Length (shortest to longest), which is great for SEO keywords or domain names.",
+        "The 'Reverse' button flips the current order of the list. This is a powerful utility for developers, writers, and data analysts who need to clean up and structure raw text data quickly.",
+        "Works offline and respects your privacy. Get your lists in perfect order in seconds."
       ],
       "input_label": "Input List",
       "btn_az": "A - Z",
@@ -887,9 +896,12 @@ export const en: Dictionary = {
       "name": "Add Prefix/Suffix",
       "description": "Add text to start/end of lines.",
       "title": "Add Prefix and Suffix",
-      "seo_title": "Bulk Add Prefix Suffix",
+      "seo_title": "Bulk Text Adder Tool",
       "seo_content": [
-        "Add specific text to the beginning or end of each line in a list."
+        "Batch edit your text lists by adding prefixes and suffixes to every line. Manually adding quotes, commas, or tags to hundreds of lines is a waste of time. Our Add Prefix/Suffix tool automates string manipulation for developers, marketers, and data handlers.",
+        "Paste your list into the main text area. Enter the text you want to appear at the beginning of each line in the 'Prefix' field (e.g., '<li>'). Enter text for the end in the 'Suffix' field (e.g., '</li>'). Click 'Apply' to transform the entire list instantly.",
+        "This is incredibly useful for converting a list of words into HTML list items, SQL query values (adding quotes and commas), or formatting CSV data. It's also great for SEOs building bulk URL lists by adding domains to slugs.",
+        "Save hours of repetitive typing. Copy the formatted result to your clipboard with one click and move on to more important tasks."
       ],
       "input_label": "Input List",
       "label_prefix": "Prefix (Start)",
@@ -903,7 +915,10 @@ export const en: Dictionary = {
       "title": "Fake Data CSV Generator",
       "seo_title": "Random CSV Data Generator",
       "seo_content": [
-        "Generate random CSV data with names, emails, and ages for testing."
+        "Generate realistic fake data for testing and development with our Random CSV Generator. When building applications, dashboards, or databases, you often need placeholder data to verify layouts and performance. Creating 'John Doe 1', 'John Doe 2' manually is slow and unrealistic.",
+        "Our tool creates structured CSV files containing random First Names, Last Names, Email Addresses, and Ages. Simply specify the 'Number of Rows' you need (e.g., 100 or 1000) and click Generate. You can view the raw CSV data on the screen or download it as a .csv file ready to import into Excel, SQL, or your application.",
+        "The generated emails are syntactically valid (though fake), and names are drawn from a diverse list. This helps simulate real-world data variance.",
+        "Essential for QA testers, data scientists, and developers who need quick datasets without privacy concerns. Generate unlimited rows of test data instantly."
       ],
       "label_rows": "Number of Rows",
       "btn_generate": "Generate CSV",
@@ -915,7 +930,10 @@ export const en: Dictionary = {
       "title": "What Week Is It?",
       "seo_title": "Current Week Number",
       "seo_content": [
-        "Find out the current week number of the year."
+        "Find out the current week number of the year instantly with our Week Number tool. The ISO-8601 standard week system is widely used in business and government across Europe and parts of Asia, while the US often uses a slightly different calendar system. Our tool automatically detects your date and displays the correct ISO week number.",
+        "Knowing the week number is crucial for project management sprints, manufacturing schedules, and corporate planning. Instead of counting weeks manually on a calendar, get the precise answer in seconds. You can check the current week or select any past or future date to determine its corresponding week number.",
+        "The interface is simple: today's week number is front and center. Use the date picker to 'Check another date'. For example, if you need to know what week Christmas falls on this year or when a specific deadline in 'Week 42' lands.",
+        "Stay organized and in sync with international business partners. Bookmark this page for your weekly planning sessions."
       ],
       "label_current": "Current Week",
       "label_check": "Check another date",
@@ -960,7 +978,10 @@ export const en: Dictionary = {
       "title": "Morse Code Translator",
       "seo_title": "Morse Code Converter",
       "seo_content": [
-        "Translate text to Morse code and Morse code to text."
+        "Translate text to Morse code and Morse code back to text with our online Morse Code Translator. Invented by Samuel Morse via telegraph in the 1830s, this system of dots and dashes revolutionized long-distance communication. Today, it remains a popular skill for amateur radio enthusiasts, scouts, and solving puzzles/CTFs.",
+        "Type your message in the 'Text' box to see it instantly converted into the classic .-.. syntax. Alternatively, paste Morse code into the bottom box to decode it into readable text. We support the International Morse Code standard (ITU), including letters, numbers, and common punctuation.",
+        "Want to hear how it sounds? Click the 'Play Sound' button to listen to your message as a series of audio beeps. The timing follows the standard rule where a dash is three times the duration of a dot. This is excellent for learning to receive Morse code by ear.",
+        "Whether you are sending a secret message, learning a historical skill, or just curious, our translator makes it easy. It works entirely in your browser."
       ],
       "label_text": "Text",
       "label_morse": "Morse Code",
@@ -1059,7 +1080,10 @@ export const en: Dictionary = {
       "title": "Password Strength Checker",
       "seo_title": "Test Password Strength",
       "seo_content": [
-        "Evaluate the strength and entropy of your password."
+        "Evaluate the strength and security of your password with our Password Strength Checker. In an age of data breaches, using weak passwords like '123456' or 'password' puts your personal information involved. This tool analyzes your password's entropy and estimates how long it would take for a hacker to crack it using brute-force attacks.",
+        "As you type, the tool provides real-time feedback. It checks for length, use of uppercase and lowercase letters, numbers, and special symbols. It assigns a score and offers specific advice on how to improve it, such as 'Add more characters' or 'Avoid common patterns'.",
+        "Crucially, this check happens entirely client-side. Your password is NEVER sent to our servers or stored anywhere. You can test your actual passwords safely, or use it to practice creating strong, memorable passphrases.",
+        "Don't wait until you get hacked. Verify your password hygiene now and ensure your digital accounts are protected by a strong defense."
       ],
       "label_pass": "Enter Password",
       "res_score": "Score",
@@ -1171,7 +1195,10 @@ export const en: Dictionary = {
       "title": "CPF Generator & Validator",
       "seo_title": "CPF Generator Online",
       "seo_content": [
-        "Generate valid CPFs for software testing purposes (Dev Tools)."
+        "Generate valid CPF numbers for software testing and development purposes (Dev Tools). The CPF (Cadastro de Pessoas Físicas) is the individual taxpayer registry identification in Brazil. Developers building e-commerce sites or registration forms for the Brazilian market often need valid CPF numbers to test their validation logic.",
+        "Our tool can Generate a random, mathematically valid CPF number instantly. It calculates the correct check digits (the last two numbers) based on the standard algorithm. You can choose to format it with punctuation (XXX.XXX.XXX-XX) or keep it as raw digits.",
+        "You can also use the Validate function to check if an existing CPF is structurally valid. Note: This tool only checks mathematical validity (checksum); it does not check if the CPF belongs to a real person or its status with the Receita Federal.",
+        "This is a strictly utilitarian tool for programmers and QA testers. No data is logged."
       ],
       "btn_generate": "Generate CPF",
       "btn_format": "Format",
@@ -1183,7 +1210,10 @@ export const en: Dictionary = {
       "title": "ABNT Reference Generator",
       "seo_title": "Online ABNT Reference Maker",
       "seo_content": [
-        "Create bibliographic references for books in ABNT format."
+        "Create perfect bibliographic references for your academic papers in ABNT format (Associação Brasileira de Normas Técnicas). Formatting references manually is tedious and easy to mess up. Incorrect formatting can cost you points on your thesis, dissertation, or article.",
+        "Simply fill in the fields: First Name, Last Name, Title, City, Publisher, and Year. Click 'Generate Reference' to get a string formatted according to the NBR 6023 standard (e.g., LASTNAME, Firstname. Title. City: Publisher, Year.).",
+        "This tool focuses on the 'Book' format, which is the most common requirement. It applies the necessary bolding (usually to the title) and punctuation rules automatically.",
+        "Copy the result directly into your bibliography in Word or Google Docs. Focus on your research content and let us handle the formatting rules."
       ],
       "label_author_first": "Author First Name",
       "label_author_last": "Author Last Name",
@@ -1231,7 +1261,10 @@ export const en: Dictionary = {
       "title": "Dead Pixel Check",
       "seo_title": "Screen Dead Pixel Test",
       "seo_content": [
-        "Flash solid colors on your screen to find dead or stuck pixels."
+        "Check your monitor or phone screen for dead pixels with our full-screen Dead Pixel Test. A dead pixel is a picture element that fails to light up (appearing black), while a stuck pixel might remain permanently red, green, or blue. Buying a new display often comes with a warranty policy regarding these defects, so it's important to spot them early.",
+        "Click 'Start Test' to enter full-screen mode. The tool cycles through solid primary colors: Black, White, Red, Green, and Blue. By flooding the screen with a single color, anomalies become obvious to the naked eye. Look closely at every part of your screen for any tiny dots that don't match the background.",
+        "This test works on all devices, from 4K desktop monitors to smartphone OLED screens. 'Black' is best for finding stuck pixels (which will shine bright), while 'White' helps find dead pixels (which will look like black dots).",
+        "No software installation needed. Run a quick health check on your hardware in seconds."
       ],
       "msg_start": "Click to Start Test",
       "msg_instruct": "Click to change color. Press ESC to exit."
@@ -1273,7 +1306,10 @@ export const en: Dictionary = {
       "title": "Auto Text Summarizer",
       "seo_title": "Free Text Summarizer",
       "seo_content": [
-        "Automatically summarize long articles or text blocks into key sentences."
+        "Automatically summarize long articles, essays, or documents into key sentences with our AI-powered Text Summarizer. In today's information-heavy world, reading everything word-for-word is impossible. This tool extracts the most important sentences from your text to give you a concise overview.",
+        "Paste your text into the input box. Use the 'Summary Length' slider to decide how short or detailed you want the result to be (e.g., 20% of original length vs 50%). Click 'Summarize' to process. Our algorithm analyzes sentence frequency and keyword importance to identify the core message.",
+        "Perfect for students needing to skim reading assignments, researchers reviewing papers, or professionals catching up on industry news. It helps you grasp the main points without reading the fluff.",
+        "This extraction-based summarization runs locally in your browser for privacy. No content is sent to the cloud. Save time and boost your productivity."
       ],
       "input_label": "Paste Text",
       "range_label": "Summary Length",
@@ -1301,7 +1337,10 @@ export const en: Dictionary = {
       "title": "Tip Calculator",
       "seo_title": "Gratuity & Tip Calculator",
       "seo_content": [
-        "Calculate tips and split the bill among friends easily."
+        "Calculate the perfect tip and split the bill seamlessly with our Tip Calculator. Dining out with friends or grabbing drinks with colleagues should be fun, but the math at the end of the meal can be a buzzkill. Figuring out how much 18% is, or dividing a $150 check among 7 people, is easier with a tool.",
+        "Enter the 'Bill Amount' and select your desired 'Tip %' using the slider or input field. Standard tipping rates vary by country and service quality (e.g., 15-20% in the US). Our calculator immediately displays the 'Tip Amount' and the 'Total Bill'.",
+        "The real magic happens with the 'Number of People' field. As you adjust the count, the tool breaks down the cost 'Per Person'. This ensures everyone pays their fair share, including the gratuity.",
+        "Avoid awkward mental math moments. Use this mobile-friendly tool at the restaurant table to settle the check quickly and accurately."
       ],
       "label_bill": "Bill Amount",
       "label_tip": "Tip %",
@@ -1317,7 +1356,10 @@ export const en: Dictionary = {
       "title": "Fantasy Name Generator",
       "seo_title": "Random RPG Name Generator",
       "seo_content": [
-        "Generate epic fantasy names for your games and stories."
+        "Create epic names for your D&D characters, novels, or video games with our Fantasy Name Generator. Struggling to name your new Elf Ranger or Orc Barbarian? Writer's block can stall your creativity. Our generator provides instant inspiration with names that fit specific fantasy archetypes and linguistic styles.",
+        "Select a 'Race / Type' from options like Human, Elf, Dwarf, Orc, or even Places/Kingdoms. You can also choose 'Sci-Fi' for futuristic names or 'Villain' for darker sounding titles. Filter by Gender (Male, Female) to refine the results.",
+        "Click 'Generate Names' to get a list of unique suggestions. We use advanced syllabic combinations to ensure names sound pronounceable and lore-friendly. You can select your favorites to save them to a shortlist below, or click 'Copy All' to save the entire batch.",
+        "Whether you are a Dungeon Master populating a town with NPCs or a writer building a new world, this tool creates names with the right 'feel' for your setting."
       ],
       "label_race": "Race / Type",
       "label_qty": "Quantity",
@@ -1344,7 +1386,10 @@ export const en: Dictionary = {
       "title": "RAID Calculator",
       "seo_title": "RAID Capacity Calculator",
       "seo_content": [
-        "Calculate usable capacity and fault tolerance for RAID 0, 1, 5, 6, 10."
+        "Plan your server storage with our RAID Calculator. RAID (Redundant Array of Independent Disks) is a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units. Choosing the right RAID level is critical for balancing performance, storage capacity, and data redundancy (safety).",
+        "Select your disk size and the number of disks. Then choose the RAID Type (RAID 0, 1, 5, 6, 10). The tool instantly calculates the 'Usable Capacity' (how much space you actually get) and the 'Fault Tolerance' (how many disks can fail before you lose data).",
+        "For example, RAID 0 offers maximum speed and capacity but zero safety. RAID 1 mirrors data for safety but cuts capacity in half. RAID 5 is a popular balance, offering N-1 capacity with 1-disk redundancy. Understanding these trade-offs is essential for IT professionals and home lab enthusiasts setting up NAS systems.",
+        "Visualize your configuration before buying hardware. Ensure your data strategy meets your backup needs."
       ],
       "label_disk_size": "Disk Size (TB)",
       "label_disk_count": "Number of Disks",
@@ -1584,7 +1629,10 @@ export const en: Dictionary = {
       "title": "Pet Name Generator",
       "seo_title": "Cute & Cool Pet Name Generator",
       "seo_content": [
-        "Generate hundreds of name ideas for dogs, cats, birds, and more. Filter by gender, theme, and species."
+        "Find the purr-fect name for your new furry friend with our Pet Name Generator. Welcoming a new dog, cat, or bird into the family is a happy occasion, but agreeing on a name can be tough. Do you go with something classic like 'Max', or something unique like 'Luna'?",
+        "Select your pet's Species (Dog, Cat, Bird, Reptile, etc.) and Gender. You can also filter by Theme, such as 'Food & Drink' (e.g., Muffin, Oreo), 'Geek/Nerd' (e.g., Yoda, Pixel), or 'Mythical' (e.g., Zeus, Thor). If you have a specific letter in mind, use the 'Starts With' filter.",
+        "Click 'Generate Names' to see a fresh batch of ideas. You can favorite the ones you like to build a shortlist and copy them to discuss with your family. We generate names that are easy to call out in the park and suit various personalities.",
+        "From cute and cuddly to tough and majestic, discover a name that your pet will love responding to."
       ],
       "label_species": "Species",
       "label_gender": "Gender",
@@ -1657,7 +1705,10 @@ export const en: Dictionary = {
       "title": "Business Name Generator",
       "seo_title": "Free Business & Startup Name Generator",
       "seo_content": [
-        "Generate creative, modern, and catchy names for your startup or company. Check domain availability instantly."
+        "Brainstorm the perfect brand name with our Business Name Generator. Naming a startup is one of the first and most important steps in entrepreneurship. A good name should be memorable, easy to spell, and relevant to your industry. Our tool combines your keywords with industry-specific themes to generate catchy ideas.",
+        "Enter a few keywords related to your business (e.g., 'Tech', 'Fast', 'Cloud'). Select your Industry (Technology, Food, Fashion, etc.) and preferred Style (Modern, Classic, Short). Click 'Generate Names' to produce a list of potential brand names.",
+        "We also offer a preliminary 'Check Domain' link (external) to help you see if the .com is available. Finding a unique name with an available domain is a challenge, and this tool generates hundreds of combinations to help you find that hidden gem.",
+        "Whether you are launching a SaaS platform, a coffee shop, or a consulting firm, start your branding journey here."
       ],
       "label_keywords": "Enter Keywords (e.g. Tech, Food)",
       "label_industry": "Industry",
@@ -1681,6 +1732,6 @@ export const en: Dictionary = {
       "msg_hint": "Tip: Click names to favorite them.",
       "domain_avail": "Available?",
       "check_domain": "Check Domain"
-    }
+    },
   }
 };
