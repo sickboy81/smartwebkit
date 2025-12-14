@@ -1535,9 +1535,12 @@ export const pt: Dictionary = {
       "name": "Bloco de Notas",
       "description": "Notas com salvamento automático.",
       "title": "Bloco de Notas Online",
-      "seo_title": "Notepad Simples Online",
+      "seo_title": "Notepad Simples com Salvamento Automático",
       "seo_content": [
-        "Um bloco de rascunho simples que salva automaticamente suas notas no navegador."
+        "Capture seus pensamentos instantaneamente com nosso Bloco de Notas Online, um bloco de rascunho simples, mas poderoso, que vive no seu navegador. Em um mundo de aplicativos de anotações complexos com recursos infinitos e logins, às vezes você só precisa de uma folha de papel em branco para anotar um número de telefone, uma ideia rápida ou um item de lista de tarefas. Nossa ferramenta fornece exatamente esse ambiente livre de distrações.",
+        "A principal característica deste bloco de notas é o seu armazenamento local automático. Enquanto você digita, cada caractere é salvo instantaneamente no armazenamento local do seu navegador. Isso significa que você pode fechar a aba, reiniciar o navegador ou até desligar o computador, e quando voltar, suas notas estarão esperando por você exatamente como as deixou. Não é necessário botão 'Salvar' e não há medo de perder dados devido a um travamento.",
+        "Priorizamos a privacidade e a velocidade. Suas notas nunca são enviadas para um servidor na nuvem ou vistas por nós. Elas residem estritamente no seu dispositivo específico. Isso o torna perfeito para redigir e-mails confidenciais, armazenar trechos de código temporários ou manter lembretes privados.",
+        "A interface é limpa e mínima, maximizando a área de escrita. Um botão 'Limpar' está disponível quando você deseja limpar a lousa e começar do zero. Experimente a conveniência de um post-it que nunca cai do seu monitor."
       ],
       "placeholder": "Digite aqui... o conteúdo é salvo automaticamente.",
       "btn_clear": "Limpar"

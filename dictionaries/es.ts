@@ -1518,15 +1518,18 @@ export const es: Dictionary = {
       "res_result": "Resultado"
     },
     "memo_pad": {
-      "name": "Bloco de Notas",
-      "description": "Notas com salvamento automático.",
-      "title": "Bloco de Notas Online",
-      "seo_title": "Notepad Simples Online",
+      "name": "Bloc de Notas",
+      "description": "Notas guardadas automáticamente.",
+      "title": "Bloc de Notas Online",
+      "seo_title": "Notepad Simple con Guardado Automático",
       "seo_content": [
-        "Um bloco de rascunho simples que salva automaticamente suas notas no navegador."
+        "Capture sus pensamientos al instante con nuestro Bloc de Notas Online, un bloc de notas simple pero potente que vive en su navegador. En un mundo de aplicaciones complejas para tomar notas con infinitas funciones e inicios de sesión, a veces solo necesita una hoja de papel en blanco para anotar un número de teléfono, una idea rápida o un elemento de la lista de tareas pendientes. Nuestra herramienta proporciona exactamente ese entorno libre de distracciones.",
+        "La característica principal de este bloc de notas es su almacenamiento local automático. A medida que escribe, cada carácter se guarda instantáneamente en el almacenamiento local de su navegador. Esto significa que puede cerrar la pestaña, reiniciar su navegador o incluso apagar su computadora, y cuando regrese, sus notas lo estarán esperando exactamente como las dejó. No se requiere botón 'Guardar', y no hay temor de perder datos debido a un bloqueo.",
+        "Priorizamos la privacidad y la velocidad. Sus notas nunca se envían a un servidor en la nube ni son vistas por nosotros. Residen estrictamente en su dispositivo específico. Esto lo hace perfecto para redactar correos electrónicos confidenciales, almacenar fragmentos de código temporales o guardar recordatorios privados.",
+        "La interfaz es limpia y mínima, maximizando el área de escritura. Un botón 'Borrar' está disponible cuando desea limpiar la pizarra y comenzar de nuevo. Experimente la conveniencia de una nota adhesiva que nunca se cae de su monitor."
       ],
-      "placeholder": "Digite aqui... o conteúdo é salvo automaticamente.",
-      "btn_clear": "Limpar"
+      "placeholder": "Escriba aquí... el contenido se guarda automáticamente.",
+      "btn_clear": "Borrar"
     },
     "glassmorphism": {
       "name": "Glassmorphism",

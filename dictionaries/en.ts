@@ -1523,9 +1523,12 @@ export const en: Dictionary = {
       "name": "Memo Pad",
       "description": "Auto-saving notepad.",
       "title": "Online Memo Pad",
-      "seo_title": "Simple Online Notepad",
+      "seo_title": "Simple Online Notepad with Auto-Save",
       "seo_content": [
-        "A simple scratchpad that automatically saves your notes to your browser."
+        "Capture your thoughts instantly with our Online Memo Pad, a simple yet powerful scratchpad that lives in your browser. In a world of complex note-taking apps with endless features and logins, sometimes you just need a blank sheet of paper to jot down a phone number, a quick idea, or a to-do list item. Our tool provides exactly that distraction-free environment.",
+        "The core feature of this memo pad is its automatic local storage. As you type, every character is instantly saved to your browser's local storage. This means you can close the tab, restart your browser, or even turn off your computer, and when you come back, your notes will be waiting for you exactly as you left them. No 'Save' button required, and no fear of losing data due to a crash.",
+        "We prioritize privacy and speed. Your notes are never sent to a cloud server or seen by us. They reside strictly on your specific device. This makes it perfect for drafting sensitive emails, storing temporary code snippets, or keeping private reminders.",
+        "The interface is clean and minimal, maximizing the writing area. A 'Clear' button is available when you want to wipe the slate clean and start fresh. Experience the convenience of a sticky note that never falls off your monitor."
       ],
       "placeholder": "Type here... content is saved automatically.",
       "btn_clear": "Clear"
