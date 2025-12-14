@@ -1,0 +1,76 @@
+import React, { useState, useEffect } from 'react';
+import { Dictionary } from '../types';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/Card';
+import { Button } from '../components/ui/Button';
+import { MonitorX, Maximize2 } from 'lucide-react';
+
+interface PixelProps {
+  dict: Dictionary;
+}
+
+export const DeadPixelPage: React.FC<PixelProps> = ({ dict }) => {
+  const t = dict.tools.dead_pixel;
+  const [active, setActive] = useState(false);
+  const [colorIndex, setColorIndex] = useState(0);
+  
+  const colors = ['#000000', '#FFFFFF', '#FF0000', '#00FF00', '#0000FF'];
+
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setActive(false);
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, []);
+
+  const handleClick = () => {
+    setColorIndex((prev) => (prev + 1) % colors.length);
+  };
+
+  if (active) {
+    return (
+      <div 
+        onClick={handleClick}
+        style={{ backgroundColor: colors[colorIndex] }}
+        className="fixed inset-0 z-[100] cursor-pointer"
+      >
+        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-4 py-2 rounded text-sm pointer-events-none opacity-50">
+           {t.msg_instruct}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="container max-w-4xl mx-auto py-10 px-4">
+      <div className="max-w-3xl mx-auto space-y-8">
+        <Card className="shadow-lg border-slate-200">
+          <CardHeader>
+            <CardTitle className="text-2xl flex items-center gap-2">
+              <MonitorX className="w-6 h-6" />
+              {t.title}
+            </CardTitle>
+            <CardDescription>{t.description}</CardDescription>
+          </CardHeader>
+          <CardContent className="flex flex-col items-center py-12 space-y-6">
+            
+            <div className="w-32 h-32 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 rounded-full animate-pulse blur-xl opacity-50"></div>
+            
+            <Button onClick={() => setActive(true)} size="lg" className="gap-2 text-lg h-14 px-8">
+               <Maximize2 className="h-5 w-5" /> {t.msg_start}
+            </Button>
+
+            <p className="text-sm text-slate-500">
+               {t.seo_content[0]}
+            </p>
+
+          </CardContent>
+        </Card>
+        <article className="prose prose-slate max-w-none">
+          <h2 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{t.seo_title}</h2>
+          <div className="text-slate-600 space-y-4 leading-7">{t.seo_content.map((p, i) => <p key={i}>{p}</p>)}</div>
+        </article>
+      </div>
+    </div>
+  );
+};
