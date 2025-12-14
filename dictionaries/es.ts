@@ -32,7 +32,10 @@ export const es: Dictionary = {
       "title": "Formatador e Validador JSON",
       "seo_title": "Formatador JSON Online",
       "seo_content": [
-        "Formate, valide e minifique seus dados JSON com nossa ferramenta online gratuita."
+        "Formatea, valida y minifica tus datos JSON con nuestra herramienta online gratuita. JSON (JavaScript Object Notation) es el formato de archivo estándar para el intercambio de datos, pero el JSON sin procesar suele ser desordenado y difícil de leer. Nuestra herramienta embellece instantáneamente tu código, haciéndolo legible para los humanos con una sangría adecuada y resaltado de sintaxis.",
+        "Ya seas un desarrollador depurando una respuesta de API, un analista de datos trabajando con conjuntos de datos o un estudiante aprendiendo estructuras de datos, esta herramienta te ayuda a visualizar y corregir tus estructuras JSON. Detecta automáticamente errores de sintaxis, señalando comas faltantes o corchetes sin cerrar, ahorrándote horas de frustración.",
+        "Más allá del formateo, ofrecemos una función de minificación que elimina espacios en blanco innecesarios para reducir el tamaño del archivo para uso en producción. También puedes copiar el resultado al portapapeles con un solo clic.",
+        "Tus datos se procesan localmente en tu navegador, asegurando que la información confidencial permanezca privada y nunca se envíe a un servidor. Experimenta la forma más fácil de administrar tus archivos JSON hoy."
       ],
       "input_label": "Entrada JSON",
       "output_label": "Resultado",
@@ -66,8 +69,10 @@ export const es: Dictionary = {
       "title": "Gerador de UUID / GUID",
       "seo_title": "Gerador UUID v1 & v4",
       "seo_content": [
-        "Gere UUIDs (Identificadores Únicos Universais) ou GUIDs compatíveis com RFC.",
-        "Suporta Versão 4 (Aleatória) para a maioria dos casos e Versão 1 (Baseada no tempo)."
+        "Genera UUIDs (Identificadores Únicos Universales) o GUIDs compatibles con RFC al instante con nuestro generador online gratuito. Ya sea que necesites una clave única para una entrada de base de datos, una ID de sesión para un usuario web o un token aleatorio para una API, nuestra herramienta proporciona identificadores confiables y libres de colisiones en formato estándar.",
+        "Admitimos UUIDs de la Versión 4 (Aleatoria) y la Versión 1 (Basada en el tiempo). La Versión 4 es la más común, generada utilizando números aleatorios seguros para garantizar capacidades de unicidad tan vastas que la probabilidad de duplicación es prácticamente cero. La Versión 1 se basa en la marca de tiempo actual y la dirección MAC de tu computadora, lo que la hace útil para escenarios donde la clasificación por tiempo de creación es importante.",
+        "Puedes generar un solo UUID o crear en masa hasta 100 a la vez, perfecto para poblar bases de datos de prueba o asignar IDs por lotes. La interfaz limpia te permite copiar claves individuales o la lista completa al portapapeles sin esfuerzo.",
+        "No se requiere instalación y toda la generación ocurre en el cliente, en tu navegador, para una velocidad y seguridad máximas. Simplifica tu flujo de trabajo de desarrollo con nuestro generador de UUID profesional."
       ],
       "label_quantity": "Quantidade",
       "label_version": "Versão",
@@ -83,7 +88,10 @@ export const es: Dictionary = {
       "title": "Minificador de Código",
       "seo_title": "Minificador CSS & JS Grátis",
       "seo_content": [
-        "Comprima seus arquivos CSS e JavaScript para reduzir o tamanho."
+        "Comprime tus archivos CSS y JavaScript para reducir el tamaño del archivo y mejorar la velocidad de carga del sitio web con nuestro Minificador de Código gratuito. La minificación es el proceso de eliminar caracteres innecesarios como espacios en blanco, comentarios y saltos de línea del código fuente sin cambiar su funcionalidad. Este es un paso crítico para la optimización del rendimiento web (SEO).",
+        "Nuestra herramienta admite código CSS (Hojas de Estilo en Cascada) y JS (JavaScript). Simplemente pega tu código fuente en el área de entrada, selecciona la pestaña correspondiente y haz clic en Minificar. La herramienta genera instantáneamente una versión compacta y optimizada lista para la implementación en producción.",
+        "Tamaños de archivo más pequeños significan tiempos de descarga más rápidos para tus usuarios, menor consumo de ancho de banda y mejores puntuaciones en Core Web Vitals de los motores de búsqueda. Ya sea que estés optimizando un pequeño blog personal o una aplicación web a gran escala, minificar tus activos es una mejor práctica.",
+        "No hay necesidad de herramientas de compilación complejas o interfaces de línea de comandos. Nuestro minificador basado en navegador es rápido, seguro y fácil de usar. Copia tu código minificado con un solo clic y aumenta el rendimiento de tu sitio hoy."
       ],
       "tab_css": "CSS",
       "tab_js": "JS",
@@ -122,7 +130,10 @@ export const es: Dictionary = {
       "title": "Editor e Conversor Markdown",
       "seo_title": "Markdown para HTML Online",
       "seo_content": [
-        "Escreva Markdown e veja a prévia HTML em tempo real."
+        "Convierte la sintaxis Markdown a HTML al instante con nuestro Editor y Convertidor de Markdown en tiempo real. Markdown es un lenguaje de marcado ligero utilizado por escritores, desarrolladores y blogueros para formatear texto sin la complejidad de las etiquetas HTML. Nuestra herramienta te permite escribir en Markdown y ver la salida HTML inmediatamente.",
+        "Esta herramienta es perfecta para crear archivos README para GitHub, escribir publicaciones de blog para plataformas CMS como Jekyll o Hugo, o redactar contenido para foros que admiten Markdown. Mientras escribes a la izquierda, la vista previa se actualiza a la derecha, dándote una confirmación visual en vivo de tus encabezados, listas, enlaces y bloques de código.",
+        "Generalmente admitimos el Markdown estándar de GitHub (GFM), asegurando la compatibilidad con la mayoría de las plataformas populares. Puedes copiar fácilmente el código HTML sin procesar al portapapeles para usarlo en tus proyectos web.",
+        "Disfruta de una experiencia de escritura libre de distracciones con nuestra interfaz limpia. No se requiere registro ni descarga: todo funciona directamente en tu navegador, manteniendo tus borradores privados y seguros. Comienza a escribir en Markdown y convertir a HTML limpio hoy."
       ],
       "label_markdown": "Markdown",
       "label_preview": "Prévia",
@@ -146,12 +157,15 @@ export const es: Dictionary = {
       "btn_copied": "Copiado"
     },
     "device_info": {
-      "name": "Informação do Dispositivo",
-      "description": "Verifique resolução de tela e navegador.",
-      "title": "Meu Dispositivo",
-      "seo_title": "Verificar Resolução e Browser",
+      "name": "Información del Dispositivo",
+      "description": "Verifica la resolución de pantalla y navegador.",
+      "title": "Mi Dispositivo",
+      "seo_title": "Verificar Resolución y Navegador",
       "seo_content": [
-        "Obtenha informações detalhadas sobre seu dispositivo, tela e navegador."
+        "Obtén información detallada sobre tu dispositivo actual, resolución de pantalla y configuración del navegador al instante. Esta herramienta extrae detalles técnicos del agente de usuario y de la configuración de la ventana gráfica (viewport) para ofrecerte una visión completa de tu entorno digital. Es particularmente útil para desarrolladores web, diseñadores y probadores de QA que necesitan verificar cómo se reporta un dispositivo específico a los servidores web.",
+        "Las métricas clave mostradas incluye el ancho y alto de tu pantalla (tamaño de la ventana gráfica física y lógica), relación de píxeles, profundidad de color y orientación. También identificamos tu sistema operativo (Windows, macOS, Linux, iOS, Android), motor del navegador (Chrome, Firefox, Safari, Edge) y la cadena completa del Agente de Usuario. Esta información es crucial para depurar problemas de diseño responsivo y asegurar la compatibilidad entre navegadores.",
+        "Conocer tu resolución de pantalla exacta es vital al diseñar diseños o solucionar errores de visualización. Esta herramienta proporciona actualizaciones en tiempo real si cambias el tamaño de la ventana del navegador o rotas tu dispositivo, brindando retroalimentación instantánea sobre los cambios en la ventana gráfica. También verifica tu estado en línea/fuera de línea y la configuración de idioma preferida.",
+        "No se almacenan ni transmiten datos. Toda la detección ocurre localmente a través de APIs de JavaScript en el cliente, garantizando tu privacidad. Usa esta herramienta para recuperar rápidamente las especificaciones de tu sistema sin tener que navegar por menús de configuración complejos."
       ],
       "label_screen": "Resolução da Tela",
       "label_browser": "Navegador",
@@ -162,12 +176,15 @@ export const es: Dictionary = {
       "label_ua": "User Agent"
     },
     "word_counter": {
-      "name": "Contador de Palavras",
-      "description": "Conte palavras, caracteres e linhas.",
-      "title": "Contador de Palavras e Caracteres",
-      "seo_title": "Contador de Palavras Online",
+      "name": "Contador de Palabras",
+      "description": "Cuenta palabras, caracteres y líneas.",
+      "title": "Contador de Palabras y Caracteres",
+      "seo_title": "Contador de Palabras Online",
       "seo_content": [
-        "Conte palavras, caracteres, frases e parágrafos em tempo real."
+        "Analiza tu texto con nuestro potente Contador de Palabras y Caracteres en tiempo real. Ya sea que estés escribiendo un tweet, una publicación de blog, un ensayo académico o una novela, saber el conteo de palabras es esencial. Nuestra herramienta calcula instantáneamente el total de palabras, caracteres (con y sin espacios), oraciones, párrafos y líneas mientras escribes o pegas contenido.",
+        "Más allá del simple conteo, esta herramienta te ayuda a cumplir con los requisitos específicos para plataformas de redes sociales (como los límites de Twitter/X) o límites de palabras en tareas. Ayuda a los escritores a mantener la longitud ideal de la oración para la legibilidad y asegura que no excedas o te quedes corto en tus objetivos. Los creadores de contenido y especialistas en SEO lo usan para optimizar meta descripciones y longitudes de artículos para motores de búsqueda.",
+        "La interfaz es limpia y libre de distracciones, permitiéndote concentrarte en escribir. Priorizamos la privacidad; tu texto se procesa completamente en tu navegador y nunca se envía a nuestros servidores. Puedes escribir libremente, sabiendo que tus borradores están seguros.",
+        "Las características adicionales incluyen estimación del tiempo de lectura, que te ayuda a entender cuánto tiempo le tomará a un lector promedio consumir tu contenido. Comienza a escribir ahora para obtener métricas instantáneas sobre tu escritura."
       ],
       "stat_words": "Palavras",
       "stat_chars": "Caracteres",
@@ -176,12 +193,15 @@ export const es: Dictionary = {
       "input_placeholder": "Digite ou cole seu texto aqui..."
     },
     "lorem_ipsum": {
-      "name": "Gerador Lorem Ipsum",
-      "description": "Gere texto de preenchimento.",
-      "title": "Gerador Lorem Ipsum",
-      "seo_title": "Gerador de Texto Falso",
+      "name": "Generador Lorem Ipsum",
+      "description": "Genera texto de relleno.",
+      "title": "Generador Lorem Ipsum",
+      "seo_title": "Generador de Texto Falso",
       "seo_content": [
-        "Crie texto fictício para seus designs."
+        "Genera texto de relleno Lorem Ipsum personalizado para tus proyectos de diseño y desarrollo. Lorem Ipsum es el texto ficticio estándar utilizado por la industria de la impresión y composición. Permite a los diseñadores centrarse en elementos visuales como el diseño, la tipografía y los esquemas de color sin distraerse con el contenido legible. Nuestra herramienta genera texto en latín estándar que parece oraciones naturales.",
+        "Puedes personalizar la salida para generar números específicos de párrafos, oraciones o palabras, haciéndola adaptable a cualquier espacio en tu diseño. Ya sea que estés creando una maqueta de una sección hero de un sitio web, un folleto o una interfaz de aplicación móvil, puedes obtener exactamente la cantidad de texto que necesitas en segundos.",
+        "Usar texto de relleno es una mejor práctica en el diseño de UI/UX. Simula la apariencia del texto real, permitiendo a los interesados revisar la estructura del diseño antes de que se finalice la copia. Nuestro generador asegura que no tengas que copiar y pegar la misma oración repetidamente.",
+        "El texto generado es limpio y libre de formato, listo para ser copiado en tu editor HTML o software de diseño como Figma o Adobe XD. Optimiza tu flujo de trabajo de diseño con nuestro rápido y confiable Generador Lorem Ipsum."
       ],
       "label_type": "Tipo",
       "opt_paragraphs": "Parágrafos",
@@ -192,12 +212,15 @@ export const es: Dictionary = {
       "btn_copied": "Copiado!"
     },
     "case_converter": {
-      "name": "Conversor de Maiúsculas",
-      "description": "Mude maiúsculas, minúsculas, etc.",
-      "title": "Conversor de Caixa de Texto",
-      "seo_title": "Conversor Maiúsculas Online",
+      "name": "Convertidor de Mayúsculas",
+      "description": "Cambia mayúsculas, minúsculas, etc.",
+      "title": "Convertidor de Mayúsculas y Minúsculas",
+      "seo_title": "Convertidor Mayúsculas Online",
       "seo_content": [
-        "Mude o texto para MAIÚSCULAS, minúsculas, Capitalizado e mais."
+        "Convierte instantáneamente tu texto entre diferentes casos de letras con nuestro Convertidor de Mayúsculas y Minúsculas Online. Si accidentalmente dejaste Bloq Mayús activado, necesitas poner en mayúsculas los titulares o deseas formatear texto para codificación, esta herramienta lo maneja todo. Admitimos Mayúsculas (TODO MAYÚSCULAS), Minúsculas (todo minúsculas), Caso Capitalizado (Título) y Caso Inverso.",
+        "Formatear texto manualmente puede ser tedioso y propenso a errores. Nuestra herramienta automatiza el proceso, ahorrándote tiempo y asegurando consistencia en todo tu documento. Es especialmente útil para escritores, editores y programadores que siguen estrictamente guías de estilo o convenciones de nomenclatura.",
+        "Para los desarrolladores, la herramienta puede ayudar a normalizar la entrada del usuario o preparar cadenas para el almacenamiento en bases de datos. Para los administradores de redes sociales, permite un formato creativo para llamar la atención. La función Caso Inverso es una forma divertida de invertir la capitalización de cada letra, a menudo utilizada para efectos estilísticos o ironía.",
+        "Simplemente escribe o pega tu texto y haz clic en el botón para el formato deseado. El texto convertido reemplaza la entrada al instante. Luego puedes copiarlo al portapapeles con un solo clic. Como todas nuestras herramientas, funciona en el lado del cliente para máxima privacidad y velocidad."
       ],
       "input_label": "Texto de Entrada",
       "btn_upper": "MAIÚSCULAS",
@@ -208,12 +231,15 @@ export const es: Dictionary = {
       "btn_copied": "Copiado!"
     },
     "duplicate_remover": {
-      "name": "Removedor de Duplicatas",
-      "description": "Remova linhas duplicadas do texto.",
-      "title": "Remover Linhas Duplicadas",
-      "seo_title": "Removedor de Linhas Repetidas",
+      "name": "Eliminar Duplicados",
+      "description": "Elimina líneas duplicadas del texto.",
+      "title": "Eliminar Líneas Duplicadas",
+      "seo_title": "Eliminador de Líneas Repetidas",
       "seo_content": [
-        "Limpe suas listas removendo entradas duplicadas."
+        "Limpia tus listas de datos eliminando entradas duplicadas al instante con nuestro Eliminador de Líneas Duplicadas. Ya sea que estés gestionando listas de correo electrónico, artículos de inventario, palabras clave para SEO o registros de bases de datos, los duplicados pueden causar errores e ineficiencias. Esta herramienta escanea tu texto y elimina automáticamente las líneas repetidas, verificando coincidencias exactas.",
+        "El proceso es simple: pega tu lista en el campo de entrada y la herramienta filtrará cada instancia duplicada, dejándote con un conjunto de datos limpio y único. También proporciona un resumen de cuántos duplicados se detectaron y eliminaron y cuántas líneas únicas permanecen, dándote una visión de la calidad de tus datos.",
+        "Esta herramienta es invaluable para los especialistas en marketing por correo electrónico que limpian listas de suscriptores (desduplicar correos para no molestar a los usuarios o ser marcados como spam), desarrolladores que sanean conjuntos de datos antes de la importación y estudiantes que organizan notas de investigación. Admite grandes bloques de texto y los procesa en milisegundos.",
+        "Tus datos permanecen privados. La desduplicación ocurre completamente en tu navegador usando JavaScript, por lo que tus listas confidenciales nunca se cargan en ningún servidor. Obtén una lista más limpia y organizada con solo un clic."
       ],
       "input_label": "Lista de Texto",
       "btn_remove": "Remover Duplicatas",
@@ -223,11 +249,14 @@ export const es: Dictionary = {
     },
     "text_reverser": {
       "name": "Inversor de Texto",
-      "description": "Inverta texto ou palavras.",
-      "title": "Gerador de Texto Invertido",
-      "seo_title": "Inverter Texto Online",
+      "description": "Invierte texto o palabras.",
+      "title": "Generador de Texto Invertido",
+      "seo_title": "Invertir Texto Online",
       "seo_content": [
-        "Inverta strings de texto instantaneamente."
+        "Invierte tu texto al instante con nuestra herramienta gratuita de Inversión de Texto. Voltea el orden de los caracteres, invierte palabras o pon oraciones al revés por diversión o utilidad. Esta herramienta simple toma tu entrada y genera una versión reflejada, que se puede usar para codificar mensajes, crear palíndromos o simplemente para divertirse.",
+        "Invertir texto es una tarea común en desafíos de programación y procesamiento de datos. También puede ser una forma creativa de ocultar spoilers en las redes sociales o crear nombres de usuario únicos. Nuestra herramienta maneja texto estándar, emojis y caracteres especiales correctamente, asegurando que la salida invertida preserve la integridad del contenido original.",
+        "Ya sea que desees verificar si una frase es un palíndromo (se lee igual hacia adelante y hacia atrás) o simplemente quieras molestar a tus amigos con mensajes invertidos, esta herramienta proporciona una solución inmediata. También es útil para la corrección detallada, ya que leer al revés te obliga a concentrarte en letras individuales.",
+        "No se necesita software complejo. Simplemente escribe, haz clic en Invertir y Copiar. El proceso es instantáneo y se ejecuta completamente en tu dispositivo, garantizando privacidad y velocidad. Experimenta el mundo al revés hoy."
       ],
       "input_label": "Texto de Entrada",
       "btn_reverse": "Inverter",
