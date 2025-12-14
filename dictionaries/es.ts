@@ -283,7 +283,11 @@ export const es: Dictionary = {
       "title": "Calculadora de Porcentagem",
       "seo_title": "Calculadora de Porcentagem Grátis",
       "seo_content": [
-        "Calcule aumentos, descontos e partes percentuais."
+        "Calcular porcentajes es una habilidad matemática fundamental utilizada en la vida diaria, desde averiguar el impuesto sobre las ventas hasta determinar una propina. Nuestra Calculadora de Porcentajes Online gratuita hace que estos cálculos sean instantáneos y sin errores. Ya sea que necesites encontrar un porcentaje de un número, ver qué porcentaje es un número de otro, o calcular el cambio porcentual entre dos valores, esta herramienta lo maneja todo.",
+        "La herramienta ofrece tres modos distintos: '¿Cuánto es X% de Y?' para encontrar partes de un todo, '¿X es qué porcentaje de Y?' para determinar proporciones, y 'Cambio porcentual' para rastrear el crecimiento o la disminución. Esta versatilidad la hace perfecta para estudiantes, compradores o dueños de negocios para analizar márgenes de beneficio.",
+        "Comprender el cambio porcentual es particularmente útil en finanzas. Puedes determinar fácilmente si tu inversión creció o disminuyó y cuánto. La interfaz es simple: selecciona tu modo, ingresa los números y haz clic en Calcular.",
+        "Los porcentajes son omnipresentes en finanzas, ciencia y compras diarias. Por ejemplo, calcular un descuento del 20% en un artículo de $50. Nuestra calculadora simplifica estas tareas. También priorizamos la precisión y la facilidad de uso.",
+        "No más luchas con fórmulas manuales. Nuestra herramienta funciona directamente en tu navegador, garantizando privacidad y velocidad. Úsala para cálculos de porcentaje rápidos y precisos en cualquier lugar."
       ],
       "mode_1": "Quanto é X% de Y?",
       "mode_2": "X é quantos por cento de Y?",
@@ -296,7 +300,11 @@ export const es: Dictionary = {
       "title": "Calculadora de Regra de Três",
       "seo_title": "Calculadora de Proporção Direta",
       "seo_content": [
-        "Resolva problemas matemáticos de 'Regra de Três' facilmente."
+        "La Regla de Tres (Proporción Directa) es un concepto matemático poderoso para resolver problemas de relaciones proporcionales. Si conoces tres valores y necesitas encontrar el cuarto, esta calculadora es tu solución. Se usa ampliamente en química para mezclar soluciones, en cocina para escalar recetas y en viajes para conversión de moneda.",
+        "Por ejemplo, si 5 manzanas cuestan $2, ¿cuánto cuestan 10 manzanas? Esta herramienta resuelve X al instante. Asume una variación directa donde una variable aumenta a medida que la otra aumenta. Ingrese valores para A, B y C para resolver X en la ecuación A/B = C/X.",
+        "Esta herramienta educativa es fantástica para estudiantes que aprenden álgebra. Visualiza la relación entre números, ayudando a solidificar el concepto de proporcionalidad. Los profesionales también la usan para estimaciones rápidas sin hojas de cálculo complejas.",
+        "El razonamiento proporcional es clave para muchas tareas del mundo real. Ingenieros, enfermeras y artistas lo usan a diario. Al automatizar el proceso de multiplicación cruzada, reducimos el riesgo de errores. La herramienta se actualiza al instante.",
+        "Nuestra Calculadora de Regla de Tres es rápida, gratis y se ejecuta en tu navegador. Admite números decimales para cálculos precisos. Simplifica tus problemas matemáticos hoy con esta utilidad esencial."
       ],
       "label_a": "Valor A",
       "label_b": "Valor B",
@@ -333,7 +341,11 @@ export const es: Dictionary = {
       "title": "Calculadora de Descontos e Promoções",
       "seo_title": "Calculadora de Desconto Online",
       "seo_content": [
-        "Calcule o preço final de um item após um desconto percentual."
+        "A todos nos encantan las buenas ofertas, pero calcular el precio final después de un descuento puede ser complicado. Nuestra Calculadora de Descuentos y Rebajas te ayuda a verificar los ahorros al instante. Ya sea un 20% de descuento o una oferta para estudiantes del 15%, ingresa el precio original y el porcentaje para ver cuánto pagas y cuánto ahorras.",
+        "Esta herramienta es esencial para compras inteligentes. Los minoristas a menudo usan estrategias de precios confusas. Con nuestra calculadora, puedes determinar el costo real antes de pagar. También es útil para dueños de negocios que establecen precios para promociones.",
+        "Más allá del comercio minorista, esta herramienta ayuda en negociaciones salariales o trabajo independiente. La interfaz está optimizada para uso móvil, por lo que puedes usarla en el pasillo de la tienda.",
+        "La educación financiera comienza con entender a dónde va tu dinero. Al conocer el precio final exacto, puedes presupuestar mejor. Esta herramienta maneja entradas decimales para precios precisos. Ideal para Black Friday y rebajas.",
+        "Deja de adivinar y comienza a ahorrar. Nuestra calculadora proporciona el precio final y el monto total de ahorro en texto claro. Es gratis, privada y funciona en cualquier dispositivo."
       ],
       "label_price": "Preço Original",
       "label_discount": "Desconto (%)",
@@ -387,7 +399,10 @@ export const es: Dictionary = {
       "title": "Calculadora de Idade",
       "seo_title": "Calcule Sua Idade",
       "seo_content": [
-        "Descubra exatamente quantos anos, meses e dias você viveu."
+        "Calcular su edad exacta en años, meses y días puede ser complejo debido a los años bisiestos. Nuestra Calculadora de Edad precisa hace las matemáticas por usted al instante. Simplemente ingrese su fecha de nacimiento y le diremos exactamente cuánto tiempo ha estado vivo hasta el día.",
+        "Esta herramienta es perfecta para llenar formularios, planificar cumpleaños o satisfacer la curiosidad. También calcula la diferencia de edad entre dos fechas si necesita saber la duración de un evento. Vea cuántas semanas o días totales ha vivido. La herramienta maneja todas las peculiaridades del calendario automáticamente.",
+        "También proporcionamos una cuenta regresiva para el 'Próximo Cumpleaños', informándole cuántos días quedan para su día especial. Esta función es genial para planificar fiestas. La interfaz es limpia y fácil de usar.",
+        "Es rápido, privado y funciona en dispositivos móviles. No más contar con los dedos o adivinar. Obtenga sus estadísticas de edad precisas en segundos."
       ],
       "label_dob": "Data de Nascimento",
       "btn_calculate": "Calcular Idade",
@@ -402,7 +417,10 @@ export const es: Dictionary = {
       "title": "Conversor de Timestamp Unix",
       "seo_title": "Conversor de Tempo Epoch",
       "seo_content": [
-        "Converta timestamps Unix para datas legíveis e vice-versa."
+        "El Unix Timestamp (o tiempo Epoch) es un sistema para describir un punto en el tiempo, definido como el número de segundos transcurridos desde el 1 de enero de 1970 (UTC). Es la representación de tiempo estándar para sistemas Unix. Nuestro Convertidor de Unix Timestamp cierra la brecha entre estos números y fechas legibles.",
+        "Los desarrolladores a menudo necesitan depurar bases de datos donde el tiempo se almacena como un entero largo. Esta herramienta le permite pegar una marca de tiempo y ver instantáneamente la fecha y hora formateadas en su zona horaria local y UTC. Por el contrario, puede elegir una fecha específica y obtener la marca de tiempo Unix correspondiente.",
+        "Admitimos formatos de segundos y milisegundos. La herramienta se actualiza en tiempo real mientras escribe. ¿Por qué 1970? Fue elegido como una fecha de inicio arbitraria para el sistema operativo Unix. Comprender el tiempo epoch es crucial para manejar zonas horarias correctamente en el desarrollo de software.",
+        "Nuestra herramienta ayuda a eliminar errores de zona horaria. También proporcionamos el timestamp Unix actual en vivo. Es una herramienta del lado del cliente, por lo que sus datos nunca salen de su navegador. Esencial para ingenieros de backend y administradores de bases de datos."
       ],
       "label_current": "Tempo Unix Atual",
       "btn_copy": "Copiar",
@@ -415,7 +433,10 @@ export const es: Dictionary = {
       "title": "Timer de Foco Pomodoro",
       "seo_title": "Timer Pomodoro Online",
       "seo_content": [
-        "Aumente a produtividade usando a técnica Pomodoro."
+        "Aumente su productividad utilizando la técnica Pomodoro. La Técnica Pomodoro es un método de gestión del tiempo probado que utiliza un temporizador para dividir el trabajo en intervalos, tradicionalmente de 25 minutos, separados por breves descansos. Este método entrena su cerebro para enfocarse en períodos cortos.",
+        "Nuestra herramienta proporciona un temporizador personalizable con preajustes estándar: 25 minutos para el enfoque, 5 para descansos cortos y 15 para descansos largos. Las notificaciones visuales y de audio aseguran que nunca se pierda una transición. Ya sea que esté estudiando para exámenes o escribiendo un informe, este temporizador ayuda a mantener la frescura mental.",
+        "Los descansos regulares son esenciales para la salud mental y el enfoque sostenido. Al trabajar en ráfagas, evita el agotamiento. Nuestro temporizador le permite pausar y reanudar según sea necesario. Personalice los intervalos para que coincidan con su flujo de trabajo personal.",
+        "El diseño es simple y sin distracciones. Se ejecuta completamente en su navegador, por lo que no se necesita instalación de aplicaciones. Tome el control de su tiempo y derrote la procrastinación hoy."
       ],
       "mode_focus": "Foco",
       "mode_short": "Pausa Curta",
@@ -431,7 +452,10 @@ export const es: Dictionary = {
       "title": "Cronômetro Online",
       "seo_title": "Cronômetro Preciso",
       "seo_content": [
-        "Meça o tempo com nosso cronômetro online preciso."
+        "Mida el tiempo con precisión con nuestro Cronómetro Online. Ya sea que esté cronometrando una carrera, rastreando horas facturables o cocinando, esta herramienta ofrece precisión hasta el milisegundo. Cuenta con una pantalla grande y controles simples de Inicio, Parada y Reinicio.",
+        "La función de Vuelta le permite registrar múltiples tiempos parciales sin detener el temporizador principal, ideal para entrenamiento deportivo. Puede ver un historial de todas sus vueltas. Nuestro cronómetro se ejecuta localmente garantizando cero latencia.",
+        "El tiempo es dinero, y el seguimiento preciso es clave. Los trabajadores independientes lo usan para rastrear sesiones de trabajo y los atletas para entrenar. La interfaz limpia funciona bien en pantallas móviles y ofrecemos un modo oscuro.",
+        "Gratis, confiable y accesible en cualquier dispositivo. Reemplace los cronómetros físicos con esta conveniente solución digital. Experimente el cronometraje preciso sin desorden."
       ],
       "btn_start": "Iniciar",
       "btn_stop": "Parar",
@@ -1457,38 +1481,42 @@ export const es: Dictionary = {
       "sec_favorites": "Favoritos"
     },
     "baby_name": {
-      "name": "Gerador de Nomes de Bebês",
-      "description": "Encontre nomes com significado.",
-      "title": "Gerador de Nomes de Bebê",
-      "seo_title": "Nomes de Bebê e Significados",
+      "name": "Generador de Nombres de Bebé",
+      "description": "Encuentre nombres con significado.",
+      "title": "Generador de Nombres de Bebé",
+      "seo_title": "Nombres de Bebé y Significados",
       "seo_content": [
-        "Descubra nomes perfeitos para meninos e meninas. Filtre por origem, estilo e inicial."
+        "Elegir un nombre para su bebé es una de las partes más emocionantes y significativas de esperar un hijo. Nuestro Generador de Nombres de Bebé le ayuda a descubrir el nombre perfecto explorando miles de opciones de diversos orígenes y estilos. Busque nombres bíblicos tradicionales, modernos o únicos de la naturaleza.",
+        "Nuestra base de datos está curada con cuidado, etiquetando nombres por género (Niño, Niña, Neutral), origen (Inglés, Latino, Griego, Hebreo, etc.) y estilo (Clásico, Moderno, Raro, Corto). Puede filtrar específicamente lo que desea o usar el botón 'Sorpréndeme'.",
+        "Proporcionamos el origen de cada nombre para ayudarle a tomar una decisión informada. Puede crear una lista corta de sus favoritos haciendo clic en el icono del corazón y luego copiarlos todos para discutirlos con su pareja. La interfaz está diseñada para ser alegre y fácil de usar.",
+        "Los nombres llevan identidad y herencia. Nuestra herramienta se adapta a todas las preferencias. También incluimos un filtro 'Comienza con' si tiene una letra específica en mente. El generador produce conjuntos aleatorios basados en sus criterios. ¡Disfrute del proceso de descubrimiento!",
+        "Comience su viaje de nombres hoy con nuestro completo Generador de Nombres de Bebé. Es el compañero perfecto para los futuros padres."
       ],
-      "label_origin": "Origem",
-      "label_gender": "Gênero",
+      "label_origin": "Origen",
+      "label_gender": "Género",
       "label_style": "Estilo",
-      "label_letter": "Começa com (Opcional)",
-      "btn_generate": "Encontrar Nomes",
-      "btn_surprise": "Surpreenda-me!",
+      "label_letter": "Comienza con (Opcional)",
+      "btn_generate": "Encontrar Nombres",
+      "btn_surprise": "¡Sorpréndeme!",
       "btn_favorites": "Copiar Favoritos",
-      "gender_boy": "Menino",
-      "gender_girl": "Menina",
-      "gender_neutral": "Neutro / Unissex",
-      "origin_any": "Qualquer Origem",
-      "origin_biblical": "Bíblico / Hebraico",
-      "origin_english": "Inglês / Americano",
+      "gender_boy": "Niño",
+      "gender_girl": "Niña",
+      "gender_neutral": "Neutro / Unisex",
+      "origin_any": "Cualquier Origen",
+      "origin_biblical": "Bíblico / Hebreo",
+      "origin_english": "Inglés / Americano",
       "origin_latin": "Latino / Romance",
-      "origin_germanic": "Germânico",
-      "origin_greek": "Grego",
-      "origin_nature": "Natureza / Terra",
-      "style_any": "Qualquer Estilo",
-      "style_modern": "Moderno / Tendência",
-      "style_classic": "Clássico / Tradicional",
+      "origin_germanic": "Germánico",
+      "origin_greek": "Griego",
+      "origin_nature": "Naturaleza / Tierra",
+      "style_any": "Cualquier Estilo",
+      "style_modern": "Moderno / Tendencia",
+      "style_classic": "Clásico / Tradicional",
       "style_rare": "Raro / Único",
-      "style_short": "Curto e Doce",
-      "sec_results": "Sugestões",
-      "sec_favorites": "Sua Lista",
-      "msg_select": "Clique no coração para salvar nomes na sua lista."
+      "style_short": "Corto y Dulce",
+      "sec_results": "Sugerencias",
+      "sec_favorites": "Tu Lista",
+      "msg_select": "Haz clic en el corazón para guardar nombres en tu lista."
     },
     "business_name": {
       "name": "Gerador de Nomes de Empresas",

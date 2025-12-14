@@ -283,7 +283,11 @@ export const en: Dictionary = {
       "title": "Percentage Calculator",
       "seo_title": "Free Percentage Calculator",
       "seo_content": [
-        "Calculate percentage increases, decreases, and shares."
+        "Calculating percentages is a fundamental math skill used in daily life, from figuring out sales tax to determining a tip. Our free Online Percentage Calculator makes these calculations instant and error-free. Whether you need to find a percentage of a number, see what percent one number is of another, or calculate the percentage change between two values, this tool handles it all.",
+        "The tool offers three distinct modes: 'What is X% of Y?' for finding parts of a whole, 'X is what percent of Y?' for determining ratios, and 'Percentage change' for tracking growth or decline. This versatility makes it perfect for students checking homework, shoppers calculating discounts, or business owners analyzing profit margins.",
+        "Understanding percentage change is particularly useful for finance and statistics. You can easily determine if your investment grew or shrank and by how much. The interface is simple: just select your mode, enter the numbers, and click Calculate. The result appears instantly.",
+        "Percentages are ubiquitous in finance, science, and everyday shopping. For example, calculating a 20% discount on a $50 item or adding a 15% tip to a restaurant bill. Our calculator simplifies these tasks. It is also helpful for calculating test scores or analyzing data trends. The clear, user-friendly design ensures you don't get lost in the numbers. We prioritize accuracy and ease of use.",
+        "No more struggling with manual formulas or complex calculator keystrokes. Our tool works directly in your browser, ensuring privacy and speed. Use it for quick, accurate percentage calculations anytime, anywhere."
       ],
       "mode_1": "What is X% of Y?",
       "mode_2": "X is what percent of Y?",
@@ -296,7 +300,11 @@ export const en: Dictionary = {
       "title": "Rule of Three Calculator",
       "seo_title": "Direct Proportion Calculator",
       "seo_content": [
-        "Solve 'Rule of Three' math problems easily."
+        "The Rule of Three (Direct Proportion) is a powerful mathematical concept used to solve problems involving proportional relationships. If you know three values and need to find the fourth, this calculator is your solution. It's widely used in chemistry for mixing solutions, in cooking for scaling recipes, and in travel for currency conversion.",
+        "For example, if 5 apples cost $2, how much do 10 apples cost? This tool solves for X instantly. It assumes a direct variation where one variable increases as the other increases. To use it, simply enter values for A, B, and C to solve for X in the equation A/B = C/X (or variations depending on structure).",
+        "This educational tool is fantastic for students learning algebra and ratios. It visualizes the relationship between numbers, helping to solidify the concept of proportionality. Professionals also use it for quick estimates and conversions without setting up complex spreadsheets.",
+        "Proportional reasoning is key to many real-world tasks. Engineers use it for scaling models, nurses for dosage calculations, and artists for resizing images. By automating the cross-multiplication process, we reduce the risk of calculation errors. The tool instantly updates as you type or click calculate, providing immediate feedback. Whether you are dealing with recipes, exchange rates, or map scales, this tool is your reliable companion.",
+        "Our Rule of Three Calculator is fast, free, and runs entirely in your browser. It supports decimal numbers for precise calculations. Simplify your math problems today with this essential utility."
       ],
       "label_a": "Value A",
       "label_b": "Value B",
@@ -333,7 +341,11 @@ export const en: Dictionary = {
       "title": "Discount & Sale Calculator",
       "seo_title": "Online Discount Calculator",
       "seo_content": [
-        "Calculate the final price of an item after a percentage discount."
+        "Everyone loves a good deal, but calculating the final price after a discount can sometimes be tricky. Our Sale & Discount Calculator helps you verify savings instantly. Whether it's 20% off for a seasonal sale or a 15% student discount, simply enter the original price and the discount percentage to see exactly how much you pay and how much you save.",
+        "This tool is essential for smart shopping. Retailers often use confusing pricing strategies, like stacking discounts or 'up to' percentages. With our calculator, you can determine the real cost before you get to the checkout. It's also useful for business owners setting prices for promotions to ensure they maintain healthy margins.",
+        "Beyond simple retail, this tool helps in salary negotiations (calculating net pay after tax deductions) or freelancing (determining fees). The interface is streamlined for mobile use, so you can use it right in the store aisle.",
+        "Financial literacy starts with understanding where your money goes. By knowing the exact final price, you can budget better and avoid overspending. This tool handles decimal inputs for precise pricing. It is a handy utility for Black Friday shopping, clearance sales, and holiday budgeting. Don't let mental math errors cost you money; let our tool do the math for you.",
+        "Stop guessing and start saving. Our calculator provides the final price and the total savings amount in clear, readable text. It's free, private, and works on any device."
       ],
       "label_price": "Original Price",
       "label_discount": "Discount (%)",
@@ -387,7 +399,10 @@ export const en: Dictionary = {
       "title": "Age Calculator",
       "seo_title": "Calculate Your Age",
       "seo_content": [
-        "Find out exactly how many years, months, and days you have been alive."
+        "Calculating your exact age in years, months, and days can be surprisingly complex due to leap years and varying month lengths. Our precise Age Calculator does the math for you instantly. Simply enter your date of birth, and we'll tell you exactly how long you've been alive down to the day.",
+        "This tool is perfect for filling out forms, planning birthdays, or satisfying curiosity. It also calculates the age difference between two dates if you need to know the duration of an event or employment. Understanding your age in different units gives a new perspective on time. See how many total weeks or days you have lived. The tool handles all calendar quirks automatically.",
+        "We also provide a 'Next Birthday' countdown, letting you know exactly how many days are left until your special day. This feature is great for party planning. You can also use it to calculate the age of pets, historical figures, or even buildings. The interface is clean and date-picker friendly. We adhere to standard Gregorain calendar rules for maximum accuracy.",
+        "It's fast, private, and works on mobile. No more counting on your fingers or guessing. Get your precise age statistics in seconds."
       ],
       "label_dob": "Date of Birth",
       "btn_calculate": "Calculate Age",
@@ -402,7 +417,10 @@ export const en: Dictionary = {
       "title": "Unix Timestamp Converter",
       "seo_title": "Epoch Time Converter",
       "seo_content": [
-        "Convert Unix timestamps to human-readable dates and vice versa."
+        "The Unix Timestamp (or Epoch time) is a system for describing a point in time, defined as the number of seconds that have elapsed since January 1, 1970 (UTC). It is the standard time representation for Unix-based systems and many programming languages. Our Unix Timestamp Converter bridges the gap between these raw numbers and human-readable dates.",
+        "Developers often need to debug databases or logs where time is stored as a long integer. This tool allows you to paste a timestamp and instantly see the formatted date and time in your local timezone and UTC. Conversely, you can pick a specific date and get the corresponding Unix timestamp.",
+        "We support both standard seconds and milliseconds formats (often used in JavaScript). The tool updates in real-time as you type, making it the fastest way to verify timestamps. Why 1970? It was chosen as an arbitrary start date for the Unix operating system. Understanding epoch time is crucial for handling time zones correctly in software development.",
+        "Our tool helps eliminate off-by-one errors and timezone confusion. We also provide the current Unix timestamp live, which is useful for synchronization testing. Bookmark this page for your daily development needs. It's a client-side tool, so your data never leaves your browser. Essential for backend engineers, database administrators, and anyone working with APIs."
       ],
       "label_current": "Current Unix Time",
       "btn_copy": "Copy",
@@ -415,7 +433,10 @@ export const en: Dictionary = {
       "title": "Pomodoro Focus Timer",
       "seo_title": "Online Pomodoro Timer",
       "seo_content": [
-        "Boost productivity using the Pomodoro technique."
+        "Boost productivity using the Pomodoro technique. The Pomodoro Technique is a proven time management method that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks. This method trains your brain to focus for short periods and helps you stay on top of deadlines or constantly-refilling inboxes.",
+        "Our tool provides a customizable timer with standard presets: 25 minutes for focus, 5 minutes for short breaks, and 15 minutes for long breaks. Visual and audio notifications ensure you never miss a transition. Whether you are studying for exams, coding a sprint, or writing a report, this timer helps maintain mental freshness.",
+        "Regular breaks are essential for mental health and sustained focus. By working in bursts, you avoid burnout and fatigue. Our timer allows you to pause and resume as needed, though the technique encourages strict adherence to the clock. Customize the intervals to match your personal workflow. Use it as a study timer, a work timer, or even for meditation sessions.",
+        "The layout is simple and distraction-free, designed to keep you in the flow. It runs entirely in your browser, so no app installation is needed. Take control of your time and defeat procrastination today."
       ],
       "mode_focus": "Focus",
       "mode_short": "Short Break",
@@ -431,7 +452,10 @@ export const en: Dictionary = {
       "title": "Online Stopwatch",
       "seo_title": "Accurate Stopwatch",
       "seo_content": [
-        "Measure time with our precise online stopwatch."
+        "Measure time with precision using our Online Stopwatch. Whether you are timing a run, tracking billable hours, or cooking a perfect steak, this tool offers accuracy down to the millisecond. It features a large, easy-to-read display and simple Start, Stop, and Reset controls.",
+        "The Lap function allows you to record multiple split times without stopping the main timer, making it ideal for sports training or multi-stage processes. You can view a history of all your laps in a clear list. Our stopwatch runs locally in your browser, ensuring zero latency.",
+        "Time is money, and accurate tracking is key to efficiency. Freelancers use it to track work sessions, teachers for classroom activities, and athletes for interval training. The clean interface works well on mobile screens, making it a portable timing solution. We also offer a dark mode for comfortable viewing in low light.",
+        "Free, reliable, and accessible on any device with a browser. Replace physical stopwatches with this convenient digital solution. Experience precise timekeeping without the clutter."
       ],
       "btn_start": "Start",
       "btn_stop": "Stop",
@@ -1459,7 +1483,11 @@ export const en: Dictionary = {
       "title": "Baby Name Generator",
       "seo_title": "Unique & Popular Baby Name Generator",
       "seo_content": [
-        "Discover perfect baby names by origin, style, and gender. Includes biblical, modern, classic, and rare names."
+        "Choosing a name for your baby is one of the most exciting and significant parts of expecting a child. Our Baby Name Generator helps you discover the perfect name by exploring thousands of options from diverse origins and styles. Whether you are looking for a traditional biblical name, a modern trendy moniker, or a unique gem from nature, this tool provides endless inspiration.",
+        "Our database is curated with care, tagging names by gender (Boy, Girl, Neutral), origin (English, Latin, Greek, Hebrew, etc.), and style (Classic, Modern, Rare, Short). You can filter specifically for what you want or use the 'Surprise Me' button to let fate decide. Finding a name that sounds good and has a meaningful background is important.",
+        "We provide the origin of each name to help you make an informed choice. You can create a shortlist of your favorites by clicking the heart icon, and then copy them all to discuss with your partner. The interface is designed to be joyful and easy to use. No signup is required, and your favorites valid for the session.",
+        "Names carry identity and heritage. Some parents prefer names that honor their ancestry, while others look for something fresh and distinct. Our tool accommodates all preferences. We also include a 'Starts With' filter if you have a specific letter in mind, perhaps to match a sibling's name or a family tradition. The generator produces random sets based on your criteria, ensuring you see a wide variety of options you might not have considered otherwise. Enjoy the process of discovery!",
+        "Start your naming journey today with our comprehensive Baby Name Generator. It is the perfect companion for parents-to-be who want to explore a world of names without turning pages in a massive book."
       ],
       "label_origin": "Origin",
       "label_gender": "Gender",

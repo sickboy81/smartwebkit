@@ -292,7 +292,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
 
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-500 uppercase">{t.label_gender}</label>
-                <select value={gender} onChange={e => setGender(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
+                <select aria-label={t.label_gender} value={gender} onChange={e => setGender(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
                   <option value="any">{t.gender_neutral}</option>
                   <option value="m">{t.gender_boy}</option>
                   <option value="f">{t.gender_girl}</option>
@@ -302,7 +302,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
 
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-500 uppercase">{t.label_origin}</label>
-                <select value={origin} onChange={e => setOrigin(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
+                <select aria-label={t.label_origin} value={origin} onChange={e => setOrigin(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
                   <option value="any">{t.origin_any}</option>
                   <option value="biblical">{t.origin_biblical}</option>
                   <option value="english">{t.origin_english}</option>
@@ -315,7 +315,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
 
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-500 uppercase">{t.label_style}</label>
-                <select value={style} onChange={e => setStyle(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
+                <select aria-label={t.label_style} value={style} onChange={e => setStyle(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
                   <option value="any">{t.style_any}</option>
                   <option value="modern">{t.style_modern}</option>
                   <option value="classic">{t.style_classic}</option>
@@ -326,7 +326,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
 
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-500 uppercase">{t.label_letter}</label>
-                <select value={letter} onChange={e => setLetter(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
+                <select aria-label={t.label_letter} value={letter} onChange={e => setLetter(e.target.value)} className="w-full p-2.5 border-slate-200 rounded-lg text-sm bg-white shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none">
                   <option value="">Any</option>
                   {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => <option key={l} value={l}>{l}</option>)}
                 </select>
@@ -353,8 +353,8 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
                       key={i}
                       onClick={() => toggleFavorite(name)}
                       className={`p-6 rounded-xl border text-center transition-all duration-300 flex flex-col items-center justify-center gap-3 group relative shadow-sm hover:shadow-md ${favorites.includes(name)
-                          ? 'bg-rose-50 border-rose-200 text-rose-700 ring-2 ring-rose-100'
-                          : 'bg-white border-slate-100 hover:border-indigo-200 text-slate-700'
+                        ? 'bg-rose-50 border-rose-200 text-rose-700 ring-2 ring-rose-100'
+                        : 'bg-white border-slate-100 hover:border-indigo-200 text-slate-700'
                         }`}
                     >
                       <span className="font-bold text-xl">{name}</span>
@@ -382,7 +382,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
                       {copiedFav ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
                       {t.btn_favorites}
                     </Button>
-                    <Button onClick={() => setFavorites([])} size="sm" variant="ghost" className="h-8 text-slate-400 hover:text-red-500">
+                    <Button onClick={() => setFavorites([])} aria-label="Clear all favorites" size="sm" variant="ghost" className="h-8 text-slate-400 hover:text-red-500">
                       <Trash2 className="w-4 h-4" />
                     </Button>
                   </div>
@@ -391,7 +391,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
                   {favorites.map((name, i) => (
                     <span key={i} className="px-4 py-1.5 bg-white text-indigo-700 rounded-full border border-indigo-100 text-sm font-semibold shadow-sm flex items-center gap-2">
                       {name}
-                      <button onClick={() => toggleFavorite(name)} className="hover:text-red-500 transition-colors"><Trash2 className="w-3 h-3" /></button>
+                      <button onClick={() => toggleFavorite(name)} aria-label={`Remove ${name} from favorites`} className="hover:text-red-500 transition-colors"><Trash2 className="w-3 h-3" /></button>
                     </span>
                   ))}
                 </div>

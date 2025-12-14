@@ -283,7 +283,11 @@ export const pt: Dictionary = {
       "title": "Calculadora de Porcentagem",
       "seo_title": "Calculadora de Porcentagem Grátis",
       "seo_content": [
-        "Calcule aumentos, descontos e partes percentuais."
+        "Calcular porcentagens é uma habilidade matemática fundamental usada no cotidiano, desde calcular impostos até determinar gorjetas. Nossa Calculadora de Porcentagem Online gratuita torna esses cálculos instantâneos e sem erros. Se você precisa encontrar uma porcentagem de um número, ver qual porcentagem um número representa de outro, ou calcular a variação percentual entre dois valores, esta ferramenta faz tudo.",
+        "A ferramenta oferece três modos distintos: 'Quanto é X% de Y?' para encontrar partes de um todo, 'X é quantos por cento de Y?' para determinar proporções, e 'Variação percentual' para rastrear crescimento ou declínio. Essa versatilidade a torna perfeita para estudantes, compradores ou empresários analisando margens de lucro.",
+        "Entender a variação percentual é particularmente útil em finanças. Você pode determinar facilmente se seu investimento cresceu ou diminuiu e quanto. A interface é simples: selecione seu modo, insira os números e clique em Calcular.",
+        "Porcentagens são onipresentes em finanças, ciência e compras diárias. Por exemplo, calcular um desconto de 20% em um item de R$ 50. Nossa calculadora simplifica essas tarefas. Também priorizamos a precisão e a facilidade de uso.",
+        "Chega de lutar com fórmulas manuais. Nossa ferramenta funciona diretamente no seu navegador, garantindo privacidade e velocidade. Use-a para cálculos percentuais rápidos e precisos em qualquer lugar."
       ],
       "mode_1": "Quanto é X% de Y?",
       "mode_2": "X é quantos por cento de Y?",
@@ -296,7 +300,11 @@ export const pt: Dictionary = {
       "title": "Calculadora de Regra de Três",
       "seo_title": "Calculadora de Proporção Direta",
       "seo_content": [
-        "Resolva problemas matemáticos de 'Regra de Três' facilmente."
+        "A Regra de Três (Proporção Direta) é um conceito matemático poderoso para resolver problemas de relações proporcionais. Se você conhece três valores e precisa encontrar o quarto, esta calculadora é sua solução. É amplamente usada em química para misturar soluções, na culinária para adaptar receitas e em viagens para conversão de moeda.",
+        "Por exemplo, se 5 maçãs custam R$ 2, quanto custam 10 maçãs? Esta ferramenta resolve X instantaneamente. Assume uma variação direta onde uma variável aumenta à medida que a outra aumenta. Insira valores para A, B e C para resolver X na equação A/B = C/X.",
+        "Esta ferramenta educacional é fantástica para estudantes aprendendo álgebra. Visualiza a relação entre números, ajudando a solidificar o conceito de proporcionalidade. Profissionais também a usam para estimativas rápidas sem planilhas complexas.",
+        "O raciocínio proporcional é chave para muitas tarefas do mundo real. Engenheiros, enfermeiros e artistas usam diariamente. Ao automatizar o processo de multiplicação cruzada, reduzimos o risco de erros. A ferramenta atualiza instantaneamente.",
+        "Nossa Calculadora de Regra de Três é rápida, gratuita e roda no seu navegador. Suporta números decimais para cálculos precisos. Simplifique seus problemas matemáticos hoje."
       ],
       "label_a": "Valor A",
       "label_b": "Valor B",
@@ -333,7 +341,11 @@ export const pt: Dictionary = {
       "title": "Calculadora de Descontos e Promoções",
       "seo_title": "Calculadora de Desconto Online",
       "seo_content": [
-        "Calcule o preço final de um item após um desconto percentual."
+        "Todos adoram uma boa oferta, mas calcular o preço final após um desconto pode ser complicado. Nossa Calculadora de Descontos ajuda você a verificar a economia instantaneamente. Seja um desconto de 20% ou uma oferta de estudante de 15%, insira o preço original e a porcentagem para ver quanto você paga e quanto economiza.",
+        "Esta ferramenta é essencial para compras inteligentes. Varejistas costumam usar estratégias de preços confusas. Com nossa calculadora, você pode determinar o custo real antes de pagar. Também é útil para empresários definindo preços para promoções.",
+        "Além do varejo, esta ferramenta ajuda em negociações salariais ou trabalho autônomo. A interface é otimizada para uso móvel, para que você possa usá-la no corredor da loja.",
+        "A educação financeira começa entendendo para onde vai seu dinheiro. Ao saber o preço final exato, você pode orçar melhor. Esta ferramenta lida com entradas decimais para preços precisos. Ideal para Black Friday e liquidações.",
+        "Pare de adivinhar e comece a economizar. Nossa calculadora fornece o preço final e o valor total da economia em texto claro. É grátis, privada e funciona em qualquer dispositivo."
       ],
       "label_price": "Preço Original",
       "label_discount": "Desconto (%)",
@@ -387,7 +399,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Idade",
       "seo_title": "Calcule Sua Idade",
       "seo_content": [
-        "Descubra exatamente quantos anos, meses e dias você viveu."
+        "Calcular sua idade exata em anos, meses e dias pode ser complexo devido aos anos bissextos. Nossa Calculadora de Idade precisa faz a matemática para você instantaneamente. Basta inserir sua data de nascimento e diremos exatamente quanto tempo você viveu até o dia.",
+        "Esta ferramenta é perfeita para preencher formulários, planejar aniversários ou satisfazer a curiosidade. Também calcula a diferença de idade entre duas datas se você precisar saber a duração de um evento. Veja quantas semanas ou dias totais você viveu.",
+        "Também fornecemos uma contagem regressiva para o 'Próximo Aniversário', informando quantos dias faltam para o seu dia especial. Este recurso é ótimo para planejar festas. A interface é limpa e fácil de usar.",
+        "É rápido, privado e funciona em dispositivos móveis. Chega de contar nos dedos ou adivinhar. Obtenha suas estatísticas de idade precisas em segundos."
       ],
       "label_dob": "Data de Nascimento",
       "btn_calculate": "Calcular Idade",
@@ -402,7 +417,10 @@ export const pt: Dictionary = {
       "title": "Conversor de Timestamp Unix",
       "seo_title": "Conversor de Tempo Epoch",
       "seo_content": [
-        "Converta timestamps Unix para datas legíveis e vice-versa."
+        "O Timestamp Unix (ou tempo Epoch) é um sistema para descrever um ponto no tempo, definido como o número de segundos decorridos desde 1 de janeiro de 1970 (UTC). É a representação de tempo padrão para sistemas Unix. Nosso Conversor de Timestamp Unix faz a ponte entre esses números e datas legíveis por humanos.",
+        "Desenvolvedores frequentemente precisam depurar bancos de dados onde o tempo é armazenado como um inteiro longo. Esta ferramenta permite colar um timestamp e ver instantaneamente a data e hora formatadas no seu fuso horário local e UTC.",
+        "Suportamos formatos de segundos e milissegundos. A ferramenta atualiza em tempo real enquanto você digita. Por que 1970? Foi escolhido como uma data de início arbitrária para o sistema operacional Unix. Compreender o tempo epoch é crucial para lidar com fusos horários.",
+        "Nossa ferramenta ajuda a eliminar erros de fuso horário. Também fornecemos o timestamp Unix atual ao vivo. É uma ferramenta do lado do cliente, então seus dados nunca saem do navegador. Essencial para engenheiros backend e administradores de banco de dados."
       ],
       "label_current": "Tempo Unix Atual",
       "btn_copy": "Copiar",
@@ -415,7 +433,10 @@ export const pt: Dictionary = {
       "title": "Timer de Foco Pomodoro",
       "seo_title": "Timer Pomodoro Online",
       "seo_content": [
-        "Aumente a produtividade usando a técnica Pomodoro."
+        "Aumente sua produtividade usando a técnica Pomodoro. A Técnica Pomodoro é um método de gestão de tempo comprovado que usa um cronômetro para dividir o trabalho em intervalos, tradicionalmente de 25 minutos, separados por breves pausas. Este método treina seu cérebro para focar.",
+        "Nossa ferramenta fornece um cronômetro personalizável com predefinições padrão: 25 minutos para foco, 5 para pausas curtas e 15 para pausas longas. Notificações visuais e sonoras garantem que você nunca perca uma transição.",
+        "Pausas regulares são essenciais para a saúde mental e foco sustentado. Ao trabalhar em rajadas, você evita o esgotamento. Nosso cronômetro permite pausar e retomar conforme necessário. Use-o como cronômetro de estudo ou trabalho.",
+        "O design é simples e sem distrações. Roda inteiramente no seu navegador, então nenhuma instalação de aplicativo é necessária. Assuma o controle do seu tempo e derrote a procrastinação hoje."
       ],
       "mode_focus": "Foco",
       "mode_short": "Pausa Curta",
@@ -431,7 +452,10 @@ export const pt: Dictionary = {
       "title": "Cronômetro Online",
       "seo_title": "Cronômetro Preciso",
       "seo_content": [
-        "Meça o tempo com nosso cronômetro online preciso."
+        "Meça o tempo com precisão com nosso Cronômetro Online. Seja cronometrando uma corrida, rastreando horas faturáveis ou cozinhando, esta ferramenta oferece precisão até o milissegundo. Possui um display grande e controles simples de Iniciar, Parar e Resetar.",
+        "A função de Volta permite registrar múltiplos tempos parciais sem parar o cronômetro principal, ideal para treino esportivo. Você pode ver um histórico de todas as suas voltas. Nosso cronômetro roda localmente garantindo latência zero.",
+        "Tempo é dinheiro, e o rastreamento preciso é chave. Freelancers o usam para rastrear sessões de trabalho e atletas para treinos. A interface limpa funciona bem em telas móveis.",
+        "Grátis, confiável e acessível em qualquer dispositivo. Substitua cronômetros físicos por esta solução digital conveniente. Experimente a cronometragem precisa sem desordem."
       ],
       "btn_start": "Iniciar",
       "btn_stop": "Parar",
@@ -1462,7 +1486,11 @@ export const pt: Dictionary = {
       "title": "Gerador de Nomes de Bebê",
       "seo_title": "Nomes de Bebê e Significados",
       "seo_content": [
-        "Descubra nomes perfeitos para meninos e meninas. Filtre por origem, estilo e inicial."
+        "Escolher um nome para seu bebê é uma das partes mais emocionantes e significativas de esperar um filho. Nosso Gerador de Nomes de Bebê ajuda você a descobrir o nome perfeito explorando milhares de opções de diversas origens e estilos. Se você procura um nome bíblico tradicional, um nome moderno da moda ou uma jóia única da natureza, esta ferramenta oferece inspiração infinita.",
+        "Nossa base de dados é curada com carinho, rotulando nomes por gênero (Menino, Menina, Neutro), origem (Inglês, Latino, Grego, Hebraico, etc.) e estilo (Clássico, Moderno, Raro, Curto). Você pode filtrar especificamente o que deseja ou usar o botão 'Surpreenda-me' para deixar o destino decidir.",
+        "Encontrar um nome que soe bem e tenha um significado profundo é importante. Fornecemos a origem de cada nome para ajudar você a fazer uma escolha informada. Você pode criar uma lista de favoritos clicando no ícone de coração e depois copiá-los para discutir com seu parceiro. A interface é projetada para ser alegre e fácil de usar. Não é necessário cadastro.",
+        "Nomes carregam identidade e herança. Alguns pais preferem nomes que honrem sua ancestralidade, enquanto outros buscam algo novo e distinto. Nossa ferramenta acomoda todas as preferências. Também incluímos um filtro 'Começa com' se você tiver uma letra específica em mente.",
+        "Comece sua jornada de nomes hoje com nosso completo Gerador de Nomes de Bebê. É o companheiro perfeito para futuros pais que querem explorar um mundo de nomes sem folhear livros enormes."
       ],
       "label_origin": "Origem",
       "label_gender": "Gênero",
