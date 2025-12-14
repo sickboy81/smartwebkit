@@ -22,27 +22,6 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt" />
   </url>
   <url>
-    <loc>https://smartwebkit.net/en//:lang</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt//:lang" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es//:lang" />
-  </url>
-  <url>
-    <loc>https://smartwebkit.net/pt//:lang</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en//:lang" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es//:lang" />
-  </url>
-  <url>
-    <loc>https://smartwebkit.net/es//:lang</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en//:lang" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt//:lang" />
-  </url>
-  <url>
     <loc>https://smartwebkit.net/en/password-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

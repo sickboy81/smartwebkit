@@ -36,7 +36,7 @@ const routes: string[] = [];
 
 while ((match = routeRegex.exec(appContent)) !== null) {
     const route = match[1];
-    if (route !== '/' && route !== '*' && route !== ':lang') {
+    if (route !== '/' && route !== '*' && route !== ':lang' && route !== '/:lang') {
         routes.push(route);
     }
 }
