@@ -1484,7 +1484,7 @@ export const en: Dictionary = {
       "seo_title": "Color Scheme Generator",
       "seo_content": [
         "Generate beautiful and harmonious color schemes instantly with our Color Palette Generator. Choosing the right colors is one of the hardest parts of design. A great color palette can elevate a website, brand, or artwork, while a poor one can make it look chaotic. Our tool uses color theory equations to generate schemes that are mathematically proven to look good together.",
-        "Start by selecting a 'Base Color' using the color picker. The tool then automatically generates three distinct palettes: Complementary (colors opposite on the wheel for high contrast), Analogous (colors next to each other for harmony), and Triadic (three colors evenly spaced for balance and vibrancy)."
+        "Start by selecting a 'Base Color' using the color picker. The tool then automatically generates three distinct palettes: Complementary (colors opposite on the wheel for high contrast), Analogous (colors next to each other for harmony), and Triadic (three colors evenly spaced for balance and vibrancy).",
         "Each color is displayed with its HEX code, ready to be copied into your CSS, Photoshop, or design tool. This is an essential utility for web designers, graphic artists, and decorators looking for inspiration.",
         "Stop guessing which colors match. Use science and art together to create professional-grade color themes in seconds. Explore different moods and styles effortlessly."
       ],
