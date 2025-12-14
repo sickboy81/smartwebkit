@@ -650,7 +650,10 @@ export const en: Dictionary = {
       "title": "Pregnancy Due Date Calculator",
       "seo_title": "Pregnancy Calculator",
       "seo_content": [
-        "Calculate your estimated due date based on your last menstrual period (LMP)."
+        "Calculate your estimated due date (EDD) quickly and accurately with our Pregnancy Calculator. Knowing your due date is the first step in planning for your baby's arrival. This tool uses the standard medical method (Naegele's rule) based on your Last Menstrual Period (LMP) and the average cycle length to estimate when your baby will be born.",
+        "Simply enter the first day of your last period and your usual cycle length (defaults to 28 days). The calculator will not only provide your estimated due date but also show your current progress in weeks and days, effectively acting as a pregnancy week-by-week tracker. It highlights which trimester you are currently in.",
+        "While only about 5% of babies are born on their exact due date, this estimate helps you schedule prenatal appointments, plan your maternity leave, and prepare your home. The gestation period is typically 40 weeks or 280 days. Our tool makes the math simple and instant.",
+        "This tool provides a timeline for your pregnancy journey. Whether you are just hoping to conceive or are already expecting, having a clear date in mind makes the experience more real. Track your semesters and watch the weeks go by as you prepare for your new family member."
       ],
       "label_lmp": "Last Menstrual Period (LMP)",
       "label_cycle": "Cycle Length (Days)",
@@ -664,7 +667,10 @@ export const en: Dictionary = {
       "title": "Instagram Caption Formatter",
       "seo_title": "Instagram Caption Spacer",
       "seo_content": [
-        "Format your Instagram captions with clean line breaks and invisible spaces."
+        "Create clean, readable Instagram captions with our Instagram Caption Spacer. Have you ever typed a long, thoughtful caption on Instagram only to have all your formatting disappear when you post? Instagram often collapses line breaks, determining them as unnecessary whitespace, which results in a wall of text that is hard to read.",
+        "Our tool solves this problem by inserting invisible characters (Braille Pattern Blank U+2800) into your empty lines. These characters act as placeholders, forcing Instagram to respect your formatting and keep your paragraphs separated. This is essential for influencers, brands, and anyone who wants their posts to look professional.",
+        "To use it, simply type or paste your caption into the text box, adding new lines where you want them. Click 'Format and Copy', and the tool will process your text and copy it to your clipboard. Then, just paste it directly into Instagram. No more using dots or dashes to separate paragraphs.",
+        "Readable captions increase engagement. Use this tool to tell better stories, structure your hashtags properly, and keep your audience reading to the end."
       ],
       "input_label": "Write your caption",
       "btn_format": "Format and Copy",
@@ -676,7 +682,10 @@ export const en: Dictionary = {
       "title": "TDEE Calculator",
       "seo_title": "Total Daily Energy Expenditure",
       "seo_content": [
-        "Calculate your TDEE and daily macronutrient needs based on activity level."
+        "Optimize your nutrition plan with our comprehensive TDEE Calculator. TDEE stands for Total Daily Energy Expenditure, which is the total number of calories your body burns in a day. It combines your Basal Metabolic Rate (BMR) — the calories you burn at rest — with the calories burned through physical activity and the thermic effect of food.",
+        "Whether your goal is weight loss, muscle gain, or maintenance, knowing your TDEE is crucial. This calculator estimates your daily caloric needs based on your gender, age, weight, height, and activity level. It then provides specific calorie targets for 'Cutting' (losing weight), 'Bulking' (gaining muscle), and 'Maintenance'.",
+        "Understanding your energy balance allows you to make informed decisions about your diet. We use the Mifflin-St Jeor equation, widely considered the most accurate standard formula. The results include a breakdown of macronutrients (protein, fats, and carbohydrates) to help you structure your meals effectively.",
+        "Stop guessing and start tracking. Achieving your fitness goals requires consistency and accuracy. Use this free tool as a starting point for your health journey."
       ],
       "label_gender": "Gender",
       "label_age": "Age",
@@ -702,7 +711,10 @@ export const en: Dictionary = {
       "title": "Water Intake Calculator",
       "seo_title": "Hydration Calculator",
       "seo_content": [
-        "Calculate how much water you should drink daily based on your weight."
+        "Stay hydrated and healthy with our Water Intake Calculator. Water is essential for every cell in your body. It regulates body temperature, keeps joints lubricated, prevents infections, and delivers nutrients to cells. But how much should you actually drink? The old '8 glasses a day' rule is a good start, but individual needs vary based on body weight.",
+        "This tool calculates a personalized daily water intake recommendation based on your weight. It uses the general guideline that a person should drink roughly 30-35ml of water per kg of body weight (or about 0.5 ounces per pound). Staying properly hydrated improves energy levels, brain function, and skin health.",
+        "Dehydration can lead to fatigue, headaches, and confusion. Use this calculator to set a daily goal for yourself. Remember to increase your intake if you are exercising heavily, living in a hot climate, or are pregnant/breastfeeding.",
+        "Enter your weight in kilograms to get your recommended liters per day. Ideally, spread this intake throughout the day rather than drinking it all at once. Make hydration a habit with this simple utility."
       ],
       "label_weight": "Weight (kg)",
       "btn_calculate": "Calculate",
@@ -714,7 +726,10 @@ export const en: Dictionary = {
       "title": "Online SQL Formatter",
       "seo_title": "Free SQL Beautifier",
       "seo_content": [
-        "Format your SQL queries for better readability."
+        "Format your SQL queries for better readability with our free Online SQL Formatter. Structured Query Language (SQL) is the standard for managing relational databases, but complex queries can quickly become unreadable blocks of text. Our tool automatically indents, spaces, and capitalizes your code to make it clean and understandable.",
+        "Whether you are debugging a stored procedure, optimizing a join, or reviewing code from a colleague, proper formatting is essential. This tool supports various SQL dialects including MySQL, PostgreSQL, SQL Server, and Oracle. It highlights keywords and structures nested logic visually.",
+        "Readable code prevents errors. By clearly seeing the structure of your WHERE clauses and JOIN conditions, you can spot mistakes faster. The formatter runs instantly in your browser, so you don't need to install heavy database management software just to beautify a script.",
+        "Simply paste your raw SQL into the editor and click Format. You can then copy the optimized code back to your IDE or database client. Improve your database workflow today."
       ],
       "input_label": "SQL Input",
       "btn_format": "Format",
@@ -726,7 +741,10 @@ export const en: Dictionary = {
       "title": "JS Keycode Visualizer",
       "seo_title": "Keycode Checker",
       "seo_content": [
-        "Press any key to see its JavaScript event key, code, and which."
+        "Discover the JavaScript key codes for any key on your keyboard with our JS Keycode Visualizer. When developing web applications that handle keyboard events (like games or accessibility features), developers need to know the specific 'event.key', 'event.code', and deprecated 'event.which' values.",
+        "Simply press any key on your physical keyboard, and the tool will instantly display all relevant event data. It captures modifiers (Shift, Ctrl, Alt) and works with special keys like Enter, Escape, and Arrow keys. This interactive tool eliminates the need to console.log events manually.",
+        "Understanding the difference between 'code' (physical key position) and 'key' (actual character value) is crucial for cross-layout compatibility. For example, the 'Q' key on a QWERTY keyboard might returning a different value on AZERTY layouts depending on which property you check.",
+        "This tool is a quick reference for frontend developers. It requires no setup and provides instant feedback. Bookmark it for your next keyboard-driven project."
       ],
       "msg_press": "Press any key..."
     },
@@ -736,7 +754,10 @@ export const en: Dictionary = {
       "title": "What is my IP?",
       "seo_title": "My Public IP Address",
       "seo_content": [
-        "Check your public IPv4 address instantly."
+        "Check your public IPv4 address instantly with our 'What is my IP' tool. Your IP (Internet Protocol) address is a unique numerical label assigned to each device connected to the internet. It works like a digital return address, allowing servers to send data back to you.",
+        "This tool is essential for network troubleshooting. If you are setting up a home server, whitelisting your connection in a firewall, or configuring remote access, you need to know your public-facing IP. We also display basic location estimates based on the IP address provider.",
+        "We prioritize speed and privacy. The lookup is performed immediately when you load the page. Unlike complex network diagnostic suites, this tool answers the simple question 'What is my IP?' without clutter.",
+        "Note that this shows your public IP assigned by your ISP, not your local network IP (like 192.168.x.x). If you are behind a VPN or proxy, the tool will show that secure address instead."
       ],
       "label_ip": "Your IP Address",
       "btn_refresh": "Refresh"
@@ -747,7 +768,10 @@ export const en: Dictionary = {
       "title": "JSON to CSV Converter",
       "seo_title": "Convert JSON to CSV Online",
       "seo_content": [
-        "Easily convert your JSON data (array of objects) to CSV format for spreadsheets."
+        "Convert your JSON data into CSV format instantly with our JSON to CSV Converter. JSON (JavaScript Object Notation) is the language of APIs, while CSV (Comma Separated Values) is the standard for spreadsheets like Excel and Google Sheets. Bridging these two worlds is often necessary for data analysis and reporting.",
+        "Simply paste an array of JSON objects (e.g., [{'name': 'John'}, {'name': 'Jane'}]) into the input box. Our tool automatically detects the keys (headers) and formats the values into rows and columns. It handles nested structures by flattening them or skipping complex objects depending on depth.",
+        "This tool is perfect for developers needing to export database dumps to Excel for business teams, or for data scientists cleaning up datasets. It saves hours of manual copy-pasting and formatting.",
+        "The conversion happens entirely in your browser using JavaScript. Your sensitive data is never uploaded to an external server, ensuring complete privacy. Download the resulting CSV file or copy it directly to your clipboard."
       ],
       "input_label": "JSON Input (Array of Objects)",
       "output_label": "CSV Output",
@@ -761,7 +785,10 @@ export const en: Dictionary = {
       "title": "IPv4 Subnet Calculator",
       "seo_title": "CIDR Subnet Mask Calculator",
       "seo_content": [
-        "Calculate network range, broadcast address, and host range from IP and CIDR."
+        "Calculate network parameters accurately with our IPv4 Subnet Calculator. Whether you are a network engineer planning a new infrastructure or a student learning about CIDR (Classless Inter-Domain Routing), this tool simplifies the complex math of IP subnetting.",
+        "Enter an IP address and select the subnet mask (CIDR suffix, e.g., /24). The calculator instantly provides the Network Address, Broadcast Address, Subnet Mask, First Usable Host, Last Usable Host, and the Total Number of Usable Hosts. It clarifies the range of your network segment.",
+        "Understanding subnets is critical for security and network performance. Segmenting a network reduces broadcast traffic and allows for better access control policies. This tool prevents common calculation errors that could lead to IP conflicts or routing issues.",
+        "Visualizing the binary representation of the mask can also help in understanding how bits are borrowed for subnets vs. hosts. This utility is fast, client-side, and an essential companion for anyone working with TCP/IP networks."
       ],
       "label_ip": "IP Address",
       "label_cidr": "CIDR / Mask",
@@ -894,7 +921,10 @@ export const en: Dictionary = {
       "title": "Web Encoders",
       "seo_title": "URL and HTML Entity Encoder",
       "seo_content": [
-        "Securely encode and decode URLs and HTML entities."
+        "Securely encode and decode special characters with our Web Encoders tool. In web development, transmitting data via URLs or displaying user input in HTML requires careful character handling to prevent errors and security vulnerabilities (like XSS). This tool provides both URL Encoding and HTML Entity Encoding.",
+        "URL Encoding (Percent-encoding) converts characters into a format that can be transmitted over the Internet. For example, a space becomes '%20'. This is essential when sending query parameters. HTML Encoding converts characters like '<' and '&' into their corresponding entities ('&lt;' and '&amp;'), ensuring they display correctly on a webpage without being interpreted as code.",
+        "Our tool works in real-time. Simply select the tab (URL or HTML), type your text, and see the encoded result immediately. You can also paste an encoded string to Decode it back to plain text. It fully supports UTF-8 characters.",
+        "This is a must-have utility for debugging API requests, sanitizing database inputs, or fixing broken links. It runs locally in your browser for speed and security."
       ],
       "tab_url": "URL",
       "tab_html": "HTML",
@@ -907,7 +937,10 @@ export const en: Dictionary = {
       "title": "Reaction Time Test",
       "seo_title": "Human Reflex Test",
       "seo_content": [
-        "Test how fast you can react to a visual stimulus."
+        "Test your reflexes with our Reaction Time Test. How fast does your brain process visual information and signal your finger to click? This simple yet addictive tool measures your reaction speed in milliseconds.",
+        "To play, wait for the red box to turn green. As soon as it changes color, click as fast as you can. We'll show you your exact reaction time. Repeat the test 5 times to get an average score, which is a more accurate representation of your reflexes.",
+        "The average human visual reaction time is around 250 milliseconds. Professional gamers and F1 drivers often clock in below 200ms. Factors like age, fatigue, and distraction can affect your score. Challenge your friends to see who has the sharpest reflexes.",
+        "This tool is also useful for cognitive training. Improving your reaction time can help in sports and daily activities like driving. Give it a try—are you faster than average?"
       ],
       "state_idle": "Click to Start",
       "state_wait": "Wait for Green...",
@@ -1037,7 +1070,10 @@ export const en: Dictionary = {
       "title": "YouTube Thumbnail Downloader",
       "seo_title": "Download YouTube Thumbnails HD",
       "seo_content": [
-        "View and download high-quality thumbnails from any YouTube video."
+        "Download high-quality thumbnails from any YouTube video instantly with our YouTube Thumbnail Downloader. A great thumbnail is key to a high click-through rate (CTR). Sometimes you need to retrieve the thumbnail of your own video for a blog post, social media promotion, or archive, but you lost the original file. This tool helps you recover it in seconds.",
+        "We extract all available resolutions provided by YouTube's servers: Default (120x90), Medium (320x180), High (480x360), Standard (640x480), and Max Resolution (1280x720). The 'Max Resolution' is the HD version and is perfect for reuse in other designs.",
+        "Simply paste the YouTube video link (URL) into the input box. The tool automatically parses the video ID and displays all available image sizes. You can then download them directly to your device.",
+        "This is a free utility for creators, marketers, and designers. No installation is required, and it works on mobile phones as well as desktops. Enhance your content workflow by having easy access to your visual assets."
       ],
       "label_url": "YouTube Video URL",
       "btn_get": "Get Thumbnails",
@@ -1080,7 +1116,10 @@ export const en: Dictionary = {
       "title": "Flip a Coin Online",
       "seo_title": "Heads or Tails Generator",
       "seo_content": [
-        "Flip a virtual coin to make a quick decision. Heads or tails?"
+        "Let fate decide with our random Coin Flip tool. Life is full of tough decisions, from 'Who pays for dinner?' to 'Which movie should we watch?'. Sometimes, the fairest way to settle a dispute or make a choice is a simple game of chance. Our virtual coin flip simulates a real 50/50 probability, giving you an unbiased Heads or Tails result.",
+        "Why search for a real coin in your pocket when you can flip one digitally? This tool features a realistic 3D flipping animation and sound effects to build suspense. We also keep track of your stats (Heads vs. Tails count) for the current session, so you can see if luck is trending in one direction.",
+        "It uses a cryptographically, secure random number generator to ensure the result is truly random and cannot be rigged. It works instantly on any device, making it the perfect pocket referee.",
+        "Whether you are deciding kickoff in a sports game, settling a bet, or just bored, flip a coin online and let the universe choose for you."
       ],
       "btn_flip": "Flip Coin",
       "val_heads": "Heads",
@@ -1094,7 +1133,10 @@ export const en: Dictionary = {
       "title": "Chmod Calculator",
       "seo_title": "Linux Permissions Generator",
       "seo_content": [
-        "Generate symbolic and octal chmod permissions visually."
+        "Manage file permissions on Unix-like systems (Linux, macOS) with our visual Chmod Calculator. 'Chmod' (change mode) is the command used to change access permissions of file system objects. Understanding the octal numbers (like 755 or 644) and symbolic notation (rwxr-xr-x) can be confusing for beginners and pros alike.",
+        "Our calculator provides a grid where you can toggle Read (r), Write (w), and Execute (x) permissions for the Owner, Group, and Public/Others. As you click the checkboxes, the tool strictly calculates the equivalent Octal value (e.g., 777) and the Symbolic string (e.g., -rwxrwxrwx) in real-time.",
+        "It breaks down the math effectively: Read=4, Write=2, Execute=1. The tool sums these values for each user class to generate the correct code. This is essential for server administrators setting up web servers, deployment scripts, or securing sensitive files.",
+        "Stop guessing the numbers. Use this tool to generate the exact command you need to run in your terminal. We also provide common presets for files and directories."
       ],
       "label_owner": "Owner",
       "label_group": "Group",
@@ -1153,7 +1195,10 @@ export const en: Dictionary = {
       "title": "Simple Online Scoreboard",
       "seo_title": "Scoreboard Counter",
       "seo_content": [
-        "Track scores for games and sports with this simple online scoreboard."
+        "Keep track of the game with our Simple Online Scoreboard. Whether you are playing a board game, a card game, ping pong, or a friendly sports match, keeping score in your head can be confusing. Paper and pen aren't always available. This digital scoreboard solves that problem instantly.",
+        "The interface is clean and large, visible from a distance on a tablet or laptop screen. It supports two teams (Team A and Team B) by default, but you can rename them to match your players. Tap to increase the score, or use the minus button to correct mistakes.",
+        "Perfect for referees, teachers, or casual gamers. It features high-contrast numbers for visibility in bright sunlight or dim rooms. The state is preserved in your browser, so if you refresh the page by accident, you won't lose the score.",
+        "No installation, no ads, just a reliable counter for your competitive needs. Make every game official with this easy-to-use tool."
       ],
       "team_a": "Team A",
       "team_b": "Team B",
@@ -1217,7 +1262,10 @@ export const en: Dictionary = {
       "title": "YouTube Tag Generator",
       "seo_title": "SEO Tags for YouTube",
       "seo_content": [
-        "Generate SEO-optimized tags for your YouTube videos from a keyword."
+        "Boost your video discoverability with our YouTube Tags Generator. Tags are descriptive keywords you can add to your video to help viewers find your content. YouTube's algorithm uses these tags to understand the topic and category of your video, and to associate it with similar content, which is crucial for appearing in the 'Suggested Videos' sidebar.",
+        "Our tool generates SEO-optimized tags based on your main keyword. It analyzes popular search terms and related concepts to provide a comprehensive list of tags that can increase your ranking potential. For example, if your video is about 'Vegan Cooking', it might suggest tags like 'vegan recipes', 'plant based diet', 'easy cooking', and 'healthy eating'.",
+        "Using the right mix of broad and specific tags can significantly impact your views. Simply enter your main topic, click 'Generate', and you will get a list of comma-separated tags ready to copy and paste directly into your YouTube Studio upload page.",
+        "Stop guessing which keywords to use. Leverage data-driven suggestions to grow your channel and reach a wider audience."
       ],
       "input_label": "Main Keyword",
       "btn_generate": "Generate Tags",
@@ -1286,7 +1334,10 @@ export const en: Dictionary = {
       "title": "YAML / JSON Converter",
       "seo_title": "YAML to JSON Online",
       "seo_content": [
-        "Convert YAML data to JSON and vice-versa instantly."
+        "Convert data between YAML and JSON formats instantly with our YAML / JSON Converter. YAML (YAML Ain't Markup Language) is popular for configuration files due to its readability, while JSON (JavaScript Object Notation) is the standard for APIs. Developers often need to switch between them.",
+        "Simply paste your YAML code to convert it to JSON, or paste JSON to get YAML. Our tool validates the input syntax before conversion, preventing errors. It handles complex nested structures, arrays, and different data types correctly.",
+        "This tool is perfect for DevOps engineers working with Kubernetes or Docker Compose files (often YAML), or frontend developers needing to mock API responses. It runs entirely client-side, ensuring your configuration secrets never leave your browser.",
+        "Copy the result with a single click. Simplify your configuration management workflow today."
       ],
       "btn_to_json": "To JSON",
       "btn_to_yaml": "To YAML",
@@ -1298,7 +1349,10 @@ export const en: Dictionary = {
       "title": "JWT Debugger",
       "seo_title": "JWT Decoder Online",
       "seo_content": [
-        "Decode JWT tokens to view the header and payload claims."
+        "Inspect and debug JSON Web Tokens with our Client-Side JWT Decoder. JWTs are an open standard (RFC 7519) used significantly for secure information exchange between parties, often for authentication (logging in). A JWT consists of three parts: Header, Payload, and Signature.",
+        "Our tool decodes the Base64Url encoded string to reveal the human-readable JSON Payload and Header. You can see standard claims like 'sub' (subject), 'iat' (issued at), and 'exp' (expiration time), as well as any custom data app has stored. Note that we do NOT verify the signature, as that requires your private secret key, but we decode the structure for inspection.",
+        "This is invaluable for frontend developers debugging login issues. You can check if a token has expired or if the user has the correct roles/permissions without backend logs. Since it runs in your browser, your sensitive tokens are never sent to our server.",
+        "Simply paste your token string. The tool automatically separates and formats the components. Use it to understand how modern authentication works."
       ],
       "label_token": "Encoded Token",
       "label_header": "Header",
@@ -1311,7 +1365,10 @@ export const en: Dictionary = {
       "title": "Luhn Algorithm Checker",
       "seo_title": "Credit Card Validator (Luhn)",
       "seo_content": [
-        "Validate credit card numbers, IMEIs, and other identifiers using the Luhn algorithm."
+        "Validate identification numbers with our Luhn Algorithm Checker. The Luhn algorithm (also known as the modulus 10 or 'mod 10' algorithm) is a simple checksum formula used to validate a variety of identification numbers, most notoriously credit card numbers, IMEI numbers, and Canadian Social Insurance Numbers.",
+        "This tool allows you to input any number sequence to check if it satisfies the checksum. It detects accidental errors such as a single digit error or a transposition of adjacent digits. This is not a fraud check (it doesn't check if the card is active or has funds), but a structural validity check.",
+        "Developers use this to validate form inputs before sending data to a payment gateway API, saving unnecessary server requests. QA testers use it to generate valid test numbers.",
+        "Enter your number to get an instant Pass or Fail result. No data is stored or transmitted; the math happens locally on your device for security."
       ],
       "label_input": "Number to Check",
       "btn_validate": "Validate",
@@ -1324,7 +1381,10 @@ export const en: Dictionary = {
       "title": "Online Metronome",
       "seo_title": "Free Online Metronome",
       "seo_content": [
-        "A precise metronome for musicians. Set BPM and play."
+        "Keep the beat with our precise Online Metronome. Essential for musicians of all levels, from beginners learning rhythm to professionals practicing complex pieces. A metronome produces a steady pulse (beat) to help you play at a consistent speed.",
+        "Set your desired BPM (Beats Per Minute) using the slider or input field. Our tool is accurate and responsive, using the Web Audio API to ensure perfect timing without drift. You can use it for practicing guitar, piano, drums, or any other instrument.",
+        "Practicing with a metronome improves your internal timing and sense of rhythm. It's also useful for physical exercise, dance practice, or even meditation. The visual indicator flashes with the beat, allowing you to follow along silently if needed.",
+        "No heavy apps to install. Access a professional-grade metronome directly in your browser anytime, anywhere."
       ],
       "label_bpm": "BPM",
       "btn_start": "Start",
@@ -1362,7 +1422,10 @@ export const en: Dictionary = {
       "title": "Online Regex Tester",
       "seo_title": "Javascript Regex Tester",
       "seo_content": [
-        "Test your Regular Expressions (Regex) against text in real-time."
+        "Test and debug Regular Expressions (Regex) with our Online Regex Tester. Regular expressions are powerful patterns used to match character combinations in strings, used frequently in form validation, search and replace operations, and data parsing.",
+        "Our tool allows you to enter a regex pattern and a test string. It highlights all matches in real-time, showing you exactly what your pattern is capturing. We support standard JavaScript RegEx syntax and flags (global, case-insensitive, multiline).",
+        "Regex can be notoriously difficult to master. This visual playground helps you experiment. Try patterns for email validation, phone number extraction, or removing special characters. The interface provides immediate feedback, listing match indices and captured groups.",
+        "Perfect for developers, data analysts, and students. Refine your patterns here before deploying them to your production code. It's fast, free, and runs securely in your browser."
       ],
       "label_pattern": "Pattern",
       "label_text": "Test String",
@@ -1438,7 +1501,10 @@ export const en: Dictionary = {
       "title": "Decision Wheel (Wheel of Fortune)",
       "seo_title": "Random Decision Wheel Online",
       "seo_content": [
-        "Can't decide? Enter your options and spin the wheel to pick a random winner."
+        "Indecisive? Let our Decision Wheel choose for you. Also known as the Wheel of Fortune or Random Picker Wheel, this tool is perfect for when you are stuck between multiple options. Whether you are choosing where to eat for lunch, which game to play, or picking a raffle winner, the wheel adds an element of fun and fairness to the process.",
+        "Simply enter your options in the text box (one per line). You can add as many choices as you like. When you click 'Spin', the wheel animates with a satisfying spinning effect and slows down to point to a random winner. The physics-based animation builds suspense.",
+        "This tool is unbiased and runs locally on your device. It's great for teachers engaging students, friends settling arguments, or even just for fun. You can customize the list every time.",
+        "Stop analyzing and start spinning. Leave your choices to chance and enjoy the result."
       ],
       "label_input": "Options (one per line)",
       "btn_spin": "Spin!",
@@ -1450,7 +1516,10 @@ export const en: Dictionary = {
       "title": "Spin the Bottle Online",
       "seo_title": "Online Spin the Bottle Game",
       "seo_content": [
-        "A virtual version of the classic party game Spin the Bottle. Play with friends online."
+        "Relive the classic party nostalgia with our online Spin the Bottle game. Perfect for gatherings, sleepovers, or breaking the ice at parties, this virtual version brings the fun without needing a physical empty bottle. It is clean, fair, and accessible anywhere.",
+        "The tool offers two exciting modes. 'Classic Mode' simply spins the bottle, and you decide who it points to. 'Player Mode' allows you to enter the names of all participants. The bottle will then randomly select a person, eliminating arguments about who it is pointing at. You can add as many friends as you want.",
+        "Essential for games like Truth or Dare, this tool adds a layer of excitement and randomization to your social events. The physics-based animation makes the spin feel authentic. It works perfectly on mobile phones, so you can place the device in the center of the circle and play.",
+        "No ads interrupting your game, just pure fun. Customize your party experience and create memorable moments with this modern twist on a timeless classic."
       ],
       "btn_spin": "Spin!",
       "label_players": "Players (Optional)",

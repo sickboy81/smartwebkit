@@ -653,7 +653,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Data Prevista do Parto",
       "seo_title": "Calculadora de Gestação",
       "seo_content": [
-        "Calcule sua data provável do parto baseada na data da última menstruação (DUM)."
+        "Calcule sua Data Provável do Parto (DPP) com rapidez e precisão usando nossa Calculadora de Gravidez. Saber a data do parto é o primeiro passo para planejar a chegada do seu bebê. Esta ferramenta utiliza o método médico padrão (Regra de Naegele) baseado na Data da Última Menstruação (DUM) e na duração média do ciclo para estimar quando seu bebê nascerá.",
+        "Basta inserir o primeiro dia do seu último período e a duração habitual do seu ciclo (o padrão é 28 dias). A calculadora não apenas fornecerá sua data estimada de parto, mas também mostrará seu progresso atual em semanas e dias, funcionando efetivamente como ura rastreador de gravidez semana a semana. Ela destaca em qual trimestre você se encontra atualmente.",
+        "Embora apenas cerca de 5% dos bebês nasçam na data exata prevista, essa estimativa ajuda você a agendar consultas pré-natais, planejar sua licença-maternidade e preparar sua casa. O período de gestação é tipicamente de 40 semanas ou 280 dias. Nossa ferramenta torna a matemática simples e instantânea.",
+        "Esta ferramenta fornece uma linha do tempo para sua jornada de gravidez. Esteja você apenas esperando engravidar ou já esteja esperando, ter uma data clara em mente torna a experiência mais real. Acompanhe seus trimestres e veja as semanas passarem enquando se prepara para o novo membro da família."
       ],
       "label_lmp": "Data da Última Menstruação (DUM)",
       "label_cycle": "Duração do Ciclo (Dias)",
@@ -667,7 +670,10 @@ export const pt: Dictionary = {
       "title": "Formatador de Legenda Instagram",
       "seo_title": "Espaçador de Legenda Instagram",
       "seo_content": [
-        "Formate suas legendas do Instagram com quebras de linha limpas e espaços invisíveis."
+        "Crie legendas limpas e legíveis para o Instagram com nosso Espaçador de Legendas. Você já digitou uma legenda longa e reflexiva no Instagram apenas para ver toda a formatação desaparecer ao postar? O Instagram frequentemente colapsa quebras de linha, tratando-as como espaços em branco desnecessários, o que resulta em um bloco de texto difícil de ler.",
+        "Nossa ferramenta resolve esse problema inserindo caracteres invisíveis (Braille Pattern Blank U+2800) em suas linhas vazias. Esses caracteres agem como espaços reservados, forçando o Instagram a respeitar sua formatação e manter seus parágrafos separados. Isso é essencial para influenciadores, marcas e qualquer pessoa que queira que seus posts pareçam profissionais.",
+        "Para usar, basta digitar ou colar sua legenda na caixa de texto, adicionando novas linhas onde desejar. Clique em 'Formatar e Copiar', e a ferramenta processará seu texto e o copiará para a área de transferência. Em seguida, basta colar diretamente no Instagram. Chega de usar pontos ou traços para separar parágrafos.",
+        "Legendas legíveis aumentam o engajamento. Use esta ferramenta para contar melhores histórias, estruturar suas hashtags corretamente e manter seu público lendo até o final."
       ],
       "input_label": "Escreva sua legenda",
       "btn_format": "Formatar e Copiar",
@@ -679,7 +685,10 @@ export const pt: Dictionary = {
       "title": "Calculadora TDEE",
       "seo_title": "Gasto Energético Diário Total",
       "seo_content": [
-        "Calcule seu TDEE e necessidades diárias de macronutrientes com base no nível de atividade."
+        "Otimize seu plano nutricional com nossa abrangente Calculadora TDEE. TDEE significa Gasto Energético Diário Total (Total Daily Energy Expenditure), que é o número total de calorias que seu corpo queima em um dia. Ele combina sua Taxa Metabólica Basal (TMB) — as calorias que você queima em repouso — com as calorias queimadas através da atividade física e o efeito térmico dos alimentos.",
+        "Seja seu objetivo perda de peso, ganho muscular ou manutenção, saber seu TDEE é crucial. Esta calculadora estima suas necessidades calóricas diárias com base em seu gênero, idade, peso, altura e nível de atividade. Ela então fornece metas calóricas específicas para 'Cutting' (perder peso), 'Bulking' (ganhar músculo) e 'Manutenção'.",
+        "Entender seu balanço energético permite que você tome decisões informadas sobre sua dieta. Usamos a equação de Mifflin-St Jeor, amplamente considerada a fórmula padrão mais precisa. Os resultados incluem uma divisão de macronutrientes (proteínas, gorduras e carboidratos) para ajudar você a estruturar suas refeições de forma eficaz.",
+        "Pare de adivinhar e comece a monitorar. Alcançar seus objetivos de fitness requer consistência e precisão. Use esta ferramenta gratuita como ponto de partida para sua jornada de saúde."
       ],
       "label_gender": "Gênero",
       "label_age": "Idade",
@@ -705,7 +714,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Ingestão de Água",
       "seo_title": "Calculadora de Hidratação",
       "seo_content": [
-        "Calcule quanta água você deve beber diariamente com base no seu peso."
+        "Mantenha-se hidratado e saudável com nossa Calculadora de Ingestão de Água. A água é essencial para todas as células do seu corpo. Ela regula a temperatura corporal, mantém as articulações lubrificadas, previne infecções e transporta nutrientes para as células. Mas quanto você deve realmente beber? A velha regra de '8 copos por dia' é um bom começo, mas as necessidades individuais variam com base no peso corporal.",
+        "Esta ferramenta calcula uma recomendação diária personalizada de ingestão de água com base no seu peso. Ela usa a diretriz geral de que uma pessoa deve beber cerca de 30-35ml de água por kg de peso corporal. Manter-se adequadamente hidratado melhora os níveis de energia, a função cerebral e a saúde da pele.",
+        "A desidratação pode levar à fadiga, dores de cabeça e confusão. Use esta calculadora para definir uma meta diária para você. Lembre-se de aumentar sua ingestão se estiver se exercitando intensamente, vivendo em um clima quente ou estiver grávida/amamentando.",
+        "Insira seu peso em quilogramas para obter seus litros recomendados por dia. Idealmente, distribua essa ingestão ao longo do dia em vez de beber tudo de uma vez. Faça da hidratação um hábito com esta utilidade simples."
       ],
       "label_weight": "Peso (kg)",
       "btn_calculate": "Calcular",
@@ -717,7 +729,10 @@ export const pt: Dictionary = {
       "title": "Formatador SQL Online",
       "seo_title": "Beautifier SQL Grátis",
       "seo_content": [
-        "Formate suas queries SQL para melhor legibilidade."
+        "Formate suas queries SQL para melhor legibilidade com nosso Formatador SQL Online gratuito. O SQL é o padrão para gerenciar bancos de dados relacionais, mas consultas complexas podem rapidamente se tornar blocos de texto ilegíveis. Nossa ferramenta insere recuos, espaços e letras maiúsculas automaticamente para tornar seu código limpo e compreensível.",
+        "Seja você depurando um procedimento armazenado, otimizando um join ou revisando código de um colega, a formatação adequada é essencial. Esta ferramenta suporta vários dialetos de SQL, incluindo MySQL, PostgreSQL, SQL Server e Oracle. Ela destaca palavras-chave e estrutura a lógica aninhada visualmente.",
+        "Código legível evita erros. Ao ver claramente a estrutura de suas cláusulas WHERE e condições JOIN, você pode detectar falhas mais rapidamente. O formatador é executado instantaneamente no seu navegador, então você não precisa instalar software pesado de gerenciamento de banco de dados apenas para embelezar um script.",
+        "Basta colar seu SQL bruto no editor e clicar em Formatar. Você pode então copiar o código otimizado de volta para seu IDE ou cliente de banco de dados. Melhore seu fluxo de trabalho de banco de dados hoje."
       ],
       "input_label": "Entrada SQL",
       "btn_format": "Formatar",
@@ -729,7 +744,10 @@ export const pt: Dictionary = {
       "title": "Visualizador de Keycode JS",
       "seo_title": "Verificador de Keycode",
       "seo_content": [
-        "Pressione qualquer tecla para ver seu código de evento JavaScript, code e which."
+        "Descubra os códigos de tecla JavaScript para qualquer tecla do seu teclado com nosso Visualizador de Keycode JS. Ao desenvolver aplicativos da web que lidam com eventos de teclado (como jogos ou recursos de acessibilidade), os desenvolvedores precisam saber os valores específicos de 'event.key', 'event.code' e o obsoleto 'event.which'.",
+        "Basta pressionar qualquer tecla no seu teclado físico, e a ferramenta exibirá instantaneamente todos os dados de evento relevantes. Ela captura modificadores (Shift, Ctrl, Alt) e funciona com teclas especiais como Enter, Escape e setas. Esta ferramenta interativa elimina a necessidade de fazer console.log de eventos manualmente.",
+        "Entender a diferença entre 'code' (posição física da tecla) e 'key' (valor real do caractere) é crucial para a compatibilidade entre layouts. Por exemplo, a tecla 'Q' em um teclado QWERTY pode retornar um valor diferente em layouts AZERTY dependendo de qual propriedade você verificar.",
+        "Esta ferramenta é uma referência rápida para desenvolvedores frontend. Não requer configuração e fornece feedback instantâneo. Marque-a para seu próximo projeto baseado em teclado."
       ],
       "msg_press": "Pressione qualquer tecla..."
     },
@@ -739,7 +757,10 @@ export const pt: Dictionary = {
       "title": "Qual é o meu IP?",
       "seo_title": "Meu Endereço IP Público",
       "seo_content": [
-        "Verifique seu endereço IPv4 público instantaneamente."
+        "Verifique seu endereço IPv4 público instantaneamente com nossa ferramenta 'Qual é o meu IP'. Seu endereço IP (Protocolo de Internet) é um rótulo numérico exclusivo atribuído a cada dispositivo conectado à Internet. Ele funciona como um endereço de remetente digital, permitindo que servidores enviem dados de volta para você.",
+        "Esta ferramenta é essencial para solução de problemas de rede. Se você está configurando um servidor doméstico, colocando sua conexão na lista branca de um firewall ou configurando acesso remoto, você precisa saber seu IP público. Também exibimos estimativas básicas de localização com base no provedor de endereço IP.",
+        "Priorizamos a velocidade e a privacidade. A busca é realizada imediatamente quando você carrega a página. Ao contrário de suítes de diagnóstico de rede complexas, esta ferramenta responde à pergunta simples 'Qual é o meu IP?' sem confusão.",
+        "Observe que isso mostra seu IP público atribuído pelo seu ISP, não seu IP de rede local (como 192.168.x.x). Se você estiver atrás de uma VPN ou proxy, a ferramenta mostrará esse endereço seguro em vez disso."
       ],
       "label_ip": "Seu Endereço IP",
       "btn_refresh": "Atualizar"
@@ -750,7 +771,10 @@ export const pt: Dictionary = {
       "title": "Conversor JSON para CSV",
       "seo_title": "Converter JSON para CSV Online",
       "seo_content": [
-        "Converta facilmente seus dados JSON (array de objetos) para formato CSV para planilhas."
+        "Converta seus dados JSON em formato CSV instantaneamente com nosso Conversor de JSON para CSV. JSON (JavaScript Object Notation) é a linguagem das APIs, enquanto CSV (Valores Separados por Vírgula) é o padrão para planilhas como Excel e Google Sheets. Unir esses dois mundos é frequentemente necessário para análise de dados e relatórios.",
+        "Basta colar uma matriz de objetos JSON (por exemplo, [{'nome': 'João'}, {'nome': 'Ana'}]) na caixa de entrada. Nossa ferramenta detecta automaticamente as chaves (cabeçalhos) e formata os valores em linhas e colunas. Ela lida com estruturas aninhadas achatando-as ou pulando objetos complexos, dependendo da profundidade.",
+        "Esta ferramenta é perfeita para desenvolvedores que precisam exportar dumps de banco de dados para Excel para equipes de negócios, ou para cientistas de dados limpando conjuntos de dados. Ela economiza horas de copiar e colar e formatar manualmente.",
+        "A conversão acontece inteiramente no seu navegador usando JavaScript. Seus dados confidenciais nunca são enviados para um servidor externo, garantindo privacidade total. Baixe o arquivo CSV resultante ou copie-o diretamente para sua área de transferência."
       ],
       "input_label": "Entrada JSON (Array de Objetos)",
       "output_label": "Saída CSV",
@@ -764,7 +788,10 @@ export const pt: Dictionary = {
       "title": "Calculadora de Subnet IPv4",
       "seo_title": "Calculadora de Máscara de Subnet CIDR",
       "seo_content": [
-        "Calcule intervalo de rede, endereço de broadcast e intervalo de hosts a partir de IP e CIDR."
+        "Calcule parâmetros de rede com precisão com nossa Calculadora de Subnet IPv4. Seja você um engenheiro de rede planejando uma nova infraestrutura ou um estudante aprendendo sobre CIDR (Roteamento entre Domínios sem Classe), esta ferramenta simplifica a matemática complexa da divisão em sub-redes IP.",
+        "Insira um endereço IP e selecione a máscara de sub-rede (sufixo CIDR, por exemplo, /24). A calculadora fornece instantaneamente o Endereço de Rede, Endereço de Broadcast, Máscara de Sub-rede, Primeiro Host Utilizável, Último Host Utilizável e o Número Total de Hosts Utilizáveis. Ela esclarece o intervalo do seu segmento de rede.",
+        "Entender sub-redes é crítico para a segurança e o desempenho da rede. Segmentar uma rede reduz o tráfego de broadcast e permite melhores políticas de controle de acesso. Esta ferramenta evita erros comuns de cálculo que podem levar a conflitos de IP ou problemas de roteamento.",
+        "Visualizar a representação binária da máscara também pode ajudar a entender como os bits são emprestados para sub-redes versus hosts. Esta utilidade é rápida, do lado do cliente e um companheiro essencial para qualquer pessoa que trabalhe com redes TCP/IP."
       ],
       "label_ip": "Endereço IP",
       "label_cidr": "CIDR / Máscara",
@@ -897,7 +924,10 @@ export const pt: Dictionary = {
       "title": "Web Encoders",
       "seo_title": "Codificador de URL e Entidade HTML",
       "seo_content": [
-        "Codifique e decodifique URLs e entidades HTML com segurança."
+        "Codifique e decodifique caracteres especiais com segurança com nossa ferramenta Web Encoders. No desenvolvimento web, transmitir dados via URLs ou exibir a entrada do usuário em HTML requer manipulação cuidadosa de caracteres para evitar erros e vulnerabilidades de segurança (como XSS). Esta ferramenta fornece tanto codificação de URL quanto codificação de entidade HTML.",
+        "A Codificação de URL (Percent-encoding) converte caracteres em um formato que pode ser transmitido pela Internet. Por exemplo, um espaço torna-se '%20'. Isso é essencial ao enviar parâmetros de consulta. A Codificação HTML converte caracteres como '<' e '&' em suas entidades correspondentes ('&lt;' e '&amp;'), garantindo que sejam exibidos corretamente em uma página da web sem serem interpretados como código.",
+        "Nossa ferramenta funciona em tempo real. Basta selecionar a guia (URL ou HTML), digitar seu texto e ver o resultado codificado imediatamente. Você também pode colar uma string codificada para decodificá-la de volta para texto simples. Ela suporta totalmente caracteres UTF-8.",
+        "Esta é uma utilidade indispensável para depurar solicitações de API, limpar entradas de banco de dados ou corrigir links quebrados. Ela é executada localmente no seu navegador para velocidade e segurança."
       ],
       "tab_url": "URL",
       "tab_html": "HTML",
@@ -910,7 +940,10 @@ export const pt: Dictionary = {
       "title": "Teste de Tempo de Reação",
       "seo_title": "Teste de Reflexo Humano",
       "seo_content": [
-        "Teste o quão rápido você consegue reagir a um estímulo visual."
+        "Teste seus reflexos com nosso Teste de Tempo de Reação. Quão rápido seu cérebro processa informações visuais e sinaliza para seu dedo clicar? Esta ferramenta simples, mas viciante, mede sua velocidade de reação em milissegundos.",
+        "Para jogar, aguarde a caixa vermelha ficar verde. Assim que mudar de cor, clique o mais rápido que puder. Mostraremos seu tempo de reação exato. Repita o teste 5 vezes para obter uma pontuação média, que é uma representação mais precisa de seus reflexos.",
+        "O tempo de reação visual humano médio é de cerca de 250 milissegundos. Jogadores profissionais e pilotos de F1 frequentemente registram abaixo de 200ms. Fatores como idade, fadiga e distração podem afetar sua pontuação. Desafie seus amigos para ver quem tem os reflexos mais aguçados.",
+        "Esta ferramenta também é útil para treinamento cognitivo. Melhorar seu tempo de reação pode ajudar nos esportes e atividades diárias, como dirigir. Experimente - você é mais rápido que a média?"
       ],
       "state_idle": "Clique para Começar",
       "state_wait": "Aguarde o Verde...",
@@ -1040,7 +1073,10 @@ export const pt: Dictionary = {
       "title": "Baixador de Thumbnails do YouTube",
       "seo_title": "Baixar Capa de Vídeo YouTube",
       "seo_content": [
-        "Visualize e baixe miniaturas em alta qualidade de qualquer vídeo do YouTube."
+        "Baixe miniaturas de alta qualidade de qualquer vídeo do YouTube instantaneamente com nosso Baixador de Thumbnails do YouTube. Uma ótima miniatura é a chave para uma alta taxa de cliques (CTR). Às vezes você precisa recuperar a miniatura do seu próprio vídeo para um post de blog, promoção em mídia social ou arquivo, mas perdeu o arquivo original. Esta ferramenta ajuda você a recuperá-lo em segundos.",
+        "Nós extraímos todas as resoluções disponíveis fornecidas pelos servidores do YouTube: Padrão (120x90), Média (320x180), Alta (480x360), Padrão (640x480) e Resolução Máxima (1280x720). A 'Resolução Máxima' é a versão HD e é perfeita para reutilização em outros designs.",
+        "Basta colar o link do vídeo do YouTube (URL) na caixa de entrada. A ferramenta analisa automaticamente o ID do vídeo e exibe todos os tamanhos de imagem disponíveis. Você pode então baixá-los diretamente para o seu dispositivo.",
+        "Esta é uma utilidade gratuita para criadores, profissionais de marketing e designers. Nenhuma instalação é necessária, e funciona tanto em telefones celulares quanto em desktops. Melhore seu fluxo de trabalho de conteúdo tendo fácil acesso aos seus ativos visuais."
       ],
       "label_url": "URL do Vídeo YouTube",
       "btn_get": "Buscar Thumbnails",
@@ -1083,7 +1119,10 @@ export const pt: Dictionary = {
       "title": "Cara ou Coroa Online",
       "seo_title": "Jogo de Cara ou Coroa",
       "seo_content": [
-        "Jogue uma moeda virtual para tomar uma decisão rápida. Cara ou Coroa?"
+        "Deixe o destino decidir com nossa ferramenta de Cara ou Coroa aleatória. A vida é cheia de decisões difíceis, desde 'Quem paga o jantar?' até 'Qual filme devemos assistir?'. Às vezes, a maneira mais justa de resolver uma disputa ou fazer uma escolha é um simples jogo de azar. Nosso cara ou coroa virtual simula uma probabilidade real de 50/50, dando a você um resultado imparcial de Cara ou Coroa.",
+        "Por que procurar uma moeda real no bolso quando você pode jogar uma digitalmente? Esta ferramenta apresenta uma animação de lançamento 3D realista e efeitos sonoros para criar suspense. Também mantemos o controle de suas estatísticas (contagem de Cara vs. Coroa) para a sessão atual, para que você possa ver se a sorte está tendendo para uma direção.",
+        "Ele usa um gerador de números aleatórios criptograficamente seguro para garantir que o resultado seja verdadeiramente aleatório e não possa ser manipulado. Funciona instantaneamente em qualquer dispositivo, tornando-se o árbitro de bolso perfeito.",
+        "Quer você esteja decidindo o pontapé inicial em um jogo de esportes, resolvendo uma aposta ou apenas entediado, jogue uma moeda online e deixe o universo escolher por você."
       ],
       "btn_flip": "Jogar Moeda",
       "val_heads": "Cara",
@@ -1097,7 +1136,10 @@ export const pt: Dictionary = {
       "title": "Calculadora Chmod",
       "seo_title": "Gerador de Permissões Linux",
       "seo_content": [
-        "Gere permissões chmod simbólicas e octais visualmente."
+        "Gerencie permissões de arquivo em sistemas semelhantes ao Unix (Linux, macOS) com nossa Calculadora Chmod visual. 'Chmod' (change mode) é o comando usado para alterar as permissões de acesso de objetos do sistema de arquivos. Entender os números octais (como 755 ou 644) e a notação simbólica (rwxr-xr-x) pode ser confuso tanto para iniciantes quanto para profissionais.",
+        "Nossa calculadora fornece uma grade onde você pode alternar as permissões de Leitura (r), Gravação (w) e Execução (x) para o Proprietário, Grupo e Público/Outros. Ao clicar nas caixas de seleção, a ferramenta calcula estritamente o valor Octal equivalente (por exemplo, 777) e a string Simbólica (por exemplo, -rwxrwxrwx) em tempo real.",
+        "Ela detalha a matemática de forma eficaz: Leitura=4, Gravação=2, Execução=1. A ferramenta soma esses valores para cada classe de usuário para gerar o código correto. Isso é essencial para administradores de servidores configurando servidores web, scripts de implantação ou protegendo arquivos confidenciais.",
+        "Pare de adivinhar os números. Use esta ferramenta para gerar o comando exato que você precisa executar em seu terminal. Também fornecemos predefinições comuns para arquivos e diretórios."
       ],
       "label_owner": "Dono",
       "label_group": "Grupo",
@@ -1156,7 +1198,10 @@ export const pt: Dictionary = {
       "title": "Placar Online Simples",
       "seo_title": "Contador de Placar",
       "seo_content": [
-        "Acompanhe a pontuação de jogos e esportes com este placar online simples."
+        "Acompanhe o jogo com nosso Placar Online Simples. Esteja você jogando um jogo de tabuleiro, um jogo de cartas, pingue-pongue ou uma partida esportiva amigável, manter a pontuação na cabeça pode ser confuso. Papel e caneta nem sempre estão disponíveis. Este placar digital resolve esse problema instantaneamente.",
+        "A interface é limpa e grande, visível à distância em uma tela de tablet ou laptop. Ele suporta dois times (Time A e Time B) por padrão, mas você pode renomeá-los para corresponder aos seus jogadores. Toque para aumentar a pontuação ou use o botão de menos para corrigir erros.",
+        "Perfeito para árbitros, professores ou jogadores casuais. Possui números de alto contraste para visibilidade sob luz solar intensa ou em salas com pouca luz. O estado é preservado no seu navegador, então se você atualizar a página por acidente, não perderá a pontuação.",
+        "Sem instalação, sem anúncios, apenas um contador confiável para suas necessidades competitivas. Torne cada jogo oficial com esta ferramenta fácil de usar."
       ],
       "team_a": "Time A",
       "team_b": "Time B",
@@ -1220,7 +1265,10 @@ export const pt: Dictionary = {
       "title": "Gerador de Tags YouTube",
       "seo_title": "Tags SEO para YouTube",
       "seo_content": [
-        "Gere tags otimizadas para SEO para seus vídeos do YouTube a partir de uma palavra-chave."
+        "Aumente a descoberta do seu vídeo com nosso Gerador de Tags para YouTube. Tags são palavras-chave descritivas que você pode adicionar ao seu vídeo para ajudar os espectadores a encontrarem seu conteúdo. O algoritmo do YouTube usa essas tags para entender o tópico e a categoria do seu vídeo, e para associá-lo a conteúdo semelhante, o que é crucial para aparecer na barra lateral de 'Vídeos Sugeridos'.",
+        "Nossa ferramenta gera tags otimizadas para SEO com base na sua palavra-chave principal. Ela analisa termos de pesquisa populares e conceitos relacionados para fornecer uma lista abrangente de tags que podem aumentar seu potencial de classificação. Por exemplo, se seu vídeo é sobre 'Culinária Vegana', ela pode sugerir tags como 'receitas veganas', 'dieta baseada em plantas', 'culinária fácil' e 'alimentação saudável'.",
+        "Usar a mistura certa de tags amplas e específicas pode impactar significativamente suas visualizações. Basta inserir seu tópico principal, clicar em 'Gerar', e você receberá uma lista de tags separadas por vírgula prontas para copiar e colar diretamente na página de upload do YouTube Studio.",
+        "Pare de adivinhar quais palavras-chave usar. Aproveite sugestões baseadas em dados para fazer crescer seu canal e alcançar um público maior."
       ],
       "input_label": "Palavra-chave Principal",
       "btn_generate": "Gerar Tags",
@@ -1289,7 +1337,10 @@ export const pt: Dictionary = {
       "title": "Conversor YAML / JSON",
       "seo_title": "Converter YAML para JSON Online",
       "seo_content": [
-        "Converta dados YAML para JSON e vice-versa instantaneamente."
+        "Converta dados entre formatos YAML e JSON instantaneamente com nosso Conversor YAML / JSON. YAML (YAML Ain't Markup Language) é popular para arquivos de configuração devido à sua legibilidade, enquanto JSON (JavaScript Object Notation) é o padrão para APIs. Desenvolvedores frequentemente precisam alternar entre eles.",
+        "Basta colar seu código YAML para convertê-lo em JSON, ou colar JSON para obter YAML. Nossa ferramenta valida a sintaxe de entrada antes da conversão, evitando erros. Ela lida corretamente com estruturas aninhadas complexas, matrizes e diferentes tipos de dados.",
+        "Esta ferramenta é perfeita para engenheiros de DevOps trabalhando com arquivos Kubernetes ou Docker Compose (frequentemente YAML), ou desenvolvedores frontend precisando simular respostas de API. Ela é executada inteiramente no lado do cliente, garantindo que seus segredos de configuração nunca saiam do seu navegador.",
+        "Copie o resultado com um único clique. Simplifique seu fluxo de trabalho de gerenciamento de configuração hoje."
       ],
       "btn_to_json": "Para JSON",
       "btn_to_yaml": "Para YAML",
@@ -1301,7 +1352,10 @@ export const pt: Dictionary = {
       "title": "Decodificador JWT Online",
       "seo_title": "Decodificador JWT Grátis",
       "seo_content": [
-        "Decodifique tokens JWT para visualizar o cabeçalho e os dados (payload)."
+        "Inspecione e depure JSON Web Tokens com nosso Decodificador JWT do lado do cliente. JWTs são um padrão aberto (RFC 7519) usado significativamente para troca segura de informações entre partes, frequentemente para autenticação (login). Um JWT consiste em três partes: Cabeçalho, Payload e Assinatura.",
+        "Nossa ferramenta decodifica a string codificada em Base64Url para revelar o Payload JSON e o Cabeçalho legíveis por humanos. Você pode ver reivindicações padrão como 'sub' (assunto), 'iat' (emitido em) e 'exp' (hora de expiração), bem como quaisquer dados personalizados que o aplicativo armazenou. Observe que NÃO verificamos a assinatura, pois isso requer sua chave secreta privada, mas decodificamos a estrutura para inspeção.",
+        "Isso é inestimável para desenvolvedores frontend depurando problemas de login. Você pode verificar se um token expirou ou se o usuário tem as funções/permissões corretas sem logs de backend. Como ele é executado no seu navegador, seus tokens confidenciais nunca são enviados ao nosso servidor.",
+        "Basta colar sua string de token. A ferramenta separa e formata automaticamente os componentes. Use-a para entender como a autenticação moderna funciona."
       ],
       "label_token": "Token Codificado",
       "label_header": "Cabeçalho",
@@ -1314,7 +1368,10 @@ export const pt: Dictionary = {
       "title": "Verificador de Algoritmo Luhn",
       "seo_title": "Validador de Cartão de Crédito (Luhn)",
       "seo_content": [
-        "Valide números de cartão de crédito, IMEIs e outros identificadores usando o algoritmo de Luhn."
+        "Valide números de identificação com nosso Verificador de Algoritmo de Luhn. O algoritmo de Luhn (também conhecido como algoritmo de módulo 10 ou 'mod 10') é uma fórmula de soma de verificação simples usada para validar uma variedade de números de identificação, mais notoriamente números de cartão de crédito, números IMEI e números de Seguro Social canadense.",
+        "Esta ferramenta permite que você insira qualquer sequência numérica para verificar se ela satisfaz a soma de verificação. Ela detecta erros acidentais, como um erro de um único dígito ou uma transposição de dígitos adjacentes. Esta não é uma verificação de fraude (ela não verifica se o cartão está ativo ou tem fundos), mas uma verificação de validade estrutural.",
+        "Desenvolvedores usam isso para validar entradas de formulário antes de enviar dados para uma API de gateway de pagamento, economizando solicitações desnecessárias ao servidor. Testadores de QA usam isso para gerar números de teste válidos.",
+        "Insira seu número para obter um resultado instantâneo de Aprovado ou Reprovado. Nenhum dado é armazenado ou transmitido; a matemática acontece localmente no seu dispositivo para segurança."
       ],
       "label_input": "Número para Verificar",
       "btn_validate": "Validar",
@@ -1327,7 +1384,10 @@ export const pt: Dictionary = {
       "title": "Metrônomo Online",
       "seo_title": "Metrônomo Grátis Online",
       "seo_content": [
-        "Um metrônomo preciso para músicos. Defina o BPM e toque."
+        "Mantenha o ritmo com nosso preciso Metrônomo Online. Essencial para músicos de todos os níveis, desde iniciantes aprendendo ritmo até profissionais praticando peças complexas. Um metrônomo produz um pulso constante (batida) para ajudar você a tocar em uma velocidade consistente.",
+        "Defina seu BPM (Batidas Por Minuto) desejado usando o controle deslizante ou o campo de entrada. Nossa ferramenta é precisa e responsiva, usando a API de áudio da Web para garantir um tempo perfeito sem desvios. Você pode usá-lo para praticar guitarra, piano, bateria ou qualquer outro instrumento.",
+        "Praticar com um metrônomo melhora seu tempo interno e senso de ritmo. Também é útil para exercícios físicos, prática de dança ou até meditação. O indicador visual pisca com a batida, permitindo que você acompanhe silenciosamente, se necessário.",
+        "Sem aplicativos pesados para instalar. Acesse um metrônomo de nível profissional diretamente no seu navegador, a qualquer hora e em qualquer lugar."
       ],
       "label_bpm": "BPM",
       "btn_start": "Iniciar",
@@ -1365,7 +1425,10 @@ export const pt: Dictionary = {
       "title": "Testador de Regex Online",
       "seo_title": "Testador de Expressão Regular JS",
       "seo_content": [
-        "Teste suas expressões regulares (Regex) em texto em tempo real."
+        "Teste e depure Expressões Regulares (Regex) com nosso Testador de Regex Online. Expressões regulares são padrões poderosos usados para combinar combinações de caracteres em strings, usados frequentemente em validação de formulários, operações de busca e substituição e análise de dados.",
+        "Nossa ferramenta permite que você insira um padrão regex e uma string de teste. Ela destaca todas as correspondências em tempo real, mostrando exatamente o que seu padrão está capturando. Suportamos a sintaxe e as flags do RegEx JavaScript padrão (global, case-insensitive, multiline).",
+        "Regex pode ser notoriamente difícil de dominar. Este playground visual ajuda você a experimentar. Tente padrões para validação de e-mail, extração de número de telefone ou remoção de caracteres especiais. A interface fornece feedback imediato, listando índices de correspondência e grupos capturados.",
+        "Perfeito para desenvolvedores, analistas de dados e estudantes. Refine seus padrões aqui antes de implantá-los em seu código de produção. É rápido, gratuito e executado com segurança no seu navegador."
       ],
       "label_pattern": "Padrão",
       "label_text": "Texto de Teste",
@@ -1441,7 +1504,10 @@ export const pt: Dictionary = {
       "title": "Roda da Decisão (Wheel of Fortune)",
       "seo_title": "Roda de Decisão Aleatória Online",
       "seo_content": [
-        "Não consegue decidir? Insira suas opções e gire a roda para escolher um vencedor aleatório."
+        "Indeciso? Deixe nossa Roda da Decisão escolher por você. Também conhecida como Roda da Fortuna ou Roda de Sorteio Aleatório, esta ferramenta é perfeita para quando você está preso entre várias opções. Seja escolhendo onde almoçar, qual jogo jogar ou escolhendo um vencedor de rifa, a roda adiciona um elemento de diversão e justiça ao processo.",
+        "Basta inserir suas opções na caixa de texto (uma por linha). Você pode adicionar quantas escolhas quiser. Quando você clica em 'Girar!', a roda anima com um efeito de giro satisfatório e desacelera para apontar para um vencedor aleatório. A animação baseada em física cria suspense.",
+        "Esta ferramenta é imparcial e executa localmente no seu dispositivo. É ótima para professores engajando alunos, amigos resolvendo discussões ou até mesmo apenas por diversão. Você pode personalizar a lista a cada vez.",
+        "Pare de analisar e comece a girar. Deixe suas escolhas ao acaso e aproveite o resultado."
       ],
       "label_input": "Opções (uma por linha)",
       "btn_spin": "Girar!",
@@ -1453,7 +1519,10 @@ export const pt: Dictionary = {
       "title": "Gire a Garrafa Online",
       "seo_title": "Jogo de Gire a Garrafa Online",
       "seo_content": [
-        "Uma versão virtual do clássico jogo de festa Gire a Garrafa. Jogue com amigos online."
+        "Reviva a nostalgia das festas clássicas com nosso jogo online Gire a Garrafa. Perfeito para reuniões, festas do pijama ou para quebrar o gelo em festas, esta versão virtual traz a diversão sem precisar de uma garrafa vazia física. É limpo, justo e acessível em qualquer lugar.",
+        "A ferramenta oferece dois modos emocionantes. O 'Modo Clássico' simplesmente gira a garrafa, e você decide para quem ela aponta. O 'Modo Jogador' permite que você insira os nomes de todos os participantes. A garrafa então selecionará aleatoriamente uma pessoa, eliminando discussões sobre para quem ela está apontando. Você pode adicionar quantos amigos quiser.",
+        "Essencial para jogos como Verdade ou Desafio, esta ferramenta adiciona uma camada de emoção e aleatoriedade aos seus eventos sociais. A animação baseada em física faz com que o giro pareça autêntico. Funciona perfeitamente em telefones celulares, então você pode colocar o dispositivo no centro da roda e jogar.",
+        "Sem anúncios interrompendo seu jogo, apenas pura diversão. Personalize sua experiência de festa e crie momentos memoráveis com este toque moderno em um clássico atemporal."
       ],
       "btn_spin": "Girar!",
       "label_players": "Jogadores (Opcional)",
