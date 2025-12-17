@@ -103,6 +103,8 @@ const SpinBottlePage = React.lazy(() => import('./app/page_spin_bottle').then(mo
 const PetNamePage = React.lazy(() => import('./app/page_pet_name').then(module => ({ default: module.PetNamePage })));
 const BabyNamePage = React.lazy(() => import('./app/page_baby_name').then(module => ({ default: module.BabyNamePage })));
 const BusinessNamePage = React.lazy(() => import('./app/page_business_name').then(module => ({ default: module.BusinessNamePage })));
+const TermsPage = React.lazy(() => import('./app/page_terms').then(module => ({ default: module.TermsPage })));
+const PrivacyPage = React.lazy(() => import('./app/page_privacy').then(module => ({ default: module.PrivacyPage })));
 
 // Loading Component
 const LoadingSpinner = () => (
@@ -134,7 +136,7 @@ const LangLayout = () => {
           <Outlet context={{ lang: currentLang, dict }} />
         </Suspense>
       </div>
-      <Footer dict={dict} />
+      <Footer dict={dict} lang={currentLang} />
     </div>
   );
 };
@@ -729,6 +731,18 @@ const BusinessNameWrapper = () => {
   return <BusinessNamePage dict={d} />;
 };
 
+const TermsWrapper = () => {
+  const { lang } = useParams<{ lang: string }>();
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
+  return <TermsPage dict={d} />;
+};
+
+const PrivacyWrapper = () => {
+  const { lang } = useParams<{ lang: string }>();
+  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
+  return <PrivacyPage dict={d} />;
+};
+
 const App: React.FC = () => {
   return (
     <HashRouter>
@@ -851,6 +865,9 @@ const App: React.FC = () => {
           <Route path="pet-name-generator" element={<PetNameWrapper />} />
           <Route path="baby-name-generator" element={<BabyNameWrapper />} />
           <Route path="business-name-generator" element={<BusinessNameWrapper />} />
+          
+          <Route path="terms-of-service" element={<TermsWrapper />} />
+          <Route path="privacy-policy" element={<PrivacyWrapper />} />
         </Route>
 
         {/* Catch all - redirect to root */}

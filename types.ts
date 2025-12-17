@@ -31,6 +31,28 @@ export interface Dictionary {
       health: string;
       network: string;
     };
+    terms?: {
+      title: string;
+      last_updated: string;
+      contact_text: string;
+      sections: Array<{
+        title: string;
+        content: string[];
+      }>;
+    };
+    privacy?: {
+      title: string;
+      last_updated: string;
+      contact_text: string;
+      sections: Array<{
+        title: string;
+        content: string[];
+      }>;
+    };
+    footer_links?: {
+      terms: string;
+      privacy: string;
+    };
   };
   home: {
     hero_title: string;

@@ -18,6 +18,195 @@ export const es: Dictionary = {
       "marketing": "Marketing y Social",
       "health": "Salud y Fitness",
       "network": "Herramientas de Red"
+    },
+    "footer_links": {
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad"
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "last_updated": "Enero de 2024",
+      "contact_text": "Si tiene alguna pregunta sobre estos Términos de Servicio, contáctenos.",
+      "sections": [
+        {
+          "title": "1. Aceptación de los Términos",
+          "content": [
+            "Al acceder y usar SmartWebKit, usted acepta cumplir y estar sujeto a estos Términos de Servicio. Si no está de acuerdo con alguna parte de estos términos, no debe usar nuestro servicio.",
+            "Estos términos se aplican a todos los visitantes, usuarios y otras personas que accedan o usen SmartWebKit. Al usar nuestro servicio, confirma que ha leído, entendido y acepta estar sujeto a estos Términos de Servicio."
+          ]
+        },
+        {
+          "title": "2. Descripción del Servicio",
+          "content": [
+            "SmartWebKit es una plataforma en línea que ofrece una colección de herramientas web gratuitas para desarrolladores, diseñadores y profesionales. Nuestras herramientas incluyen convertidores, generadores, calculadoras y varias utilidades que funcionan directamente en el navegador del usuario.",
+            "Todas las herramientas se procesan localmente en el navegador del usuario, sin necesidad de enviar datos a nuestros servidores. Esto garantiza la máxima privacidad y seguridad para los usuarios.",
+            "Nos reservamos el derecho de modificar, suspender o discontinuar cualquier aspecto del servicio en cualquier momento, con o sin previo aviso."
+          ]
+        },
+        {
+          "title": "3. Uso Aceptable",
+          "content": [
+            "Usted acepta usar SmartWebKit solo para fines legales y de acuerdo con estos Términos de Servicio. No debe usar nuestro servicio de ninguna manera que pueda dañar, deshabilitar, sobrecargar o comprometer nuestros servidores o redes.",
+            "Está prohibido usar SmartWebKit para cualquier actividad ilegal, fraudulenta o que viole los derechos de terceros. No debe intentar acceder a áreas restringidas del servicio o interferir con el funcionamiento normal del sitio web.",
+            "No debe usar scripts automatizados, bots u otros medios para acceder al servicio de una manera que pueda sobrecargar nuestros sistemas o interferir con el uso normal por parte de otros usuarios."
+          ]
+        },
+        {
+          "title": "4. Propiedad Intelectual",
+          "content": [
+            "Todo el contenido en SmartWebKit, incluyendo pero no limitado a texto, gráficos, logotipos, iconos, imágenes, clips de audio, descargas digitales y compilaciones de datos, es propiedad de SmartWebKit o sus proveedores de contenido y está protegido por leyes de derechos de autor internacionales.",
+            "El software utilizado para proporcionar el servicio es propiedad de SmartWebKit o sus licenciantes y está protegido por leyes de derechos de autor y otras leyes de propiedad intelectual.",
+            "No puede reproducir, distribuir, modificar, crear trabajos derivados, mostrar públicamente, ejecutar públicamente, republicar, descargar, almacenar o transmitir ningún material de SmartWebKit sin nuestro permiso previo por escrito."
+          ]
+        },
+        {
+          "title": "5. Privacidad y Datos",
+          "content": [
+            "SmartWebKit procesa toda la información localmente en el navegador del usuario. No recopilamos, almacenamos ni transmitimos datos personales de los usuarios a nuestros servidores.",
+            "Algunas herramientas pueden usar el almacenamiento local del navegador (localStorage) para guardar las preferencias del usuario, pero estos datos permanecen exclusivamente en el dispositivo del usuario.",
+            "Para más información sobre cómo manejamos los datos, consulte nuestra Política de Privacidad."
+          ]
+        },
+        {
+          "title": "6. Exención de Garantías",
+          "content": [
+            "SmartWebKit se proporciona 'tal cual' y 'según disponibilidad', sin garantías de ningún tipo, expresas o implícitas. No garantizamos que el servicio será ininterrumpido, seguro, libre de errores o que los defectos serán corregidos.",
+            "No garantizamos la precisión, integridad o utilidad de cualquier información en el servicio. Usted reconoce que usa el servicio bajo su propio riesgo.",
+            "Algunas jurisdicciones no permiten la exclusión de ciertas garantías, por lo que algunas de las exclusiones anteriores pueden no aplicarse a usted."
+          ]
+        },
+        {
+          "title": "7. Limitación de Responsabilidad",
+          "content": [
+            "En ningún caso SmartWebKit, sus propietarios, empleados o afiliados serán responsables de ningún daño directo, indirecto, incidental, especial, consecuente o punitivo resultante del uso o incapacidad de usar el servicio.",
+            "Esto incluye, pero no se limita a, pérdida de datos, pérdida de ganancias, interrupción del negocio u otras pérdidas intangibles, incluso si hemos sido advertidos de la posibilidad de tales daños.",
+            "Nuestra responsabilidad total hacia usted por todas las reclamaciones relacionadas con el servicio no excederá el monto que pagó para usar el servicio, que es cero, ya que el servicio es gratuito."
+          ]
+        },
+        {
+          "title": "8. Modificaciones de los Términos",
+          "content": [
+            "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Los cambios entrarán en vigor inmediatamente después de la publicación en el sitio web.",
+            "Es su responsabilidad revisar periódicamente estos términos para estar al tanto de cualquier cambio. El uso continuado del servicio después de la publicación de cambios constituye su aceptación de los nuevos términos.",
+            "Si no está de acuerdo con los cambios, debe discontinuar el uso del servicio."
+          ]
+        },
+        {
+          "title": "9. Ley Aplicable",
+          "content": [
+            "Estos Términos de Servicio se regirán e interpretarán de acuerdo con las leyes de Brasil, sin dar efecto a ningún principio de conflictos de leyes.",
+            "Cualquier disputa que surja de o esté relacionada con estos términos se someterá a la jurisdicción exclusiva de los tribunales competentes de Brasil."
+          ]
+        },
+        {
+          "title": "10. Contacto",
+          "content": [
+            "Si tiene preguntas sobre estos Términos de Servicio, puede contactarnos a través de los canales disponibles en nuestro sitio web.",
+            "Haremos todo lo posible para responder a todas las consultas de manera oportuna."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "last_updated": "Enero de 2024",
+      "contact_text": "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos.",
+      "sections": [
+        {
+          "title": "1. Introducción",
+          "content": [
+            "SmartWebKit está comprometido a proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando usa nuestro servicio.",
+            "Al usar SmartWebKit, usted acepta la recopilación y el uso de información de acuerdo con esta política. Esta política se aplica a toda la información recopilada a través de nuestro sitio web y servicios."
+          ]
+        },
+        {
+          "title": "2. Información que No Recopilamos",
+          "content": [
+            "SmartWebKit ha sido diseñado pensando en la privacidad. Todas las herramientas funcionan localmente en su navegador, sin necesidad de enviar datos a nuestros servidores.",
+            "No recopilamos información de identificación personal, como nombre, dirección de correo electrónico, número de teléfono o información de pago. No recopilamos datos de navegación, historial de uso o cualquier otra información que pueda identificarlo personalmente.",
+            "No usamos cookies de seguimiento, píxeles de seguimiento u otras tecnologías de seguimiento para recopilar información sobre usted."
+          ]
+        },
+        {
+          "title": "3. Almacenamiento Local del Navegador",
+          "content": [
+            "Algunas herramientas pueden usar el almacenamiento local del navegador (localStorage) para guardar sus preferencias y datos temporales. Por ejemplo, el bloc de notas puede guardar sus notas localmente.",
+            "Estos datos se almacenan exclusivamente en su dispositivo y nunca se transmiten a nuestros servidores. Puede limpiar estos datos en cualquier momento a través de la configuración de su navegador.",
+            "No tenemos acceso a esta información almacenada localmente, y es completamente privada para usted."
+          ]
+        },
+        {
+          "title": "4. Información Técnica Automática",
+          "content": [
+            "Cuando accede a SmartWebKit, nuestros servidores pueden recopilar automáticamente cierta información técnica, como su dirección IP, tipo de navegador, sistema operativo, páginas visitadas y hora de acceso.",
+            "Esta información se recopila con fines de seguridad, análisis de tráfico y mejora del servicio. No usamos esta información para identificarlo personalmente.",
+            "Esta información puede ser compartida con proveedores de servicios de terceros que nos ayudan a operar el sitio, pero solo en la medida necesaria para proporcionar el servicio."
+          ]
+        },
+        {
+          "title": "5. Servicios de Terceros",
+          "content": [
+            "SmartWebKit puede usar servicios de terceros, como servicios de alojamiento, análisis de tráfico o servicios de CDN. Estos servicios pueden recopilar información técnica como se describe arriba.",
+            "No vendemos, alquilamos ni compartimos su información personal con terceros con fines de marketing.",
+            "Podemos divulgar información si es requerido por ley, orden judicial o proceso legal, o para proteger nuestros derechos, propiedad o seguridad."
+          ]
+        },
+        {
+          "title": "6. Seguridad",
+          "content": [
+            "Implementamos medidas de seguridad técnicas y organizacionales apropiadas para proteger la información recopilada contra acceso no autorizado, alteración, divulgación o destrucción.",
+            "Sin embargo, ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro. Aunque nos esforzamos por usar medios comercialmente aceptables para proteger su información, no podemos garantizar seguridad absoluta.",
+            "Dado que todas las herramientas procesan datos localmente en su navegador, la seguridad de los datos procesados depende principalmente de la configuración de seguridad de su navegador y dispositivo."
+          ]
+        },
+        {
+          "title": "7. Enlaces a Sitios de Terceros",
+          "content": [
+            "SmartWebKit puede contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad o el contenido de estos sitios externos.",
+            "Recomendamos que lea las políticas de privacidad de cualquier sitio web de terceros que visite.",
+            "Nuestra Política de Privacidad se aplica solo a SmartWebKit y no se extiende a sitios web o servicios de terceros."
+          ]
+        },
+        {
+          "title": "8. Privacidad de Menores",
+          "content": [
+            "SmartWebKit no recopila intencionalmente información personal de menores de 18 años. Si es padre o tutor y cree que su hijo nos ha proporcionado información personal, contáctenos.",
+            "Si descubrimos que hemos recopilado información personal de un menor sin verificación del consentimiento de los padres, tomaremos medidas para eliminar dicha información de nuestros servidores.",
+            "Recomendamos que los padres y tutores supervisen las actividades en línea de sus hijos."
+          ]
+        },
+        {
+          "title": "9. Sus Derechos",
+          "content": [
+            "Usted tiene el derecho de acceder, corregir o eliminar cualquier información personal que podamos tener sobre usted. Como no recopilamos información de identificación personal, no hay datos personales para acceder o eliminar.",
+            "Puede limpiar el almacenamiento local del navegador en cualquier momento a través de la configuración de su navegador para eliminar cualquier dato guardado localmente por nuestras herramientas.",
+            "Si tiene preguntas sobre sus derechos de privacidad, contáctenos."
+          ]
+        },
+        {
+          "title": "10. Cambios a Esta Política",
+          "content": [
+            "Podemos actualizar esta Política de Privacidad periódicamente. Le notificaremos sobre cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de 'Última actualización'.",
+            "Recomendamos que revise esta Política de Privacidad periódicamente para estar al tanto de cómo protegemos su información.",
+            "El uso continuado del servicio después de la publicación de cambios constituye su aceptación de la política revisada."
+          ]
+        },
+        {
+          "title": "11. Cumplimiento con GDPR",
+          "content": [
+            "Esta Política de Privacidad cumple con el Reglamento General de Protección de Datos (GDPR) de la Unión Europea. Respetamos sus derechos de privacidad y procesamos datos de acuerdo con los principios del GDPR.",
+            "Como no recopilamos datos de identificación personal, no hay necesidad de consentimiento específico para el procesamiento de datos personales. Toda la información técnica recopilada se usa solo para fines legítimos de operación del servicio.",
+            "Si tiene preocupaciones sobre el procesamiento de datos, puede contactarnos en cualquier momento."
+          ]
+        },
+        {
+          "title": "12. Contacto",
+          "content": [
+            "Si tiene preguntas o preocupaciones sobre esta Política de Privacidad o cómo manejamos su información, contáctenos a través de los canales disponibles en nuestro sitio web.",
+            "Haremos todo lo posible para responder a todas las consultas relacionadas con la privacidad de manera oportuna."
+          ]
+        }
+      ]
     }
   },
   "home": {
