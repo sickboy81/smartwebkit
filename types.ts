@@ -58,6 +58,10 @@ export interface Dictionary {
     hero_title: string;
     hero_subtitle: string;
     tools_section_title: string;
+    about_title?: string;
+    why_choose_title?: string;
+    about_content?: string[];
+    tools_description?: string;
   };
   tools: {
     [key: string]: ToolConfig;

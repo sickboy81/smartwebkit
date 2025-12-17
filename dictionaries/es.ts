@@ -212,7 +212,16 @@ export const es: Dictionary = {
   "home": {
     "hero_title": "Herramientas Web Online Gratis",
     "hero_subtitle": "Una colección de herramientas útiles para desarrolladores, diseñadores y productividad. Gratis, rápido y seguro.",
-    "tools_section_title": "Todas las Herramientas"
+    "tools_section_title": "Todas las Herramientas",
+    "about_title": "Acerca de SmartWebKit",
+    "why_choose_title": "¿Por qué elegir SmartWebKit?",
+    "about_content": [
+      "SmartWebKit es una colección integral de herramientas web gratuitas diseñadas para desarrolladores, diseñadores y profesionales que buscan eficiencia y productividad. Nuestra plataforma ofrece más de 100 herramientas útiles, todas funcionando directamente en su navegador, sin necesidad de instalación o registro.",
+      "Todas las herramientas se procesan localmente en su navegador, garantizando máxima privacidad y seguridad. Sus datos nunca se envían a nuestros servidores, lo que hace que SmartWebKit sea ideal para trabajar con información sensible, código fuente o datos confidenciales. Este enfoque de procesamiento local significa que puede usar nuestras herramientas con total confianza, sabiendo que su información permanece bajo su control.",
+      "Explore nuestra colección de herramientas organizadas por categorías: desarrollo web, diseño, matemáticas y finanzas, seguridad, SEO, marketing, salud y mucho más. Cada herramienta ha sido cuidadosamente desarrollada para ser rápida, precisa y fácil de usar. Nuestra misión es proporcionar herramientas profesionales de alta calidad que lo ayuden a ser más productivo sin comprometer su privacidad o seguridad.",
+      "SmartWebKit se actualiza constantemente con nuevas herramientas y mejoras, siempre manteniendo el enfoque en la calidad, usabilidad y privacidad del usuario. Todas las herramientas se prueban rigurosamente para garantizar precisión y confiabilidad, lo que hace que SmartWebKit sea una opción confiable para profesionales y entusiastas de la tecnología."
+    ],
+    "tools_description": "Navegue por las categorías a continuación para encontrar la herramienta perfecta para sus necesidades. Todas las herramientas son gratuitas, funcionan sin conexión y respetan su privacidad."
   },
   "tools": {
     "json_formatter": {

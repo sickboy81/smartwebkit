@@ -212,7 +212,16 @@ export const en: Dictionary = {
   "home": {
     "hero_title": "Free Online Web Tools",
     "hero_subtitle": "A collection of useful developer, design, and productivity tools. Free, fast, and secure.",
-    "tools_section_title": "All Tools"
+    "tools_section_title": "All Tools",
+    "about_title": "About SmartWebKit",
+    "why_choose_title": "Why Choose SmartWebKit?",
+    "about_content": [
+      "SmartWebKit is a comprehensive collection of free web tools designed for developers, designers, and professionals seeking efficiency and productivity. Our platform offers over 100 useful tools, all working directly in your browser, with no installation or registration required.",
+      "All tools are processed locally in your browser, ensuring maximum privacy and security. Your data is never sent to our servers, making SmartWebKit ideal for working with sensitive information, source code, or confidential data. This local processing approach means you can use our tools with complete confidence, knowing your information remains under your control.",
+      "Explore our collection of tools organized by categories: web development, design, mathematics and finance, security, SEO, marketing, health, and much more. Each tool has been carefully developed to be fast, accurate, and easy to use. Our mission is to provide high-quality professional tools that help you be more productive without compromising your privacy or security.",
+      "SmartWebKit is constantly updated with new tools and improvements, always maintaining focus on quality, usability, and user privacy. All tools are rigorously tested to ensure accuracy and reliability, making SmartWebKit a trusted choice for professionals and technology enthusiasts."
+    ],
+    "tools_description": "Browse the categories below to find the perfect tool for your needs. All tools are free, work offline, and respect your privacy."
   },
   "tools": {
     "json_formatter": {
