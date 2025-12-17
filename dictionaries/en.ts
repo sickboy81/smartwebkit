@@ -92,14 +92,7 @@ export const en: Dictionary = {
           ]
         },
         {
-          "title": "9. Governing Law",
-          "content": [
-            "These Terms of Service shall be governed and construed in accordance with the laws of Brazil, without giving effect to any principles of conflicts of law.",
-            "Any dispute arising from or related to these terms shall be submitted to the exclusive jurisdiction of the competent courts of Brazil."
-          ]
-        },
-        {
-          "title": "10. Contact",
+          "title": "9. Contact",
           "content": [
             "If you have questions about these Terms of Service, you may contact us through the channels available on our website.",
             "We will do our best to respond to all inquiries in a timely manner."

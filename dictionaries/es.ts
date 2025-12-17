@@ -92,14 +92,7 @@ export const es: Dictionary = {
           ]
         },
         {
-          "title": "9. Ley Aplicable",
-          "content": [
-            "Estos Términos de Servicio se regirán e interpretarán de acuerdo con las leyes de Brasil, sin dar efecto a ningún principio de conflictos de leyes.",
-            "Cualquier disputa que surja de o esté relacionada con estos términos se someterá a la jurisdicción exclusiva de los tribunales competentes de Brasil."
-          ]
-        },
-        {
-          "title": "10. Contacto",
+          "title": "9. Contacto",
           "content": [
             "Si tiene preguntas sobre estos Términos de Servicio, puede contactarnos a través de los canales disponibles en nuestro sitio web.",
             "Haremos todo lo posible para responder a todas las consultas de manera oportuna."

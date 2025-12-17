@@ -92,14 +92,7 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "9. Lei Aplicável",
-          "content": [
-            "Estes Termos de Uso serão regidos e interpretados de acordo com as leis do Brasil, sem dar efeito a quaisquer princípios de conflitos de leis.",
-            "Qualquer disputa decorrente ou relacionada a estes termos será submetida à jurisdição exclusiva dos tribunais competentes do Brasil."
-          ]
-        },
-        {
-          "title": "10. Contato",
+          "title": "9. Contato",
           "content": [
             "Se você tiver dúvidas sobre estes Termos de Uso, pode entrar em contato conosco através dos canais disponíveis em nosso site.",
             "Faremos o possível para responder a todas as consultas em tempo hábil."
