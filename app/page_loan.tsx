@@ -46,6 +46,25 @@ export const LoanPage: React.FC<LoanProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Empréstimo</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa Calculadora de Empréstimo ajuda você a entender os custos totais de um empréstimo antes de se comprometer. 
+                Ela calcula o pagamento mensal, o total a ser pago ao longo do prazo do empréstimo e o total de juros que você 
+                pagará. Esta informação é essencial para tomar decisões financeiras informadas.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A calculadora usa a fórmula padrão de amortização de empréstimos, que leva em conta o valor principal, a taxa 
+                de juros anual e o prazo do empréstimo em anos. O cálculo assume pagamentos mensais fixos e juros compostos mensalmente. 
+                Os resultados mostram quanto você pagará por mês, quanto pagará no total e quanto desse total são juros.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Use esta ferramenta para comparar diferentes opções de empréstimo, entender o impacto de diferentes taxas de juros 
+                e prazos, e planejar seu orçamento. Lembre-se de que taxas de juros e termos podem variar significativamente entre 
+                diferentes credores, então sempre compare múltiplas ofertas antes de tomar uma decisão.
+              </p>
+            </div>
+            
             <div className="grid md:grid-cols-3 gap-4 items-end">
                <div className="space-y-2">
                   <label className="text-sm font-medium">{t.label_amount}</label>

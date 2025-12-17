@@ -37,6 +37,24 @@ export const DiscountPage: React.FC<DiscountProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Desconto</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa Calculadora de Desconto ajuda você a determinar rapidamente o preço final de um item após aplicar um desconto 
+                percentual e quanto você está economizando. Esta ferramenta é útil ao fazer compras, comparar ofertas ou verificar 
+                se uma promoção realmente oferece uma boa economia.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Para usar a calculadora, simplesmente insira o preço original do item e a porcentagem de desconto. A ferramenta 
+                calculará automaticamente o valor do desconto e o preço final que você pagará. Isso ajuda a tomar decisões de compra 
+                mais informadas e a identificar as melhores ofertas.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta calculadora é especialmente útil durante períodos de promoção, como Black Friday, liquidações de fim de temporada 
+                ou vendas especiais. Ela elimina a necessidade de cálculos mentais e garante que você saiba exatamente quanto está 
+                economizando antes de fazer uma compra.
+              </p>
+            </div>
             
             <div className="grid md:grid-cols-2 gap-4">
                <div className="space-y-2">

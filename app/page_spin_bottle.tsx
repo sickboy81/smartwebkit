@@ -190,6 +190,27 @@ export const SpinBottlePage: React.FC<BottleProps> = ({ dict }) => {
           <CardContent className="p-0">
             {activeTab === 'game' ? (
                 <div className="p-6 md:p-8 space-y-8 relative">
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+                      <h3 className="text-lg font-semibold text-slate-900 mb-3">Jogo de Verdade ou Desafio com Garrafa</h3>
+                      <p className="text-slate-600 leading-7 mb-3">
+                        O jogo de Verdade ou Desafio (Truth or Dare) com garrafa é um clássico jogo de festa que combina sorte 
+                        com desafios divertidos. Nossa versão digital traz toda a diversão do jogo tradicional com uma garrafa 
+                        animada que gira e seleciona aleatoriamente jogadores ou desafios. É perfeito para festas, encontros com 
+                        amigos ou qualquer momento onde você queira adicionar um pouco de emoção e risadas.
+                      </p>
+                      <p className="text-slate-600 leading-7 mb-3">
+                        O jogo oferece dois modos: Clássico (onde a garrafa gira e você escolhe Verdade ou Desafio) e Jogadores 
+                        (onde você adiciona nomes de jogadores e a garrafa seleciona quem deve responder ou realizar o desafio). 
+                        Cada modo oferece uma experiência única, com perguntas e desafios pré-definidos que você pode personalizar 
+                        nas configurações.
+                      </p>
+                      <p className="text-slate-600 leading-7">
+                        Você pode adicionar suas próprias perguntas de Verdade e Desafios personalizados nas configurações, 
+                        tornando o jogo ainda mais divertido e adequado ao seu grupo. A garrafa animada com física realista adiciona 
+                        um elemento visual emocionante, e os efeitos de confete celebram quando um jogador é selecionado. Divirta-se 
+                        e crie memórias inesquecíveis com seus amigos!
+                      </p>
+                    </div>
                     {/* Confetti Overlay */}
                     {showConfetti && (
                         <div className="absolute inset-0 pointer-events-none z-50 overflow-hidden flex justify-center items-center">

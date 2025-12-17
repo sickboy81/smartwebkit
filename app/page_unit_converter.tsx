@@ -159,6 +159,24 @@ export const UnitConverterPage: React.FC<UnitConverterProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Unidades Universal</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Conversão de Unidades permite converter entre diferentes unidades de medida em oito categorias: 
+                Comprimento, Peso, Volume, Área, Temperatura, Tempo, Velocidade e Armazenamento Digital. Esta ferramenta é essencial 
+                para qualquer situação onde você precise converter entre sistemas de medida diferentes, como métrico e imperial.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A conversão acontece em tempo real enquanto você digita. Simplesmente selecione a categoria desejada, escolha a 
+                unidade de origem e a unidade de destino, e insira o valor. A ferramenta calculará automaticamente o valor convertido. 
+                Para temperatura, a conversão leva em conta as fórmulas específicas entre Celsius, Fahrenheit e Kelvin.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é útil para estudantes, profissionais de engenharia, cozinheiros, viajantes e qualquer pessoa que 
+                precise trabalhar com diferentes sistemas de medida. Ela elimina a necessidade de cálculos manuais e garante precisão 
+                em todas as conversões.
+              </p>
+            </div>
             
             <div className="flex flex-wrap justify-center gap-2 bg-slate-50 p-4 rounded-lg">
                {categories.map(cat => (

@@ -47,6 +47,25 @@ export const SlugPage: React.FC<SlugProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de URL Slug</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Um URL slug é a parte legível de uma URL que identifica uma página específica. Slugs são usados em blogs, 
+                sistemas de gerenciamento de conteúdo e sites para criar URLs amigáveis que são fáceis de ler e entender. 
+                Por exemplo, o slug "como-criar-um-site-em-2024" é muito mais legível do que "post?id=12345".
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta converte automaticamente qualquer texto em um slug válido para URLs. Ela converte o texto 
+                para minúsculas, remove caracteres especiais, substitui espaços por hífens e remove hífens duplicados ou 
+                hífens no início e fim. O resultado é um slug limpo e otimizado para SEO que pode ser usado diretamente em URLs.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores web, blogueiros, profissionais de SEO e qualquer pessoa que 
+                precise criar URLs amigáveis. Slugs bem formatados melhoram a experiência do usuário, facilitam o compartilhamento 
+                e podem melhorar o ranking nos mecanismos de busca. Use o botão de copiar para transferir rapidamente o slug 
+                gerado para seu projeto.
+              </p>
+            </div>
             
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>

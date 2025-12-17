@@ -50,6 +50,24 @@ export const AgePage: React.FC<AgeProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Idade</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa Calculadora de Idade calcula sua idade exata com base na data de nascimento que você fornece. A ferramenta 
+                mostra não apenas os anos completos, mas também os meses e dias desde seu nascimento, fornecendo uma medida 
+                precisa e detalhada da sua idade.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A calculadora leva em conta anos bissextos, diferentes números de dias em cada mês e ajusta corretamente para 
+                garantir precisão. Ela mostra três valores: anos completos, meses adicionais e dias restantes desde seu último 
+                aniversário de mês.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é útil para verificar sua idade exata, calcular idades para formulários, planejar eventos 
+                baseados em idades específicas, ou simplesmente satisfazer sua curiosidade sobre quantos dias você já viveu. 
+                Basta inserir sua data de nascimento e clicar em calcular para ver sua idade detalhada.
+              </p>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-4 items-end sm:items-center justify-center bg-slate-50 p-6 rounded-lg">
               <div className="w-full sm:w-auto space-y-2">

@@ -48,6 +48,25 @@ export const HashPage: React.FC<HashProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Hash Criptográfico</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Funções de hash criptográfico são algoritmos que transformam dados de qualquer tamanho em uma string de tamanho 
+                fixo. Elas são amplamente usadas para verificação de integridade de dados, assinaturas digitais, armazenamento 
+                seguro de senhas e muito mais. Um hash é uma função unidirecional: é fácil calcular o hash de um dado, mas 
+                praticamente impossível recuperar o dado original a partir do hash.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta suporta vários algoritmos de hash: SHA-1, SHA-256, SHA-384 e SHA-512. SHA-256 é o mais comum 
+                e recomendado para a maioria das aplicações modernas. Cada algoritmo produz um hash de tamanho diferente, com 
+                SHA-512 sendo o mais seguro mas também o mais longo.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores que precisam gerar hashes para verificação de integridade de 
+                arquivos, criação de checksums, ou implementação de sistemas de autenticação. Todo o processamento acontece 
+                localmente no seu navegador usando a Web Crypto API, garantindo segurança e privacidade.
+              </p>
+            </div>
             
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>

@@ -54,6 +54,25 @@ export const MetaPage: React.FC<MetaProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Meta Tags SEO</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Meta tags são elementos HTML essenciais para SEO (Search Engine Optimization) e compartilhamento em redes sociais. 
+                Elas fornecem informações sobre sua página para mecanismos de busca e plataformas de mídia social, influenciando 
+                como sua página aparece nos resultados de busca e quando compartilhada.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta gera automaticamente as meta tags mais importantes: título da página, descrição, palavras-chave 
+                e autor. A ferramenta também inclui contadores de caracteres para ajudá-lo a otimizar seus textos dentro dos 
+                limites recomendados (50-60 caracteres para títulos, 150-160 para descrições) para melhor desempenho nos resultados 
+                de busca.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Meta tags bem otimizadas melhoram a visibilidade do seu site nos mecanismos de busca, aumentam as taxas de clique 
+                e melhoram a aparência quando seu conteúdo é compartilhado em redes sociais. Use esta ferramenta para criar meta 
+                tags profissionais e otimizadas para cada página do seu site.
+              </p>
+            </div>
             
             <div className="grid gap-4">
               <div className="space-y-2">

@@ -38,6 +38,24 @@ export const TipPage: React.FC<TipProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Gorjeta</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa Calculadora de Gorjeta ajuda você a calcular rapidamente quanto deixar de gorjeta em restaurantes, 
+                bares ou serviços. A gorjeta é uma prática comum em muitos países para mostrar apreço por um bom serviço. 
+                As porcentagens padrão variam entre 10% e 20%, dependendo da qualidade do serviço e das normas culturais locais.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A ferramenta permite que você insira o valor da conta, escolha uma porcentagem de gorjeta (10%, 15% ou 20% 
+                são valores comuns, mas você pode inserir qualquer valor) e especifique quantas pessoas vão dividir a conta. 
+                A calculadora mostrará o valor da gorjeta, o total a pagar e quanto cada pessoa deve contribuir.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é especialmente útil quando você está jantando em grupo e precisa dividir a conta de forma 
+                justa, incluindo a gorjeta. Ela elimina a necessidade de cálculos mentais e garante que todos paguem sua 
+                parte correta. Use os botões rápidos para porcentagens comuns ou insira um valor personalizado.
+              </p>
+            </div>
             
             <div className="grid md:grid-cols-3 gap-4">
                <div className="space-y-2">

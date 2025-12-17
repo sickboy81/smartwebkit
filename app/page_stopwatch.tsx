@@ -61,6 +61,26 @@ export const StopwatchPage: React.FC<StopwatchProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8 text-center">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6 text-left">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Cronômetro Online Preciso</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nosso Cronômetro Online oferece uma maneira precisa e fácil de medir intervalos de tempo. Perfeito para 
+                treinos esportivos, experimentos científicos, testes de desempenho ou qualquer situação onde você precise 
+                cronometrar eventos com precisão de centésimos de segundo.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A ferramenta inclui funcionalidades avançadas como marcação de voltas (laps), permitindo que você registre 
+                múltiplos tempos durante uma única sessão. Isso é especialmente útil para corridas, natação ou qualquer 
+                atividade onde você precise medir tempos parciais. Cada volta é registrada com seu número e tempo total 
+                desde o início, permitindo uma análise detalhada do desempenho.
+              </p>
+              <p className="text-slate-600 leading-7">
+                O cronômetro exibe o tempo no formato MM:SS.CC (minutos:segundos.centésimos), proporcionando uma leitura 
+                clara e precisa. Os controles são intuitivos: use o botão Play/Pause para iniciar ou pausar, o botão 
+                de bandeira para marcar voltas, e o botão de reset para zerar tudo. A interface é responsiva e funciona 
+                perfeitamente em dispositivos móveis e desktop.
+              </p>
+            </div>
             
             <div className="text-7xl font-bold tracking-tighter text-slate-900 font-mono my-8">
                {formatTime(time)}

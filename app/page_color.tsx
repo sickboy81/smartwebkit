@@ -57,6 +57,24 @@ export const ColorPage: React.FC<ColorProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Cores HEX para RGB</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Conversão de Cores permite converter facilmente entre formatos HEX (hexadecimal) e RGB 
+                (Red, Green, Blue). HEX é um formato de 6 dígitos usado em CSS e design web (por exemplo, #FF5733), enquanto 
+                RGB é um formato numérico usado em programação e design gráfico (por exemplo, rgb(255, 87, 51)).
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A conversão acontece em tempo real enquanto você digita ou seleciona uma cor. Você pode usar o seletor de cor 
+                visual para escolher uma cor ou digitar diretamente o valor HEX. A ferramenta exibe uma pré-visualização da cor 
+                e converte automaticamente para o formato RGB correspondente.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores web, designers gráficos e qualquer pessoa que trabalhe com cores 
+                em projetos digitais. Use-a para garantir consistência de cores entre diferentes formatos e facilitar a integração 
+                de cores em seus projetos CSS, JavaScript ou design.
+              </p>
+            </div>
             
             <div className="flex flex-col md:flex-row items-center gap-8">
               {/* Color Preview */}

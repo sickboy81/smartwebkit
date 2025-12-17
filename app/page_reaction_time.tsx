@@ -66,6 +66,27 @@ export const ReactionTimePage: React.FC<ReactionProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent>
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Teste de Tempo de Reação</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                O Teste de Tempo de Reação mede a velocidade com que você responde a estímulos visuais. Este é um 
+                indicador importante de reflexos e pode ser útil para atletas, jogadores e qualquer pessoa interessada 
+                em melhorar seus tempos de reação. O tempo de reação médio para estímulos visuais é de aproximadamente 
+                200-300 milissegundos, mas pode variar significativamente entre indivíduos.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Como funciona: Clique no botão quando a tela ficar verde. A ferramenta mostrará primeiro uma tela vermelha 
+                com a mensagem "Aguarde...", indicando que você deve esperar. Após um intervalo aleatório, a tela mudará 
+                para verde com a mensagem "Clique Agora!". Seu tempo de reação será medido desde o momento em que a tela 
+                fica verde até o momento em que você clica. Se você clicar antes da tela ficar verde, será alertado que 
+                clicou muito cedo.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Este teste é útil para treinar reflexos, avaliar melhorias ao longo do tempo e até mesmo para fins 
+                educacionais sobre como o sistema nervoso processa informações visuais. Pratique regularmente para 
+                melhorar seus tempos de reação e mantenha um registro dos seus resultados para acompanhar seu progresso.
+              </p>
+            </div>
             
             <div 
               onClick={handleClick}

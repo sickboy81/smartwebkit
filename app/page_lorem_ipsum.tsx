@@ -77,6 +77,24 @@ export const LoremPage: React.FC<LoremProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Texto Lorem Ipsum</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Lorem Ipsum é um texto padrão usado na indústria gráfica e de design desde os anos 1500. É um texto em latim 
+                que não tem significado real, mas simula a aparência de texto real, permitindo que designers se concentrem no 
+                layout, tipografia e esquemas de cores sem serem distraídos por conteúdo legível.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta gera texto Lorem Ipsum personalizado para seus projetos de design e desenvolvimento. Você pode 
+                escolher entre gerar parágrafos completos ou sentenças individuais, e especificar a quantidade desejada. Isso é 
+                essencial para prototipagem, mockups e testes de layout antes que o conteúdo final esteja disponível.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Usar texto placeholder é uma prática recomendada em UI/UX design, pois simula a aparência de texto real, permitindo 
+                que stakeholders revisem a estrutura do design antes que o texto final seja finalizado. Nosso gerador garante que 
+                você não precise copiar e colar a mesma sentença repetidamente.
+              </p>
+            </div>
             
             <div className="flex flex-col sm:flex-row items-end gap-4">
               

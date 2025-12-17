@@ -53,6 +53,27 @@ export const DeadPixelPage: React.FC<PixelProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col items-center py-12 space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6 w-full text-left">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Teste de Dead Pixel - Guia Completo</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                O Teste de Dead Pixel é uma ferramenta essencial para verificar a qualidade da sua tela. Pixels mortos 
+                (dead pixels) são pontos que não acendem e aparecem como manchas pretas, enquanto pixels presos (stuck pixels) 
+                ficam travados em uma cor específica, geralmente vermelho, verde ou azul. Esses defeitos podem ser muito 
+                irritantes e muitas vezes são cobertos pela garantia se detectados precocemente.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta preenche toda a tela com cores sólidas e puras: Preto, Branco, Vermelho, Verde e Azul. 
+                Ao alternar entre essas cores em tela cheia, qualquer irregularidade se torna imediatamente visível. 
+                Um ponto escuro em um fundo branco indica um pixel morto, enquanto um ponto brilhante em um fundo preto 
+                ou colorido indica um pixel preso.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Este teste é especialmente importante ao comprar um novo monitor, laptop ou smartphone, seja novo ou usado. 
+                Recomendamos executar este teste antes que o período de devolução expire, garantindo que sua tela esteja 
+                em perfeitas condições. A ferramenta funciona em todos os tipos de telas, desde monitores 4K até telas OLED 
+                de smartphones.
+              </p>
+            </div>
             
             <div className="w-32 h-32 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 rounded-full animate-pulse blur-xl opacity-50"></div>
             
@@ -60,9 +81,13 @@ export const DeadPixelPage: React.FC<PixelProps> = ({ dict }) => {
                <Maximize2 className="h-5 w-5" /> {t.msg_start}
             </Button>
 
-            <p className="text-sm text-slate-500">
-               {t.seo_content[0]}
-            </p>
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 w-full text-left">
+              <p className="text-sm text-blue-800 font-medium mb-2">💡 Dica:</p>
+              <p className="text-sm text-blue-700">
+                {t.seo_content[0]} Clique em qualquer lugar da tela durante o teste para alternar entre as cores. 
+                Pressione ESC para sair do modo de teste a qualquer momento.
+              </p>
+            </div>
 
           </CardContent>
         </Card>

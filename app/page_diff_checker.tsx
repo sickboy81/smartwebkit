@@ -70,6 +70,25 @@ export const DiffPage: React.FC<DiffProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Verificador de Diferenças de Texto</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Verificação de Diferenças (Diff Checker) compara dois textos lado a lado e destaca as diferenças 
+                entre eles. Esta ferramenta é essencial para desenvolvedores que precisam comparar versões de código, escritores 
+                que revisam documentos, ou qualquer pessoa que precise identificar mudanças entre duas versões de texto.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A ferramenta mostra claramente quais linhas foram removidas (marcadas em vermelho), quais foram adicionadas (marcadas 
+                em verde) e quais permaneceram iguais. Isso facilita a identificação rápida de mudanças, adições e remoções entre 
+                duas versões de texto ou código.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é especialmente útil para revisão de código, controle de versão, comparação de documentos, ou 
+                verificação de mudanças em configurações. Ela ajuda a entender exatamente o que mudou entre duas versões, economizando 
+                tempo e reduzindo erros. Todo o processamento acontece localmente, garantindo que seu código ou documentos sensíveis 
+                nunca sejam enviados para servidores externos.
+              </p>
+            </div>
             
             <div className="grid md:grid-cols-2 gap-4">
                <div className="space-y-2">

@@ -67,6 +67,24 @@ export const UnixPage: React.FC<UnixProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Timestamp Unix</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Unix Timestamp é uma representação numérica de data e hora que conta os segundos desde 1º de janeiro de 1970 (Epoch Unix). 
+                É amplamente usado em programação, bancos de dados e sistemas porque é um formato universal e fácil de manipular 
+                programaticamente. Cada timestamp Unix representa um momento único na história.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite converter entre timestamps Unix e datas legíveis por humanos em ambas as direções. Você pode 
+                inserir um timestamp e ver a data correspondente, ou selecionar uma data e ver o timestamp Unix equivalente. A ferramenta 
+                também exibe o timestamp atual em tempo real, atualizando a cada segundo.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores que trabalham com APIs, bancos de dados ou sistemas que usam timestamps 
+                Unix. É também útil para depuração, análise de logs ou qualquer situação onde você precise converter entre formatos de 
+                data. A conversão leva em conta o fuso horário local do seu navegador.
+              </p>
+            </div>
             
             {/* Current Timestamp Hero */}
             <div className="bg-slate-900 text-white rounded-xl p-8 text-center space-y-2">

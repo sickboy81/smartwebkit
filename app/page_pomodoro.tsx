@@ -77,6 +77,27 @@ export const PomodoroPage: React.FC<PomodoroProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8 text-center">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6 text-left">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Técnica Pomodoro para Produtividade</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                A Técnica Pomodoro é um método de gerenciamento de tempo comprovado que ajuda a aumentar a produtividade 
+                e reduzir a fadiga mental. Desenvolvida por Francesco Cirillo no final dos anos 1980, a técnica divide o 
+                trabalho em intervalos focados de 25 minutos (chamados "pomodoros"), separados por pausas curtas. Este 
+                método treina seu cérebro para manter o foco e a concentração por períodos definidos.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Como usar: Selecione o modo "Foco" para uma sessão de trabalho de 25 minutos. Quando o timer terminar, 
+                faça uma pausa curta de 5 minutos (modo "Pausa Curta"). Após completar 4 pomodoros, faça uma pausa longa 
+                de 15 minutos (modo "Pausa Longa") para recarregar completamente. Este ciclo ajuda a manter altos níveis 
+                de produtividade ao longo do dia.
+              </p>
+              <p className="text-slate-600 leading-7">
+                A técnica é especialmente eficaz para tarefas que requerem concentração profunda, como programação, 
+                escrita, estudo ou qualquer trabalho que exija foco mental. Ao dividir o trabalho em blocos gerenciáveis, 
+                você reduz a procrastinação e aumenta a sensação de realização. O timer visual ajuda a manter a consciência 
+                do tempo e cria um senso de urgência positiva que impulsiona a produtividade.
+              </p>
+            </div>
             
             <div className="flex justify-center gap-2 p-1 bg-slate-100 rounded-lg inline-flex mx-auto">
                <button 

@@ -67,6 +67,24 @@ export const SummarizerPage: React.FC<SummarizerProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Resumidor de Texto Inteligente</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Resumo de Texto utiliza um algoritmo baseado em frequência de palavras para identificar e 
+                extrair as sentenças mais importantes de um texto. Esta técnica analisa a frequência de palavras-chave (excluindo 
+                palavras comuns como "o", "a", "e") e pontua cada sentença com base na importância das palavras que contém.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Para usar a ferramenta, cole seu texto longo no campo de entrada e ajuste o controle deslizante para escolher 
+                quantas sentenças você deseja no resumo (de 1 a 10). Clique em "Resumir" e a ferramenta identificará automaticamente 
+                as sentenças mais importantes, mantendo a ordem original do texto para preservar o contexto e o fluxo.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é perfeita para estudantes que precisam resumir artigos longos, profissionais que precisam criar 
+                resumos executivos, ou qualquer pessoa que queira extrair rapidamente os pontos principais de um texto extenso. 
+                O resumo é gerado localmente no seu navegador, garantindo que seu conteúdo permaneça privado e seguro.
+              </p>
+            </div>
             
             <div className="space-y-2">
                <label className="text-sm font-medium">{t.input_label}</label>

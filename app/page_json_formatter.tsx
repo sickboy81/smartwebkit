@@ -64,6 +64,24 @@ export const JsonPage: React.FC<JsonPageProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Formatador e Validador JSON</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                JSON (JavaScript Object Notation) é um formato de dados leve e amplamente usado para intercâmbio de informações. 
+                No entanto, JSON não formatado pode ser difícil de ler e depurar. Nossa ferramenta formata automaticamente seu 
+                JSON com indentação adequada, tornando-o legível e fácil de entender.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Além da formatação, nossa ferramenta também valida seu JSON, detectando erros de sintaxe como vírgulas ausentes, 
+                colchetes não fechados ou aspas malformadas. Isso é essencial para desenvolvedores que trabalham com APIs, analistas 
+                de dados que processam arquivos JSON, ou qualquer pessoa que precise trabalhar com dados estruturados.
+              </p>
+              <p className="text-slate-600 leading-7">
+                A ferramenta também oferece uma função de minificação que remove espaços em branco desnecessários, reduzindo o 
+                tamanho do arquivo para uso em produção. Todo o processamento acontece localmente no seu navegador, garantindo que 
+                seus dados sensíveis nunca sejam enviados para servidores externos.
+              </p>
+            </div>
             
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>

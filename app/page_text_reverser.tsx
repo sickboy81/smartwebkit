@@ -40,6 +40,25 @@ export const TextReverserPage: React.FC<TextReverserProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Inversor de Texto</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Inversão de Texto inverte a ordem dos caracteres em qualquer string de texto. Esta ferramenta 
+                simples mas útil pode ser usada para uma variedade de propósitos: criar efeitos visuais interessantes, testar 
+                algoritmos de processamento de texto, ou simplesmente para diversão e criatividade.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A inversão acontece caractere por caractere, então "Hello World" se torna "dlroW olleH". Esta operação preserva 
+                espaços, pontuação e todos os caracteres especiais, apenas invertendo sua ordem. A ferramenta funciona com qualquer 
+                tipo de texto, incluindo números, símbolos e caracteres Unicode.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é útil para desenvolvedores testando funções de manipulação de string, criadores de conteúdo 
+                buscando efeitos visuais únicos, ou qualquer pessoa que precise inverter texto para fins específicos. O processamento 
+                é instantâneo e acontece completamente no seu navegador.
+              </p>
+            </div>
+            
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>
               <textarea 

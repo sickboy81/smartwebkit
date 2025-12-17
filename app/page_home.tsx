@@ -153,12 +153,45 @@ export const HomePage: React.FC<HomePageProps> = ({ lang, dict }) => {
           </div>
         </section>
 
+        {/* About Section */}
+        <section className="container max-w-5xl py-8 md:py-12 mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center space-y-4">
+            <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-slate-900 mb-4">
+              {dict.home.hero_title}
+            </h2>
+            <p className="text-slate-600 leading-7 text-lg mb-6">
+              {dict.home.hero_subtitle}
+            </p>
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 text-left">
+              <p className="text-slate-700 leading-7 mb-4">
+                O SmartWebKit é uma coleção abrangente de ferramentas web gratuitas projetadas para desenvolvedores, 
+                designers e profissionais que buscam eficiência e produtividade. Nossa plataforma oferece mais de 100 
+                ferramentas úteis, todas funcionando diretamente no seu navegador, sem necessidade de instalação ou registro.
+              </p>
+              <p className="text-slate-700 leading-7 mb-4">
+                Todas as ferramentas são processadas localmente no seu navegador, garantindo máxima privacidade e segurança. 
+                Seus dados nunca são enviados para nossos servidores, tornando o SmartWebKit ideal para trabalhar com informações 
+                sensíveis, código-fonte ou dados confidenciais.
+              </p>
+              <p className="text-slate-700 leading-7">
+                Explore nossa coleção de ferramentas organizadas por categorias: desenvolvimento web, design, matemática e 
+                finanças, segurança, SEO, marketing, saúde e muito mais. Cada ferramenta foi cuidadosamente desenvolvida 
+                para ser rápida, precisa e fácil de usar.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Tools Section by Category */}
         <div className="container max-w-5xl py-8 md:py-12 lg:py-16 mx-auto px-4 space-y-16">
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
              <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl text-slate-900">
               {dict.home.tools_section_title}
             </h2>
+             <p className="text-slate-600 leading-7 max-w-2xl mt-4">
+               Navegue pelas categorias abaixo para encontrar a ferramenta perfeita para suas necessidades. 
+               Todas as ferramentas são gratuitas, funcionam offline e respeitam sua privacidade.
+             </p>
           </div>
 
           {categories.map((cat) => {
@@ -192,10 +225,42 @@ export const HomePage: React.FC<HomePageProps> = ({ lang, dict }) => {
           })}
         </div>
         
-        {/* AdSense Placeholder */}
-        <section className="container max-w-5xl py-8 mx-auto px-4">
-          <div className="w-full h-32 bg-slate-100 rounded-lg border border-dashed border-slate-300 flex items-center justify-center">
-            <p className="text-slate-400 text-sm font-medium">AdSense Banner Area</p>
+        {/* Additional Content Section */}
+        <section className="container max-w-5xl py-8 md:py-12 mx-auto px-4">
+          <div className="max-w-3xl mx-auto space-y-6">
+            <h2 className="text-2xl font-bold text-slate-900 text-center mb-6">
+              Por que escolher o SmartWebKit?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">🔒 Privacidade Total</h3>
+                <p className="text-slate-600 leading-7 text-sm">
+                  Todas as ferramentas processam dados localmente no seu navegador. Nenhuma informação é enviada 
+                  para nossos servidores, garantindo privacidade e segurança completas.
+                </p>
+              </div>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">⚡ Rápido e Eficiente</h3>
+                <p className="text-slate-600 leading-7 text-sm">
+                  Sem necessidade de instalação ou registro. Acesse qualquer ferramenta instantaneamente e comece 
+                  a trabalhar imediatamente, sem esperas ou configurações complicadas.
+                </p>
+              </div>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">🌐 Multi-idioma</h3>
+                <p className="text-slate-600 leading-7 text-sm">
+                  Interface disponível em português, inglês e espanhol. Todas as ferramentas são totalmente 
+                  traduzidas para sua comodidade.
+                </p>
+              </div>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">📱 Responsivo</h3>
+                <p className="text-slate-600 leading-7 text-sm">
+                  Funciona perfeitamente em qualquer dispositivo: desktop, tablet ou smartphone. Acesse suas 
+                  ferramentas favoritas de qualquer lugar.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </main>

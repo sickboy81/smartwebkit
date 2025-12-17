@@ -37,6 +37,24 @@ export const KeycodePage: React.FC<KeycodeProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8 min-h-[300px] flex flex-col justify-center items-center text-center">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6 w-full text-left">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Visualizador de Códigos de Tecla</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Esta ferramenta exibe informações detalhadas sobre qualquer tecla que você pressionar no teclado. Quando você 
+                pressiona uma tecla, a ferramenta mostra três valores importantes: event.key (o caractere ou nome da tecla), 
+                event.code (o código físico da tecla no teclado) e event.which (o código numérico da tecla).
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Esta ferramenta é extremamente útil para desenvolvedores que precisam criar manipuladores de eventos de teclado, 
+                implementar atalhos de teclado ou validar entrada de teclado. Diferentes teclas produzem diferentes valores, 
+                e entender essas diferenças é essencial para criar interfaces de usuário responsivas e intuitivas.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Por exemplo, a tecla Shift pode ter diferentes valores dependendo se é a tecla esquerda ou direita. Teclas especiais 
+                como Enter, Escape, Arrow Keys e Function Keys têm códigos únicos que podem ser capturados e processados. 
+                Pressione qualquer tecla abaixo para ver suas informações detalhadas.
+              </p>
+            </div>
             
             {!eventData ? (
                <div className="text-2xl font-medium text-slate-400 animate-pulse">

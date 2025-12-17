@@ -47,6 +47,25 @@ export const DuplicateRemoverPage: React.FC<DuplicateRemoverProps> = ({ dict }) 
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Removedor de Linhas Duplicadas</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta Remove Duplicatas identifica e remove linhas duplicadas de uma lista de texto. Esta ferramenta 
+                é extremamente útil quando você tem listas longas com entradas repetidas que precisam ser limpas. Ela preserva 
+                apenas uma ocorrência de cada linha única, mantendo a ordem original das linhas restantes.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Para usar a ferramenta, simplesmente cole ou digite sua lista de itens (um por linha) no campo de entrada. Clique 
+                em "Remover Duplicatas" e a ferramenta processará instantaneamente sua lista, removendo todas as linhas duplicadas. 
+                A ferramenta mostrará estatísticas sobre quantas duplicatas foram removidas e quantas linhas únicas permaneceram.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é perfeita para limpar listas de e-mails, nomes, URLs, códigos ou qualquer lista de texto onde 
+                você precisa eliminar duplicatas. É especialmente útil ao consolidar dados de múltiplas fontes ou limpar bases 
+                de dados. Todo o processamento acontece localmente no seu navegador, garantindo privacidade total.
+              </p>
+            </div>
+            
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>
               <textarea 

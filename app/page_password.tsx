@@ -69,6 +69,25 @@ export const PasswordPage: React.FC<PasswordPageProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Senhas Seguras</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Criar senhas fortes e seguras é essencial para proteger suas contas online. Nossa ferramenta gera senhas 
+                criptograficamente seguras usando o gerador de números aleatórios do navegador, garantindo que cada senha seja 
+                única e imprevisível. Senhas fortes são a primeira linha de defesa contra hackers e ataques de força bruta.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Você pode personalizar sua senha ajustando o comprimento (de 8 a 50 caracteres) e escolhendo quais tipos de 
+                caracteres incluir: letras maiúsculas, números e símbolos. Quanto mais opções você selecionar e maior o comprimento, 
+                mais segura será sua senha. Recomendamos usar pelo menos 16 caracteres com todos os tipos de caracteres habilitados 
+                para máxima segurança.
+              </p>
+              <p className="text-slate-600 leading-7">
+                As senhas são geradas localmente no seu navegador e nunca são enviadas para nossos servidores. Isso garante 
+                privacidade total. Use esta ferramenta para criar senhas únicas para cada uma de suas contas online, e considere 
+                usar um gerenciador de senhas para armazená-las com segurança.
+              </p>
+            </div>
             
             {/* Result Display */}
             <div className="relative">

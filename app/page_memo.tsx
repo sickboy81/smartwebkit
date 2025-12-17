@@ -42,6 +42,29 @@ export const MemoPage: React.FC<MemoProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Bloco de Notas Online com Salvamento Automático</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nosso Bloco de Notas Online oferece uma experiência de escrita simples e intuitiva, perfeita para 
+                capturar pensamentos rápidos, anotações temporárias ou rascunhos. Diferente de aplicativos complexos 
+                de anotações, esta ferramenta fornece um ambiente livre de distrações, focado apenas no essencial: 
+                escrever e salvar automaticamente.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A principal característica desta ferramenta é o salvamento automático em tempo real. Cada caractere 
+                que você digita é salvo instantaneamente no armazenamento local do seu navegador. Isso significa que 
+                você pode fechar a aba, reiniciar o navegador ou até desligar o computador, e quando voltar, suas 
+                notas estarão exatamente como você as deixou. Não há necessidade de pressionar um botão de salvar 
+                ou se preocupar em perder dados.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Todas as suas notas são armazenadas localmente no seu dispositivo, garantindo privacidade total. 
+                Nenhum dado é enviado para servidores na nuvem, tornando esta ferramenta perfeita para redigir 
+                e-mails confidenciais, armazenar trechos de código temporários ou manter lembretes privados. 
+                A interface limpa e minimalista maximiza a área de escrita, permitindo que você se concentre 
+                completamente no conteúdo.
+              </p>
+            </div>
             
             <textarea 
               className="w-full h-[500px] p-6 border rounded-lg focus:ring-2 focus:ring-yellow-200 focus:outline-none bg-yellow-50 text-slate-800 text-lg leading-relaxed resize-none shadow-inner font-handwriting"

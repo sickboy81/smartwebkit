@@ -58,6 +58,24 @@ export const FaviconPage: React.FC<FaviconProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Favicon</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Favicons são pequenos ícones que aparecem na aba do navegador, nos favoritos e em outros lugares onde seu site é 
+                referenciado. Eles são essenciais para branding e reconhecimento visual do seu site. Um favicon bem projetado ajuda 
+                os usuários a identificar rapidamente seu site entre várias abas abertas.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta converte qualquer imagem em um favicon no formato padrão de 32x32 pixels. O processo é simples: 
+                faça upload da sua imagem, visualize como ficará no tamanho de favicon, e baixe o arquivo PNG pronto para uso. A 
+                ferramenta redimensiona automaticamente sua imagem mantendo a melhor qualidade possível.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores web que precisam criar favicons para seus sites. Um favicon é uma 
+                parte importante da identidade visual de um site e melhora a experiência do usuário. Todo o processamento acontece 
+                localmente, garantindo que suas imagens nunca sejam enviadas para servidores externos.
+              </p>
+            </div>
             
             <div className="space-y-4">
                <label className="block w-full border-2 border-dashed border-slate-300 rounded-lg p-8 text-center cursor-pointer hover:bg-slate-50 transition-colors">

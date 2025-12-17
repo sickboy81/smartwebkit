@@ -53,6 +53,24 @@ export const RuleOfThreePage: React.FC<RuleOfThreeProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Regra de Três</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                A Regra de Três é um método matemático simples e poderoso para resolver problemas de proporção. É amplamente usada 
+                em situações do dia a dia, como calcular quantidades em receitas, converter medidas, calcular descontos ou resolver 
+                problemas de proporcionalidade direta. A fórmula básica é: se A está para B, então C está para X, onde X = (B × C) / A.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa calculadora facilita o uso da Regra de Três, permitindo que você insira três valores conhecidos e calcule 
+                automaticamente o quarto valor desconhecido. A interface visual mostra claramente a relação entre os valores, tornando 
+                fácil entender e verificar seus cálculos.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é útil para estudantes aprendendo matemática, profissionais que precisam fazer cálculos rápidos de 
+                proporção, ou qualquer pessoa que precise resolver problemas de proporcionalidade. A Regra de Três é uma das técnicas 
+                matemáticas mais práticas e amplamente aplicáveis.
+              </p>
+            </div>
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 bg-slate-50 p-8 rounded-xl border border-slate-100">
               {/* Group 1 */}

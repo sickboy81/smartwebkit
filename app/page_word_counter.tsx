@@ -37,6 +37,24 @@ export const WordCounterPage: React.FC<WordCounterProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Contador de Palavras Online</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Contador de Palavras fornece estatísticas detalhadas sobre seu texto em tempo real. Ela conta 
+                palavras, caracteres, parágrafos e linhas enquanto você digita, ajudando você a atender requisitos de contagem de 
+                palavras para artigos, ensaios, postagens de blog ou qualquer conteúdo escrito.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A ferramenta é especialmente útil para escritores, estudantes, blogueiros e profissionais de marketing que precisam 
+                manter seus textos dentro de limites específicos. Muitas plataformas e publicações têm requisitos de contagem de 
+                palavras, e esta ferramenta ajuda você a monitorar seu progresso em tempo real.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Todas as contagens são calculadas localmente no seu navegador, garantindo que seu conteúdo permaneça privado. A 
+                ferramenta atualiza automaticamente as estatísticas conforme você digita, fornecendo feedback imediato sobre o 
+                comprimento do seu texto.
+              </p>
+            </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="p-4 bg-slate-50 rounded-lg text-center border border-slate-100">

@@ -76,6 +76,25 @@ export const MetronomePage: React.FC<MetronomeProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-12 text-center py-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6 text-left">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Metrônomo Online Preciso</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Um metrônomo é uma ferramenta essencial para músicos de todos os níveis, desde iniciantes aprendendo a manter 
+                o ritmo até profissionais praticando peças complexas. Ele produz um pulso constante (batida) para ajudar você 
+                a tocar em uma velocidade consistente, melhorando sua precisão rítmica e senso de tempo.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite ajustar o BPM (batidas por minuto) de 40 a 240, cobrindo desde tempos muito lentos 
+                (Largo) até tempos muito rápidos (Presto). Use o controle deslizante para ajustar o tempo desejado ou clique 
+                nos botões de play/stop para iniciar ou pausar o metrônomo. O som de clique é gerado usando a Web Audio API 
+                do navegador, garantindo precisão e sincronização perfeita.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é perfeita para prática de instrumentos musicais, composição, gravação ou qualquer atividade 
+                que requeira manter um ritmo constante. Funciona perfeitamente em qualquer dispositivo com um navegador moderno, 
+                tornando-se uma alternativa conveniente e gratuita aos metrônomos físicos tradicionais.
+              </p>
+            </div>
             
             <div className="text-8xl font-bold font-mono text-slate-900">
                {bpm}

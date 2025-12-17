@@ -44,6 +44,25 @@ export const RegexPage: React.FC<RegexProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Testador de Expressões Regulares</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Expressões Regulares (Regex) são padrões poderosos usados para combinar e manipular strings de texto. Elas são 
+                amplamente usadas em programação para validação de formulários, busca e substituição de texto, análise de dados 
+                e muito mais. No entanto, regex pode ser complexa e difícil de dominar.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite que você teste padrões regex em tempo real, vendo imediatamente quais correspondências 
+                são encontradas no seu texto de teste. Você pode usar flags como 'g' (global), 'i' (case-insensitive) e 'm' 
+                (multiline) para modificar o comportamento da busca. A ferramenta destaca todas as correspondências encontradas, 
+                facilitando a depuração e o aprendizado de padrões regex.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores que precisam criar padrões regex para validação de e-mail, 
+                extração de números de telefone, remoção de caracteres especiais ou qualquer operação de manipulação de texto. 
+                Use esta ferramenta para refinar seus padrões antes de implementá-los em seu código de produção.
+              </p>
+            </div>
             
             <div className="flex gap-4">
                <div className="flex-1 space-y-2">

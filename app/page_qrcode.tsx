@@ -71,6 +71,24 @@ export const QrPage: React.FC<QrPageProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Código QR</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Códigos QR (Quick Response) são códigos de barras bidimensionais que podem armazenar grandes quantidades de dados 
+                e são facilmente legíveis por smartphones e dispositivos digitais. Eles são amplamente usados para compartilhar URLs, 
+                informações de contato, credenciais WiFi, textos simples e muito mais.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite criar códigos QR personalizados para diferentes tipos de conteúdo: URLs de sites, redes WiFi 
+                (com nome da rede e senha), texto simples, e-mails (com assunto e corpo), e mensagens SMS. Cada tipo de QR code tem 
+                campos específicos para garantir que o código contenha as informações corretas no formato adequado.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Após gerar seu código QR, você pode visualizá-lo, baixá-lo como imagem PNG para usar em materiais impressos ou digitais, 
+                e copiá-lo para seus projetos. Os códigos QR são uma forma conveniente e moderna de compartilhar informações rapidamente, 
+                especialmente útil em marketing, eventos, menus de restaurantes e muito mais.
+              </p>
+            </div>
             
             {/* Type Selector */}
             <div className="flex flex-wrap gap-2 justify-center">

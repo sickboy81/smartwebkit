@@ -25,6 +25,20 @@ export const ScoreboardPage: React.FC<ScoreProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Como usar o Placar Online</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nosso Placar Online é uma ferramenta simples e eficiente para acompanhar pontuações em tempo real. 
+                Perfeito para jogos de tabuleiro, partidas esportivas, competições casuais ou qualquer situação onde 
+                você precise manter controle de pontos de forma clara e organizada.
+              </p>
+              <p className="text-slate-600 leading-7">
+                A interface foi projetada para ser visível à distância, com números grandes e de alto contraste. 
+                Use os botões de mais (+) para adicionar pontos e menos (-) para corrigir erros. O botão de reset 
+                permite zerar a pontuação quando necessário. Todas as pontuações são preservadas no navegador, 
+                então você não perderá os dados mesmo se atualizar a página acidentalmente.
+              </p>
+            </div>
             
             <div className="grid grid-cols-2 gap-4 md:gap-12 text-center">
                {/* Team A */}

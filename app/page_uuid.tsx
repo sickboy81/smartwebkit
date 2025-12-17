@@ -71,6 +71,25 @@ export const UUIDPage: React.FC<UUIDProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de UUID/GUID</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                UUID (Universally Unique Identifier) ou GUID (Globally Unique Identifier) são identificadores únicos de 128 bits 
+                usados para identificar recursos de forma única. Eles são essenciais em desenvolvimento de software para criar 
+                chaves primárias em bancos de dados, IDs de sessão, tokens de API ou qualquer situação onde você precise de um 
+                identificador único e livre de colisões.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta suporta dois tipos de UUID: Versão 4 (aleatória) e Versão 1 (baseada em tempo). A Versão 4 é a 
+                mais comum e usa números aleatórios criptograficamente seguros. A Versão 1 é baseada no timestamp atual e no 
+                endereço MAC, útil quando você precisa de identificadores ordenáveis por tempo de criação.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Você pode gerar um único UUID ou criar múltiplos de uma vez (até 100), perfeito para preencher bancos de dados 
+                de teste ou atribuir IDs em lote. Todos os UUIDs são gerados localmente no seu navegador usando o gerador de números 
+                aleatórios do navegador, garantindo segurança e privacidade.
+              </p>
+            </div>
             
             <div className="flex flex-col md:flex-row gap-6 items-start md:items-end">
               <div className="w-full md:w-auto space-y-2">

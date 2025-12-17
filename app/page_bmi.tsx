@@ -44,6 +44,27 @@ export const BMIPage: React.FC<BMIProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de IMC (Índice de Massa Corporal)</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                O IMC (Índice de Massa Corporal) é uma medida amplamente utilizada para avaliar se uma pessoa está com peso 
+                adequado em relação à sua altura. É calculado dividindo o peso (em quilogramas) pelo quadrado da altura 
+                (em metros). O IMC fornece uma estimativa geral da composição corporal e é usado por profissionais de saúde 
+                como uma ferramenta de triagem inicial.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                As categorias de IMC são: Abaixo do peso (menos de 18,5), Peso normal (18,5-24,9), Sobrepeso (25-29,9) e 
+                Obesidade (30 ou mais). É importante notar que o IMC é uma medida geral e não leva em conta fatores como 
+                massa muscular, densidade óssea ou distribuição de gordura. Atletas com muita massa muscular podem ter um 
+                IMC alto mesmo estando em excelente forma física.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Para usar esta calculadora, insira seu peso em quilogramas e sua altura em centímetros. A ferramenta calculará 
+                automaticamente seu IMC e mostrará em qual categoria você se encontra. Consulte sempre um profissional de saúde 
+                para uma avaliação completa e personalizada do seu peso e saúde.
+              </p>
+            </div>
+            
             <div className="grid md:grid-cols-2 gap-4 items-end">
                <div className="space-y-2">
                   <label className="text-sm font-medium">{t.label_weight} (kg)</label>

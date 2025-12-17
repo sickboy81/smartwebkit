@@ -53,6 +53,26 @@ export const Base64Page: React.FC<Base64Props> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Codificador e Decodificador Base64</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Base64 é um esquema de codificação que converte dados binários em uma representação de texto usando apenas 64 
+                caracteres ASCII. É amplamente usado para transmitir dados binários através de meios projetados para texto, como 
+                e-mail, XML ou JSON. Base64 não é criptografia, mas sim uma forma de codificação que permite que dados binários 
+                sejam representados como texto.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite codificar qualquer string de texto em Base64 ou decodificar uma string Base64 de volta 
+                ao texto original. Isso é útil para desenvolvedores que precisam incorporar imagens em HTML/CSS usando Data URIs, 
+                transmitir dados complexos como strings simples, ou para ofuscação básica de dados.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Todo o processamento acontece localmente no seu navegador, garantindo que seus dados permaneçam privados. A 
+                ferramenta suporta texto UTF-8 padrão, preservando emojis e caracteres especiais corretamente durante a codificação 
+                e decodificação.
+              </p>
+            </div>
+            
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>
               <textarea 

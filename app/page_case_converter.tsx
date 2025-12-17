@@ -51,6 +51,26 @@ export const CaseConverterPage: React.FC<CaseConverterProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Maiúsculas e Minúsculas</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite converter texto entre diferentes formatos de maiúsculas e minúsculas instantaneamente. 
+                Se você acidentalmente deixou o Caps Lock ativado, precisa formatar títulos ou quer padronizar texto para 
+                programação, esta ferramenta resolve o problema com um único clique.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A ferramenta oferece quatro modos de conversão: Maiúsculas (TUDO EM MAIÚSCULAS), Minúsculas (tudo em minúsculas), 
+                Capitalizado (Primeira Letra De Cada Palavra) e Inverso (aLtErNaDo). Cada modo é útil para diferentes situações: 
+                maiúsculas para títulos ou ênfase, minúsculas para normalização, capitalizado para títulos de artigos, e inverso 
+                para efeitos especiais.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é especialmente útil para escritores, editores, desenvolvedores e qualquer pessoa que trabalhe 
+                com texto. Ela economiza tempo e garante consistência em documentos, código-fonte ou qualquer conteúdo textual. 
+                Basta colar seu texto, escolher o formato desejado e copiar o resultado.
+              </p>
+            </div>
+            
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>
               <textarea 

@@ -63,6 +63,24 @@ export const RandomPage: React.FC<RandomProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Gerador de Números Aleatórios</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nosso Gerador de Números Aleatórios permite criar números aleatórios dentro de um intervalo especificado. 
+                Você pode definir o valor mínimo, o valor máximo, a quantidade de números a gerar e escolher se deseja números 
+                únicos (sem repetição) ou permitir duplicatas.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Esta ferramenta é útil para uma variedade de propósitos: sorteios, jogos, testes aleatórios, amostragem estatística, 
+                geração de dados de teste para desenvolvimento de software, ou qualquer situação onde você precise de números aleatórios. 
+                A opção de números únicos é especialmente útil para sorteios onde cada número só pode aparecer uma vez.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Os números gerados são verdadeiramente aleatórios e são gerados usando o gerador de números aleatórios do navegador. 
+                Você pode copiar os números gerados facilmente com um único clique. A ferramenta suporta até 1000 números por vez, 
+                tornando-a adequada tanto para uso simples quanto para necessidades mais complexas.
+              </p>
+            </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-end">
                <div className="space-y-2">

@@ -54,6 +54,29 @@ export const PercentagePage: React.FC<PercentageProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Porcentagem</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa Calculadora de Porcentagem oferece três modos diferentes para resolver problemas comuns envolvendo 
+                porcentagens. As porcentagens são uma forma de expressar uma proporção ou fração de 100, e são amplamente 
+                usadas em matemática, finanças, estatísticas e vida cotidiana.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                <strong>Modo 1 - "Quanto é X% de Y?"</strong>: Use este modo para encontrar uma porcentagem de um número. 
+                Por exemplo, "Quanto é 20% de 500?" resulta em 100. Isso é útil para calcular descontos, impostos ou 
+                qualquer parte de um todo.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                <strong>Modo 2 - "X é quantos por cento de Y?"</strong>: Use este modo para descobrir qual porcentagem 
+                um número representa de outro. Por exemplo, "50 é quantos por cento de 200?" resulta em 25%. Isso é útil 
+                para entender proporções e relações.
+              </p>
+              <p className="text-slate-600 leading-7">
+                <strong>Modo 3 - "Variação percentual de X para Y"</strong>: Use este modo para calcular a mudança percentual 
+                entre dois valores. Por exemplo, se algo mudou de 100 para 120, a variação é de 20%. Isso é útil para 
+                calcular crescimento, declínio ou mudanças ao longo do tempo.
+              </p>
+            </div>
             
             {/* Mode 1: X% of Y */}
             <div className="p-4 bg-slate-50 rounded-lg border border-slate-100">

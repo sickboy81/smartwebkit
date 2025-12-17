@@ -69,6 +69,24 @@ export const MinifyPage: React.FC<MinifyProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Minificador de CSS e JavaScript</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                A minificação é o processo de remover caracteres desnecessários do código-fonte sem alterar sua funcionalidade. 
+                Isso inclui remover espaços em branco, comentários, quebras de linha e outros caracteres que não são essenciais 
+                para a execução do código. O resultado é um arquivo menor que carrega mais rapidamente.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta suporta minificação de código CSS e JavaScript. Para CSS, ela remove comentários, espaços 
+                desnecessários e otimiza a formatação. Para JavaScript, ela remove comentários e comprime o código, mantendo 
+                a funcionalidade intacta. Arquivos menores significam tempos de download mais rápidos e melhor desempenho do site.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para otimização de desempenho web. Arquivos minificados são uma prática padrão em 
+                produção, melhorando os Core Web Vitals e a experiência do usuário. Use esta ferramenta para preparar seus 
+                arquivos CSS e JavaScript para implantação em produção.
+              </p>
+            </div>
             
             <div className="flex border-b border-slate-200">
               <button

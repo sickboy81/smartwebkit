@@ -36,6 +36,25 @@ export const ReadingPage: React.FC<ReadingProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Planejador de Leitura Inteligente</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                O Planejador de Leitura ajuda você a organizar sua leitura de forma eficiente, calculando quantas páginas você 
+                precisa ler por dia para completar um livro dentro do prazo desejado. Esta ferramenta é perfeita para estudantes, 
+                leitores ávidos ou qualquer pessoa que queira estabelecer uma rotina de leitura consistente.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Para usar a ferramenta, simplesmente insira o número total de páginas do livro e o número de dias que você tem 
+                disponível para lê-lo. A ferramenta calculará automaticamente quantas páginas você precisa ler por dia para atingir 
+                sua meta. Isso ajuda a quebrar um livro grande em metas diárias gerenciáveis, tornando a leitura menos intimidadora 
+                e mais alcançável.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Este planejador é especialmente útil para leitores que têm múltiplos livros para ler, estudantes com prazos de 
+                leitura acadêmica, ou qualquer pessoa que queira melhorar seus hábitos de leitura estabelecendo metas claras e 
+                mensuráveis. Use esta ferramenta para transformar seus objetivos de leitura em um plano de ação prático e realizável.
+              </p>
+            </div>
             
             <div className="grid md:grid-cols-2 gap-6">
                <div className="space-y-2">

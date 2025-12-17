@@ -44,6 +44,25 @@ export const MarkdownPage: React.FC<MarkdownProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Markdown para HTML</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Markdown é uma linguagem de marcação leve e fácil de usar que permite formatar texto usando uma sintaxe simples. 
+                É amplamente usado em documentação, blogs, READMEs e plataformas como GitHub. Nossa ferramenta converte Markdown 
+                em HTML limpo e pronto para uso em páginas web.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A ferramenta oferece uma visualização em tempo real: enquanto você digita Markdown no painel esquerdo, o HTML 
+                renderizado aparece instantaneamente no painel direito. Isso permite que você veja exatamente como seu Markdown 
+                será exibido antes de copiar o HTML gerado. Suporta todos os elementos comuns do Markdown: cabeçalhos, listas, 
+                links, imagens, código, tabelas e muito mais.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é perfeita para desenvolvedores que precisam converter documentação Markdown em HTML, blogueiros 
+                que escrevem em Markdown e querem publicar em HTML, ou qualquer pessoa que precise converter conteúdo Markdown para 
+                uso em sites. A interface é limpa e livre de distrações, focando apenas na conversão precisa e eficiente.
+              </p>
+            </div>
             
             <div className="grid lg:grid-cols-2 gap-6 h-[600px]">
                <div className="flex flex-col space-y-2 h-full">

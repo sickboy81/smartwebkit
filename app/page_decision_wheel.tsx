@@ -156,6 +156,24 @@ export const WheelPage: React.FC<WheelProps> = ({ dict }) => {
           </CardHeader>
           
           <CardContent className="grid lg:grid-cols-12 gap-8 p-8">
+            <div className="lg:col-span-12 bg-slate-50 border border-slate-200 rounded-lg p-6 mb-4">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Roda da Decisão Online</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                A Roda da Decisão é uma ferramenta visual e interativa que ajuda você a tomar decisões de forma aleatória e justa. 
+                Seja para escolher onde jantar, qual filme assistir, qual tarefa fazer primeiro, ou qualquer decisão onde você precisa 
+                de um empurrãozinho, a roda da decisão oferece uma solução divertida e imparcial.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Simplesmente adicione suas opções (uma por linha) e clique em "Girar". A roda girará com animação suave e parará 
+                aleatoriamente em uma das opções. Cada opção recebe uma cor diferente para fácil visualização, e a roda usa um 
+                gerador de números aleatórios para garantir resultados verdadeiramente aleatórios e justos.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é perfeita para grupos que precisam tomar decisões democráticas, para quebrar empates, para adicionar 
+                um elemento de sorte a escolhas, ou simplesmente para tornar a tomada de decisão mais divertida. Use-a para escolher 
+                restaurantes, atividades, nomes, tarefas ou qualquer lista de opções onde você precisa de uma escolha aleatória.
+              </p>
+            </div>
             
             {/* Left Column: Inputs */}
             <div className="lg:col-span-4 space-y-6 flex flex-col h-full">

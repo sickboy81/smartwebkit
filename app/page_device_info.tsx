@@ -54,6 +54,25 @@ export const DevicePage: React.FC<DeviceProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Informações do Seu Dispositivo</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Esta ferramenta exibe informações detalhadas sobre o dispositivo e navegador que você está usando. Essas 
+                informações são coletadas diretamente do seu navegador e incluem detalhes sobre a tela, sistema operacional, 
+                navegador e capacidades de hardware.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                As informações mostradas incluem a resolução da tela, o tamanho da viewport (área visível do navegador), 
+                a proporção de pixels do dispositivo (DPR), o navegador e sistema operacional detectados, o idioma preferido, 
+                o status de conexão e o número de núcleos de CPU disponíveis. Essas informações são úteis para desenvolvedores 
+                que precisam adaptar suas aplicações para diferentes dispositivos e navegadores.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Todas as informações são coletadas localmente no seu navegador e não são enviadas para nenhum servidor. 
+                Esta ferramenta é especialmente útil para testar como seu site ou aplicação aparece em diferentes dispositivos 
+                e para entender as capacidades do dispositivo do usuário.
+              </p>
+            </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                {/* Screen Card */}

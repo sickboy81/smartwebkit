@@ -59,6 +59,25 @@ export const ImageConverterPage: React.FC<ImageConverterProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Formato de Imagem</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta de Conversão de Imagem permite converter imagens entre diferentes formatos: PNG, JPEG e WebP. Cada 
+                formato tem suas vantagens: PNG suporta transparência e é ideal para gráficos, JPEG oferece melhor compressão para 
+                fotos, e WebP combina qualidade e tamanho de arquivo menor.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                A conversão acontece completamente no seu navegador usando a API Canvas do HTML5, o que significa que suas imagens 
+                nunca são enviadas para nossos servidores. Isso garante privacidade total e processamento rápido. Simplesmente faça 
+                upload da sua imagem, escolha o formato de destino e baixe o arquivo convertido.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é essencial para desenvolvedores web que precisam otimizar imagens para seus sites, designers que 
+                precisam converter entre formatos para diferentes usos, ou qualquer pessoa que precise adaptar imagens para diferentes 
+                plataformas ou requisitos. A conversão preserva a qualidade original da imagem enquanto permite escolher o formato 
+                mais adequado para suas necessidades.
+              </p>
+            </div>
             
             <div className="space-y-4">
                <label className="block w-full border-2 border-dashed border-slate-300 rounded-lg p-8 text-center cursor-pointer hover:bg-slate-50 transition-colors">

@@ -51,6 +51,24 @@ export const BinaryPage: React.FC<BinaryProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Texto para Binário</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                Binário é o sistema numérico base 2 usado por computadores para representar dados. Cada caractere de texto pode ser 
+                representado como uma sequência de 8 bits (0s e 1s). Nossa ferramenta converte texto legível em representação 
+                binária e vice-versa, facilitando a compreensão de como computadores armazenam e processam texto.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Para converter texto em binário, cada caractere é convertido em seu valor ASCII correspondente, que é então representado 
+                em binário. Por exemplo, a letra 'A' tem o valor ASCII 65, que em binário é 01000001. A conversão reversa faz o processo 
+                inverso, convertendo sequências binárias de volta para texto legível.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é útil para estudantes aprendendo ciência da computação, desenvolvedores que precisam trabalhar com 
+                dados binários, ou qualquer pessoa interessada em entender como computadores representam texto. É uma ferramenta educacional 
+                valiosa que ajuda a visualizar a relação entre texto humano e representação binária de computadores.
+              </p>
+            </div>
             
             <div className="space-y-2">
               <label className="text-sm font-medium">{t.input_label}</label>

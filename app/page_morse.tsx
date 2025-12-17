@@ -48,6 +48,26 @@ export const MorsePage: React.FC<MorseProps> = ({ dict }) => {
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Conversor de Código Morse</h3>
+              <p className="text-slate-600 leading-7 mb-3">
+                O Código Morse é um sistema de codificação de caracteres que usa pontos (.) e traços (-) para representar letras, 
+                números e sinais de pontuação. Desenvolvido por Samuel Morse e Alfred Vail na década de 1830, foi originalmente 
+                usado para comunicação telegráfica e continua sendo relevante hoje em rádio amador, navegação marítima e aplicações 
+                militares.
+              </p>
+              <p className="text-slate-600 leading-7 mb-3">
+                Nossa ferramenta permite converter texto em código Morse e vice-versa em tempo real. Simplesmente digite ou cole 
+                texto no campo esquerdo para ver sua representação em Morse no campo direito, ou digite código Morse no campo 
+                direito para ver o texto correspondente. A conversão acontece automaticamente enquanto você digita.
+              </p>
+              <p className="text-slate-600 leading-7">
+                Esta ferramenta é útil para aprendizes de código Morse, entusiastas de rádio amador, educadores ensinando 
+                comunicação histórica, ou qualquer pessoa interessada em entender este sistema de codificação clássico. 
+                O código Morse é uma habilidade valiosa em situações de emergência onde outros meios de comunicação podem 
+                não estar disponíveis.
+              </p>
+            </div>
             
             <div className="grid md:grid-cols-2 gap-6">
                <div className="space-y-2">
