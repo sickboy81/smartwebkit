@@ -155,13 +155,10 @@ export const HomePage: React.FC<HomePageProps> = ({ lang, dict }) => {
 
         {/* About Section */}
         <section className="container max-w-5xl py-8 md:py-12 mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center space-y-4">
-            <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-slate-900 mb-4">
-              {dict.home.hero_title}
+          <div className="max-w-3xl mx-auto space-y-4">
+            <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-slate-900 mb-6 text-center">
+              Sobre o SmartWebKit
             </h2>
-            <p className="text-slate-600 leading-7 text-lg mb-6">
-              {dict.home.hero_subtitle}
-            </p>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 text-left">
               <p className="text-slate-700 leading-7 mb-4">
                 O SmartWebKit é uma coleção abrangente de ferramentas web gratuitas projetadas para desenvolvedores, 
