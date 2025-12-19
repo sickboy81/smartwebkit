@@ -15,10 +15,11 @@ export const SEO: React.FC<SEOProps> = ({ title, description, lang = 'en' }) => 
   useEffect(() => {
     // With HashRouter, the path is in location.hash
     // location.hash will be like: #/pt or #/en/password-generator
+    // location.pathname will always be "/" with HashRouter
     let hashPath = location.hash.replace('#', '');
     
-    // If no hash path, use current language as default
-    if (!hashPath || hashPath === '') {
+    // If no hash path (root page), use current language as default
+    if (!hashPath || hashPath === '' || hashPath === '/') {
       hashPath = `/${currentLang}`;
     }
     
@@ -28,6 +29,7 @@ export const SEO: React.FC<SEOProps> = ({ title, description, lang = 'en' }) => 
     }
     
     // Build canonical URL (without hash, using clean path)
+    // This tells Google which URL is the canonical version
     const canonicalUrl = `https://smartwebkit.net${hashPath}`;
 
     // Remove existing canonical link if any
