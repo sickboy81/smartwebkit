@@ -62,6 +62,15 @@ export const SEO: React.FC<SEOProps> = ({ title, description, lang = 'en' }) => 
       }
     }
 
+    // Ensure robots meta tag allows indexing
+    let metaRobots = document.querySelector('meta[name="robots"]');
+    if (!metaRobots) {
+      metaRobots = document.createElement('meta');
+      metaRobots.setAttribute('name', 'robots');
+      document.head.appendChild(metaRobots);
+    }
+    metaRobots.setAttribute('content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+
     // Update html lang attribute
     document.documentElement.setAttribute('lang', currentLang);
 
