@@ -4,6 +4,7 @@ import { en, pt, es } from './dictionaries';
 import { Lang } from './types';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { SEO } from './components/SEO';
 
 // Lazy loading components using named export adapter pattern
 const HomePage = React.lazy(() => import('./app/page_home').then(module => ({ default: module.HomePage })));
@@ -129,15 +130,22 @@ const LangLayout = () => {
   const dict = currentLang === 'en' ? en : (currentLang === 'pt' ? pt : es);
 
   return (
-    <div className="flex min-h-screen flex-col bg-white">
-      <Navbar lang={currentLang} dict={dict} />
-      <div className="flex-1">
-        <Suspense fallback={<LoadingSpinner />}>
-          <Outlet context={{ lang: currentLang, dict }} />
-        </Suspense>
+    <>
+      <SEO 
+        title={dict.common.title}
+        description={dict.home.hero_subtitle}
+        lang={currentLang}
+      />
+      <div className="flex min-h-screen flex-col bg-white">
+        <Navbar lang={currentLang} dict={dict} />
+        <div className="flex-1">
+          <Suspense fallback={<LoadingSpinner />}>
+            <Outlet context={{ lang: currentLang, dict }} />
+          </Suspense>
+        </div>
+        <Footer dict={dict} lang={currentLang} />
       </div>
-      <Footer dict={dict} lang={currentLang} />
-    </div>
+    </>
   );
 };
 

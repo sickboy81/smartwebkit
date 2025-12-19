@@ -41,3 +41,4 @@ export const PrivacyPage: React.FC<PrivacyProps> = ({ dict }) => {
   );
 };
 
+
