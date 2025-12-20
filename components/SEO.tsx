@@ -13,14 +13,22 @@ export const SEO: React.FC<SEOProps> = ({ title, description, lang = 'en' }) => 
   const currentLang = paramLang || lang;
 
   useEffect(() => {
+    // Force HTTPS redirect if on HTTP
+    if (typeof window !== 'undefined' && window.location.protocol === 'http:') {
+      window.location.replace(`https://smartwebkit.net${window.location.pathname}${window.location.hash}`);
+      return;
+    }
+
     // With HashRouter, the path is in location.hash
     // location.hash will be like: #/pt or #/en/password-generator
     // location.pathname will always be "/" with HashRouter
     let hashPath = location.hash.replace('#', '');
     
-    // If no hash path (root page), use current language as default
+    // If no hash path (root page), set canonical to the default language version
+    // But also ensure the root URL has a canonical
     if (!hashPath || hashPath === '' || hashPath === '/') {
-      hashPath = `/${currentLang}`;
+      // For root, canonical should point to the default language
+      hashPath = '/en';
     }
     
     // Ensure path starts with /
@@ -28,7 +36,7 @@ export const SEO: React.FC<SEOProps> = ({ title, description, lang = 'en' }) => 
       hashPath = `/${hashPath}`;
     }
     
-    // Build canonical URL (without hash, using clean path)
+    // Build canonical URL (always HTTPS, without hash, using clean path)
     // This tells Google which URL is the canonical version
     const canonicalUrl = `https://smartwebkit.net${hashPath}`;
 

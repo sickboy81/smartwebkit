@@ -7,7 +7,24 @@
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="description" content="SmartWebKit - Coleção completa de ferramentas web gratuitas e utilitários online. Mais de 90 ferramentas para desenvolvedores, designers e usuários finais." />
   <title>SmartWebKit - Web Utilities</title>
-  <link rel="canonical" href="https://smartwebkit.net/" />
+  <link rel="canonical" href="https://smartwebkit.net/en" />
+  <script>
+    // Force HTTPS redirect for HTTP requests
+    if (window.location.protocol === 'http:') {
+      var newUrl = 'https://' + window.location.host + window.location.pathname + window.location.hash;
+      window.location.replace(newUrl);
+    }
+    // Ensure canonical is always HTTPS
+    (function() {
+      var canonical = document.querySelector('link[rel="canonical"]');
+      if (canonical) {
+        var href = canonical.getAttribute('href');
+        if (href && href.indexOf('http://') === 0) {
+          canonical.setAttribute('href', href.replace('http://', 'https://'));
+        }
+      }
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
