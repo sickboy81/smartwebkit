@@ -42,3 +42,5 @@ export const TermsPage: React.FC<TermsProps> = ({ dict }) => {
 };
 
 
+
+

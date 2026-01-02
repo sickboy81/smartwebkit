@@ -6,7 +6,8 @@ export const pt: Dictionary = {
     "footer_text": "© 2024 SmartWebKit. Todos os direitos reservados.",
     "footer_links": {
       "terms": "Termos de Uso",
-      "privacy": "Política de Privacidade"
+      "privacy": "Política de Privacidade",
+      "contact": "Contato"
     },
     "nav": {
       "home": "Início"
@@ -25,8 +26,8 @@ export const pt: Dictionary = {
     },
     "terms": {
       "title": "Termos de Uso",
-      "last_updated": "Janeiro de 2024",
-      "contact_text": "Se você tiver dúvidas sobre estes Termos de Uso, entre em contato conosco.",
+      "last_updated": "Dezembro de 2024",
+      "contact_text": "Se você tiver dúvidas sobre estes Termos de Uso, entre em contato conosco através do email: contato@smartwebkit.net",
       "sections": [
         {
           "title": "1. Aceitação dos Termos",
@@ -94,7 +95,7 @@ export const pt: Dictionary = {
         {
           "title": "9. Contato",
           "content": [
-            "Se você tiver dúvidas sobre estes Termos de Uso, pode entrar em contato conosco através dos canais disponíveis em nosso site.",
+            "Se você tiver dúvidas sobre estes Termos de Uso, pode entrar em contato conosco através do email: contato@smartwebkit.net",
             "Faremos o possível para responder a todas as consultas em tempo hábil."
           ]
         }
@@ -102,8 +103,8 @@ export const pt: Dictionary = {
     },
     "privacy": {
       "title": "Política de Privacidade",
-      "last_updated": "Janeiro de 2024",
-      "contact_text": "Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco.",
+      "last_updated": "Dezembro de 2024",
+      "contact_text": "Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco através do email: contato@smartwebkit.net",
       "sections": [
         {
           "title": "1. Introdução",
@@ -116,8 +117,8 @@ export const pt: Dictionary = {
           "title": "2. Informações que Não Coletamos",
           "content": [
             "O SmartWebKit foi projetado com privacidade em mente. Todas as ferramentas funcionam localmente no seu navegador, sem necessidade de enviar dados para nossos servidores.",
-            "Não coletamos informações pessoais identificáveis, como nome, endereço de e-mail, número de telefone ou informações de pagamento. Não coletamos dados de navegação, histórico de uso ou qualquer outra informação que possa identificar você pessoalmente.",
-            "Não usamos cookies de rastreamento, pixels de rastreamento ou outras tecnologias de rastreamento para coletar informações sobre você."
+            "Não coletamos informações pessoais identificáveis diretamente, como nome, endereço de e-mail, número de telefone ou informações de pagamento. No entanto, serviços de terceiros como o Google AdSense podem coletar informações conforme descrito na seção sobre cookies e anúncios.",
+            "Nossas ferramentas em si não requerem o envio de dados pessoais para nossos servidores para funcionar."
           ]
         },
         {
@@ -137,15 +138,26 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "5. Serviços de Terceiros",
+          "title": "5. Cookies e Anúncios do Google AdSense",
           "content": [
-            "O SmartWebKit pode usar serviços de terceiros, como serviços de hospedagem, análise de tráfego ou serviços de CDN. Esses serviços podem coletar informações técnicas conforme descrito acima.",
-            "Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros para fins de marketing.",
+            "O SmartWebKit usa o Google AdSense, um serviço de publicidade fornecido pela Google Inc. ('Google'). O Google AdSense usa 'cookies', que são arquivos de texto colocados no seu computador, para ajudar o site a analisar como os usuários usam o site.",
+            "As informações geradas pelos cookies sobre o uso do site (incluindo seu endereço IP) serão transmitidas e armazenadas pela Google nos servidores nos Estados Unidos. O Google usará essas informações para avaliar seu uso do site, compilar relatórios sobre a atividade do site para operadores de sites e fornecer outros serviços relacionados à atividade do site e uso da Internet.",
+            "O Google também pode transferir essas informações para terceiros quando exigido por lei ou quando terceiros processarem essas informações em nome do Google. O Google não associará seu endereço IP a nenhum outro dado mantido pelo Google.",
+            "Você pode recusar o uso de cookies selecionando as configurações apropriadas no seu navegador. No entanto, observe que, se você fizer isso, poderá não conseguir usar todas as funcionalidades deste site. Ao usar este site, você concorda com o processamento de dados sobre você pelo Google na forma e para os fins estabelecidos acima.",
+            "Para mais informações sobre como o Google usa os dados coletados através do AdSense, visite: https://policies.google.com/privacy?hl=pt-BR",
+            "Para optar por não participar da personalização de anúncios do Google, visite: https://www.google.com/settings/ads"
+          ]
+        },
+        {
+          "title": "6. Outros Serviços de Terceiros",
+          "content": [
+            "O SmartWebKit pode usar outros serviços de terceiros, como serviços de hospedagem, análise de tráfego ou serviços de CDN. Esses serviços podem coletar informações técnicas conforme descrito acima.",
+            "Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros para fins de marketing, exceto conforme descrito na seção sobre Google AdSense.",
             "Podemos divulgar informações se exigido por lei, ordem judicial ou processo legal, ou para proteger nossos direitos, propriedade ou segurança."
           ]
         },
         {
-          "title": "6. Segurança",
+          "title": "7. Segurança",
           "content": [
             "Implementamos medidas de segurança técnicas e organizacionais apropriadas para proteger as informações coletadas contra acesso não autorizado, alteração, divulgação ou destruição.",
             "No entanto, nenhum método de transmissão pela Internet ou método de armazenamento eletrônico é 100% seguro. Embora nos esforcemos para usar meios comercialmente aceitáveis para proteger suas informações, não podemos garantir segurança absoluta.",
@@ -153,7 +165,7 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "7. Links para Sites de Terceiros",
+          "title": "8. Links para Sites de Terceiros",
           "content": [
             "O SmartWebKit pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de privacidade ou conteúdo desses sites externos.",
             "Recomendamos que você leia as políticas de privacidade de qualquer site de terceiros que visitar.",
@@ -161,7 +173,7 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "8. Privacidade de Menores",
+          "title": "9. Privacidade de Menores",
           "content": [
             "O SmartWebKit não coleta intencionalmente informações pessoais de menores de 18 anos. Se você é pai ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco.",
             "Se descobrirmos que coletamos informações pessoais de um menor sem verificação do consentimento dos pais, tomaremos medidas para excluir essas informações de nossos servidores.",
@@ -169,7 +181,7 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "9. Seus Direitos",
+          "title": "10. Seus Direitos",
           "content": [
             "Você tem o direito de acessar, corrigir ou excluir quaisquer informações pessoais que possamos ter sobre você. Como não coletamos informações pessoais identificáveis, não há dados pessoais para acessar ou excluir.",
             "Você pode limpar o armazenamento local do navegador a qualquer momento através das configurações do seu navegador para remover quaisquer dados salvos localmente pelas nossas ferramentas.",
@@ -177,7 +189,7 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "10. Alterações nesta Política",
+          "title": "11. Alterações nesta Política",
           "content": [
             "Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página e atualizando a data de 'Última atualização'.",
             "Recomendamos que você revise esta Política de Privacidade periodicamente para estar ciente de como protegemos suas informações.",
@@ -185,7 +197,7 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "11. Conformidade com LGPD",
+          "title": "12. Conformidade com LGPD",
           "content": [
             "Esta Política de Privacidade está em conformidade com a Lei Geral de Proteção de Dados (LGPD) do Brasil. Respeitamos seus direitos de privacidade e processamos dados de acordo com os princípios da LGPD.",
             "Como não coletamos dados pessoais identificáveis, não há necessidade de consentimento específico para processamento de dados pessoais. Todas as informações técnicas coletadas são usadas apenas para fins legítimos de operação do serviço.",
@@ -193,9 +205,9 @@ export const pt: Dictionary = {
           ]
         },
         {
-          "title": "12. Contato",
+          "title": "13. Contato",
           "content": [
-            "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade ou sobre como tratamos suas informações, entre em contato conosco através dos canais disponíveis em nosso site.",
+            "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade ou sobre como tratamos suas informações, entre em contato conosco através do email: contato@smartwebkit.net",
             "Faremos o possível para responder a todas as consultas relacionadas à privacidade em tempo hábil."
           ]
         }

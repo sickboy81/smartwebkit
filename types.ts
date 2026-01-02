@@ -52,6 +52,7 @@ export interface Dictionary {
     footer_links?: {
       terms: string;
       privacy: string;
+      contact?: string;
     };
   };
   home: {

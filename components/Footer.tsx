@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ dict, lang }) => {
           {dict.common.footer_text}
         </p>
         {dict.common.footer_links && (
-          <div className="flex gap-4 text-sm">
+          <div className="flex gap-4 text-sm flex-wrap justify-center">
             <Link 
               to={`/${lang}/terms-of-service`}
               className="text-slate-600 hover:text-slate-900 transition-colors"
@@ -28,6 +28,12 @@ export const Footer: React.FC<FooterProps> = ({ dict, lang }) => {
             >
               {dict.common.footer_links.privacy}
             </Link>
+            <a 
+              href="mailto:contato@smartwebkit.net"
+              className="text-slate-600 hover:text-slate-900 transition-colors"
+            >
+              {dict.common.footer_links.contact || "Contato"}
+            </a>
           </div>
         )}
       </div>
