@@ -52,7 +52,7 @@ export const ImageConverterPage: React.FC<ImageConverterProps> = ({ dict }) => {
       <div className="max-w-3xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <ImageIcon className="w-6 h-6" />
               {t.title}
             </CardTitle>
@@ -90,7 +90,7 @@ export const ImageConverterPage: React.FC<ImageConverterProps> = ({ dict }) => {
             {preview && (
               <div className="space-y-4">
                  <div className="flex justify-center bg-slate-100 p-4 rounded-lg overflow-hidden">
-                    <img src={preview} alt="Preview" className="max-h-64 object-contain" />
+                    <img src={preview} alt={t.upload_label || "Converted image preview"} className="max-h-64 object-contain" />
                  </div>
 
                  <div className="flex flex-col sm:flex-row gap-4 items-end">

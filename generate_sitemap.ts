@@ -46,10 +46,14 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 `;
 
+// Get current date in ISO format for lastmod
+const lastmod = new Date().toISOString().split('T')[0];
+
 // Add root urls
 langs.forEach(lang => {
     xml += `  <url>
     <loc>${baseUrl}/${lang}</loc>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>\n`;
 
@@ -68,6 +72,7 @@ routes.forEach(route => {
         const url = `${baseUrl}/${lang}/${route}`;
         xml += `  <url>
     <loc>${url}</loc>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>\n`;
 

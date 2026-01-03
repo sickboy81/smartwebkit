@@ -57,7 +57,7 @@ export const FiltersPage: React.FC<FiltersProps> = ({ dict }) => {
       <div className="max-w-4xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <Sliders className="w-6 h-6" />
               {t.title}
             </CardTitle>
@@ -76,7 +76,7 @@ export const FiltersPage: React.FC<FiltersProps> = ({ dict }) => {
                     <div className="flex items-center justify-center bg-slate-100 rounded-lg overflow-hidden p-4">
                         <img 
                             src={image} 
-                            alt="Preview" 
+                            alt={t.upload_label || "Image with applied filter preview"} 
                             style={{ filter: getFilterString(), maxHeight: '400px', maxWidth: '100%' }} 
                         />
                     </div>

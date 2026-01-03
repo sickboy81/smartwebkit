@@ -158,7 +158,7 @@ export const SpinBottlePage: React.FC<BottleProps> = ({ dict }) => {
         <Card className="shadow-xl border-slate-200 overflow-hidden">
           <CardHeader className="bg-slate-50 border-b border-slate-100">
             <div className="flex justify-between items-center flex-wrap gap-4">
-                <CardTitle className="text-2xl flex items-center gap-2 text-slate-800">
+                <CardTitle as="h1" className="text-2xl flex items-center gap-2 text-slate-800">
                 <RotateCcw className="w-6 h-6" />
                 {t.title}
                 </CardTitle>

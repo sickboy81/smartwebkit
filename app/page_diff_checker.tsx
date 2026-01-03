@@ -63,7 +63,7 @@ export const DiffPage: React.FC<DiffProps> = ({ dict }) => {
       <div className="space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <GitCompare className="w-6 h-6" />
               {t.title}
             </CardTitle>

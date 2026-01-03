@@ -132,7 +132,7 @@ export const BusinessNamePage: React.FC<BusinessNameProps> = ({ dict }) => {
       <div className="max-w-4xl mx-auto space-y-8">
         <Card className="shadow-xl border-slate-200 overflow-hidden bg-gradient-to-br from-slate-50 to-white">
           <CardHeader>
-            <CardTitle className="text-3xl flex items-center gap-3 text-slate-900">
+            <CardTitle as="h1" className="text-3xl flex items-center gap-3 text-slate-900">
               <Briefcase className="w-8 h-8 text-blue-500" />
               {t.title}
             </CardTitle>

@@ -279,7 +279,7 @@ export const BabyNamePage: React.FC<BabyNameProps> = ({ dict }) => {
       <div className="max-w-4xl mx-auto space-y-8">
         <Card className="shadow-xl border-slate-200 overflow-hidden bg-gradient-to-br from-indigo-50 to-white">
           <CardHeader>
-            <CardTitle className="text-3xl flex items-center gap-3 text-indigo-900">
+            <CardTitle as="h1" className="text-3xl flex items-center gap-3 text-indigo-900">
               <Baby className="w-8 h-8 text-rose-400" />
               {t.title}
             </CardTitle>

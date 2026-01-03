@@ -81,7 +81,7 @@ export const ImageResizerPage: React.FC<ImageResizerProps> = ({ dict }) => {
       <div className="max-w-3xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <Scaling className="w-6 h-6" />
               {t.title}
             </CardTitle>
@@ -118,7 +118,7 @@ export const ImageResizerPage: React.FC<ImageResizerProps> = ({ dict }) => {
             {preview && (
               <div className="space-y-6">
                  <div className="flex justify-center bg-slate-100 p-4 rounded-lg overflow-hidden">
-                    <img src={preview} alt="Preview" className="max-h-64 object-contain" />
+                    <img src={preview} alt={t.upload_label || "Resized image preview"} className="max-h-64 object-contain" />
                  </div>
 
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

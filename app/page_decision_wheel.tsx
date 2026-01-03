@@ -148,7 +148,7 @@ export const WheelPage: React.FC<WheelProps> = ({ dict }) => {
       <div className="max-w-5xl mx-auto space-y-8">
         <Card className="shadow-xl border-slate-200 overflow-hidden">
           <CardHeader className="bg-slate-50 border-b border-slate-100">
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <PieChart className="w-6 h-6 text-slate-700" />
               {t.title}
             </CardTitle>

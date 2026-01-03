@@ -54,7 +54,7 @@ export const SQLPage: React.FC<SQLProps> = ({ dict }) => {
       <div className="max-w-3xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <Database className="w-6 h-6" />
               {t.title}
             </CardTitle>

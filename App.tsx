@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { HashRouter, Routes, Route, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
 import { en, pt, es } from './dictionaries';
 import { Lang } from './types';
 import { Navbar } from './components/Navbar';
@@ -753,7 +753,7 @@ const PrivacyWrapper = () => {
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         {/* Root path detects language */}
         <Route path="/" element={<RootRedirect />} />
@@ -881,7 +881,7 @@ const App: React.FC = () => {
         {/* Catch all - redirect to root */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 

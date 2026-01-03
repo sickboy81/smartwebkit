@@ -6,12 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="description" content="SmartWebKit - Coleção completa de ferramentas web gratuitas e utilitários online. Mais de 90 ferramentas para desenvolvedores, designers e usuários finais." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="SmartWebKit" />
   <title>SmartWebKit - Web Utilities</title>
   <link rel="canonical" href="https://smartwebkit.net/en" />
   <script>
     // Force HTTPS redirect for HTTP requests
     if (window.location.protocol === 'http:') {
-      var newUrl = 'https://' + window.location.host + window.location.pathname + window.location.hash;
+      var newUrl = 'https://' + window.location.host + window.location.pathname + window.location.search;
       window.location.replace(newUrl);
     }
     // Ensure canonical is always HTTPS
@@ -27,6 +32,8 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7650087188632188"
     crossorigin="anonymous"></script>
@@ -34,7 +41,7 @@
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+  <script type="module" src="/index.tsx" defer></script>
 </body>
 
 </html>

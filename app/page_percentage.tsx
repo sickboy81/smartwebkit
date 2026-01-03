@@ -47,7 +47,7 @@ export const PercentagePage: React.FC<PercentageProps> = ({ dict }) => {
         
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl flex items-center gap-2">
+            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
               <Percent className="w-6 h-6" />
               {t.title}
             </CardTitle>

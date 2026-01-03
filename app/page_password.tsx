@@ -65,7 +65,7 @@ export const PasswordPage: React.FC<PasswordPageProps> = ({ dict }) => {
         {/* Tool Card */}
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle className="text-2xl">{t.title}</CardTitle>
+            <CardTitle as="h1" className="text-2xl">{t.title}</CardTitle>
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">

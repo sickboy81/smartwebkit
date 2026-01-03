@@ -101,3 +101,4 @@
 
 **Status geral:** 90% completo - faltam apenas ações externas e verificações
 
+
