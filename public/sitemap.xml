@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://smartwebkit.net/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en" />
-  </url>
-  <url>
     <loc>https://smartwebkit.net/en</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt</loc>
@@ -22,6 +14,7 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es</loc>
@@ -29,6 +22,7 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/password-generator</loc>
@@ -36,6 +30,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/password-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/password-generator</loc>
@@ -43,6 +38,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/password-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/password-generator</loc>
@@ -50,6 +46,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/password-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/json-formatter</loc>
@@ -57,6 +54,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-formatter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-formatter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/json-formatter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/json-formatter</loc>
@@ -64,6 +62,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-formatter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-formatter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/json-formatter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/json-formatter</loc>
@@ -71,6 +70,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-formatter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-formatter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/json-formatter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/word-counter</loc>
@@ -78,6 +78,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/word-counter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/word-counter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/word-counter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/word-counter</loc>
@@ -85,6 +86,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/word-counter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/word-counter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/word-counter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/word-counter</loc>
@@ -92,6 +94,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/word-counter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/word-counter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/word-counter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/percentage-calculator</loc>
@@ -99,6 +102,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/percentage-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/percentage-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/percentage-calculator</loc>
@@ -106,6 +110,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/percentage-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/percentage-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/percentage-calculator</loc>
@@ -113,6 +118,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/percentage-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/percentage-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/age-calculator</loc>
@@ -120,6 +126,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/age-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/age-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/age-calculator</loc>
@@ -127,6 +134,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/age-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/age-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/age-calculator</loc>
@@ -134,6 +142,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/age-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/age-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/base64-converter</loc>
@@ -141,6 +150,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/base64-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/base64-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/base64-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/base64-converter</loc>
@@ -148,6 +158,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/base64-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/base64-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/base64-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/base64-converter</loc>
@@ -155,6 +166,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/base64-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/base64-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/base64-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/uuid-generator</loc>
@@ -162,6 +174,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/uuid-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/uuid-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/uuid-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/uuid-generator</loc>
@@ -169,6 +182,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/uuid-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/uuid-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/uuid-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/uuid-generator</loc>
@@ -176,6 +190,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/uuid-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/uuid-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/uuid-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/lorem-ipsum</loc>
@@ -183,6 +198,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/lorem-ipsum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/lorem-ipsum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/lorem-ipsum" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/lorem-ipsum</loc>
@@ -190,6 +206,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/lorem-ipsum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/lorem-ipsum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/lorem-ipsum" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/lorem-ipsum</loc>
@@ -197,6 +214,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/lorem-ipsum" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/lorem-ipsum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/lorem-ipsum" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/rule-of-three</loc>
@@ -204,6 +222,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/rule-of-three" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/rule-of-three" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/rule-of-three" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/rule-of-three</loc>
@@ -211,6 +230,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/rule-of-three" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/rule-of-three" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/rule-of-three" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/rule-of-three</loc>
@@ -218,6 +238,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/rule-of-three" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/rule-of-three" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/rule-of-three" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/qr-code-generator</loc>
@@ -225,6 +246,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/qr-code-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/qr-code-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/qr-code-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/qr-code-generator</loc>
@@ -232,6 +254,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/qr-code-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/qr-code-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/qr-code-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/qr-code-generator</loc>
@@ -239,6 +262,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/qr-code-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/qr-code-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/qr-code-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/css-js-minifier</loc>
@@ -246,6 +270,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/css-js-minifier" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/css-js-minifier" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/css-js-minifier" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/css-js-minifier</loc>
@@ -253,6 +278,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/css-js-minifier" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/css-js-minifier" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/css-js-minifier" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/css-js-minifier</loc>
@@ -260,6 +286,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/css-js-minifier" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/css-js-minifier" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/css-js-minifier" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/color-converter</loc>
@@ -267,6 +294,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/color-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/color-converter</loc>
@@ -274,6 +302,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/color-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/color-converter</loc>
@@ -281,6 +310,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/color-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/meta-tag-generator</loc>
@@ -288,6 +318,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/meta-tag-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/meta-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/meta-tag-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/meta-tag-generator</loc>
@@ -295,6 +326,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/meta-tag-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/meta-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/meta-tag-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/meta-tag-generator</loc>
@@ -302,6 +334,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/meta-tag-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/meta-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/meta-tag-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/case-converter</loc>
@@ -309,6 +342,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/case-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/case-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/case-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/case-converter</loc>
@@ -316,6 +350,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/case-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/case-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/case-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/case-converter</loc>
@@ -323,6 +358,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/case-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/case-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/case-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/duplicate-remover</loc>
@@ -330,6 +366,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/duplicate-remover" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/duplicate-remover" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/duplicate-remover" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/duplicate-remover</loc>
@@ -337,6 +374,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/duplicate-remover" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/duplicate-remover" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/duplicate-remover" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/duplicate-remover</loc>
@@ -344,6 +382,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/duplicate-remover" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/duplicate-remover" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/duplicate-remover" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/text-reverser</loc>
@@ -351,6 +390,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-reverser" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-reverser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-reverser" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/text-reverser</loc>
@@ -358,6 +398,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-reverser" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-reverser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-reverser" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/text-reverser</loc>
@@ -365,6 +406,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-reverser" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-reverser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-reverser" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/image-converter</loc>
@@ -372,6 +414,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/image-converter</loc>
@@ -379,6 +422,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/image-converter</loc>
@@ -386,6 +430,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/image-resizer</loc>
@@ -393,6 +438,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-resizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-resizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-resizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/image-resizer</loc>
@@ -400,6 +446,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-resizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-resizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-resizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/image-resizer</loc>
@@ -407,6 +454,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-resizer" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-resizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-resizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/favicon-generator</loc>
@@ -414,6 +462,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/favicon-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/favicon-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/favicon-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/favicon-generator</loc>
@@ -421,6 +470,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/favicon-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/favicon-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/favicon-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/favicon-generator</loc>
@@ -428,6 +478,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/favicon-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/favicon-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/favicon-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/unix-timestamp</loc>
@@ -435,6 +486,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unix-timestamp" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unix-timestamp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/unix-timestamp" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/unix-timestamp</loc>
@@ -442,6 +494,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unix-timestamp" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unix-timestamp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/unix-timestamp" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/unix-timestamp</loc>
@@ -449,6 +502,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unix-timestamp" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unix-timestamp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/unix-timestamp" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/markdown-to-html</loc>
@@ -456,6 +510,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/markdown-to-html" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/markdown-to-html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/markdown-to-html" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/markdown-to-html</loc>
@@ -463,6 +518,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/markdown-to-html" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/markdown-to-html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/markdown-to-html" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/markdown-to-html</loc>
@@ -470,6 +526,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/markdown-to-html" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/markdown-to-html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/markdown-to-html" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/url-slug</loc>
@@ -477,6 +534,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/url-slug" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/url-slug" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/url-slug" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/url-slug</loc>
@@ -484,6 +542,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/url-slug" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/url-slug" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/url-slug" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/url-slug</loc>
@@ -491,6 +550,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/url-slug" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/url-slug" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/url-slug" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/binary-converter</loc>
@@ -498,6 +558,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/binary-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/binary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/binary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/binary-converter</loc>
@@ -505,6 +566,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/binary-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/binary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/binary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/binary-converter</loc>
@@ -512,6 +574,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/binary-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/binary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/binary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/pomodoro-timer</loc>
@@ -519,6 +582,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pomodoro-timer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pomodoro-timer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pomodoro-timer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/pomodoro-timer</loc>
@@ -526,6 +590,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pomodoro-timer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pomodoro-timer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pomodoro-timer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/pomodoro-timer</loc>
@@ -533,6 +598,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pomodoro-timer" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pomodoro-timer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pomodoro-timer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/stopwatch</loc>
@@ -540,6 +606,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/stopwatch" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/stopwatch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/stopwatch" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/stopwatch</loc>
@@ -547,6 +614,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/stopwatch" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/stopwatch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/stopwatch" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/stopwatch</loc>
@@ -554,6 +622,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/stopwatch" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/stopwatch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/stopwatch" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/unit-converter</loc>
@@ -561,6 +630,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unit-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unit-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/unit-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/unit-converter</loc>
@@ -568,6 +638,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unit-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/unit-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/unit-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/unit-converter</loc>
@@ -575,6 +646,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/unit-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/unit-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/unit-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/hash-generator</loc>
@@ -582,6 +654,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/hash-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/hash-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/hash-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/hash-generator</loc>
@@ -589,6 +662,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/hash-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/hash-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/hash-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/hash-generator</loc>
@@ -596,6 +670,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/hash-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/hash-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/hash-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/diff-checker</loc>
@@ -603,6 +678,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/diff-checker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/diff-checker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/diff-checker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/diff-checker</loc>
@@ -610,6 +686,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/diff-checker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/diff-checker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/diff-checker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/diff-checker</loc>
@@ -617,6 +694,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/diff-checker" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/diff-checker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/diff-checker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/device-info</loc>
@@ -624,6 +702,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/device-info" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/device-info" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/device-info" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/device-info</loc>
@@ -631,6 +710,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/device-info" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/device-info" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/device-info" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/device-info</loc>
@@ -638,6 +718,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/device-info" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/device-info" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/device-info" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/discount-calculator</loc>
@@ -645,6 +726,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/discount-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/discount-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/discount-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/discount-calculator</loc>
@@ -652,6 +734,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/discount-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/discount-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/discount-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/discount-calculator</loc>
@@ -659,6 +742,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/discount-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/discount-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/discount-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/salary-converter</loc>
@@ -666,6 +750,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/salary-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/salary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/salary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/salary-converter</loc>
@@ -673,6 +758,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/salary-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/salary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/salary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/salary-converter</loc>
@@ -680,6 +766,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/salary-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/salary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/salary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/random-number-generator</loc>
@@ -687,6 +774,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-number-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-number-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/random-number-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/random-number-generator</loc>
@@ -694,6 +782,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-number-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-number-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/random-number-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/random-number-generator</loc>
@@ -701,6 +790,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-number-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-number-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/random-number-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/whatsapp-link-generator</loc>
@@ -708,6 +798,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/whatsapp-link-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/whatsapp-link-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/whatsapp-link-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/whatsapp-link-generator</loc>
@@ -715,6 +806,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/whatsapp-link-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/whatsapp-link-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/whatsapp-link-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/whatsapp-link-generator</loc>
@@ -722,6 +814,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/whatsapp-link-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/whatsapp-link-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/whatsapp-link-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/utm-builder</loc>
@@ -729,6 +822,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/utm-builder" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/utm-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/utm-builder" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/utm-builder</loc>
@@ -736,6 +830,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/utm-builder" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/utm-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/utm-builder" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/utm-builder</loc>
@@ -743,6 +838,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/utm-builder" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/utm-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/utm-builder" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/cron-job-generator</loc>
@@ -750,6 +846,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cron-job-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cron-job-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/cron-job-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/cron-job-generator</loc>
@@ -757,6 +854,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cron-job-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cron-job-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/cron-job-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/cron-job-generator</loc>
@@ -764,6 +862,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cron-job-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cron-job-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/cron-job-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/pregnancy-calculator</loc>
@@ -771,6 +870,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pregnancy-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pregnancy-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/pregnancy-calculator</loc>
@@ -778,6 +878,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pregnancy-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pregnancy-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/pregnancy-calculator</loc>
@@ -785,6 +886,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pregnancy-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pregnancy-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/instagram-caption-maker</loc>
@@ -792,6 +894,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/instagram-caption-maker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/instagram-caption-maker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/instagram-caption-maker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/instagram-caption-maker</loc>
@@ -799,6 +902,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/instagram-caption-maker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/instagram-caption-maker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/instagram-caption-maker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/instagram-caption-maker</loc>
@@ -806,6 +910,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/instagram-caption-maker" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/instagram-caption-maker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/instagram-caption-maker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/tdee-calculator</loc>
@@ -813,6 +918,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tdee-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tdee-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/tdee-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/tdee-calculator</loc>
@@ -820,6 +926,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tdee-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tdee-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/tdee-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/tdee-calculator</loc>
@@ -827,6 +934,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tdee-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tdee-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/tdee-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/water-intake-calculator</loc>
@@ -834,6 +942,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/water-intake-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/water-intake-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/water-intake-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/water-intake-calculator</loc>
@@ -841,6 +950,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/water-intake-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/water-intake-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/water-intake-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/water-intake-calculator</loc>
@@ -848,6 +958,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/water-intake-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/water-intake-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/water-intake-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/sql-formatter</loc>
@@ -855,6 +966,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/sql-formatter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/sql-formatter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/sql-formatter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/sql-formatter</loc>
@@ -862,6 +974,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/sql-formatter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/sql-formatter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/sql-formatter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/sql-formatter</loc>
@@ -869,6 +982,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/sql-formatter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/sql-formatter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/sql-formatter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/keycode-visualizer</loc>
@@ -876,6 +990,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keycode-visualizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keycode-visualizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/keycode-visualizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/keycode-visualizer</loc>
@@ -883,6 +998,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keycode-visualizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keycode-visualizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/keycode-visualizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/keycode-visualizer</loc>
@@ -890,6 +1006,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keycode-visualizer" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keycode-visualizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/keycode-visualizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/my-ip-address</loc>
@@ -897,6 +1014,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/my-ip-address" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/my-ip-address" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/my-ip-address" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/my-ip-address</loc>
@@ -904,6 +1022,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/my-ip-address" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/my-ip-address" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/my-ip-address" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/my-ip-address</loc>
@@ -911,6 +1030,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/my-ip-address" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/my-ip-address" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/my-ip-address" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/json-to-csv</loc>
@@ -918,6 +1038,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-to-csv" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-to-csv" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/json-to-csv" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/json-to-csv</loc>
@@ -925,6 +1046,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-to-csv" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/json-to-csv" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/json-to-csv" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/json-to-csv</loc>
@@ -932,6 +1054,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/json-to-csv" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/json-to-csv" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/json-to-csv" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/subnet-calculator</loc>
@@ -939,6 +1062,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/subnet-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/subnet-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/subnet-calculator</loc>
@@ -946,6 +1070,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/subnet-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/subnet-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/subnet-calculator</loc>
@@ -953,6 +1078,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/subnet-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/subnet-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/shoe-size-converter</loc>
@@ -960,6 +1086,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/shoe-size-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/shoe-size-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/shoe-size-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/shoe-size-converter</loc>
@@ -967,6 +1094,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/shoe-size-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/shoe-size-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/shoe-size-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/shoe-size-converter</loc>
@@ -974,6 +1102,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/shoe-size-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/shoe-size-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/shoe-size-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/culinary-converter</loc>
@@ -981,6 +1110,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/culinary-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/culinary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/culinary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/culinary-converter</loc>
@@ -988,6 +1118,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/culinary-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/culinary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/culinary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/culinary-converter</loc>
@@ -995,6 +1126,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/culinary-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/culinary-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/culinary-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/name-picker</loc>
@@ -1002,6 +1134,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/name-picker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/name-picker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/name-picker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/name-picker</loc>
@@ -1009,6 +1142,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/name-picker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/name-picker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/name-picker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/name-picker</loc>
@@ -1016,6 +1150,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/name-picker" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/name-picker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/name-picker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/list-randomizer</loc>
@@ -1023,6 +1158,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-randomizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-randomizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/list-randomizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/list-randomizer</loc>
@@ -1030,6 +1166,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-randomizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-randomizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/list-randomizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/list-randomizer</loc>
@@ -1037,6 +1174,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-randomizer" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-randomizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/list-randomizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/list-sorter</loc>
@@ -1044,6 +1182,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-sorter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-sorter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/list-sorter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/list-sorter</loc>
@@ -1051,6 +1190,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-sorter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/list-sorter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/list-sorter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/list-sorter</loc>
@@ -1058,6 +1198,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/list-sorter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/list-sorter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/list-sorter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/prefix-suffix</loc>
@@ -1065,6 +1206,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/prefix-suffix" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/prefix-suffix" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/prefix-suffix" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/prefix-suffix</loc>
@@ -1072,6 +1214,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/prefix-suffix" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/prefix-suffix" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/prefix-suffix" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/prefix-suffix</loc>
@@ -1079,6 +1222,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/prefix-suffix" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/prefix-suffix" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/prefix-suffix" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/random-csv</loc>
@@ -1086,6 +1230,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-csv" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-csv" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/random-csv" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/random-csv</loc>
@@ -1093,6 +1238,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-csv" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/random-csv" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/random-csv" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/random-csv</loc>
@@ -1100,6 +1246,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/random-csv" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/random-csv" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/random-csv" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/week-number</loc>
@@ -1107,6 +1254,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/week-number" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/week-number" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/week-number" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/week-number</loc>
@@ -1114,6 +1262,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/week-number" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/week-number" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/week-number" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/week-number</loc>
@@ -1121,6 +1270,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/week-number" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/week-number" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/week-number" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/web-encoders</loc>
@@ -1128,6 +1278,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/web-encoders" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/web-encoders" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/web-encoders" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/web-encoders</loc>
@@ -1135,6 +1286,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/web-encoders" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/web-encoders" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/web-encoders" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/web-encoders</loc>
@@ -1142,6 +1294,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/web-encoders" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/web-encoders" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/web-encoders" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/reaction-time</loc>
@@ -1149,6 +1302,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reaction-time" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reaction-time" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/reaction-time" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/reaction-time</loc>
@@ -1156,6 +1310,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reaction-time" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reaction-time" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/reaction-time" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/reaction-time</loc>
@@ -1163,6 +1318,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reaction-time" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reaction-time" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/reaction-time" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/morse-code</loc>
@@ -1170,6 +1326,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/morse-code" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/morse-code" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/morse-code" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/morse-code</loc>
@@ -1177,6 +1334,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/morse-code" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/morse-code" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/morse-code" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/morse-code</loc>
@@ -1184,6 +1342,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/morse-code" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/morse-code" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/morse-code" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/bmi-calculator</loc>
@@ -1191,6 +1350,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bmi-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/bmi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/bmi-calculator</loc>
@@ -1198,6 +1358,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bmi-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/bmi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/bmi-calculator</loc>
@@ -1205,6 +1366,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bmi-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/bmi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/loan-calculator</loc>
@@ -1212,6 +1374,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/loan-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/loan-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/loan-calculator</loc>
@@ -1219,6 +1382,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/loan-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/loan-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/loan-calculator</loc>
@@ -1226,6 +1390,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/loan-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/loan-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/aspect-ratio-calculator</loc>
@@ -1233,6 +1398,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/aspect-ratio-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/aspect-ratio-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/aspect-ratio-calculator</loc>
@@ -1240,6 +1406,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/aspect-ratio-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/aspect-ratio-calculator</loc>
@@ -1247,6 +1414,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/aspect-ratio-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/aspect-ratio-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/box-shadow-generator</loc>
@@ -1254,6 +1422,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/box-shadow-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/box-shadow-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/box-shadow-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/box-shadow-generator</loc>
@@ -1261,6 +1430,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/box-shadow-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/box-shadow-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/box-shadow-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/box-shadow-generator</loc>
@@ -1268,6 +1438,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/box-shadow-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/box-shadow-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/box-shadow-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/text-to-speech</loc>
@@ -1275,6 +1446,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-to-speech" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-to-speech" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-to-speech" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/text-to-speech</loc>
@@ -1282,6 +1454,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-to-speech" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-to-speech" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-to-speech" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/text-to-speech</loc>
@@ -1289,6 +1462,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-to-speech" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-to-speech" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-to-speech" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/password-strength</loc>
@@ -1296,6 +1470,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-strength" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-strength" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/password-strength" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/password-strength</loc>
@@ -1303,6 +1478,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-strength" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/password-strength" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/password-strength" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/password-strength</loc>
@@ -1310,6 +1486,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/password-strength" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/password-strength" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/password-strength" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/grade-calculator</loc>
@@ -1317,6 +1494,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/grade-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/grade-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/grade-calculator</loc>
@@ -1324,6 +1502,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/grade-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/grade-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/grade-calculator</loc>
@@ -1331,6 +1510,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/grade-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/grade-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/youtube-thumbnail-downloader</loc>
@@ -1338,6 +1518,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-thumbnail-downloader" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-thumbnail-downloader" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/youtube-thumbnail-downloader</loc>
@@ -1345,6 +1526,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-thumbnail-downloader" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/youtube-thumbnail-downloader</loc>
@@ -1352,6 +1534,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-thumbnail-downloader" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/youtube-thumbnail-downloader" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/ppi-calculator</loc>
@@ -1359,6 +1542,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/ppi-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/ppi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/ppi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/ppi-calculator</loc>
@@ -1366,6 +1550,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/ppi-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/ppi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/ppi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/ppi-calculator</loc>
@@ -1373,6 +1558,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/ppi-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/ppi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/ppi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/compound-interest-calculator</loc>
@@ -1380,6 +1566,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/compound-interest-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/compound-interest-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/compound-interest-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/compound-interest-calculator</loc>
@@ -1387,6 +1574,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/compound-interest-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/compound-interest-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/compound-interest-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/compound-interest-calculator</loc>
@@ -1394,6 +1582,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/compound-interest-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/compound-interest-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/compound-interest-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/coin-flip</loc>
@@ -1401,6 +1590,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/coin-flip" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/coin-flip" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/coin-flip" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/coin-flip</loc>
@@ -1408,6 +1598,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/coin-flip" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/coin-flip" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/coin-flip" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/coin-flip</loc>
@@ -1415,6 +1606,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/coin-flip" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/coin-flip" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/coin-flip" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/chmod-calculator</loc>
@@ -1422,6 +1614,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/chmod-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/chmod-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/chmod-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/chmod-calculator</loc>
@@ -1429,6 +1622,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/chmod-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/chmod-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/chmod-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/chmod-calculator</loc>
@@ -1436,6 +1630,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/chmod-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/chmod-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/chmod-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/cpf-generator</loc>
@@ -1443,6 +1638,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cpf-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cpf-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/cpf-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/cpf-generator</loc>
@@ -1450,6 +1646,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cpf-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/cpf-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/cpf-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/cpf-generator</loc>
@@ -1457,6 +1654,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/cpf-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/cpf-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/cpf-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/abnt-generator</loc>
@@ -1464,6 +1662,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/abnt-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/abnt-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/abnt-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/abnt-generator</loc>
@@ -1471,6 +1670,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/abnt-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/abnt-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/abnt-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/abnt-generator</loc>
@@ -1478,6 +1678,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/abnt-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/abnt-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/abnt-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/roi-calculator</loc>
@@ -1485,6 +1686,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roi-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/roi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/roi-calculator</loc>
@@ -1492,6 +1694,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roi-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/roi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/roi-calculator</loc>
@@ -1499,6 +1702,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roi-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/roi-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/online-scoreboard</loc>
@@ -1506,6 +1710,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-scoreboard" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-scoreboard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/online-scoreboard" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/online-scoreboard</loc>
@@ -1513,6 +1718,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-scoreboard" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-scoreboard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/online-scoreboard" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/online-scoreboard</loc>
@@ -1520,6 +1726,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-scoreboard" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-scoreboard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/online-scoreboard" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/dead-pixel-test</loc>
@@ -1527,6 +1734,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/dead-pixel-test" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/dead-pixel-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/dead-pixel-test" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/dead-pixel-test</loc>
@@ -1534,6 +1742,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/dead-pixel-test" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/dead-pixel-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/dead-pixel-test" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/dead-pixel-test</loc>
@@ -1541,6 +1750,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/dead-pixel-test" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/dead-pixel-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/dead-pixel-test" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/reading-planner</loc>
@@ -1548,6 +1758,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reading-planner" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reading-planner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/reading-planner" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/reading-planner</loc>
@@ -1555,6 +1766,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reading-planner" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/reading-planner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/reading-planner" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/reading-planner</loc>
@@ -1562,6 +1774,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/reading-planner" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/reading-planner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/reading-planner" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/bitrate-calculator</loc>
@@ -1569,6 +1782,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bitrate-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bitrate-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/bitrate-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/bitrate-calculator</loc>
@@ -1576,6 +1790,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bitrate-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/bitrate-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/bitrate-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/bitrate-calculator</loc>
@@ -1583,6 +1798,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/bitrate-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/bitrate-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/bitrate-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/text-summarizer</loc>
@@ -1590,6 +1806,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-summarizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-summarizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-summarizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/text-summarizer</loc>
@@ -1597,6 +1814,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-summarizer" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/text-summarizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-summarizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/text-summarizer</loc>
@@ -1604,6 +1822,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/text-summarizer" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/text-summarizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/text-summarizer" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/youtube-tag-generator</loc>
@@ -1611,6 +1830,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-tag-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/youtube-tag-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/youtube-tag-generator</loc>
@@ -1618,6 +1838,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-tag-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/youtube-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/youtube-tag-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/youtube-tag-generator</loc>
@@ -1625,6 +1846,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/youtube-tag-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/youtube-tag-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/youtube-tag-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/tip-calculator</loc>
@@ -1632,6 +1854,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tip-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tip-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/tip-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/tip-calculator</loc>
@@ -1639,6 +1862,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tip-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/tip-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/tip-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/tip-calculator</loc>
@@ -1646,6 +1870,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/tip-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/tip-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/tip-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/fantasy-name-generator</loc>
@@ -1653,6 +1878,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/fantasy-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/fantasy-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/fantasy-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/fantasy-name-generator</loc>
@@ -1660,6 +1886,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/fantasy-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/fantasy-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/fantasy-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/fantasy-name-generator</loc>
@@ -1667,6 +1894,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/fantasy-name-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/fantasy-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/fantasy-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/raid-calculator</loc>
@@ -1674,6 +1902,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/raid-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/raid-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/raid-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/raid-calculator</loc>
@@ -1681,6 +1910,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/raid-calculator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/raid-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/raid-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/raid-calculator</loc>
@@ -1688,6 +1918,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/raid-calculator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/raid-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/raid-calculator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/yaml-json-converter</loc>
@@ -1695,6 +1926,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/yaml-json-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/yaml-json-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/yaml-json-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/yaml-json-converter</loc>
@@ -1702,6 +1934,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/yaml-json-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/yaml-json-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/yaml-json-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/yaml-json-converter</loc>
@@ -1709,6 +1942,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/yaml-json-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/yaml-json-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/yaml-json-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/jwt-decoder</loc>
@@ -1716,6 +1950,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/jwt-decoder" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/jwt-decoder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/jwt-decoder" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/jwt-decoder</loc>
@@ -1723,6 +1958,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/jwt-decoder" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/jwt-decoder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/jwt-decoder" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/jwt-decoder</loc>
@@ -1730,6 +1966,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/jwt-decoder" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/jwt-decoder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/jwt-decoder" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/luhn-validator</loc>
@@ -1737,6 +1974,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/luhn-validator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/luhn-validator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/luhn-validator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/luhn-validator</loc>
@@ -1744,6 +1982,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/luhn-validator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/luhn-validator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/luhn-validator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/luhn-validator</loc>
@@ -1751,6 +1990,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/luhn-validator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/luhn-validator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/luhn-validator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/online-metronome</loc>
@@ -1758,6 +1998,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-metronome" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-metronome" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/online-metronome" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/online-metronome</loc>
@@ -1765,6 +2006,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-metronome" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/online-metronome" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/online-metronome" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/online-metronome</loc>
@@ -1772,6 +2014,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/online-metronome" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/online-metronome" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/online-metronome" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/color-palette-generator</loc>
@@ -1779,6 +2022,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-palette-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-palette-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/color-palette-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/color-palette-generator</loc>
@@ -1786,6 +2030,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-palette-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/color-palette-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/color-palette-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/color-palette-generator</loc>
@@ -1793,6 +2038,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/color-palette-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/color-palette-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/color-palette-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/time-zone-converter</loc>
@@ -1800,6 +2046,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/time-zone-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/time-zone-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/time-zone-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/time-zone-converter</loc>
@@ -1807,6 +2054,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/time-zone-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/time-zone-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/time-zone-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/time-zone-converter</loc>
@@ -1814,6 +2062,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/time-zone-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/time-zone-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/time-zone-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/regex-tester</loc>
@@ -1821,6 +2070,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/regex-tester" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/regex-tester" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/regex-tester" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/regex-tester</loc>
@@ -1828,6 +2078,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/regex-tester" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/regex-tester" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/regex-tester" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/regex-tester</loc>
@@ -1835,6 +2086,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/regex-tester" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/regex-tester" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/regex-tester" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/roman-numeral-converter</loc>
@@ -1842,6 +2094,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roman-numeral-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roman-numeral-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/roman-numeral-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/roman-numeral-converter</loc>
@@ -1849,6 +2102,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roman-numeral-converter" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/roman-numeral-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/roman-numeral-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/roman-numeral-converter</loc>
@@ -1856,6 +2110,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/roman-numeral-converter" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/roman-numeral-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/roman-numeral-converter" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/memo-pad</loc>
@@ -1863,6 +2118,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/memo-pad" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/memo-pad" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/memo-pad" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/memo-pad</loc>
@@ -1870,6 +2126,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/memo-pad" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/memo-pad" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/memo-pad" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/memo-pad</loc>
@@ -1877,6 +2134,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/memo-pad" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/memo-pad" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/memo-pad" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/glassmorphism-generator</loc>
@@ -1884,6 +2142,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/glassmorphism-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/glassmorphism-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/glassmorphism-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/glassmorphism-generator</loc>
@@ -1891,6 +2150,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/glassmorphism-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/glassmorphism-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/glassmorphism-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/glassmorphism-generator</loc>
@@ -1898,6 +2158,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/glassmorphism-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/glassmorphism-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/glassmorphism-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/keyword-density-checker</loc>
@@ -1905,6 +2166,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keyword-density-checker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keyword-density-checker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/keyword-density-checker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/keyword-density-checker</loc>
@@ -1912,6 +2174,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keyword-density-checker" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/keyword-density-checker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/keyword-density-checker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/keyword-density-checker</loc>
@@ -1919,6 +2182,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/keyword-density-checker" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/keyword-density-checker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/keyword-density-checker" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/image-filters</loc>
@@ -1926,6 +2190,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-filters" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-filters" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-filters" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/image-filters</loc>
@@ -1933,6 +2198,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-filters" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/image-filters" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-filters" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/image-filters</loc>
@@ -1940,6 +2206,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/image-filters" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/image-filters" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/image-filters" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/decision-wheel</loc>
@@ -1947,6 +2214,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/decision-wheel" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/decision-wheel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/decision-wheel" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/decision-wheel</loc>
@@ -1954,6 +2222,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/decision-wheel" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/decision-wheel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/decision-wheel" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/decision-wheel</loc>
@@ -1961,6 +2230,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/decision-wheel" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/decision-wheel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/decision-wheel" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/spin-the-bottle</loc>
@@ -1968,6 +2238,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/spin-the-bottle" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/spin-the-bottle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/spin-the-bottle" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/spin-the-bottle</loc>
@@ -1975,6 +2246,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/spin-the-bottle" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/spin-the-bottle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/spin-the-bottle" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/spin-the-bottle</loc>
@@ -1982,6 +2254,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/spin-the-bottle" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/spin-the-bottle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/spin-the-bottle" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/pet-name-generator</loc>
@@ -1989,6 +2262,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pet-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pet-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pet-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/pet-name-generator</loc>
@@ -1996,6 +2270,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pet-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/pet-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pet-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/pet-name-generator</loc>
@@ -2003,6 +2278,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/pet-name-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/pet-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/pet-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/baby-name-generator</loc>
@@ -2010,6 +2286,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/baby-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/baby-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/baby-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/baby-name-generator</loc>
@@ -2017,6 +2294,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/baby-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/baby-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/baby-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/baby-name-generator</loc>
@@ -2024,6 +2302,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/baby-name-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/baby-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/baby-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/en/business-name-generator</loc>
@@ -2031,6 +2310,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/business-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/business-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/business-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/pt/business-name-generator</loc>
@@ -2038,6 +2318,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/business-name-generator" />
     <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/business-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/business-name-generator" />
   </url>
   <url>
     <loc>https://smartwebkit.net/es/business-name-generator</loc>
@@ -2045,5 +2326,54 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/business-name-generator" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/business-name-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/business-name-generator" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/terms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/terms" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/terms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/terms" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/terms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/terms" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/en/terms-of-service</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/terms-of-service" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/pt/terms-of-service</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://smartwebkit.net/es/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/terms-of-service" />
+  </url>
+  <url>
+    <loc>https://smartwebkit.net/es/terms-of-service</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartwebkit.net/en/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://smartwebkit.net/pt/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartwebkit.net/en/terms-of-service" />
   </url>
 </urlset>

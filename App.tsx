@@ -4,7 +4,6 @@ import { en, pt, es } from './dictionaries';
 import { Lang } from './types';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { SEO } from './components/SEO';
 
 // Lazy loading components using named export adapter pattern
 const HomePage = React.lazy(() => import('./app/page_home').then(module => ({ default: module.HomePage })));
@@ -105,7 +104,6 @@ const PetNamePage = React.lazy(() => import('./app/page_pet_name').then(module =
 const BabyNamePage = React.lazy(() => import('./app/page_baby_name').then(module => ({ default: module.BabyNamePage })));
 const BusinessNamePage = React.lazy(() => import('./app/page_business_name').then(module => ({ default: module.BusinessNamePage })));
 const TermsPage = React.lazy(() => import('./app/page_terms').then(module => ({ default: module.TermsPage })));
-const PrivacyPage = React.lazy(() => import('./app/page_privacy').then(module => ({ default: module.PrivacyPage })));
 
 // Loading Component
 const LoadingSpinner = () => (
@@ -117,35 +115,36 @@ const LoadingSpinner = () => (
 // Middleware-like component to handle Language logic
 const LangLayout = () => {
   const { lang } = useParams<{ lang: string }>();
+  const location = useLocation();
 
   // Validate Language
   const isValidLang = lang === 'en' || lang === 'pt' || lang === 'es';
 
   // If invalid language, redirect to English
   if (!isValidLang) {
-    return <Navigate to="/en" replace />;
+    const normalizedPath = location.pathname.startsWith('/') ? location.pathname.slice(1) : location.pathname;
+    return <Navigate to={normalizedPath ? `/en/${normalizedPath}` : '/en'} replace />;
+  }
+
+  // Normalize Google's legacy sitelinks query placeholder to canonical URL.
+  const searchParams = new URLSearchParams(location.search);
+  if (searchParams.get('q') === '{search_term_string}') {
+    return <Navigate to={location.pathname} replace />;
   }
 
   const currentLang = lang as Lang;
   const dict = currentLang === 'en' ? en : (currentLang === 'pt' ? pt : es);
 
   return (
-    <>
-      <SEO 
-        title={dict.common.title}
-        description={dict.home.hero_subtitle}
-        lang={currentLang}
-      />
-      <div className="flex min-h-screen flex-col bg-white">
-        <Navbar lang={currentLang} dict={dict} />
-        <div className="flex-1">
-          <Suspense fallback={<LoadingSpinner />}>
-            <Outlet context={{ lang: currentLang, dict }} />
-          </Suspense>
-        </div>
-        <Footer dict={dict} lang={currentLang} />
+    <div className="flex min-h-screen flex-col bg-white">
+      <Navbar lang={currentLang} dict={dict} />
+      <div className="flex-1">
+        <Suspense fallback={<LoadingSpinner />}>
+          <Outlet context={{ lang: currentLang, dict }} />
+        </Suspense>
       </div>
-    </>
+      <Footer dict={dict} />
+    </div>
   );
 };
 
@@ -154,6 +153,12 @@ const RootRedirect = () => {
   const userLang = navigator.language || navigator.languages[0];
   const targetLang = (userLang.startsWith('pt')) ? 'pt' : (userLang.startsWith('es') ? 'es' : 'en');
   return <Navigate to={`/${targetLang}`} replace />;
+};
+
+const LangNotFoundRedirect = () => {
+  const { lang } = useParams<{ lang: string }>();
+  const safeLang = lang === 'pt' || lang === 'es' || lang === 'en' ? lang : 'en';
+  return <Navigate to={`/${safeLang}`} replace />;
 };
 
 // Wrapper components to pass context props down to pages
@@ -745,12 +750,6 @@ const TermsWrapper = () => {
   return <TermsPage dict={d} />;
 };
 
-const PrivacyWrapper = () => {
-  const { lang } = useParams<{ lang: string }>();
-  const d = lang === 'pt' ? pt : (lang === 'es' ? es : en);
-  return <PrivacyPage dict={d} />;
-};
-
 const App: React.FC = () => {
   return (
     <BrowserRouter>
@@ -873,13 +872,13 @@ const App: React.FC = () => {
           <Route path="pet-name-generator" element={<PetNameWrapper />} />
           <Route path="baby-name-generator" element={<BabyNameWrapper />} />
           <Route path="business-name-generator" element={<BusinessNameWrapper />} />
-          
+          <Route path="terms" element={<TermsWrapper />} />
           <Route path="terms-of-service" element={<TermsWrapper />} />
-          <Route path="privacy-policy" element={<PrivacyWrapper />} />
+          <Route path="*" element={<LangNotFoundRedirect />} />
         </Route>
 
-        {/* Catch all - redirect to root */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        {/* Catch all - keep canonical default language */}
+        <Route path="*" element={<Navigate to="/en" replace />} />
       </Routes>
     </BrowserRouter>
   );
