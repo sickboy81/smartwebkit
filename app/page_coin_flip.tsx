@@ -67,33 +67,13 @@ export const CoinFlipPage: React.FC<CoinProps> = ({ dict }) => {
       <div className="max-w-3xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
+            <CardTitle className="text-2xl flex items-center gap-2">
               <CircleDollarSign className="w-6 h-6" />
               {t.title}
             </CardTitle>
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-12 text-center py-12">
-            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6 text-left">
-              <h3 className="text-lg font-semibold text-slate-900 mb-3">Sobre o Jogo de Cara ou Coroa</h3>
-              <p className="text-slate-600 leading-7 mb-3">
-                Nossa ferramenta de Cara ou Coroa Online oferece uma experiência realista e justa para tomar decisões 
-                aleatórias. Seja para decidir quem paga o jantar, escolher entre duas opções ou simplesmente se divertir, 
-                esta ferramenta utiliza um gerador de números aleatórios criptograficamente seguro para garantir resultados 
-                verdadeiramente imparciais.
-              </p>
-              <p className="text-slate-600 leading-7 mb-3">
-                A animação 3D realista simula o movimento físico de uma moeda sendo lançada, criando suspense e 
-                tornando a experiência mais envolvente. Durante a sessão, a ferramenta mantém estatísticas automáticas, 
-                mostrando quantas vezes saiu Cara e quantas vezes saiu Coroa, permitindo que você acompanhe a distribuição 
-                dos resultados.
-              </p>
-              <p className="text-slate-600 leading-7">
-                Esta ferramenta é perfeita para resolver disputas de forma justa, fazer escolhas aleatórias em jogos, 
-                ou simplesmente adicionar um elemento de sorte às suas decisões do dia a dia. Funciona perfeitamente em 
-                qualquer dispositivo, desde smartphones até computadores desktop.
-              </p>
-            </div>
             
             {/* 3D Coin Container */}
             <div className="relative w-48 h-48 mx-auto perspective-1000" style={{ perspective: '1000px' }}>

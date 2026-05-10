@@ -81,31 +81,13 @@ export const ImageResizerPage: React.FC<ImageResizerProps> = ({ dict }) => {
       <div className="max-w-3xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
+            <CardTitle className="text-2xl flex items-center gap-2">
               <Scaling className="w-6 h-6" />
               {t.title}
             </CardTitle>
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
-              <h3 className="text-lg font-semibold text-slate-900 mb-3">Redimensionador de Imagem</h3>
-              <p className="text-slate-600 leading-7 mb-3">
-                Nossa ferramenta de Redimensionamento de Imagem permite ajustar o tamanho de suas imagens para atender requisitos 
-                específicos. Seja para otimizar imagens para web, ajustar para redes sociais, ou preparar imagens para impressão, 
-                esta ferramenta oferece controle total sobre as dimensões e qualidade da imagem resultante.
-              </p>
-              <p className="text-slate-600 leading-7 mb-3">
-                A ferramenta permite definir largura e altura personalizadas, com opção de manter a proporção original (aspect ratio) 
-                para evitar distorções. Você também pode ajustar a qualidade de compressão para balancear tamanho do arquivo e qualidade 
-                visual. Todo o processamento acontece localmente no seu navegador, garantindo privacidade e velocidade.
-              </p>
-              <p className="text-slate-600 leading-7">
-                Esta ferramenta é essencial para desenvolvedores web que precisam otimizar imagens para melhor desempenho, designers 
-                que precisam ajustar imagens para diferentes formatos, ou qualquer pessoa que precise redimensionar imagens sem perder 
-                qualidade. A interface é intuitiva e oferece pré-visualização em tempo real.
-              </p>
-            </div>
             
             <div className="space-y-4">
                <label className="block w-full border-2 border-dashed border-slate-300 rounded-lg p-8 text-center cursor-pointer hover:bg-slate-50 transition-colors">
@@ -118,7 +100,7 @@ export const ImageResizerPage: React.FC<ImageResizerProps> = ({ dict }) => {
             {preview && (
               <div className="space-y-6">
                  <div className="flex justify-center bg-slate-100 p-4 rounded-lg overflow-hidden">
-                    <img src={preview} alt={t.upload_label || "Resized image preview"} className="max-h-64 object-contain" />
+                    <img src={preview} alt="Preview" className="max-h-64 object-contain" />
                  </div>
 
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

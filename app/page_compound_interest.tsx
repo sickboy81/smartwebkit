@@ -40,31 +40,13 @@ export const CompoundInterestPage: React.FC<InterestProps> = ({ dict }) => {
       <div className="max-w-3xl mx-auto space-y-8">
         <Card className="shadow-lg border-slate-200">
           <CardHeader>
-            <CardTitle as="h1" className="text-2xl flex items-center gap-2">
+            <CardTitle className="text-2xl flex items-center gap-2">
               <TrendingUp className="w-6 h-6" />
               {t.title}
             </CardTitle>
             <CardDescription>{t.description}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
-            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-6">
-              <h3 className="text-lg font-semibold text-slate-900 mb-3">Calculadora de Juros Compostos</h3>
-              <p className="text-slate-600 leading-7 mb-3">
-                A Calculadora de Juros Compostos ajuda você a entender o poder dos juros compostos no crescimento de seus investimentos 
-                ou economias. Juros compostos são juros calculados sobre o valor principal inicial e também sobre os juros acumulados 
-                de períodos anteriores, resultando em crescimento exponencial ao longo do tempo.
-              </p>
-              <p className="text-slate-600 leading-7 mb-3">
-                Esta calculadora leva em conta não apenas um investimento inicial, mas também contribuições mensais regulares. Ela 
-                mostra o valor total que você terá após o período especificado e quanto desse valor são juros ganhos. Quanto mais 
-                tempo você investir e quanto maior a taxa de juros, maior será o efeito dos juros compostos.
-              </p>
-              <p className="text-slate-600 leading-7">
-                Use esta ferramenta para planejar sua aposentadoria, calcular o crescimento de poupanças, comparar diferentes opções 
-                de investimento ou entender o impacto de começar a investir cedo. Os juros compostos são frequentemente chamados de 
-                "a oitava maravilha do mundo" devido ao seu poder de multiplicar riqueza ao longo do tempo.
-              </p>
-            </div>
             
             <div className="grid md:grid-cols-2 gap-6">
                <div className="space-y-2">
